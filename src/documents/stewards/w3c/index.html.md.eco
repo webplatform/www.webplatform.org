@@ -1,0 +1,33 @@
+---
+title: "W3C · Stewards · WebPlatform.org"
+heading: "W3C"
+layout: default
+css2: "/css/stewards.css"
+---
+
+  <h1 id="firstHeading" class="firstHeading">
+    <a class="logo">
+      <img src="w3c_logo.svg" alt="W3C logo" />
+    </a>
+    <%= @document.heading %>
+  </h1>
+
+The World Wide Web Consortium (W3C) is an international community that develops open standards to ensure the long-term growth of the Web. The [W3C mission](http://www.w3.org/Consortium/mission.html) is to lead the World Wide Web to its full potential.
+
+As part of its continuing emphasis on reaching everyday developers, W3C created the WebPlatform.org project, a site for community-based web development and design resources, and convened the stewards to help with the site's development.
+
+<blockquote class="testimonial">
+  <p>
+  People in the web community — including browser makers, authoring tool makers, and leading edge developers and designers — have tremendous experience and practical knowledge about the web. Web Platform Docs is an ambitious project where all of us who are passionate about the web can share knowledge and help one another.
+  </p>
+  <address class="QuoteAttr">
+   Tim Berners-Lee, W3C Director
+  </address>
+</blockquote>
+
+
+## Links
+
+* [w3.org](http://w3.org/)
+* [W3C Community Groups](http://www.w3.org/community/)
+* [Talks by W3C Speakers](http://www.w3.org/Talks/)

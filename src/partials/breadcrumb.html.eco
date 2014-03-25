@@ -1,0 +1,10 @@
+<div class="tool-area">
+  <div id="hierarchy-menu">
+    <ol id="breadcrumb-info" class="breadcrumbs">
+      <li><a href="http://www.webplatform.org/">Home</a></li>
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+    </ol>
+  </div>
+  <div class="clear"> </div>
+</div>

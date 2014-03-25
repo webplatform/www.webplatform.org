@@ -1,0 +1,52 @@
+---
+title: "Microsoft · Stewards · WebPlatform.org"
+heading: "Microsoft"
+layout: default
+css2: "/css/stewards.css"
+---
+
+  <h1 id="firstHeading" class="firstHeading">
+    <a class="logo">
+      <img src="imgs/microsoft.png" alt="Microsoft logo" />
+    </a>
+    <%= @document.heading %>
+  </h1>
+
+We are a huge supporter of the Web Platform Docs community initiative and a key contributor with over 3,200 topics seeded from [MSDN](http://msdn.microsoft.com/library/ie/hh828809.aspx). We have allocated software engineers, test developers, and program managers to assist the W3C with the work ahead. Moving forward, we will continue to add content as we work with the W3C, other stewards, and the rest of the partners in this effort.
+
+We have been working with the W3C for decades: holding a number of leadership positions and engaging with a variety of different W3C groups through many individual contributors. We are committed to working with all members for the development of new open standards and the improvement of existing standards with the W3C. We hope we can count on your help too.
+
+
+## Links
+
+Check out these additional resources about Internet Explorer:
+
+<div class="link-list">
+  <div class="tile">
+      <a href="http://msdn.microsoft.com/ie" target="_blank" rel="nofollow">
+          <img src="imgs/msdn.png" alt="MSDN">
+          <span class="content">
+              <h1>IE Developer Center</h1>
+              <p>The ultimate resource for in depth knowledge about Internet Explorer.</p>
+          </span>
+      </a>
+  </div>
+  <div class="tile center">
+      <a href="http://www.beautyoftheweb.com/developers" target="_blank" rel="nofollow">
+          <img src="imgs/beauty.png" alt="Beauty of the Web">
+          <span class="content">
+              <h1>Beauty of the Web - Devs</h1>
+              <p>Real world tips and insights from some amazing websites built entirely with HTML5.</p>
+          </span>
+      </a>
+  </div>
+  <div class="tile testdrive">
+      <a href="http://ie.microsoft.com/testdrive/" target="_blank" rel="nofollow">
+          <img src="imgs/testdrive.png" alt="Test Drive">
+          <span class="content">
+              <h1>IE Test Drive</h1>
+              <p>A collection of web apps that push the limits of the web and explore new features.</p>
+          </span>
+      </a>
+  </div>
+</div>

@@ -1,0 +1,38 @@
+---
+title: "Facebook · Stewards · WebPlatform.org"
+heading: "Facebook"
+layout: default
+css2: "/css/stewards.css"
+---
+
+  <h1 id="firstHeading" class="firstHeading">
+    <a class="logo">
+      <img src="facebook_logo.png" alt="Facebook logo" />
+    </a>
+    <%= @document.heading %>
+  </h1>
+
+Founded in 2004, Facebook¹s mission is to make the world more open and connected. People use Facebook to stay connected with friends and family, to discover what¹s going on in the world, and to share and express what matters to them.
+
+
+<blockquote class="testimonial">
+  <p>
+  A community-driven documentation center that spawns the entire open Web platform is a needed and welcome resource for developers. Facebook is proud to contribute to this initiative and we are are looking forward to see where the community takes it.
+  </p>
+  <address class="QuoteAttr">
+    Tobie Langel, W3C Advisory Committee Representative, Facebook
+  </address>
+</blockquote>
+
+
+## Links
+
+* [facebook.com](http://facebook.com/)
+* [DevRel](https://developers.facebook.com/)
+* [HTML5 FB group](https://www.facebook.com/groups/html5devs/)
+
+
+## Contacts
+
+<p><b>Spokesperson:</b> <a href="mailto:jpearce@fb.com">James Pearce</a></p>
+<p><b>Press contact:</b> <a href="mailto:derickmains@facebook.com">Derick Mains</a></p>

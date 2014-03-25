@@ -1,0 +1,1 @@
+<h1 id="firstHeading" class="firstHeading"><%=@heading or 'Your Web, Documented.' %></h1>

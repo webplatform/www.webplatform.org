@@ -1,0 +1,31 @@
+---
+title: "Intel · Stewards · WebPlatform.org"
+heading: "Intel"
+layout: default
+css2: "/css/stewards.css"
+---
+
+  <h1 id="firstHeading" class="firstHeading">
+    <a class="logo">
+      <img src="intel_logo.png" alt="Intel logo" />
+    </a>
+    <%= @document.heading %>
+  </h1>
+
+Intel is a world leader in computing innovation and has been a leading participant in open source since the open source community emerged. With contributions to the Linux kernel, WebKit and many other open source projects targeting mobile, desktop, embedded and data center, Intel helps ensure open source software delivers best in class experiences by working on new capabilities, performance, power-efficiency and security.
+
+<blockquote class="testimonial">
+  <p>
+  Intel has been a sponsor of open source software projects for many years, but these projects need developer documentation to effectively exploit them. This effort in support of vendor-neutral documentation of HTML5, related specifications and technologies is very valuable, and we're pleased to support Web Platform Docs as a Steward and content contributor.
+  </p>
+  <address class="QuoteAttr">
+     Imad Sousou, Director, Intel Open Source Technology Center
+  </address>
+</blockquote>
+
+
+## Links
+
+* [Open Source at Intel](http://software.intel.com/sites/oss/)
+* [Intel Open Source Technology Center](https://01.org/)
+* [Intel HTML5 Zone](http://software.intel.com/html5)

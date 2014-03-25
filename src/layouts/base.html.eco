@@ -1,0 +1,27 @@
+---
+css: "/css/squished.css"
+---
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title><%= @document.title %></title>
+    <link rel="shortcut icon" href="http://www.webplatform.org/favicon.ico" />
+    <link rel="search" type="application/opensearchdescription+xml" href="http://docs.webplatform.org/w/opensearch_desc.php" title="WebPlatform Docs (en)" />
+    <link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
+    <meta name="viewport" content="width=device-width">
+    <% for url in @assets('css'): %>
+      <link rel="stylesheet" href="<%= url %>" />
+    <% end %>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script>window.html5 || document.write('<script src="js/html5shiv.js"><\/script>')</script>
+    <![endif]-->
+    <!--[if lt IE 7]><style type="text/css">body{behavior:url("http://docs.webplatform.org/w/skins/vector/csshover.min.htc")}</style><![endif]-->
+  </head>
+  <body class="ltr sitedir-ltr">
+      <%- @content %>
+      <%- @getBlock('scripts').toHTML() %>
+  </body>
+</html>

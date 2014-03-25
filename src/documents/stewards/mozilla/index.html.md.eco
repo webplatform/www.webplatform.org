@@ -1,0 +1,29 @@
+---
+title: "Mozilla · Stewards · WebPlatform.org"
+heading: "Mozilla"
+layout: default
+css2: "/css/stewards.css"
+---
+
+  <h1 id="firstHeading" class="firstHeading">
+    <a class="logo">
+      <img src="mozilla_logo.png" alt="Mozilla logo" />
+    </a>
+    <%= @document.heading %>
+  </h1>
+
+Mozilla operates with a mission to promote openness, innovation and opportunity on the Internet. We're a proudly non-profit organization dedicated to keeping the power of the Web in people's hands. We're also a global community of users, contributors and developers working to innovate on the behalf of users everywhere. Anyone who uses a Mozilla product becomes a part of that community, helping us build a brighter future for the Web.
+
+<blockquote class="testimonial">
+  <p>
+  We are excited about the Web Platform Docs project because it aligns with [Mozilla’s](http://www.mozilla.org/) mission to promote openness and innovation on the web. By involving the broader web community as well as organizations, we can help make sure more developers have access to up-to-date, comprehensive and practical information.
+  </p>
+  <address class="QuoteAttr">
+  Stormy Peters, Director of Websites and Developer Engagement, Mozilla
+  </address>
+</blockquote>
+
+
+## Links
+
+* [mozilla.org](http://mozilla.org/)

@@ -1,0 +1,30 @@
+---
+title: "Adobe · Stewards · WebPlatform.org"
+heading: "Adobe"
+layout: default
+css2: "/css/stewards.css"
+---
+
+  <h1 id="firstHeading" class="firstHeading">
+    <a class="logo">
+      <img src="adobe_logo.png" alt="Adobe logo" />
+    </a>
+    <%= @document.heading %>
+  </h1>
+
+As a technology leader, Adobe collaborates with stakeholders from industry, academia and government to develop, drive and support standards in existing and emerging technologies, policy areas, and markets, in order to improve our customers’ experience.
+
+
+<blockquote class="testimonial">
+  <p>
+  The web platform has become the medium of creative expression for web developers and designers, and it continues to evolve and to become ever more expressive. Having a reliable source of information for modern, up to date best practices is a huge time saver for creative professionals and will allow them to focus on what they do best: creating. <a href="http://www.adobe.com/" rel="nofollow">Adobe</a> is proud to participate in this effort to bring together the resources that will benefit the entire community of people passionate about the web.
+  </p>
+  <address class="QuoteAttr">
+    Arno Goudrol, Senior Director for the Web Platform for Adobe
+  </address>
+</blockquote>
+
+
+## Links
+
+* [adobe.com](http://adobe.com/)

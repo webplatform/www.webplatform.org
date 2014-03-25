@@ -1,0 +1,37 @@
+---
+title: "Opera · Stewards · WebPlatform.org"
+heading: "Opera"
+layout: default
+css2: "/css/stewards.css"
+---
+
+  <h1 id="firstHeading" class="firstHeading">
+    <a class="logo">
+      <img src="Opera-logo.png" alt="Opera logo" />
+    </a>
+    <%= @document.heading %>
+  </h1>
+
+Opera Software produces web browsers for computers, mobile phones, TVs, and other connected devices. It has 275 million users worldwide — and counting — using anything from the latest smartphones, laptops and web TVs, to older feature phones. Opera also creates tools, market information, educational articles (with the main hub at dev.opera.com) and other useful resources to help developers, designers and others do their job better.
+
+With a lot of employees active in W3C working groups, Opera cares deeply about participating in the evolution of open standards and keeping the web open.
+
+Opera breaks down barriers, so everyone around the world can share in the power of the Internet — Opera's vision of one web for all remains at the heart of everything it does.
+
+<blockquote class="testimonial">
+  <p>
+  We have needed a site like Web Platform Docs for years. Web developers often struggle to find decent information on all the newest technologies that they need to know about; having a single site to turn to that they can trust will save them a lot of time.
+  </p>
+  <address class="QuoteAttr">
+  Lars Erik Bolstrad, VP Core Technology, Opera Software
+  </address>
+</blockquote>
+
+
+## Links
+
+* [opera.com](http://opera.com/)
+* Main site: [www.opera.com](http://www.opera.com/)
+* Developer articles: [dev.opera.com](http://dev.opera.com/)
+* Opera Dragonfly: [opera.com/dragonfly](http://www.opera.com/dragonfly/)
+* Opera's browsers: [opera.com/products](http://www.opera.com/products/)

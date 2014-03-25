@@ -1,0 +1,17 @@
+User-agent: *
+
+Disallow: /w/
+Disallow: /t/
+Disallow: /wiki/Special:Search
+Disallow: /test/Special:Search
+
+Sitemap: http://www.webplatform.org/sitemaps/sitemap-wpwiki-NS_0-0.xml.gz 
+Sitemap: http://www.webplatform.org/sitemaps/sitemap-wpwiki-NS_6-0.xml.gz 
+Sitemap: http://www.webplatform.org/sitemaps/sitemap-wpwiki-NS_14-0.xml.gz 
+Sitemap: http://www.webplatform.org/sitemaps/sitemap-wpwiki-NS_102-0.xml.gz 
+Sitemap: http://www.webplatform.org/sitemaps/sitemap-wpwiki-NS_3000-0.xml.gz
+
+# In case it gets useful someday :)
+Disallow: /harming/humans
+Disallow: /ignoring/human/orders
+Disallow: /harm/to/self

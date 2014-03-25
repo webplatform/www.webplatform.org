@@ -1,0 +1,33 @@
+---
+title: "HP · Stewards · WebPlatform.org"
+heading: "HP"
+layout: default
+css2: "/css/stewards.css"
+---
+
+  <h1 id="firstHeading" class="firstHeading">
+    <a class="logo">
+      <img src="hp_cloud_services_blue_logo.png" alt="HP logo" />
+    </a>
+    <%= @document.heading %>
+  </h1>
+
+WebPlatform.org floats on HP Cloud! HP provides the cloud hosting, as well as Database as a Service (DBaaS), and Block Storage for WebPlatform.org.
+
+HP CloudSystem provides a complete and open platform to for building and managing hybrid clouds. Based on the OpenStack cloud standard, HP tailors public, ready-to-use cloud computing for developers and enterprise.
+
+
+<blockquote class="testimonial">
+  <p>
+  As a founding steward of Web Platform Docs, we appreciate the importance of standards, understand the frustration of dealing with non-standard features and the challenges in practical implementation of standards into products. We see great value in enabling developers with a place they can document how web technologies work in practical terms and are pleased to be supporting this initiative by providing infrastructure on [HP Cloud](https://www.hpcloud.com/) for webplatform.org.
+  </p>
+  <address class="QuoteAttr">
+    James R. Bell, Director of Industry Standards, HP
+  </address>
+</blockquote>
+
+
+## Useful Links
+
+* [hpcloud.com](https://www.hpcloud.com/)
+* [hp.com](http://hp.com/)

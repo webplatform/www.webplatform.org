@@ -1,0 +1,39 @@
+---
+title: "Google · Stewards · WebPlatform.org"
+heading: "Google"
+layout: default
+css2: "/css/stewards.css"
+---
+
+  <h1 id="firstHeading" class="firstHeading">
+    <a class="logo">
+      <img src="Google_Logo_292X94.png" alt="Google logo" />
+    </a>
+    <%= @document.heading %>
+  </h1>
+
+Google is a global technology leader focused on improving the ways people connect with information. Google‘s innovations in web search and advertising have made its website a top Internet property and its brand one of the most recognized in the world.
+
+Google is a trademark of Google Inc. All other company and product names may be trademarks of the respective companies with which they are associated.
+
+
+<blockquote class="testimonial">
+  <p>
+  [Google](http://www.google.com/) has always believed that an open, standards-based community is best suited to drive the web forward. We support Web Platform Docs because it builds upon the long tradition of cooperation that has helped make the web what it is today. It's one step forward for the web and a huge step forward for web developers.
+  </p>
+  <address class="QuoteAttr">
+    Linus Upson, VP Engineering, Google
+  </address>
+</blockquote>
+
+
+## Useful Links
+
+* [google.com](http://google.com/)
+* [html5rocks.com](http://html5rocks.com/)
+* [chromium.org](http://chromium.org/)
+* [developer.google.com](http://developer.google.com/)
+
+## Contacts
+
+You can reach us at [Google+](https://plus.google.com/+GoogleChromeDevelopers/posts)

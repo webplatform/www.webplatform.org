@@ -1,0 +1,20 @@
+---
+css: "/css/landing.css"
+layout: base
+heading: 'Your web, Documented.'
+---
+  <style>
+    /* Temporary fixes, SASS workspace not ready, and specifity wars :( */
+    footer[role=contentinfo] { padding-bottom:80px; }
+    footer[role=contentinfo] #footer-wordmark span { display:inline; }
+    footer[role=contentinfo] #footer-wordmark a { display:block; }
+    footer[role="contentinfo"] ul.stewards { max-width: 800px !important; }
+
+    @media screen and (min-width: 600px){ footer[role=contentinfo] #footer-title span { display:inline;} }
+  </style>
+
+  <%- @partial('header-homepage') %>
+
+  <%- @content %>
+
+  <%- @partial('footer-homepage') %>

@@ -1,0 +1,126 @@
+---
+title: "Stewards · WebPlatform.org"
+heading: "Web Platform Stewards"
+layout: default
+css2: "/css/stewards.css"
+---
+
+<h1 id="firstHeading" class="firstHeading"><%= @document.heading %></h1>
+
+In order to bring this site to the community, and to maintain it, we rely on the generosity of the Web Platform stewards.
+
+This site has been convened by W3C. The other stewards, listed below, support it through content, people, funding, and other contributions. More information on each of the stewards can be found on their pages.
+
+* [Adobe](/stewards/adobe)
+* [Apple](http://apple.com/)
+* [Facebook](/stewards/facebook)
+* [Google](/stewards/google)
+* [HP](/stewards/hp)
+* [Intel](/stewards/intel)
+* [Microsoft](/stewards/microsoft)
+* [Mozilla](/stewards/mozilla)
+* [Nokia](/stewards/nokia)
+* [Opera](/stewards/opera)
+* [W3C](/stewards/w3c)
+
+
+## Becoming a Steward
+
+If you are interested in becoming a Web Platform steward, to support this site and to move the Web forward to its full potential, please contact [W3C Developer Relations](mailto:team-devrel@w3.org&subject=Stewardship).
+
+## Steward Testimonials
+
+Here's what some of our stewards think of WebPlatform.org, and why they are sponsoring.
+
+  <h3 class="org">Adobe</h3>
+
+  <blockquote class="testimonial">
+    <p id="adobe">
+  The web platform has become the medium of creative expression for web developers and designers, and it continues to evolve and to become ever more expressive. Having a reliable source of information for modern, up to date best practices is a huge time saver for creative professionals and will allow them to focus on what they do best: creating. <a href="http://www.adobe.com/" rel="nofollow">Adobe</a> is proud to participate in this effort to bring together the resources that will benefit the entire community of people passionate about the web.
+    </p>
+    <address class="QuoteAttr">
+      Arno Gourdol, Senior Director for the Web Platform for Adobe
+    </address>
+  </blockquote>
+
+
+  <h3 class="org">Facebook</h3>
+
+  <blockquote class="testimonial">
+    <p id="fp">
+  A community-driven documentation center that spawns the entire open Web
+  platform is a needed and welcome resource for developers. <a href="http://www.facebook.com/" rel="nofollow">Facebook</a> is
+  proud to contribute to this initiative and we are are looking forward to
+  see where the community takes it.
+    </p>
+    <address class="QuoteAttr">
+      Tobie Langel, W3C Advisory Committee Representative, Facebook
+    </address>
+  </blockquote>
+
+  <h3 class="org">Google</h3>
+
+  <blockquote class="testimonial">
+    <p id="google">
+  <a href="http://www.google.com/" rel="nofollow">Google</a> has always believed that an open, standards-based community is best suited to drive the web forward. We support Web Platform Docs because it builds upon the long tradition of cooperation that has helped make the web what it is today.  It's one step forward for the web and a huge step forward for web developers.
+    </p>
+    <address class="QuoteAttr">
+      Linus Upson, VP Engineering, Google
+    </address>
+  </blockquote>
+
+  <h3 class="org">HP</h3>
+
+  <blockquote class="testimonial">
+    <p id="hp">As a founding steward of Web Platform Docs, we appreciate the importance of standards, understand the frustration of dealing with non-standard features and the challenges in practical implementation of standards into products. We see great value in enabling developers with a place they can document how web technologies work in practical terms and are pleased to be supporting this initiative by providing infrastructure on <a href="https://www.hpcloud.com/" rel="nofollow">HP Cloud</a> for webplatform.org.</p>
+    <address class="QuoteAttr">
+      James R. Bell, Director of Industry Standards, HP
+    </address>
+  </blockquote>
+
+  <h3 class="org">Intel</h3>
+
+  <blockquote class="testimonial">
+    <p id="intel">Intel has been a sponsor of open source software projects for many years, but these projects need developer documentation to effectively exploit them.  This effort in support of vendor-neutral documentation of HTML5, related specifications and technologies is very valuable, and we're pleased to support Web Platform Docs as a Steward and content contributor.</p>
+    <address class="QuoteAttr">
+      Imad Sousou, Director, Intel Open Source Technology Center
+    </address>
+  </blockquote>
+
+  <h3 class="org">Microsoft</h3>
+
+  <blockquote class="testimonial">
+    <p id="microsoft"><a href="http://www.microsoft.com/" rel="nofollow">Microsoft</a> fully supports the launch of W3C Web Platform Docs as a place where members of the web community can easily access resources, collaborate on ideas and share knowledge. By committing more than 3,200 topics, we understand the value of collectively building a strong future for what’s next in web development, furthering the goal of web platform interoperability and same markup.
+    </p>
+    <address class="QuoteAttr">
+      Jean Paoli, President, Microsoft Open Technologies, Inc.
+    </address>
+  </blockquote>
+
+  <h3 class="org">Mozilla</h3>
+
+  <blockquote class="testimonial">
+    <p id="mozilla">We are excited about the Web Platform Docs project because it aligns with <a href="http://www.mozilla.org/" rel="nofollow">Mozilla’s</a> mission to promote openness and innovation on the web. By involving the broader web community as well as organizations, we can help make sure more developers have access to up-to-date, comprehensive and practical information.
+    </p>
+    <address class="QuoteAttr">
+      Stormy Peters, Director of Websites and Developer Engagement, Mozilla
+    </address>
+  </blockquote>
+
+  <h3 class="org">Nokia</h3>
+
+  <blockquote class="testimonial">
+    <p id="nokia"><a href="http://www.nokia.com/" rel="nofollow">Nokia</a> is pleased to be a Founding Steward of the W3C's "Web Platform Docs" activity. Web Platform Docs provides a unique Web site for web professionals to save time and resources by consulting a single site for current, cross-browser and cross-device coding best practices. Nokia supports commonly used Web standards, and has shipped hundreds of millions of devices supporting various Open Web standards. With a strong foundation of documentation oriented towards Web authors and developers, we believe Web developers can build solid mobile Web experiences for the next billion mobile consumers.</p>
+    <address class="QuoteAttr">
+      Timo Ali-Vehmas, VP, Compatibility and Industry Collaboration, Nokia
+    </address>
+  </blockquote>
+
+  <h3 class="org">Opera</h3>
+
+  <blockquote class="testimonial">
+    <p id="opera">We have needed a site like Web Platform Docs for years. Web developers often struggle to find decent information on all the newest technologies that they need to know about; having a single site to turn to that they can trust will save them a lot of time.</p>
+    <address class="QuoteAttr">
+      Lars Erik Bolstrad, VP Core Technology, Opera Software
+    </address>
+  </blockquote>

@@ -1,0 +1,246 @@
+---
+title: Your Web, documented
+heading: 'Your Web, documented.'
+layout: homepage
+---
+<main role="main">
+
+  <section class="container">
+
+    <div class="intro">
+      <h1>Your Web, Documented.</h1>
+      <p>The latest information on how to use the technology that runs the web — HTML,
+        CSS, JavaScript and more.</p>
+      <p>WebPlatform.org is a work in progress. We could use your help in making it better.
+        <a href="#join-us">Join us.</a>
+      </p>
+    </div>
+    <div class="video">
+      <div class="video-inner">
+        <iframe src="http://www.youtube.com/embed/Ug6XAw6hzaw" frameborder="0" allowfullscreen=""></iframe>
+      </div>
+    </div>
+
+    <div class="coalition">
+      <h2>Created by a powerhouse coalition. And you.</h2>
+      <p>Web Platform is a project of the W3C and the <a href="http://www.webplatform.org/stewards/">Web Platform stewards</a> —
+        Adobe, Apple, Facebook, Google, HP, Intel, Microsoft, Mozilla, Nokia, and Opera.
+        It’s a collaboration between those who make the specs, those who build the browsers,
+        and developers from all over the world. <a href="#join-us">Wanna join us?</a>
+      </p>
+    </div>
+
+    <div class="opensource">
+      <h2>Open. Free. Crowdsourced.</h2>
+      <p>The web exists because of the open generosity of those who invented it. We share
+        those principles: that by coming together and collaborating, we can make something
+        great for the world to use for free. Web Platform is not run by a single corporation,
+        or a single person. It’s by and for us all. Anyone is welcome to help write and
+        edit the documents. <a href="#join-us">Join the effort.</a>
+      </p>
+    </div>
+
+    <div class="webplatformAPI">
+      <h2>Web Platform to Go.</h2>
+      <p>Need web technology reference docs for your project? <a href="http://docs.webplatform.org/wiki/WPD:Community">Contact</a> us about our API.</p>
+    </div>
+
+    <div class="creativecommons">
+      <h2>Creative Commons.</h2>
+      <p>You can reuse the content on this site, for any purpose — commercial or not —
+        as long as you <a href="http://docs.webplatform.org/wiki/WPD:License_and_Reuse">provide attribution.</a>
+      </p>
+    </div>
+
+  </section>
+
+
+  <section class="docs">
+    <div class="container">
+      <h1>The Docs</h1>
+      <div class="ready-to-use">
+        <h3>Ready To Use</h3>
+        <ul>
+          <li><a href="http://docs.webplatform.org/wiki/concepts/Pointer_Events">Pointer Events</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="almost-done">
+        <h3>Almost Done</h3>
+        <ul>
+          <li><a href="http://docs.webplatform.org/wiki/css" class="ready">CSS</a>
+          </li>
+          <p class="properties-list"><a href="http://docs.webplatform.org/wiki/css/properties">properties,</a>
+            <a href="http://docs.webplatform.org/wiki/css/selectors">selectors,</a>
+            <a href="http://docs.webplatform.org/wiki/css/functions">functions,</a>
+            <a href="http://docs.webplatform.org/wiki/css/atrules">at-rules,</a>
+            <a href="http://docs.webplatform.org/wiki/css/mediaqueries">media queries</a>
+          </p>
+        </ul>
+      </div>
+
+      <div class="just-started">
+        <h3>In Progress</h3>
+        <ul>
+          <li><a href="http://docs.webplatform.org/wiki/javascript" class="in-progress">JavaScript</a>
+          </li>
+          <li><a href="http://docs.webplatform.org/wiki/apis">APIs</a>
+            <ul>
+              <li><a href="http://docs.webplatform.org/wiki/canvas">Canvas</a></li>
+              <li><a href="http://docs.webplatform.org/wiki/apis/file">File API</a></li>
+              <li><a href="http://docs.webplatform.org/wiki/apis/indexedDB">IndexedDB</a></li>
+              <li>Appcache</li>
+              <li>Geolocation</li>
+              <li>Navigation timing</li>
+              <li>Performance timing</li>
+              <li>User timing</li>
+              <li>Web socket</li>
+              <li>Webworkers</li>
+              <li>XMLHttpRequest</li>
+
+            </ul>
+          </li>
+          <li>ARIA</li>
+        </ul>
+      </div>
+
+      <div class="deep-freeze">
+        <h3>Coming Later</h3>
+        <ul>
+          <li><a href="http://docs.webplatform.org/wiki/html">HTML</a>
+          </li>
+          <li><a href="http://docs.webplatform.org/wiki/concepts/accessibility">Accessibility</a>
+          </li>
+          <li><a href="http://docs.webplatform.org/wiki/dom">DOM</a>
+          </li>
+          <li><a href="http://docs.webplatform.org/wiki/svg">SVG</a>
+          </li>
+          <li><a href="http://docs.webplatform.org/wiki/webgl">WebGL</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section class="container" id="join-us">
+
+    <div class="help-us">
+      <h1>Share Your Knowledge.</h1>
+      <h2>Help make the Docs better.</h2>
+      <p>We need volunteers to create Web Platform Docs. You can help by fixing errors,
+        rewriting drafts, or contributing new content. Even the slightest effort can
+        have a big impact. Please help us make this documentation&nbsp;better.</p>
+    </div>
+
+    <div class="current-push">
+      <h1>Current Push: JavaScript.</h1>
+      <span><p>Anyone is welcome to propose improvements of any kind at any time. If you have an idea, jump in! That said, we have teams focusing on specific sections of the site together to gain momentum and get that section done. Right now, the team effort is focused on JavaScript.</p>
+<p>We just finished importing a rough beginning of JavaScript docs, and started a big push to rewrite &amp; approve each of the 360 pages. If you know JavaScript, we could really use your help. Join us by taking the following three steps.</p></span>
+    </div>
+
+    <div class="how-to">
+
+      <div class="step1">
+        <h2>Step 1: Get an&nbsp;Account.</h2>
+        <p>Anyone is welcome to make changes to the pages on <a href="http://docs.webplatform.org">docs.webplatform.org</a>.
+          First, <a href="http://docs.webplatform.org/w/index.php?title=Special:UserLogin&amp;type=signup">create an account</a>.
+          Then <a href="http://docs.webplatform.org/w/index.php?title=Special:UserLogin">log in</a> and
+          edit pages. It's that&nbsp;easy.</p>
+      </div>
+
+      <div class="step2">
+        <h2>Step 2: Make a&nbsp;Change.</h2>
+        <p>Do you see a mistake on a page that needs to be fixed? Something that <strike>can</strike> could
+          be written better? Information that's inaccurate or old? Well, jump in — go
+          ahead and change the page. Really. Just fix it. We need lots of people contributing
+          more than we need&nbsp;perfection.</p>
+        <p>Scared you'll make a mistake? Try our our <a href="http://docs.webplatform.org/wiki/WPD:Practice_Page">practice page</a>.
+          You can make mistakes there without hurting&nbsp;anything.</p>
+        <p>Web Platform Docs currently uses MediaWiki, the same software that drives Wikipedia.
+          If you are trying to format something, this <a href="http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet">syntax cheat sheet</a> might
+          be&nbsp;helpful.</p>
+      </div>
+
+      <div class="step3">
+        <h2>Step 3: Join the Group Email List and Introduce&nbsp;Yourself.</h2>
+        <p>Next, sign up for our group email — the place where everyone who's involved talks
+          to each other. Join the list by emailing an empty message with the subject “subscribe”
+          to <a href="mailto:public-webplatform-request@w3.org">public-webplatform-request@w3.org</a> from
+          the email address you'd like to&nbsp;use.</p>
+        <p>Once you are on the list, please email the group and introduce yourself. Who
+          are you? What would you like to contribute? Are you unsure of what to work on
+          — that's fine. Reach out to us, and we'll be happy to find something for you.
+          Do have have a suggestion on how WPD can be better? We'd love to hear&nbsp;it.</p>
+        <p>You can read the archives and learn more about how the email list works&nbsp;
+          <a
+          href="http://lists.w3.org/Archives/Public/public-webplatform">here</a>.</p>
+      </div>
+
+    </div>
+
+    <div class="now-what">
+
+      <h1>Now what?</h1>
+
+      <h2>Keep Up With the Latest.</h2>
+      <ul>
+        <li>Read <a href="http://blog.webplatform.org/">our blog</a>.</li>
+        <li>Follow <a href="https://twitter.com/webplatform">@webplatform</a> on Twitter.</li>
+        <li>Like our <a href="https://www.facebook.com/WebPlatformDocs">Facebook Page</a>.</li>
+        <li>Follow us on <a href="https://plus.google.com/u/0/114879255563551049641/">Google+</a>.</li>
+      </ul>
+
+      <h2>Write with the Web Platform Wednesdays&nbsp;crew.</h2>
+      <p>“Web Platform Wednesdays” is an effort to organize who’s doing what over the next
+        week. This small group focuses together on editing one particular section of
+        the site, to gain momentum and get that section done. If you'd like to be involved,
+        email the group and volunteer. You can also get started by looking at the <a href="http://docs.webplatform.org/wiki/Meta:web_platform_wednesday">current list of who is editing which&nbsp;document</a>.</p>
+
+      <h2>Attend (or Host) a Doc&nbsp;Sprint.</h2>
+      <p>A great way to join the effort is to attend a doc sprint. Organized by different
+        people around the world, a WebPlatform.org doc sprint gathers a group of people
+        in one room, face-to-face, to spend the day writing documentation. The sprint
+        organizers can help you get setup, walk you through the process, and show you
+        where to&nbsp;start.</p>
+      <p>To find out if there’s an upcoming doc sprint near you, <a href="http://docs.webplatform.org/wiki/WPD:Doc_Sprint">check this&nbsp;list</a>.</p>
+      <p>If you are interested in organizing a doc sprint in your area, email the group
+        and let us know. We'll help you get&nbsp;started.</p>
+
+      <h2>Create Something&nbsp;New.</h2>
+      <p>Do you have an idea for a new section on the site? Do you know a web standard
+        specification that needs to be documented, or want to add a new tutorial? Or
+        perhaps you want to add one page to the site. Email the group, and we will&nbsp;help.</p>
+
+      <h2>Chat with Us.</h2>
+      <p>To talk to folks in real time, perhaps to get a faster answer to a question, jump
+        into our public chat room. We are using <a href="http://en.wikipedia.org/wiki/Internet_Relay_Chat">IRC</a> —
+        a type of chatroom that's older than the web. We have a dedicated chatroom (called
+        a “channel”) on the IRC network&nbsp;Freenode.</p>
+      <p class="indent">
+        <b>Server:</b> Freenode (irc.freenode.net)
+        <br>
+        <b>Channel:</b> #webplatform
+      </p>
+      <p>Please feel free to enter the IRC channel anytime, and just start talking to whoever
+        is there. You can connect through <a href="http://docs.webplatform.org/wiki/WPD:Editors_Guide/step_2_communicate_with_the_online_community/irc_clients">an IRC client</a> (standalone
+        software) or <a href="http://webchat.freenode.net/?channels=#webplatform">this web interface</a>.
+        Here’s <a href="http://richard.esplins.org/siwi/2011/07/08/getting-started-freenode-irc/">more on how to get&nbsp;started</a>.</p>
+
+      <h2>Learn More About WebPlatform.org.</h2>
+      <ul>
+        <li><a href="https://developers.google.com/live/shows/ahNzfmdvb2dsZS1kZXZlbG9wZXJzcg4LEgVFdmVudBiomqIEDA">Google Developers: Introducing Web Platform Docs</a> —
+          30 min video</li>
+        <li><a href="http://5by5.tv/webahead/50">The Web Ahead: Web Platform Docs</a> — 1
+          hour interview</li>
+        <li><a href="http://docs.webplatform.org/wiki/WPD:Policy">About Web Platform Docs, Policies and more</a>
+        </li>
+      </ul>
+
+    </div>
+
+  </section>
+
+</main>
