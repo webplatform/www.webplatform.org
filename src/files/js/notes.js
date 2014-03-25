@@ -4,8 +4,8 @@
 
   if (ssl && !embedUrl.match(/^https:/)) {
     var msg = ['Sorry, but this service is unavailable on pages ',
-                                                   'served with HTTPS at this time. Please contact support for ',
-                                                   'further assistance.'];
+                                                               'served with HTTPS at this time. Please contact support for ',
+                                                               'further assistance.'];
 
     alert(msg.join(''));
   }
