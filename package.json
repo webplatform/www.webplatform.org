@@ -18,5 +18,15 @@
   "main": "node_modules/docpad/bin/docpad-server",
   "scripts": {
     "start": "node_modules/docpad/bin/docpad-server"
+  },
+  "devDependencies": {
+    "gulp": "^3.5.6",
+    "gulp-beautify": "^1.0.3",
+    "gulp-if": "0.0.5",
+    "gulp-jshint": "^1.5.1",
+    "gulp-uglify": "^0.2.1",
+    "gulp-util": "^2.2.14",
+    "gulp-zip": "^0.2.0",
+    "yargs": "^1.2.1"
   }
 }
