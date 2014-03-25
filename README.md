@@ -1,6 +1,6 @@
-# [WebPlatform](http://www.webplatform.org/) static pages
+# [WebPlatform](http://www.webplatform.org/)
 
-Public site at [www.webplatform.org](http://www.webplatform.org/) has some pages that aren't managed by a content management system, they are built using a static site generator.
+Public site at [www.webplatform.org](http://www.webplatform.org/) has some pages that aren't managed by a content management system, they are built using a static site generator called [DocPad](http://docpad.org/).
 
 Although this workspace is for the static content of the site, it can also be used to work on HTML and CSS markup and patterns for various projects inside WebPlatform Docs.
 
@@ -14,20 +14,22 @@ To lean more about how to use, you can refer to [DocPad documentation](http://do
 
     You can download node from [nodejs.org](http://nodejs.org/).
 
-    As for NPM, it depends of the Operating system you are using.
+    As for NPM, it depends of the Operating system you are using. You can see the NPM installation instruction from the [nodejs](http://nodejs.org/) website.
 
 2. As an administrator, install the following packages as global on your workstation
 
-        npm install -g docpad@6.64 grunt-cli bower
+        npm install -g docpad@6.64 gulp bower
 
 3. Checkout the code and run `npm install`
 
-        mkdir -p ~/workspace/webplatform/static-site
-        cd ~/workspace/webplatform/static-site
-        git clone GITREPO .
+        mkdir -p ~/workspace/webplatform/www
+        cd ~/workspace/webplatform/www
+        git clone git@github.com:webplatform/www.webplatform.org.git .
         npm install
 
-4. Code is managed from the `src/` folder, and is generated through `docpad run` utility.
+    This installs all dependencies to work on the project.
+
+4. Code is managed from the `src/` folder, and is generated through `docpad run` utility and creates a static version in `out/`..
 
         npm start
 
@@ -35,11 +37,15 @@ To lean more about how to use, you can refer to [DocPad documentation](http://do
 
         docpad run
 
-    You can also leverage some JavaScript workspace quirks such as:
+    You can also leverage work with CSS and JavaScript using built in tools:
 
-    * Linting
+    * JavaScript Linting
 
             gulp lint
+
+    * Compiling SASS files
+
+            ... in progress ...
 
     * Minifying before deploying
 
@@ -50,25 +56,28 @@ To lean more about how to use, you can refer to [DocPad documentation](http://do
 
 ## Deploying
 
-1. Prepare the assets
+1. Prepare for deploying (will it work in production?)
 
         docpad generate --env=production
         gulp minify --env=production
         gulp package --env=production  // #TODO
 
-2. Upload to the server the zip file and extract
+    ... yes?
+
+2. Make a pull request
 
     ... not finished yet.
 
-
+    Current plan is that when a person who has rights to merge to master, a deployment system will pull from github, run the scripts in the previous step, sync the files with all web servers. Automatically.
 
 
 
 
 ## Depdencies
 
-For more details, see `package.json` and `bower.json`
+For more details, see `package.json` file.
 
+* [Gulp](http://gulpjs.com/), JavaScript build system
 * [DocPad](http://docpad.org/), static pages generation
 * [DocPad plugin "eco"](https://github.com/docpad/docpad-plugin-eco), templating
   * [eco source](https://github.com/sstephenson/eco)
