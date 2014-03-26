@@ -4,7 +4,7 @@ layout: base
 heading: 'Your web, Documented.'
 ---
   <style>
-    /* Temporary fixes, SASS workspace not ready, and specifity wars :( */
+    /* Temporary fixes, SASS workspace not ready, and specifity wars :(  */
     footer[role=contentinfo] { padding-bottom:80px; }
     footer[role=contentinfo] #footer-wordmark span { display:inline; }
     footer[role=contentinfo] #footer-wordmark a { display:block; }

@@ -2,11 +2,32 @@
 title: "Frontend development Styleguides"
 heading: "Frontend Styleguides"
 layout: default
+css: ["/assets/css/refactoring.css"]
 path: [{href: '/frontend-styleguide/', inner: 'Frontend Styleguide'}]
 ---
 
-<h1 id="firstHeading" class="firstHeading"><%= @document.heading %></h1>
+# <%= @document.heading %>
 
-* [Edit a Doc page](/frontend-styleguide/doc-edit)
-* [View a Doc page](/frontend-styleguide/doc-edit)
-* [View a CSS Property Doc page w/ Compatibility table](/frontend-styleguide/property)
+Hi! Welcome to WebPlatform Docs’ Frontend Style guide.
+
+Each link below shows an excerpt taken from a context in the live web site so we can work on improving CSS files without requiring to use a fully-fledged development environment, only for styling.
+
+## Use
+
+Each view is basically a copy of the HTML at a given moment in a context within WebPlatform.org web applications. For example, it helps us improve styling in views that would require a complete install of any required web application (e.g. WordPress, MediaWiki, etc).
+
+If you want to improve styling in situations such as: when you edit a document, add an issue to the issue tracker, this is the place to work on it!
+
+Ideally, each file has as less as possible set of changes. Some changes that must be done are: prevent submitting a form to the real web application, make sure the view calls only local CSS/JavaScript files, and minor changes on the links.
+
+Links must be change to make sure they stay within the workspace or to disable them. By default all links will be disabled through a small JavaScript utilty file prevents all click events, unless the link has `.allow-link` class name. This is also this small utility that displays the bar at the top.
+
+### Contexts
+
+* [Edit a Doc page](/frontend-styleguide/doc-edit.html)
+* [View a Doc page](/frontend-styleguide/doc.html)
+* [View a CSS Property Doc page w/ Compatibility table](/frontend-styleguide/property.html)
+
+## Wanna help?
+
+Have a look at [GitHub.com/webplatform/www.webplatform.org](https://github.com/webplatform/www.webplatform.org/) fork and contribute!

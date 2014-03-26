@@ -1,0 +1,110 @@
+
+footer[role="contentinfo"] {
+	padding-top:40px;
+	border-top:1px solid #f1eddf;
+	background-color:#efeadd;
+  a {
+	  color:inherit;
+  }
+
+  #footer-wordmark > a.license {
+  	display:block;
+  	margin-bottom:1em;
+  }
+  #footer-wordmark > a.license > img {
+  	width:120px;
+  	height:42px;
+  	opacity:.4;
+  }
+  #footer-title {
+  	display:block;
+  	font:bold 24px Bitter, serif;
+  }
+  #footer-title-light {
+  	color:#9f9c97;
+  }
+
+  ul.stewards {
+  	padding:0;
+  	margin:0;
+  }
+  ul.stewards > li {
+  	display:inline;
+  	list-style:none;
+  }
+  ul.stewards > li > a {
+  	display:inline-block;
+  	vertical-align:middle;
+  	width:124px;
+  	height:60px;
+  	background:url('http://docs.webplatform.org/w/skins/webplatform/images/footer-images.png') no-repeat 0 0;
+  	text-indent:200px;
+  	overflow:hidden;
+  	color:gray;
+  	color:rgba(0, 0, 0, .4);
+  	text-align:center;
+  	font:bold 140%/2.5 Bitter, Cambria, Georgia, serif;
+  }
+  ul.stewards > li.steward-adobe > a {
+  	background-position:-124px 0;
+  }
+  ul.stewards > li.steward-intel > a {
+  	background-position:-248px 0;
+  }
+  ul.stewards > li.steward-facebook > a {
+  	background-position:-372px 0;
+  }
+  ul.stewards > li.steward-google > a {
+  	background-position:-496px 0;
+  }
+  ul.stewards > li.steward-hp > a {
+  	background-position:0 -60px;
+  }
+  ul.stewards > li.steward-microsoft > a {
+  	background-position:-124px -60px;
+  }
+  ul.stewards > li.steward-nokia > a {
+  	background-position:-248px -60px;
+  }
+  ul.stewards > li.steward-mozilla > a {
+  	background-position:-372px -60px;
+  }
+  ul.stewards > li.steward-opera > a {
+  	background-position:-496px -60px;
+  }
+
+  nav[role="navigation"] {
+    background: #000;
+    margin-top: 1em;
+    padding: 40px 0;
+    ul {
+      margin: 0;
+      padding: 0;
+    }
+    a {
+      color: #efeadd;
+    }
+  }
+}
+
+@media (min-width:880px) {
+	footer[role="contentinfo"] {
+  	#footer-wordmark {
+    	display:table-cell;
+    	vertical-align:top;
+    }
+    ul.stewards {
+    	display:table-cell;
+    	vertical-align:top;
+    	max-width:650px;
+    	padding-left:100px;
+    }
+  }
+}
+@media (max-width:880px) {
+	footer[role="contentinfo"] {
+  	ul.stewards {
+  	  margin-top:1em;
+    }
+  }
+}

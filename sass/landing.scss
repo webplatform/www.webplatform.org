@@ -1,0 +1,49 @@
+/*!
+ * WebPlatform Landing page
+ *
+ * NOTE:
+ * This file is intended to contain as less as possible
+ * styling from the rest of the site to serve only for the
+ * homepage.
+ *
+ * To participate to the CSS refactor, go to
+ * the following GitHub repository
+ *
+ * https://github.com/webplatform/www.webplatform.org/
+ *
+ * To report issues on styling:
+ * https://github.com/webplatform/www.webplatform.org/issues
+ *
+ * Any other bug reports:
+ * http://project.webplatform.org/
+ *
+ * @date 2014-06-19
+ **/
+
+
+@import "compass"; // See Gemfile
+@import "flexbox"; // ^
+
+@import "mixins";
+@import "normalize"; // Imported checked in (for now) should be used from bower instead
+
+* {
+  // Switch to Border Box model
+  // http://paulirish.com/2012/box-sizing-border-box-ftw/
+  @include box-sizing(border-box);
+}
+
+@import "fonts";
+@import "animations"; // Import Animation Definitions
+
+// Import Base Styles
+@import "pageheader";
+@import "pagefooter";
+
+// Original WPD CSS
+@import "WPDwiki";    // #TODO, extract common content
+                      //   out of wiki styling
+
+// What is specific to the landing page
+@import "WPDlanding";
+

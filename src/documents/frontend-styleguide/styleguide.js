@@ -1,7 +1,7 @@
 $(document).ready(function(){
   var heading = [
-    '<div style="padding:5px 10px;background:#E35689;color:#FFF;">',
-      'This is a <strong>Styleguide</strong>, a static workspace to focus on styling ',
+    '<div class="styleguide-top-notice" style="padding:5px 10px;background:#E35689;color:#FFF;">',
+      'This is a <strong><a href="/frontend-styleguide/" class="allow-link">Styleguide</a></strong>, a static workspace to focus on styling ',
       'without requiring any backend. All links should be disabled, except ',
       'when a mouse-hover label says otherwise.',
     '</div>'

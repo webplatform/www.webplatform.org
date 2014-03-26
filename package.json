@@ -1,23 +1,41 @@
 {
   "name": "www.webplatform.org",
   "version": "1.1.0",
-  "description": "Web Platform Docs top level domain, using static page generator",
+  "description": "Web Platform Docs top level domain, using static page generator DocPad, and SASS+Compass as CSS pre-processor",
+  "keywords": [
+    "webplatform",
+    "documentation",
+    "frontend",
+    "w3c",
+    "adobe",
+    "facebook",
+    "google",
+    "hp",
+    "intel",
+    "microsoft",
+    "mozilla",
+    "nokia",
+    "opera"
+  ],
   "engines": {
     "node": "0.10",
     "npm": "1.3"
   },
   "dependencies": {
-    "docpad": "~6.64.0",
+    "docpad": "~6.69.0",
     "docpad-plugin-eco": "~2.0.3",
     "docpad-plugin-frontend": "~2.0.1",
     "docpad-plugin-livereload": "~2.6.0",
-    "docpad-plugin-marked": "~2.2.0",
-    "docpad-plugin-nodesass": "~2.2.1",
-    "docpad-plugin-partials": "~2.9.0"
+    "docpad-plugin-marked": "~2.2.1",
+    "docpad-plugin-partials": "~2.9.1"
   },
   "main": "node_modules/docpad/bin/docpad-server",
   "scripts": {
     "start": "node_modules/docpad/bin/docpad-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webplatform/www.webplatform.org.git"
   },
   "devDependencies": {
     "gulp": "^3.5.6",
@@ -28,5 +46,8 @@
     "gulp-util": "^2.2.14",
     "gulp-zip": "^0.2.0",
     "yargs": "^1.2.1"
+  },
+  "bugs": {
+    "url": "https://github.com/webplatform/www.webplatform.org/issues"
   }
 }

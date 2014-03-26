@@ -5,7 +5,7 @@ layout: default
 path: [{href: '/talk/', inner: 'Talk'}]
 ---
 
-<h1 id="firstHeading" class="firstHeading"><%= @document.heading %></h1>
+<h1><%= @document.heading %></h1>
 
   <p>To join the live chat, join the <a class="link" href="irc://chat.freenode.net#webplatform">Freenode.net #webplatform channel</a> using
     your IRC client.</p>

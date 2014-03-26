@@ -1,0 +1,2190 @@
+@charset "UTF-8";
+/*!
+ * WebPlatform CSS Refactor workspace
+ *
+ * NOT READY FOR PRODUCTION USE!
+ *
+ * To use only within /frontend-styleguide at this time.
+ *
+ * https://github.com/webplatform/www.webplatform.org/
+ *
+ * To report issues on styling:
+ * https://github.com/webplatform/www.webplatform.org/issues
+ *
+ * Any other bug reports:
+ * http://project.webplatform.org/
+ *
+ * @date 2014-06-19
+ **/
+/* line 19, ../../../../sass/refactoring.scss */
+body.mediawiki > div[style*=E35689] { /* Just showing its using this style file, obviously not the right way to do :) */ background-color: purple !important; }
+
+/* line 22, ../../../../sass/_normalize.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { display: block; }
+
+/* line 32, ../../../../sass/_normalize.scss */
+audio, canvas, video { display: inline-block; }
+
+/* line 43, ../../../../sass/_normalize.scss */
+audio:not([controls]) { display: none; height: 0; }
+
+/* line 54, ../../../../sass/_normalize.scss */
+[hidden] { display: none; }
+
+/* line 69, ../../../../sass/_normalize.scss */
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+
+/* line 84, ../../../../sass/_normalize.scss */
+html, button, input, select, textarea { font-family: sans-serif; }
+
+/* line 92, ../../../../sass/_normalize.scss */
+body { margin: 0; }
+
+/* line 104, ../../../../sass/_normalize.scss */
+a:focus { outline: thin dotted; }
+
+/* line 113, ../../../../sass/_normalize.scss */
+a:active, a:hover { outline: 0; }
+
+/* line 127, ../../../../sass/_normalize.scss */
+Typography h1 { font-size: 2em; margin: 0.67em 0; }
+
+/* line 132, ../../../../sass/_normalize.scss */
+h2 { font-size: 1.5em; margin: 0.83em 0; }
+
+/* line 137, ../../../../sass/_normalize.scss */
+h3 { font-size: 1.17em; margin: 1em 0; }
+
+/* line 142, ../../../../sass/_normalize.scss */
+h4 { font-size: 1em; margin: 1.33em 0; }
+
+/* line 147, ../../../../sass/_normalize.scss */
+h5 { font-size: 0.83em; margin: 1.67em 0; }
+
+/* line 152, ../../../../sass/_normalize.scss */
+h6 { font-size: 0.75em; margin: 2.33em 0; }
+
+/* line 161, ../../../../sass/_normalize.scss */
+abbr[title] { border-bottom: 1px dotted; }
+
+/* line 170, ../../../../sass/_normalize.scss */
+b, strong { font-weight: bold; }
+
+/* line 174, ../../../../sass/_normalize.scss */
+blockquote { margin: 1em 40px; }
+
+/* line 182, ../../../../sass/_normalize.scss */
+dfn { font-style: italic; }
+
+/* line 190, ../../../../sass/_normalize.scss */
+mark { background: #ff0; color: #000; }
+
+/* line 200, ../../../../sass/_normalize.scss */
+p, pre { margin: 1em 0; }
+
+/* line 211, ../../../../sass/_normalize.scss */
+code, kbd, pre, samp { font-family: monospace, serif; _font-family: 'courier new', monospace; font-size: 1em; }
+
+/* line 221, ../../../../sass/_normalize.scss */
+pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
+
+/* line 231, ../../../../sass/_normalize.scss */
+q { quotes: none; }
+
+/* line 240, ../../../../sass/_normalize.scss */
+q:before, q:after { content: ''; content: none; }
+
+/* line 249, ../../../../sass/_normalize.scss */
+small { font-size: 80%; }
+
+/* line 258, ../../../../sass/_normalize.scss */
+sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
+
+/* line 265, ../../../../sass/_normalize.scss */
+sup { top: -0.5em; }
+
+/* line 269, ../../../../sass/_normalize.scss */
+sub { bottom: -0.25em; }
+
+/* line 284, ../../../../sass/_normalize.scss */
+dl, menu, ol, ul { margin: 1em 0; }
+
+/* line 288, ../../../../sass/_normalize.scss */
+dd { margin: 0 0 0 40px; }
+
+/* line 298, ../../../../sass/_normalize.scss */
+menu, ol, ul { padding: 0 0 0 40px; }
+
+/* line 307, ../../../../sass/_normalize.scss */
+nav ul, nav ol { list-style: none; list-style-image: none; }
+
+/* line 321, ../../../../sass/_normalize.scss */
+img { border: 0; -ms-interpolation-mode: bicubic; }
+
+/* line 330, ../../../../sass/_normalize.scss */
+svg:not(:root) { overflow: hidden; }
+
+/* line 342, ../../../../sass/_normalize.scss */
+figure { margin: 0; }
+
+/* line 354, ../../../../sass/_normalize.scss */
+form { margin: 0; }
+
+/* line 362, ../../../../sass/_normalize.scss */
+fieldset { border: 1px solid #c0c0c0; margin: 0 2px; padding: 0.35em 0.625em 0.75em; }
+
+/* line 374, ../../../../sass/_normalize.scss */
+legend { border: 0; padding: 0; white-space: normal; }
+
+/* line 391, ../../../../sass/_normalize.scss */
+button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; }
+
+/* line 404, ../../../../sass/_normalize.scss */
+button, input { line-height: normal; }
+
+/* line 421, ../../../../sass/_normalize.scss */
+button, html input[type="button"], input[type="reset"], input[type="submit"] { -webkit-appearance: button; cursor: pointer; }
+
+/* line 432, ../../../../sass/_normalize.scss */
+button[disabled], input[disabled] { cursor: default; }
+
+/* line 444, ../../../../sass/_normalize.scss */
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0; }
+
+/* line 457, ../../../../sass/_normalize.scss */
+input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
+
+/* line 470, ../../../../sass/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
+
+/* line 479, ../../../../sass/_normalize.scss */
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+
+/* line 489, ../../../../sass/_normalize.scss */
+textarea { overflow: auto; vertical-align: top; }
+
+/* line 502, ../../../../sass/_normalize.scss */
+Tables table { border-collapse: collapse; border-spacing: 0; }
+
+/* line 31, ../../../../sass/refactoring.scss */
+* { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+@font-face { font-family: 'Gudea'; font-weight: normal; src: url("http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-regular-webfont.eot"); src: url("http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-regular-webfont.eot?#iefix") format("embedded-opentype"), url("http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-regular-webfont.woff") format("woff"), url("http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-regular-webfont.ttf") format("truetype"), url("http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-regular-webfont.svg#GudeaRegular") format("svg"); }
+
+@font-face { font-family: 'Gudea'; font-weight: bold; src: url("http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-bold-webfont.eot"); src: url("http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-bold-webfont.eot?#iefix") format("embedded-opentype"), url("http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-bold-webfont.woff") format("woff"), url("http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-bold-webfont.ttf") format("truetype"), url("http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-bold-webfont.svg#GudeaRegular") format("svg"); }
+
+@font-face { font-family: 'Gudea'; font-weight: normal; font-style: italic; src: url("http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-italic-webfont.eot"); src: url("http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-italic-webfont.eot?#iefix") format("embedded-opentype"), url("http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-italic-webfont.woff") format("woff"), url("http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-italic-webfont.ttf") format("truetype"), url("http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-italic-webfont.svg#GudeaRegular") format("svg"); }
+
+@font-face { font-family: 'Bitter'; font-weight: normal; src: url("http://docs.webplatform.org/w/skins/webplatform/fonts/bitter-regular-webfont.eot"); src: url("http://docs.webplatform.org/w/skins/webplatform/fonts/bitter-regular-webfont.eot?#iefix") format("embedded-opentype"), url("http://docs.webplatform.org/w/skins/webplatform/fonts/bitter-regular-webfont.woff") format("woff"), url("http://docs.webplatform.org/w/skins/webplatform/fonts/bitter-regular-webfont.ttf") format("truetype"), url("http://docs.webplatform.org/w/skins/webplatform/fonts/bitter-regular-webfont.svg#BitterRegular") format("svg"); }
+
+@font-face { font-family: 'Bitter'; font-weight: bold; src: url("http://docs.webplatform.org/w/skins/webplatform/fonts/bitter-bold-webfont.eot"); src: url("http://docs.webplatform.org/w/skins/webplatform/fonts/bitter-bold-webfont.eot?#iefix") format("embedded-opentype"), url("http://docs.webplatform.org/w/skins/webplatform/fonts/bitter-bold-webfont.woff") format("woff"), url("http://docs.webplatform.org/w/skins/webplatform/fonts/bitter-bold-webfont.ttf") format("truetype"), url("http://docs.webplatform.org/w/skins/webplatform/fonts/bitter-bold-webfont.svg#BitterBold") format("svg"); }
+
+@font-face { font-family: 'Bitter'; font-weight: normal; font-style: italic; src: url("http://docs.webplatform.org/w/skins/webplatform/fonts/bitter-italic-webfont.eot"); src: url("http://docs.webplatform.org/w/skins/webplatform/fonts/bitter-italic-webfont.eot?#iefix") format("embedded-opentype"), url("http://docs.webplatform.org/w/skins/webplatform/fonts/bitter-italic-webfont.woff") format("woff"), url("http://docs.webplatform.org/w/skins/webplatform/fonts/bitter-italic-webfont.ttf") format("truetype"), url("http://docs.webplatform.org/w/skins/webplatform/fonts/bitter-italic-webfont.svg#BitterBold") format("svg"); }
+
+@font-face { font-family: 'WPSymbols'; src: url("http://docs.webplatform.org/w/skins/webplatform/fonts/WPSymbols.eot"); src: url("http://docs.webplatform.org/w/skins/webplatform/fonts/WPSymbols.eot?#iefix") format("embedded-opentype"), url("http://docs.webplatform.org/w/skins/webplatform/fonts/WPSymbols.svg#WPSymbols") format("svg"), url("http://docs.webplatform.org/w/skins/webplatform/fonts/WPSymbols.woff") format("woff"), url("http://docs.webplatform.org/w/skins/webplatform/fonts/WPSymbols.ttf") format("truetype"); }
+
+@keyframes crossfade { /* line 4, ../../../../sass/_animations.scss */
+  0% { opacity: 0; animation-timing-function: ease-in; }
+  /* line 5, ../../../../sass/_animations.scss */
+  2% { opacity: 1; animation-timing-function: ease-out; }
+  /* line 6, ../../../../sass/_animations.scss */
+  8% { opacity: 1; }
+  /* line 7, ../../../../sass/_animations.scss */
+  10% { opacity: 0; }
+  /* line 8, ../../../../sass/_animations.scss */
+  100% { opacity: 0; } }
+
+@-webkit-keyframes crossfade { /* line 11, ../../../../sass/_animations.scss */
+  0% { opacity: 0; animation-timing-function: ease-in; }
+  /* line 12, ../../../../sass/_animations.scss */
+  2% { opacity: 1; animation-timing-function: ease-out; }
+  /* line 13, ../../../../sass/_animations.scss */
+  8% { opacity: 1; }
+  /* line 14, ../../../../sass/_animations.scss */
+  10% { opacity: 0; }
+  /* line 15, ../../../../sass/_animations.scss */
+  100% { opacity: 0; } }
+
+/* line 2, ../../../../sass/_pageheader.scss */
+.subheader { padding: 12px 0; margin-bottom: 15px; background: #30b4c5 url("/assets/stripes.svg") center; background-size: 100%; text-align: center; font: bold 120% Bitter, serif; text-transform: uppercase; text-shadow: 0 .1em .1em white; }
+
+/* line 12, ../../../../sass/_pageheader.scss */
+.subheader > h1 { position: absolute; left: 50%; margin: 35px; margin-left: -95px; }
+
+/* line 18, ../../../../sass/_pageheader.scss */
+.subheader > h1 > img { max-width: 100%; }
+
+/* line 21, ../../../../sass/_pageheader.scss */
+.subheader > nav { display: block; padding: 2em 0; background: #f7f4f0; }
+
+/* line 26, ../../../../sass/_pageheader.scss */
+.subheader > nav > ul { display: inline-block; vertical-align: middle; width: 10em; margin: 0; padding: 0; }
+
+/* line 33, ../../../../sass/_pageheader.scss */
+.subheader > nav > ul > li { padding: 0; list-style: none; border-top: 1px solid white; border-bottom: 1px solid rgba(0, 0, 0, 0.1); margin: 0; }
+
+/* line 40, ../../../../sass/_pageheader.scss */
+.subheader > nav > ul > li:first-child { border-top: 0; }
+
+/* line 43, ../../../../sass/_pageheader.scss */
+.subheader > nav > ul > li:last-child { border-bottom: 0; }
+
+/* line 46, ../../../../sass/_pageheader.scss */
+.subheader > nav > ul > li > a { display: block; padding: 1em 0; color: #6d685b; }
+
+/* line 51, ../../../../sass/_pageheader.scss */
+.subheader > nav > ul > li > a:hover { color: #30B4C5; }
+
+@media (min-width: 640px) { /* line 56, ../../../../sass/_pageheader.scss */
+  .subheader > nav > ul:first-child { margin-right: 250px; }
+  /* line 59, ../../../../sass/_pageheader.scss */
+  .subheader > nav > ul + ul { margin-left: 250px; } }
+@media (max-width: 880px) and (min-width: 640px) { /* line 65, ../../../../sass/_pageheader.scss */
+  .subheader > nav > ul:first-child { margin-right: 150px; }
+  /* line 68, ../../../../sass/_pageheader.scss */
+  .subheader > nav > ul + ul { margin-left: 150px; } }
+@media (max-width: 640px) { /* line 74, ../../../../sass/_pageheader.scss */
+  .subheader > nav { padding-top: 250px; }
+  /* line 77, ../../../../sass/_pageheader.scss */
+  .subheader > nav > ul { margin: 0; } }
+@media (max-width: 340px) { /* line 83, ../../../../sass/_pageheader.scss */
+  .subheader > h1 { width: 120px; margin: 30px 0 0 -60px; }
+  /* line 87, ../../../../sass/_pageheader.scss */
+  .subheader > nav { padding-top: 150px; }
+  /* line 90, ../../../../sass/_pageheader.scss */
+  .subheader > nav > ul + ul { margin-top: 1px; }
+  /* line 93, ../../../../sass/_pageheader.scss */
+  .subheader > nav > ul:first-child > li:last-child { border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+  /* line 96, ../../../../sass/_pageheader.scss */
+  .subheader > nav > ul + ul > li:first-child { border-top: 1px solid white; } }
+/* line 2, ../../../../sass/_pagefooter.scss */
+footer[role="contentinfo"] { padding-top: 40px; border-top: 1px solid #f1eddf; background-color: #efeadd; }
+/* line 6, ../../../../sass/_pagefooter.scss */
+footer[role="contentinfo"] a { color: inherit; }
+/* line 10, ../../../../sass/_pagefooter.scss */
+footer[role="contentinfo"] #footer-wordmark > a.license { display: block; margin-bottom: 1em; }
+/* line 14, ../../../../sass/_pagefooter.scss */
+footer[role="contentinfo"] #footer-wordmark > a.license > img { width: 120px; height: 42px; opacity: .4; }
+/* line 19, ../../../../sass/_pagefooter.scss */
+footer[role="contentinfo"] #footer-title { display: block; font: bold 24px Bitter, serif; }
+/* line 23, ../../../../sass/_pagefooter.scss */
+footer[role="contentinfo"] #footer-title-light { color: #9f9c97; }
+/* line 27, ../../../../sass/_pagefooter.scss */
+footer[role="contentinfo"] ul.stewards { padding: 0; margin: 0; }
+/* line 31, ../../../../sass/_pagefooter.scss */
+footer[role="contentinfo"] ul.stewards > li { display: inline; list-style: none; }
+/* line 35, ../../../../sass/_pagefooter.scss */
+footer[role="contentinfo"] ul.stewards > li > a { display: inline-block; vertical-align: middle; width: 124px; height: 60px; background: url("http://docs.webplatform.org/w/skins/webplatform/images/footer-images.png") no-repeat 0 0; text-indent: 200px; overflow: hidden; color: gray; color: rgba(0, 0, 0, 0.4); text-align: center; font: bold 140%/2.5 Bitter, Cambria, Georgia, serif; }
+/* line 48, ../../../../sass/_pagefooter.scss */
+footer[role="contentinfo"] ul.stewards > li.steward-adobe > a { background-position: -124px 0; }
+/* line 51, ../../../../sass/_pagefooter.scss */
+footer[role="contentinfo"] ul.stewards > li.steward-intel > a { background-position: -248px 0; }
+/* line 54, ../../../../sass/_pagefooter.scss */
+footer[role="contentinfo"] ul.stewards > li.steward-facebook > a { background-position: -372px 0; }
+/* line 57, ../../../../sass/_pagefooter.scss */
+footer[role="contentinfo"] ul.stewards > li.steward-google > a { background-position: -496px 0; }
+/* line 60, ../../../../sass/_pagefooter.scss */
+footer[role="contentinfo"] ul.stewards > li.steward-hp > a { background-position: 0 -60px; }
+/* line 63, ../../../../sass/_pagefooter.scss */
+footer[role="contentinfo"] ul.stewards > li.steward-microsoft > a { background-position: -124px -60px; }
+/* line 66, ../../../../sass/_pagefooter.scss */
+footer[role="contentinfo"] ul.stewards > li.steward-nokia > a { background-position: -248px -60px; }
+/* line 69, ../../../../sass/_pagefooter.scss */
+footer[role="contentinfo"] ul.stewards > li.steward-mozilla > a { background-position: -372px -60px; }
+/* line 72, ../../../../sass/_pagefooter.scss */
+footer[role="contentinfo"] ul.stewards > li.steward-opera > a { background-position: -496px -60px; }
+/* line 76, ../../../../sass/_pagefooter.scss */
+footer[role="contentinfo"] nav[role="navigation"] { background: #000; margin-top: 1em; padding: 40px 0; }
+/* line 80, ../../../../sass/_pagefooter.scss */
+footer[role="contentinfo"] nav[role="navigation"] ul { margin: 0; padding: 0; }
+/* line 84, ../../../../sass/_pagefooter.scss */
+footer[role="contentinfo"] nav[role="navigation"] a { color: #efeadd; }
+
+@media (min-width: 880px) { /* line 92, ../../../../sass/_pagefooter.scss */
+  footer[role="contentinfo"] #footer-wordmark { display: table-cell; vertical-align: top; }
+  /* line 96, ../../../../sass/_pagefooter.scss */
+  footer[role="contentinfo"] ul.stewards { display: table-cell; vertical-align: top; max-width: 650px; padding-left: 100px; } }
+@media (max-width: 880px) { /* line 106, ../../../../sass/_pagefooter.scss */
+  footer[role="contentinfo"] ul.stewards { margin-top: 1em; } }
+/*
+
+Reimport from current version, had missing.
+
+Got by issuing:
+ wget 'http://docs.webplatform.org/w/load.php?debug=true&lang=en&modules=ext.rtlcite%7Cmediawiki.legacy.commonPrint%2Cshared%7Cskins.webplatform&only=styles&skin=webplatform&*'
+ What to check:
+ ext.rtlcite%7Cmediawiki.legacy.commonPrint%2Cshared%7Cskins.webplatform
+
+Compared to _WPDwiki that had
+ mediawiki.legacy.commonPrint%2Cshared%7Cskins.webplatform
+
+Also, note to self, WHAT is `!ie` that MediaWiki adds. E.g.
+ vertical-align: middle !ie;
+
+They are commented at this time.
+ */
+/* Isolation to fix references in case of RTL words at the end of a reference */
+/* line 25, ../../../../sass/_wpdwikireimport.scss */
+sup.reference { unicode-bidi: -moz-isolate; unicode-bidi: -webkit-isolate; unicode-bidi: isolate; }
+
+@media print { /** MediaWiki Print style sheet for CSS2-capable browsers. Copyright Gabriel Wicke, http://www.aulinx.de/  Derived from the plone (http://plone.org/) styles Copyright Alexander Limi */
+  /* Thanks to A List Apart (http://alistapart.com/) for useful extras */
+  /* line 40, ../../../../sass/_wpdwikireimport.scss */
+  a.stub, a.new { color: #ba0000; text-decoration: none; }
+  /* line 45, ../../../../sass/_wpdwikireimport.scss */
+  #toc { border: 1px solid #aaaaaa; background-color: #f9f9f9; padding: 5px; }
+  /* images */
+  /* line 52, ../../../../sass/_wpdwikireimport.scss */
+  div.floatright { float: right; clear: right; position: relative; margin: 0.5em 0 0.8em 1.4em; }
+  /* line 58, ../../../../sass/_wpdwikireimport.scss */
+  div.floatright p { font-style: italic; }
+  /* line 61, ../../../../sass/_wpdwikireimport.scss */
+  div.floatleft { float: left; clear: left; position: relative; margin: 0.5em 1.4em 0.8em 0; }
+  /* line 67, ../../../../sass/_wpdwikireimport.scss */
+  div.floatleft p { font-style: italic; }
+  /* line 70, ../../../../sass/_wpdwikireimport.scss */
+  div.center { text-align: center; }
+  /* thumbnails */
+  /* line 75, ../../../../sass/_wpdwikireimport.scss */
+  div.thumb { border: none; width: auto; margin-top: 0.5em; margin-bottom: 0.8em; background-color: transparent; }
+  /* line 82, ../../../../sass/_wpdwikireimport.scss */
+  div.thumbinner { border: 1px solid #cccccc; padding: 3px !important; background-color: White; font-size: 94%; text-align: center; overflow: hidden; }
+  /* line 90, ../../../../sass/_wpdwikireimport.scss */
+  html .thumbimage { border: 1px solid #cccccc; }
+  /* line 93, ../../../../sass/_wpdwikireimport.scss */
+  html .thumbcaption { border: none; text-align: left; line-height: 1.4em; padding: 3px !important; font-size: 94%; }
+  /* line 101, ../../../../sass/_wpdwikireimport.scss */
+  div.magnify { display: none; }
+  /* @noflip */
+  /* line 105, ../../../../sass/_wpdwikireimport.scss */
+  div.tright { float: right; clear: right; margin: 0.5em 0 0.8em 1.4em; }
+  /* @noflip */
+  /* line 111, ../../../../sass/_wpdwikireimport.scss */
+  div.tleft { float: left; clear: left; margin: 0.5em 1.4em 0.8em 0; }
+  /* line 116, ../../../../sass/_wpdwikireimport.scss */
+  img.thumbborder { border: 1px solid #dddddd; }
+  /* table standards */
+  /* line 121, ../../../../sass/_wpdwikireimport.scss */
+  table.rimage { float: right; width: 1pt; position: relative; margin-left: 1em; margin-bottom: 1em; text-align: center; }
+  /* line 130, ../../../../sass/_wpdwikireimport.scss */
+  body { background: white; color: black; margin: 0; padding: 0; }
+  /* line 157, ../../../../sass/_wpdwikireimport.scss */
+  .noprint, div#jump-to-nav, .mw-jump, div.top, div#column-one, #colophon, .editsection, .toctoggle, .tochidden, div#f-poweredbyico, div#f-copyrightico, li#viewcount, li#about, li#disclaimer, li#mobileview, li#privacy, #footer-places, .mw-hidden-catlinks, tr.mw-metadata-show-hide-extended, span.mw-filepage-other-resolutions, #filetoc { /* Hides all the elements irrelevant for printing */ display: none; }
+  /* line 162, ../../../../sass/_wpdwikireimport.scss */
+  ul { list-style-type: square; }
+  /* line 166, ../../../../sass/_wpdwikireimport.scss */
+  #content { background: none; border: none !important; padding: 0 !important; margin: 0 !important; direction: ltr; }
+  /* line 173, ../../../../sass/_wpdwikireimport.scss */
+  #footer { background: white; color: black; margin-top: 1em; border-top: 1px solid #AAA; direction: ltr; }
+  /* line 181, ../../../../sass/_wpdwikireimport.scss */
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+  /* line 185, ../../../../sass/_wpdwikireimport.scss */
+  p { margin: 1em 0; line-height: 1.2em; }
+  /* line 190, ../../../../sass/_wpdwikireimport.scss */
+  pre, .mw-code { border: 1pt dashed black; white-space: pre; font-size: 8pt; overflow: auto; padding: 1em 0; background: white; color: black; }
+  /* line 201, ../../../../sass/_wpdwikireimport.scss */
+  table.listing, table.listing td { border: 1pt solid black; border-collapse: collapse; }
+  /* line 206, ../../../../sass/_wpdwikireimport.scss */
+  a { color: black !important; background: none !important; padding: 0 !important; }
+  /* line 212, ../../../../sass/_wpdwikireimport.scss */
+  a:link, a:visited { color: #520; background: transparent; text-decoration: underline; }
+  /* line 219, ../../../../sass/_wpdwikireimport.scss */
+  #content a.external.text:after, #content a.external.autonumber:after { /* Expand URLs for printing */ content: " (" attr(href) ") "; }
+  /* line 224, ../../../../sass/_wpdwikireimport.scss */
+  #globalWrapper { width: 100% !important; min-width: 0 !important; }
+  /* line 229, ../../../../sass/_wpdwikireimport.scss */
+  #content { background: white; color: black; }
+  /* line 234, ../../../../sass/_wpdwikireimport.scss */
+  #column-content { margin: 0 !important; }
+  /* line 238, ../../../../sass/_wpdwikireimport.scss */
+  #column-content #content { padding: 1em; margin: 0 !important; }
+  /* MSIE/Win doesn't understand 'inherit' */
+  /* line 247, ../../../../sass/_wpdwikireimport.scss */
+  a, a.external, a.new, a.stub { color: black !important; text-decoration: none !important; }
+  /* Continue ... */
+  /* line 256, ../../../../sass/_wpdwikireimport.scss */
+  a, a.external, a.new, a.stub { color: inherit !important; text-decoration: inherit !important; }
+  /* line 261, ../../../../sass/_wpdwikireimport.scss */
+  img { border: none; vertical-align: middle; }
+  /* math */
+  /* line 267, ../../../../sass/_wpdwikireimport.scss */
+  span.texhtml { font-family: serif; }
+  /* line 271, ../../../../sass/_wpdwikireimport.scss */
+  #siteNotice { display: none; }
+  /* Galleries (see shared.css for more info) */
+  /* line 276, ../../../../sass/_wpdwikireimport.scss */
+  li.gallerybox { vertical-align: top; display: -moz-inline-box; display: inline-block; }
+  /* line 282, ../../../../sass/_wpdwikireimport.scss */
+  ul.gallery, li.gallerybox { zoom: 1; *display: inline; }
+  /* line 287, ../../../../sass/_wpdwikireimport.scss */
+  ul.gallery { margin: 2px; padding: 2px; display: block; }
+  /* line 293, ../../../../sass/_wpdwikireimport.scss */
+  li.gallerycaption { font-weight: bold; text-align: center; display: block; word-wrap: break-word; }
+  /* line 300, ../../../../sass/_wpdwikireimport.scss */
+  li.gallerybox div.thumb { text-align: center; border: 1px solid #ccc; margin: 2px; }
+  /* line 306, ../../../../sass/_wpdwikireimport.scss */
+  div.gallerytext { overflow: hidden; font-size: 94%; padding: 2px 4px; word-wrap: break-word; }
+  /** Diff rendering */
+  /* line 316, ../../../../sass/_wpdwikireimport.scss */
+  table.diff { background: white; }
+  /* line 319, ../../../../sass/_wpdwikireimport.scss */
+  td.diff-otitle { background: #ffffff; }
+  /* line 322, ../../../../sass/_wpdwikireimport.scss */
+  td.diff-ntitle { background: #ffffff; }
+  /* line 325, ../../../../sass/_wpdwikireimport.scss */
+  td.diff-addedline { background: #ccffcc; font-size: smaller; border: solid 2px black; }
+  /* line 330, ../../../../sass/_wpdwikireimport.scss */
+  td.diff-deletedline { background: #ffffaa; font-size: smaller; border: dotted 2px black; }
+  /* line 335, ../../../../sass/_wpdwikireimport.scss */
+  td.diff-context { background: #eeeeee; font-size: smaller; }
+  /* line 339, ../../../../sass/_wpdwikireimport.scss */
+  .diffchange { color: silver; font-weight: bold; text-decoration: underline; }
+  /** Table rendering As on shared.css but with white background. */
+  /* line 350, ../../../../sass/_wpdwikireimport.scss */
+  table.wikitable, table.mw_metadata { margin: 1em 0; border: 1px #aaa solid; background: white; border-collapse: collapse; }
+  /* line 358, ../../../../sass/_wpdwikireimport.scss */
+  table.wikitable > tr > th, table.wikitable > tr > td, table.wikitable > * > tr > th, table.wikitable > * > tr > td, .mw_metadata th, .mw_metadata td { border: 1px #aaa solid; padding: 0.2em; }
+  /* line 364, ../../../../sass/_wpdwikireimport.scss */
+  table.wikitable > tr > th, table.wikitable > * > tr > th, .mw_metadata th { text-align: center; background: white; font-weight: bold; }
+  /* line 370, ../../../../sass/_wpdwikireimport.scss */
+  table.wikitable > caption, .mw_metadata caption { font-weight: bold; }
+  /* line 374, ../../../../sass/_wpdwikireimport.scss */
+  a.sortheader { margin: 0 0.3em; }
+  /* Some pagination options */
+  /* line 379, ../../../../sass/_wpdwikireimport.scss */
+  .wikitable, .thumb, img { page-break-inside: avoid; }
+  /* line 382, ../../../../sass/_wpdwikireimport.scss */
+  h2, h3, h4, h5, h6, h7 { page-break-after: avoid; }
+  /* line 385, ../../../../sass/_wpdwikireimport.scss */
+  p { widows: 3; orphans: 3; }
+  /** Categories */
+  /* line 393, ../../../../sass/_wpdwikireimport.scss */
+  .catlinks ul { display: inline; margin: 0; padding: 0; list-style: none; list-style-type: none; list-style-image: none; vertical-align: middle; }
+  /* line 403, ../../../../sass/_wpdwikireimport.scss */
+  .catlinks li { display: inline-block; line-height: 1.15em; padding: 0 .4em; border-left: 1px solid #AAA; margin: 0.1em 0; zoom: 1; display: inline; }
+  /* line 413, ../../../../sass/_wpdwikireimport.scss */
+  .catlinks li:first-child { padding-left: .2em; border-left: none; } }
+@media screen { /** CSS in this file is used by *all* skins (that have any CSS at all). Be careful what you put in here, since what looks good in one skin may not in another, but don't ignore the poor pre-Monobook users either. */
+  /* GENERAL CLASSES FOR DIRECTIONALITY SUPPORT */
+  /** These classes should be used for text depending on the content direction. Content stuff like editsection, ul/ol and TOC depend on this. */
+  /* line 429, ../../../../sass/_wpdwikireimport.scss */
+  .mw-content-ltr { /* @noflip */ direction: ltr; }
+  /* line 433, ../../../../sass/_wpdwikireimport.scss */
+  .mw-content-rtl { /* @noflip */ direction: rtl; }
+  /* Most input fields should be in site direction */
+  /* line 440, ../../../../sass/_wpdwikireimport.scss */
+  .sitedir-ltr textarea, .sitedir-ltr input { /* @noflip */ direction: ltr; }
+  /* line 445, ../../../../sass/_wpdwikireimport.scss */
+  .sitedir-rtl textarea, .sitedir-rtl input { /* @noflip */ direction: rtl; }
+  /* User-Agent styles for new HTML5 elements */
+  /* line 451, ../../../../sass/_wpdwikireimport.scss */
+  mark { background-color: yellow; color: black; }
+  /* Input types that should follow user direction, like buttons */
+  /* TODO: What about buttons in wikipage content ? */
+  /* line 461, ../../../../sass/_wpdwikireimport.scss */
+  input[type="submit"], input[type="button"], input[type="reset"], input[type="file"] { direction: ltr; }
+  /* Override default values */
+  /* line 467, ../../../../sass/_wpdwikireimport.scss */
+  textarea[dir="ltr"], input[dir="ltr"] { /* @noflip */ direction: ltr; }
+  /* line 472, ../../../../sass/_wpdwikireimport.scss */
+  textarea[dir="rtl"], input[dir="rtl"] { /* @noflip */ direction: rtl; }
+  /* Default style for semantic tags */
+  /* line 480, ../../../../sass/_wpdwikireimport.scss */
+  abbr, acronym, .explain { border-bottom: 1px dotted; cursor: help; }
+  /* Colored watchlist and recent changes numbers */
+  /* line 486, ../../../../sass/_wpdwikireimport.scss */
+  .mw-plusminus-pos { color: #006400; /* dark green */ }
+  /* line 489, ../../../../sass/_wpdwikireimport.scss */
+  .mw-plusminus-neg { color: #8b0000; /* dark red */ }
+  /* line 492, ../../../../sass/_wpdwikireimport.scss */
+  .mw-plusminus-null { color: #aaa; /* gray */ }
+  /** Links to redirects appear italicized on [[Special:AllPages]], [[Special:PrefixIndex]], [[Special:Watchlist/edit]] and in category listings. */
+  /* line 502, ../../../../sass/_wpdwikireimport.scss */
+  .allpagesredirect, .redirect-in-category, .watchlistredir { font-style: italic; }
+  /* Comment and username portions of RC entries */
+  /* line 507, ../../../../sass/_wpdwikireimport.scss */
+  span.comment { font-style: italic; }
+  /* line 511, ../../../../sass/_wpdwikireimport.scss */
+  span.changedby { font-size: 95%; }
+  /* Math */
+  /* line 516, ../../../../sass/_wpdwikireimport.scss */
+  .texvc { direction: ltr; unicode-bidi: embed; }
+  /* line 520, ../../../../sass/_wpdwikireimport.scss */
+  img.tex { vertical-align: middle; }
+  /* line 523, ../../../../sass/_wpdwikireimport.scss */
+  span.texhtml { font-family: serif; }
+  /** Add a bit of margin space between the preview and the toolbar. This replaces the ugly <p><br /></p> we used to insert into the page source */
+  /* line 531, ../../../../sass/_wpdwikireimport.scss */
+  #wikiPreview.ontop { margin-bottom: 1em; }
+  /* Stop floats from intruding into edit area in previews */
+  /* line 538, ../../../../sass/_wpdwikireimport.scss */
+  #editform, #toolbar, #wpTextbox1 { clear: both; }
+  /* line 542, ../../../../sass/_wpdwikireimport.scss */
+  #toolbar img { cursor: pointer; }
+  /* Edit section links */
+  /* Correct directionality when page dir is different from site/user dir */
+  /* @noflip */
+  /* line 550, ../../../../sass/_wpdwikireimport.scss */
+  .mw-content-ltr .editsection, .mw-content-rtl .mw-content-ltr .editsection { float: right; margin-left: 5px; }
+  /* @noflip */
+  /* line 556, ../../../../sass/_wpdwikireimport.scss */
+  .mw-content-rtl .editsection, .mw-content-ltr .mw-content-rtl .editsection { float: left; margin-right: 5px; }
+  /** File description page */
+  /* line 565, ../../../../sass/_wpdwikireimport.scss */
+  div.mw-filepage-resolutioninfo { font-size: smaller; }
+  /** File histories */
+  /* line 572, ../../../../sass/_wpdwikireimport.scss */
+  h2#filehistory { clear: both; }
+  /* line 577, ../../../../sass/_wpdwikireimport.scss */
+  table.filehistory th, table.filehistory td { vertical-align: top; }
+  /* line 580, ../../../../sass/_wpdwikireimport.scss */
+  table.filehistory th { text-align: left; }
+  /* line 584, ../../../../sass/_wpdwikireimport.scss */
+  table.filehistory td.mw-imagepage-filesize, table.filehistory th.mw-imagepage-filesize { white-space: nowrap; }
+  /* line 588, ../../../../sass/_wpdwikireimport.scss */
+  table.filehistory td.filehistory-selected { font-weight: bold; }
+  /** Add a checkered background image on hover for file description pages. (bug 26470) */
+  /* line 597, ../../../../sass/_wpdwikireimport.scss */
+  .filehistory a img, #file img:hover { background: white url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAAAAAA6mKC9AAAAGElEQVQYV2N4DwX/oYBhgARgDJjEAAkAAEC99wFuu0VFAAAAAElFTkSuQmCC) repeat; background: white url(http://docs.webplatform.org/w/skins/common/images/Checker-16x16.png?2014-03-15T01:11:40Z) repeat; }
+  /** rev_deleted stuff */
+  /* line 606, ../../../../sass/_wpdwikireimport.scss */
+  li span.deleted, span.history-deleted { text-decoration: line-through; color: #888; font-style: italic; }
+  /** Patrol stuff */
+  /* line 615, ../../../../sass/_wpdwikireimport.scss */
+  .not-patrolled { background-color: #ffa; }
+  /* line 619, ../../../../sass/_wpdwikireimport.scss */
+  .unpatrolled { font-weight: bold; color: red; }
+  /* line 624, ../../../../sass/_wpdwikireimport.scss */
+  div.patrollink { font-size: 75%; text-align: right; }
+  /** Forms */
+  /* line 632, ../../../../sass/_wpdwikireimport.scss */
+  td.mw-label { text-align: right; }
+  /* line 635, ../../../../sass/_wpdwikireimport.scss */
+  td.mw-input { text-align: left; }
+  /* line 638, ../../../../sass/_wpdwikireimport.scss */
+  td.mw-submit { text-align: left; }
+  /* line 642, ../../../../sass/_wpdwikireimport.scss */
+  td.mw-label { vertical-align: top; }
+  /* line 645, ../../../../sass/_wpdwikireimport.scss */
+  .prefsection td.mw-label { width: 20%; }
+  /* line 648, ../../../../sass/_wpdwikireimport.scss */
+  .prefsection table { width: 100%; }
+  /* line 651, ../../../../sass/_wpdwikireimport.scss */
+  td.mw-submit { white-space: nowrap; }
+  /* line 655, ../../../../sass/_wpdwikireimport.scss */
+  table.mw-htmlform-nolabel td.mw-label { width: 1px; }
+  /* line 659, ../../../../sass/_wpdwikireimport.scss */
+  tr.mw-htmlform-vertical-label td.mw-label { text-align: left !important; }
+  /* line 663, ../../../../sass/_wpdwikireimport.scss */
+  .mw-htmlform-invalid-input td.mw-input input { border-color: red; }
+  /* line 667, ../../../../sass/_wpdwikireimport.scss */
+  .mw-htmlform-flatlist div.mw-htmlform-flatlist-item { display: inline; margin-right: 1em; white-space: nowrap; }
+  /* line 673, ../../../../sass/_wpdwikireimport.scss */
+  input#wpSummary { width: 80%; margin-bottom: 1em; }
+  /** Categories */
+  /* line 681, ../../../../sass/_wpdwikireimport.scss */
+  #catlinks { /** Overrides text justification (user preference) See bug 31990 */ text-align: left; }
+  /* line 688, ../../../../sass/_wpdwikireimport.scss */
+  .catlinks ul { display: inline; margin: 0; padding: 0; list-style: none; list-style-type: none; list-style-image: none; vertical-align: middle; }
+  /* line 698, ../../../../sass/_wpdwikireimport.scss */
+  .catlinks li { display: inline-block; line-height: 1.25em; border-left: 1px solid #AAA; margin: 0.125em 0; padding: 0 0.5em; zoom: 1; display: inline; }
+  /* line 708, ../../../../sass/_wpdwikireimport.scss */
+  .catlinks li:first-child { padding-left: 0.25em; border-left: none; }
+  /** Hidden categories */
+  /* line 715, ../../../../sass/_wpdwikireimport.scss */
+  .mw-hidden-cats-hidden { display: none; }
+  /* line 718, ../../../../sass/_wpdwikireimport.scss */
+  .catlinks-allhidden { display: none; }
+  /* Convenience links to edit block, delete and protect reasons */
+  /* line 727, ../../../../sass/_wpdwikireimport.scss */
+  p.mw-ipb-conveniencelinks, p.mw-protect-editreasons, p.mw-filedelete-editreasons, p.mw-delete-editreasons, p.mw-revdel-editreasons { font-size: 90%; text-align: right; }
+  /** OpenSearch ajax suggestions */
+  /* line 735, ../../../../sass/_wpdwikireimport.scss */
+  .os-suggest { overflow: auto; overflow-x: hidden; position: absolute; top: 0; left: 0; width: 0; background-color: white; border-style: solid; border-color: #AAAAAA; border-width: 1px; z-index: 99; font-size: 95%; }
+  /* line 750, ../../../../sass/_wpdwikireimport.scss */
+  table.os-suggest-results { font-size: 95%; cursor: pointer; border: 0; border-collapse: collapse; width: 100%; }
+  /* line 759, ../../../../sass/_wpdwikireimport.scss */
+  .os-suggest-result, .os-suggest-result-hl { white-space: nowrap; background-color: white; color: black; padding: 2px; }
+  /* line 766, ../../../../sass/_wpdwikireimport.scss */
+  .os-suggest-result-hl, .os-suggest-result-hl-webkit { background-color: #4C59A6; color: white; }
+  /* line 771, ../../../../sass/_wpdwikireimport.scss */
+  .os-suggest-toggle { position: relative; left: 1ex; font-size: 65%; }
+  /* line 776, ../../../../sass/_wpdwikireimport.scss */
+  .os-suggest-toggle-def { position: absolute; top: 0; left: 0; font-size: 65%; visibility: hidden; }
+  /* Page history styling */
+  /* The auto-generated edit comments */
+  /* line 787, ../../../../sass/_wpdwikireimport.scss */
+  .autocomment { color: gray; }
+  /* line 790, ../../../../sass/_wpdwikireimport.scss */
+  #pagehistory .history-user { margin-left: 0.4em; margin-right: 0.2em; }
+  /* line 794, ../../../../sass/_wpdwikireimport.scss */
+  #pagehistory span.minor { font-weight: bold; }
+  /* line 797, ../../../../sass/_wpdwikireimport.scss */
+  #pagehistory li { border: 1px solid white; }
+  /* line 800, ../../../../sass/_wpdwikireimport.scss */
+  #pagehistory li.selected { background-color: #f9f9f9; border: 1px dashed #aaa; }
+  /* line 805, ../../../../sass/_wpdwikireimport.scss */
+  .mw-history-revisiondelete-button, #mw-fileduplicatesearch-icon { float: right; }
+  /** Generic minor/bot/newpage styling (recent changes) */
+  /* line 812, ../../../../sass/_wpdwikireimport.scss */
+  .newpage, .minoredit, .botedit { font-weight: bold; }
+  /* line 817, ../../../../sass/_wpdwikireimport.scss */
+  #shared-image-dup, #shared-image-conflict { font-style: italic; }
+  /** Recreating deleted page warning Reupload file warning Page protection warning incl. log entries for these warnings */
+  /* line 827, ../../../../sass/_wpdwikireimport.scss */
+  div.mw-warning-with-logexcerpt { padding: 3px; margin-bottom: 3px; border: 2px solid #2F6FAB; clear: both; }
+  /* line 833, ../../../../sass/_wpdwikireimport.scss */
+  div.mw-warning-with-logexcerpt ul li { font-size: 90%; }
+  /* (show/hide) revision deletion links */
+  /* line 839, ../../../../sass/_wpdwikireimport.scss */
+  span.mw-revdelundel-link, strong.mw-revdelundel-link { font-size: 90%; }
+  /* line 843, ../../../../sass/_wpdwikireimport.scss */
+  span.mw-revdelundel-hidden, input.mw-revdelundel-hidden { visibility: hidden; }
+  /* line 848, ../../../../sass/_wpdwikireimport.scss */
+  td.mw-revdel-checkbox, th.mw-revdel-checkbox { padding-right: 10px; text-align: center; }
+  /* red links; see bug 36276 */
+  /* line 854, ../../../../sass/_wpdwikireimport.scss */
+  a.new { color: #BA0000; }
+  /* feed links */
+  /* line 859, ../../../../sass/_wpdwikireimport.scss */
+  a.feedlink { background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAABmJLR0QA/wD/AP+gvaeTAAAAB3RJTUUH2AkOCjkSL9xYhAAAAc9JREFUKJE90LFrU1EYQPHzffe+l/iSVkXTmNiANBU7iE5OLrbSVYKIiy5dnARB3FwEB5dOOhQKuthJEEHRsUXBoosO0lKKEYRa29LWQk3S5L53r0PVv+D8OPJlolrrr1ZmI7F1BFEjqBXECGJAjSBCaLddc7u5Mmb7q5U5007rWh5E9rYR/xsTBBXBWMVEglqRpGiGhcE5G6kdyugxcGsGyRdJ15ZwC29IF55jNEWt8K+aFOMhc+dC7Z6SITjC7ga2MkI8cpH41Dhh7RPa20Gt4toZac+IqhFMTpG0hVt8RetJg967SaTvGLnGNKZ0EtfOcB1P5jyqVjCRkIzfpnjtMYXrT2FrCff6JqhFRx/gnCXtZHgXUFHQSGg/u4Gbf4T2lYkvTaFGce8fIgePY09fwXU8Pg3sk2JFu5v4lQ+4FxPge+j5u3Q+v8TvrBKfbZB1PT4LqJh9Uv7yFLmrM2i+gPs4jRyqIaUz7C2+xZZOEA4cJaSgaAhqhbC1DK0N3K9NusvzAHB4GLf+HQBJBsiCD7J6/9zXI2VbVyv/b6Sdv1e6nrTryboB7wVbyjXt1rcfo0Frs4UkqvtUJHMBjyVEAcSjFiQJwRvf3F3/OfYH/dDFWrCooaIAAAAASUVORK5CYII=) center left no-repeat; background: url(http://docs.webplatform.org/w/skins/common/images/feed-icon.png?2014-03-15T01:11:40Z) center left no-repeat; padding-left: 16px; }
+  /* Plainlinks - this can be used to switch off special external link styling */
+  /* line 867, ../../../../sass/_wpdwikireimport.scss */
+  .plainlinks a { background: none !important; padding: 0 !important; }
+  /* External URLs should always be treated as LTR (bug 4330) */
+  /* @noflip */
+  /* line 873, ../../../../sass/_wpdwikireimport.scss */
+  .rtl a.external.free, .rtl a.external.autonumber { direction: ltr; unicode-bidi: embed; }
+  /** wikitable class for skinning normal tables keep in sync with commonPrint.css */
+  /* line 882, ../../../../sass/_wpdwikireimport.scss */
+  table.wikitable { margin: 1em 0; }
+  /* line 885, ../../../../sass/_wpdwikireimport.scss */
+  table.wikitable > caption { font-weight: bold; }
+  /* hide initially collapsed collapsable tables */
+  /* line 890, ../../../../sass/_wpdwikireimport.scss */
+  table.collapsed tr.collapsable { display: none; }
+  /* success and error messages */
+  /* line 895, ../../../../sass/_wpdwikireimport.scss */
+  .success { color: green; font-size: larger; }
+  /* line 899, ../../../../sass/_wpdwikireimport.scss */
+  .warning { color: #FFA500; /* orange */ font-size: larger; }
+  /* line 903, ../../../../sass/_wpdwikireimport.scss */
+  .error { color: red; font-size: larger; }
+  /* line 909, ../../../../sass/_wpdwikireimport.scss */
+  .errorbox, .warningbox, .successbox { font-size: larger; border: 2px solid; padding: .5em 1em; float: left; margin-bottom: 2em; color: #000; }
+  /* line 917, ../../../../sass/_wpdwikireimport.scss */
+  .errorbox { border-color: red; background-color: #fff2f2; }
+  /* line 921, ../../../../sass/_wpdwikireimport.scss */
+  .warningbox { border-color: #FF8C00; /* darkorange */ background-color: #FFFFC0; }
+  /* line 925, ../../../../sass/_wpdwikireimport.scss */
+  .successbox { border-color: green; background-color: #dfd; }
+  /* line 931, ../../../../sass/_wpdwikireimport.scss */
+  .errorbox h2, .warningbox h2, .successbox h2 { font-size: 1em; font-weight: bold; display: inline; margin: 0 .5em 0 0; border: none; }
+  /* general info/warning box for SP */
+  /* line 940, ../../../../sass/_wpdwikireimport.scss */
+  .mw-infobox { border: 2px solid #ff7f00; margin: 0.5em; clear: left; overflow: hidden; }
+  /* line 947, ../../../../sass/_wpdwikireimport.scss */
+  .mw-infobox-left { margin: 7px; float: left; width: 35px; }
+  /* line 953, ../../../../sass/_wpdwikireimport.scss */
+  .mw-infobox-right { margin: 0.5em 0.5em 0.5em 49px; }
+  /* Note on preview page */
+  /* line 958, ../../../../sass/_wpdwikireimport.scss */
+  .previewnote { color: #c00; margin-bottom: 1em; }
+  /* line 963, ../../../../sass/_wpdwikireimport.scss */
+  .previewnote p { text-indent: 3em; margin: 0.8em 0; }
+  /* line 968, ../../../../sass/_wpdwikireimport.scss */
+  .visualClear { clear: both; }
+  /* line 972, ../../../../sass/_wpdwikireimport.scss */
+  #mw_trackbacks { border: solid 1px #bbbbff; background-color: #eeeeff; padding: 0.2em; }
+  /** Data table style  Transparent table with suddle borders and blue row-highlighting. */
+  /* line 984, ../../../../sass/_wpdwikireimport.scss */
+  .mw-datatable { border-collapse: collapse; }
+  /* line 989, ../../../../sass/_wpdwikireimport.scss */
+  .mw-datatable, .mw-datatable td, .mw-datatable th { border: 1px solid #aaaaaa; padding: 0 0.15em 0 0.15em; }
+  /* line 993, ../../../../sass/_wpdwikireimport.scss */
+  .mw-datatable th { background-color: #ddddff; }
+  /* line 996, ../../../../sass/_wpdwikireimport.scss */
+  .mw-datatable td { background-color: #ffffff; }
+  /* line 999, ../../../../sass/_wpdwikireimport.scss */
+  .mw-datatable tr:hover td { background-color: #eeeeff; }
+  /** TablePager tables generated by the TablePager PHP class in MediaWiki (e.g. Special:ListFiles). */
+  /* line 1008, ../../../../sass/_wpdwikireimport.scss */
+  .TablePager { min-width: 80%; }
+  /* line 1011, ../../../../sass/_wpdwikireimport.scss */
+  .TablePager_nav { margin: 0 auto; }
+  /* line 1014, ../../../../sass/_wpdwikireimport.scss */
+  .TablePager_nav td { padding: 3px; text-align: center; }
+  /* line 1018, ../../../../sass/_wpdwikireimport.scss */
+  .TablePager_nav a { text-decoration: none; }
+  /* line 1023, ../../../../sass/_wpdwikireimport.scss */
+  .imagelist td, .imagelist th { white-space: nowrap; }
+  /* line 1026, ../../../../sass/_wpdwikireimport.scss */
+  .imagelist .TablePager_col_links { background-color: #eeeeff; }
+  /* line 1029, ../../../../sass/_wpdwikireimport.scss */
+  .imagelist .TablePager_col_img_description { white-space: normal; }
+  /* line 1032, ../../../../sass/_wpdwikireimport.scss */
+  .imagelist th.TablePager_sort { background-color: #ccccff; }
+  /* filetoc */
+  /* line 1037, ../../../../sass/_wpdwikireimport.scss */
+  ul#filetoc { text-align: center; border: 1px solid #aaaaaa; background-color: #f9f9f9; padding: 5px; font-size: 95%; margin-bottom: 0.5em; margin-left: 0; margin-right: 0; }
+  /* line 1048, ../../../../sass/_wpdwikireimport.scss */
+  #filetoc li { display: inline; list-style-type: none; padding-right: 2em; }
+  /* Classes for EXIF data display */
+  /* line 1055, ../../../../sass/_wpdwikireimport.scss */
+  table.mw_metadata { font-size: 0.8em; margin-left: 0.5em; margin-bottom: 0.5em; width: 400px; }
+  /* line 1062, ../../../../sass/_wpdwikireimport.scss */
+  table.mw_metadata caption { font-weight: bold; }
+  /* line 1066, ../../../../sass/_wpdwikireimport.scss */
+  table.mw_metadata th { font-weight: normal; }
+  /* line 1070, ../../../../sass/_wpdwikireimport.scss */
+  table.mw_metadata td { padding: 0.1em; }
+  /* line 1074, ../../../../sass/_wpdwikireimport.scss */
+  table.mw_metadata { border: none; border-collapse: collapse; }
+  /* line 1080, ../../../../sass/_wpdwikireimport.scss */
+  table.mw_metadata td, table.mw_metadata th { text-align: center; border: 1px solid #aaaaaa; padding-left: 5px; padding-right: 5px; }
+  /* line 1087, ../../../../sass/_wpdwikireimport.scss */
+  table.mw_metadata th { background-color: #f9f9f9; }
+  /* line 1091, ../../../../sass/_wpdwikireimport.scss */
+  table.mw_metadata td { background-color: #fcfcfc; }
+  /* line 1095, ../../../../sass/_wpdwikireimport.scss */
+  table.mw_metadata ul.metadata-langlist { list-style-type: none; list-style-image: none; padding-right: 5px; padding-left: 5px; margin: 0; }
+  /* Correct directionality when page dir is different from site/user dir */
+  /* line 1105, ../../../../sass/_wpdwikireimport.scss */
+  .mw-content-ltr ul, .mw-content-rtl .mw-content-ltr ul { /* @noflip */ margin: 0.3em 0 0 1.6em; padding: 0; }
+  /* line 1111, ../../../../sass/_wpdwikireimport.scss */
+  .mw-content-rtl ul, .mw-content-ltr .mw-content-rtl ul { /* @noflip */ margin: 0.3em 1.6em 0 0; padding: 0; }
+  /* line 1117, ../../../../sass/_wpdwikireimport.scss */
+  .mw-content-ltr ol, .mw-content-rtl .mw-content-ltr ol { /* @noflip */ margin: 0.3em 0 0 3.2em; padding: 0; }
+  /* line 1123, ../../../../sass/_wpdwikireimport.scss */
+  .mw-content-rtl ol, .mw-content-ltr .mw-content-rtl ol { /* @noflip */ margin: 0.3em 3.2em 0 0; padding: 0; }
+  /* @noflip */
+  /* line 1130, ../../../../sass/_wpdwikireimport.scss */
+  .mw-content-ltr dd, .mw-content-rtl .mw-content-ltr dd { margin-left: 1.6em; margin-right: 0; }
+  /* @noflip */
+  /* line 1136, ../../../../sass/_wpdwikireimport.scss */
+  .mw-content-rtl dd, .mw-content-ltr .mw-content-rtl dd { margin-right: 1.6em; margin-left: 0; }
+  /* Galleries */
+  /* These display attributes look nonsensical, but are needed to support IE and FF2 */
+  /* Don't forget to update commonPrint.css */
+  /* line 1144, ../../../../sass/_wpdwikireimport.scss */
+  li.gallerybox { vertical-align: top; display: -moz-inline-box; display: inline-block; }
+  /* line 1151, ../../../../sass/_wpdwikireimport.scss */
+  ul.gallery, li.gallerybox { zoom: 1; *display: inline; }
+  /* line 1156, ../../../../sass/_wpdwikireimport.scss */
+  ul.gallery { margin: 2px; padding: 2px; display: block; }
+  /* line 1162, ../../../../sass/_wpdwikireimport.scss */
+  li.gallerycaption { font-weight: bold; text-align: center; display: block; word-wrap: break-word; }
+  /* line 1169, ../../../../sass/_wpdwikireimport.scss */
+  li.gallerybox div.thumb { text-align: center; border: 1px solid #ccc; background-color: #f9f9f9; margin: 2px; }
+  /* line 1176, ../../../../sass/_wpdwikireimport.scss */
+  li.gallerybox div.thumb img { display: block; margin: 0 auto; }
+  /* line 1181, ../../../../sass/_wpdwikireimport.scss */
+  div.gallerytext { overflow: hidden; font-size: 94%; padding: 2px 4px; word-wrap: break-word; }
+  /* line 1188, ../../../../sass/_wpdwikireimport.scss */
+  .mw-ajax-loader { background-image: url(data:image/gif;base64,R0lGODlhIAAgAOMAAP///wAAAMbGxoSEhLa2tpqamjY2NlZWVtjY2OTk5Ly8vB4eHgQEBP///////////yH/C05FVFNDQVBFMi4wAwEAAAAh+QQFCgAPACwAAAAAIAAgAAAE5/DJSWlhperN52JLhSSdRgwVo1ICQZRUsiwHpTJT4iowNS8vyW2icCF6k8HMMBk+EDskxTBDPZwuAkkqIfxIQyhBQBFvHwSDITM5VDW6XNE4KagNh6Bgwe60smQUB3d4Rz1ZBApnFASDd0hihh12BkE9kjAJVlycXIg7CQIFA6SlnJ87paqbSKiKoqusnbMdmDC2tXQlkUhziYtyWTxIfy6BE8WJt5YJvpJivxNaGmLHT0VnOgSYf0dZXS7APdpB309RnHOG5g/qXGLDaC457D1zZ/V/nmOM82XiHRLYKhKP1oZmADdEAAAh+QQFCgAPACwAAAAAGAAXAAAEcvDJSesiNetplqlDsYnUYlIGw2jGV55SoS5sq0wmLS3qoBWtAw42mG0ehxYp90CoGKRNy8U8qFzNweCGwlJkgolCq0VIEAbMkUIghxLrDcLti2/Gg7D9qN774wkKBIOEfw+ChIV/gYmDho+QkZKTR3p7EQAh+QQFCgAPACwBAAAAHQAOAAAEcvDJSScxNev9jjkZwU2IUhkodSzLKA2DOKGYRLD1CA/InEoGlkui2PlyuKGkADM9aI8EayGbJDYI4zM1YIEmAwajkCAoehNmTNNaLsQMHmGuuEYHgpHAAGfUBHNzeUp9VBQJCoFOLmFxWHNoQweRWEocEQAh+QQFCgAPACwHAAAAGQARAAAEavDJ+cQQNOtdRsnf9iRINpyZYYgEgU3nQKnr1hIJjEqHGmqIlkInexRUB5FE0So9YhKaUpK4SaAPlWaxIFAETQ3B4BxzF2Kn8nBeJKebdm3SgksKXDt8kNP7/xoMgoMLP36DiAyAD4kMhREAIfkEBQoADwAsDgAAABIAGAAABGUQFfSqvZiUghXF1cZZxTCA4WYh5omKVqugD/woLV2rT/u9KoJpFDIYaIJBwnIwGogoivOoq0wPs6r1qe16v5WFeEzVjc+LKnphIIC9g193wGC4uvX6Aoo05BllVQULeXdadAxuEQAh+QQFCgAPACwOAAAAEgAeAAAEgDCp9Kq9WBGFBb5ECBbFV4XERaYmahGk14qPQJbm4z53foq2AquiGAwQJsQQYTRyfIlCc4DzTY8+i8CZxQy74KxhTD58P+S0Qaw+hN8WyruwWMDrdcM5ecAv3CYDDDIEBngmBwwMaxeGJgmKDFVdggx2bwuKA28EkXAGinJhVCYRACH5BAUKAA8ALA8AAQARAB8AAAR88Mn5UKIYC0KyT5ziZQqHjBQSohRHXGzFCSkHU/eTlCa7uTSUi6DIeVSEU0yiXDo9g6i0EIRKr6hrlPrsOgkGQ8EZDh+eZcOosKAcymPKYLE4TwphCWMvoS86HnsME3RqgXwSBnQjghR+h4MTB4sZjRiAGAsMbU4FDHFLEQAh+QQFCgAPACwIAA4AGAASAAAEbPDJSesjOKtk+8yg4nkgto1oihIqKgyD2FpwjcxUUtRDMROG2wPBkz0EjEHHYKgoYMKHgcE4PBZYCbM5KlAZHOxCUmBaPQuq8pqVHJg+GnUsEVO2nTQjzqZPmB1UXHVtE3wVOxUGC4M4H34qEQAh+QQFCgAPACwCABIAHQAOAAAEePDJSat96FJ0tEUEkV0DwwwepYSEklDEYpopJbCEIBkzY+geweD1SKxCiJJpUZAgmBbCYNCcIFaJggk1OSwWKINYMh2MLMRJ7LsbPxTl2sTAbhsmhalC/vje7VZxNXQLBHNuEnlcKV8dh38TCmcehhUHBo58cpA1EQAh+QQFCgAPACwAAA8AGQARAAAEZ7AsRuu7OOtbO9tgJnlfaJ7omQwpuixFCxrvK2dHvRwoQmw1w+8i3PgIggzBpjEYLoPohUBNoJzPR5T1OCpOB2dMK70oqIhQwcmDlh8J6nCDzWwzAmrIqblnEFZqGgUDYzcaAgNJGxEAIfkEBQoADwAsAQAIABEAGAAABFyQMDaevfiOyVbJ4GNwjCGEWLGQaLZRbYZUcW3feK7vaGEYNsXh96sRgYiW73e4JAYn0O9zKQwGhAdhi5pdLdts6DpQgLkgBfkSHl+TZ7ELi2mDEHKLgmC+JRQJEQAh+QQFCgAPACwAAAIADgAdAAAEcvDJ+cqgeDJmMt4M4U3DtozTsl1oASJpRxnbkS6LIT4Cw0oHHO4A8xAMwhPqgSssH4nnknAwWK+Zq1ZGoW650vAOpRgMBCOEee2xrAtRTNlcQEsI8Yd6oKAICARFHgmAYx4KgIIZCIB9ZIB5RgR2KAmKEQA7); background-image: url(http://docs.webplatform.org/w/skins/common/images/ajax-loader.gif?2014-03-15T01:11:40Z); background-position: center center; background-repeat: no-repeat; padding: 16px; position: relative; top: -16px; }
+  /* line 1198, ../../../../sass/_wpdwikireimport.scss */
+  .mw-small-spinner { padding: 10px !important; margin-right: 0.6em; background-image: url(data:image/gif;base64,R0lGODlhFAAUAIQQAAYJBRkbGCYnJTI0MT9APk5QTVhZV2ZoZXR2c4SGg5CSj52fnKyuq7m7uMfJxtPV0v///////////////////////////////////////////////////////////////yH/C05FVFNDQVBFMi4wAwEAAAAh+QQJCgABACwAAAAAFAAUAAAFc2AgjuNQkCipHCMAiI6TjoWAiG7gNM08CgTca+cbGWyBXEMm6okMJxGBNWLuGo8ngWBY+HgxlIFwm4VnimKKkWgn1Dzwwv0uxpfqfJWZ2p1hV0VXTA9gMCRETXxOOj08jXxfMo+NcHiUgT5nlAFZejqRKCEAIfkECQoADAAsAAAAABQAFAAABXYgI45jcZAouSSjIIjDkI4HwTJBIALvLBIFUY4xAPhoA1ZAcAjIRI2RQlFCkIIMR6PxEC0UiYXDt3WMSdOFz0w+prTb6DHeMNPd9LN7n9WjtGwjdnIzcGeGIn5aI3WMglFbWY14kHKLR4AMkZKEb2ebDF18fUchACH5BAkKAAEALAAAAAAUABQAAAV6YCCO44GQKOkw40CIxZuKi9KIwyAK8hwkCpyOIPCNFglWTjEojAgJkeMmUixIhiABADhIGw3HwycACLyqsI+ATo2NqCmY6puH5WC43QHvjxx8M3KBUnJGgyIPYIGEAVMjaiJ0j3lTjTN5eQGadWqainQpgJJ0b36jPiEAIfkECQoAAQAsAAAAABQAFAAABXVgII7jwpAo+TxjkoiGkY5OwwauSBTz2DSinIHQozUcuISCIIMpRDUfcoRYBAwCwQH6c9xSBAEBgapNUwfy7Fs0/oBFgBwwqL3bcwCvzYeey10qdkV2Uw+BAX9RIkc+RgE/iY1tkZGSlI2Wgz0OU5YBbG2dRSEAIfkECQoACAAsAAAAABQAFAAABXcgIo4j05Ao+TjjsohuOjoNi8RIoshjDb+KBG/mczUUL9EhSevZYKwDgSBE0GoPXmFgqBKfqIMXlR2iro3TMCBgF9BqXpt9MKPGJAeYRAhw81dDAwAAAyIPaTZgTSIChiJxTWlWPmaTk5SWPpiBPHqQcWV2VnskIQAh+QQJCgABACwAAAAAFAAUAAAFemAgjqPjkCj5nGLTiAyTlg3rios8t/bLLDvayeXIjRYsx4tHcjwCi0RCp6w9Z4qEQifcxXbXYNN1Cw7Og0O1vEMTEGKUYmfaGQaEQ7O6WxQEAwUiD0QiLCIEAiMEBCNLAUoBNwcAA3E3ZQIAYoVllI10PSMHCXGGhykhACH5BAkKAAEALAAAAAAUABQAAAV3YCCOo+OQKPmcYtOIZlo2T/sGDSvjrBs4t90vh6MRYbXh6Igc0mAuRzIV1UGtpJhsKpy5grKEOLEAfrvjBKOLUuy0KQTBkMiadwsDYS56RGEkBwQjBQZLMwEAAAEIAoZdPooiBAKQRJKMAgVCWpgBB25sAQUDQiEAIfkECQoAEAAsAAAAABQAFAAABXsgJI6j45Ao+Zxi04hmWjZP+0INK+OsCzm33S+HoxFhteHoiBzSYC5HMhXVQa2kmGwqnLmCsm8O+O2KseadNrVQKBhZsnqRSChEj6iIQEIURm5LIwMBCAIBEAkDB10QAAIQAYgQBnxChyKYiQSMOwKQEJ8jCQuNIgd/OyEAIfkECQoAHwAsAAAAABQAFAAABXzgJ46j45Ao+Zxi04hmWjZP+34NK+Os+zm33S+HoxFhteHoiBzSYC5HMhXVQa2kmGwqnLmCsm8O+O2KsV0u6UDYAbWigwAg2K2iIgMAMPgsDCQMCkssCW0iBQMKA30MCQtdHwNtjCILCV0EfZKbDY9CBAUimiMMaDIIgDshACH5BAkKAB8ALAAAAAAUABQAAAV44CeOo+OQKPmcYtOIZlo2T/t+DSvjrPs5t90vh6MRYbXh6Igc0mAuRzIV1UGtpJhsKhwVAGBA1xUdhMVCMrMr4pIQhx1QK0IQBITdKio6CAQFHwsIWUFHCoEiBgQKCQlDWCkEgY5QXQV5H5WQQgWJmx8PbjsMC0IhACH5BAkKAB8ALAAAAAAUABQAAAV14CeOo+OQKPmcYtO0bwo/cC3b7pffotOcrsevRPsMBKMh8eNrFAcBwEBxczlRUMLNdEvwUgWAGPC1/gZjMs9c/I7aqMRh62KJEoZB4bay3gkEcw4LJD5JMQtzIgsKfj52XVQ7OzcKVDoxQjEyCoSYb3A8XDchACH5BAEKAB8ALAAAAAAUABQAAAV64CeOo+OQKJkcY9OIZjoSAPu5Ii6LgJC/jtdONKjdGo/GCfYQEQYjAYHkaAaVosJgUFjsXDHS07ALpxTDFOK5TbvAh217+MamSU0Zg1FWLkUMCgloMg9XSwwJCV6GVEI3Sw5eMEg4QX9fJzo6X0I6SZgoYZwPeXdmKSEAOw==); background-image: url(http://docs.webplatform.org/w/skins/common/images/spinner.gif?2014-03-15T01:11:40Z); background-position: center center; background-repeat: no-repeat; }
+  /* Language specific height correction for titles. Ref Bug 29405 and Bug 30809 */
+  /* Languages like hi or ml require slightly more vertical space to show diacritics properly */
+  /* line 1223, ../../../../sass/_wpdwikireimport.scss */
+  h1:lang(as), h1:lang(bh), h1:lang(bho), h1:lang(bn), h1:lang(gu), h1:lang(hi), h1:lang(kn), h1:lang(ml), h1:lang(mr), h1:lang(my), h1:lang(or), h1:lang(pa), h1:lang(sa), h1:lang(ta), h1:lang(te) { line-height: 1.6em !important; }
+  /* line 1240, ../../../../sass/_wpdwikireimport.scss */
+  h2:lang(as), h3:lang(as), h4:lang(as), h5:lang(as), h6:lang(as), h2:lang(bho), h3:lang(bho), h4:lang(bho), h5:lang(bho), h6:lang(bho), h2:lang(bh), h3:lang(bh), h4:lang(bh), h5:lang(bh), h6:lang(bh), h2:lang(bn), h3:lang(bn), h4:lang(bn), h5:lang(bn), h6:lang(bn), h2:lang(gu), h3:lang(gu), h4:lang(gu), h5:lang(gu), h6:lang(gu), h2:lang(hi), h3:lang(hi), h4:lang(hi), h5:lang(hi), h6:lang(hi), h2:lang(kn), h3:lang(kn), h4:lang(kn), h5:lang(kn), h6:lang(kn), h2:lang(ml), h3:lang(ml), h4:lang(ml), h5:lang(ml), h6:lang(ml), h2:lang(mr), h3:lang(mr), h4:lang(mr), h5:lang(mr), h6:lang(mr), h2:lang(my), h3:lang(my), h4:lang(my), h5:lang(my), h6:lang(my), h2:lang(or), h3:lang(or), h4:lang(or), h5:lang(or), h6:lang(or), h2:lang(pa), h3:lang(pa), h4:lang(pa), h5:lang(pa), h6:lang(pa), h2:lang(sa), h3:lang(sa), h4:lang(sa), h5:lang(sa), h6:lang(sa), h2:lang(ta), h3:lang(ta), h4:lang(ta), h5:lang(ta), h6:lang(ta), h2:lang(te), h3:lang(te), h4:lang(te), h5:lang(te), h6:lang(te) { line-height: 1.2em; }
+  /* Localised ordered list numbering for some languages */
+  /* line 1250, ../../../../sass/_wpdwikireimport.scss */
+  ol:lang(bcc) li, ol:lang(bqi) li, ol:lang(fa) li, ol:lang(glk) li, ol:lang(kk-arab) li, ol:lang(mzn) li { list-style-type: -moz-persian; list-style-type: persian; }
+  /* line 1255, ../../../../sass/_wpdwikireimport.scss */
+  ol:lang(ckb) li { list-style-type: -moz-arabic-indic; list-style-type: arabic-indic; }
+  /* line 1261, ../../../../sass/_wpdwikireimport.scss */
+  ol:lang(hi) li, ol:lang(mr) li { list-style-type: -moz-devanagari; list-style-type: devanagari; }
+  /* line 1267, ../../../../sass/_wpdwikireimport.scss */
+  ol:lang(as) li, ol:lang(bn) li { list-style-type: -moz-bengali; list-style-type: bengali; }
+  /* line 1272, ../../../../sass/_wpdwikireimport.scss */
+  ol:lang(or) li { list-style-type: -moz-oriya; list-style-type: oriya; }
+  /* line 1277, ../../../../sass/_wpdwikireimport.scss */
+  #toc ul, .toc ul { margin: .3em 0; }
+  /* Correct directionality when page dir is different from site/user dir */
+  /* @noflip */
+  /* line 1285, ../../../../sass/_wpdwikireimport.scss */
+  .mw-content-ltr .toc ul, .mw-content-ltr #toc ul, .mw-content-rtl .mw-content-ltr .toc ul, .mw-content-rtl .mw-content-ltr #toc ul { text-align: left; }
+  /* @noflip */
+  /* line 1291, ../../../../sass/_wpdwikireimport.scss */
+  .mw-content-rtl .toc ul, .mw-content-rtl #toc ul, .mw-content-ltr .mw-content-rtl .toc ul, .mw-content-ltr .mw-content-rtl #toc ul { text-align: right; }
+  /* @noflip */
+  /* line 1297, ../../../../sass/_wpdwikireimport.scss */
+  .mw-content-ltr .toc ul ul, .mw-content-ltr #toc ul ul, .mw-content-rtl .mw-content-ltr .toc ul ul, .mw-content-rtl .mw-content-ltr #toc ul ul { margin: 0 0 0 2em; }
+  /* @noflip */
+  /* line 1303, ../../../../sass/_wpdwikireimport.scss */
+  .mw-content-rtl .toc ul ul, .mw-content-rtl #toc ul ul, .mw-content-ltr .mw-content-rtl .toc ul ul, .mw-content-ltr .mw-content-rtl #toc ul ul { margin: 0 2em 0 0; }
+  /* line 1310, ../../../../sass/_wpdwikireimport.scss */
+  #toc #toctitle, .toc #toctitle, #toc .toctitle, .toc .toctitle { direction: ltr; }
+  /* tooltip styles */
+  /* line 1315, ../../../../sass/_wpdwikireimport.scss */
+  .mw-help-field-hint { display: none; margin-left: 2px; margin-bottom: -8px; padding: 0 0 0 15px; background-image: url(data:image/gif;base64,R0lGODlhCwALALMAAP///01NTZOTk1lZWefn57i4uJSUlPPz82VlZdDQ0HFxcaysrNvb28TExAAAAAAAACH5BAAAAAAALAAAAAALAAsAAAQrUIRJqQQ455nNNBgHJANBDAwgZsVwqIG2IEQYYwXy2lq/Kg3NqqeSVCqCCAA7); background-image: url(http://docs.webplatform.org/w/skins/common/images/help-question.gif?2014-03-15T01:11:40Z); background-position: left center; background-repeat: no-repeat; cursor: pointer; font-size: .8em; text-decoration: underline; color: #0645ad; }
+  /* line 1329, ../../../../sass/_wpdwikireimport.scss */
+  .mw-help-field-hint:hover { background-image: url(data:image/gif;base64,R0lGODlhCwALALMAAAtop+7z+GCWwpW51oStz8rb6yZzrafF3bnR5Nzn8QBcoD91oABQmf///wAAAAAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjAyODAxMTc0MDcyMDY4MTE5NkQ0QUQzRjI0NzRCNUQwIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjJBN0FFQTQwQjlGQzExREY5RDlBQTRBODQyMkJCMkFDIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjJBN0FFQTNGQjlGQzExREY5RDlBQTRBODQyMkJCMkFDIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzUgTWFjaW50b3NoIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RkM3RjExNzQwNzIwNjgxMTk1RkVBQ0ZBOEQxNTU5MkUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDI4MDExNzQwNzIwNjgxMTk2RDRBRDNGMjQ3NEI1RDAiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4B//79/Pv6+fj39vX08/Lx8O/u7ezr6uno5+bl5OPi4eDf3t3c29rZ2NfW1dTT0tHQz87NzMvKycjHxsXEw8LBwL++vby7urm4t7a1tLOysbCvrq2sq6qpqKempaSjoqGgn56dnJuamZiXlpWUk5KRkI+OjYyLiomIh4aFhIOCgYB/fn18e3p5eHd2dXRzcnFwb25tbGtqaWhnZmVkY2JhYF9eXVxbWllYV1ZVVFNSUVBPTk1MS0pJSEdGRURDQkFAPz49PDs6OTg3NjU0MzIxMC8uLSwrKikoJyYlJCMiISAfHh0cGxoZGBcWFRQTEhEQDw4NDAsKCQgHBgUEAwIBAAAh+QQAAAAAACwAAAAACwALAAAEK3CxSalsOOeZxRQY1yBKkihFI2aDEqiMRgBJGGMD8NpavxoHzaqnklQqiwgAOw==); background-image: url(http://docs.webplatform.org/w/skins/common/images/help-question-hover.gif?2014-03-15T01:11:40Z); }
+  /* line 1333, ../../../../sass/_wpdwikireimport.scss */
+  .mw-help-field-data { display: block; background-color: #d6f3ff; padding: 5px 8px 4px 8px; border: 1px solid #5dc9f4; margin-left: 20px; }
+  /* line 1340, ../../../../sass/_wpdwikireimport.scss */
+  .tipsy { padding: 5px 5px 10px; font-size: 12px; position: absolute; z-index: 100000; overflow: visible; }
+  /* line 1347, ../../../../sass/_wpdwikireimport.scss */
+  .tipsy-inner { padding: 5px 8px 4px 8px; background-color: #d6f3ff; color: black; border: 1px solid #5dc9f4; max-width: 300px; text-align: left; }
+  /* line 1355, ../../../../sass/_wpdwikireimport.scss */
+  .tipsy-arrow { position: absolute; background: url(data:image/gif;base64,R0lGODlhDQANAMQAAPf399bz/9vu9m/O9NXy/8Pm9svp9pfd+YLW943X9LTn++z093XQ9WnM9OLw9p/c9YTU9InY9/T292DK9Jre+afj+rvq/Nzv9rjk9brl9cPt/ZLb+GbL9MLs/ZHb+KLh+iH5BAAAAAAALAAAAAANAA0AAAVK4BGMZBkcg2WW1lBEKxkVAFTFFQQAwkSYhIlgB3hQTJQHEbBodEiaxmIJyHhIGwwVIGEoAgqGZAswIAIIA3mX+CTWOwfHAd9dtiEAOw==) no-repeat top left; background: url(http://docs.webplatform.org/w/skins/common/images/tipsy-arrow.gif?2014-03-15T01:11:40Z) no-repeat top left; width: 13px; height: 13px; }
+  /* line 1362, ../../../../sass/_wpdwikireimport.scss */
+  .tipsy-se .tipsy-arrow { bottom: -2px; right: 10px; background-position: 0% 100%; }
+  /* line 1372, ../../../../sass/_wpdwikireimport.scss */
+  #mw-clearyourcache, #mw-sitecsspreview, #mw-sitejspreview, #mw-usercsspreview, #mw-userjspreview { direction: ltr; unicode-bidi: embed; }
+  /* Correct user & content directionality when viewing a diff */
+  /* line 1379, ../../../../sass/_wpdwikireimport.scss */
+  .diff-currentversion-title, .diff { direction: ltr; unicode-bidi: embed; }
+  /* @noflip */
+  /* line 1383, ../../../../sass/_wpdwikireimport.scss */
+  .diff-contentalign-right td { direction: rtl; unicode-bidi: embed; }
+  /* @noflip */
+  /* line 1387, ../../../../sass/_wpdwikireimport.scss */
+  .diff-contentalign-left td { direction: ltr; unicode-bidi: embed; }
+  /* line 1393, ../../../../sass/_wpdwikireimport.scss */
+  .diff-otitle, .diff-ntitle, .diff-lineno { direction: ltr !important; unicode-bidi: embed; }
+  /* line 1400, ../../../../sass/_wpdwikireimport.scss */
+  #mw-revision-info, #mw-revision-info-current, #mw-revision-nav { direction: ltr; display: inline; }
+  /* bug 12205 */
+  /* line 1406, ../../../../sass/_wpdwikireimport.scss */
+  #mw-credits a { unicode-bidi: embed; }
+  /* Accessibility */
+  /* line 1412, ../../../../sass/_wpdwikireimport.scss */
+  .mw-jump, #jump-to-nav { overflow: hidden; height: 0; zoom: 1; /* http://webaim.org/techniques/skipnav/#iequirk */ }
+  /* Print footer should be hidden by default in screen. */
+  /* line 1419, ../../../../sass/_wpdwikireimport.scss */
+  .printfooter { display: none; }
+  /* For developpers */
+  /* line 1424, ../../../../sass/_wpdwikireimport.scss */
+  .xdebug-error { position: absolute; z-index: 99; }
+  /* line 1429, ../../../../sass/_wpdwikireimport.scss */
+  .editsection, .toctoggle { -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none; } }
+/* Close added @media screen { */
+@font-face { font-family: 'Gudea'; font-weight: normal; src: url("http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-regular-webfont.eot"); src: url("http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-regular-webfont.eot?#iefix") format("embedded-opentype"), url("http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-regular-webfont.woff") format("woff"), url("http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-regular-webfont.ttf") format("truetype"), url("http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-regular-webfont.svg#GudeaRegular") format("svg"); }
+
+@font-face { font-family: 'Gudea'; font-weight: bold; src: url("http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-bold-webfont.eot"); src: url("http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-bold-webfont.eot?#iefix") format("embedded-opentype"), url("http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-bold-webfont.woff") format("woff"), url("http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-bold-webfont.ttf") format("truetype"), url("http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-bold-webfont.svg#GudeaRegular") format("svg"); }
+
+@font-face { font-family: 'Gudea'; font-weight: normal; font-style: italic; src: url("http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-italic-webfont.eot"); src: url("http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-italic-webfont.eot?#iefix") format("embedded-opentype"), url("http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-italic-webfont.woff") format("woff"), url("http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-italic-webfont.ttf") format("truetype"), url("http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-italic-webfont.svg#GudeaRegular") format("svg"); }
+
+@font-face { font-family: 'Bitter'; font-weight: normal; src: url("http://docs.webplatform.org/w/skins/webplatform/fonts/bitter-regular-webfont.eot"); src: url("http://docs.webplatform.org/w/skins/webplatform/fonts/bitter-regular-webfont.eot?#iefix") format("embedded-opentype"), url("http://docs.webplatform.org/w/skins/webplatform/fonts/bitter-regular-webfont.woff") format("woff"), url("http://docs.webplatform.org/w/skins/webplatform/fonts/bitter-regular-webfont.ttf") format("truetype"), url("http://docs.webplatform.org/w/skins/webplatform/fonts/bitter-regular-webfont.svg#BitterRegular") format("svg"); }
+
+@font-face { font-family: 'Bitter'; font-weight: bold; src: url("http://docs.webplatform.org/w/skins/webplatform/fonts/bitter-bold-webfont.eot"); src: url("http://docs.webplatform.org/w/skins/webplatform/fonts/bitter-bold-webfont.eot?#iefix") format("embedded-opentype"), url("http://docs.webplatform.org/w/skins/webplatform/fonts/bitter-bold-webfont.woff") format("woff"), url("http://docs.webplatform.org/w/skins/webplatform/fonts/bitter-bold-webfont.ttf") format("truetype"), url("http://docs.webplatform.org/w/skins/webplatform/fonts/bitter-bold-webfont.svg#BitterBold") format("svg"); }
+
+@font-face { font-family: 'Bitter'; font-weight: normal; font-style: italic; src: url("http://docs.webplatform.org/w/skins/webplatform/fonts/bitter-italic-webfont.eot"); src: url("http://docs.webplatform.org/w/skins/webplatform/fonts/bitter-italic-webfont.eot?#iefix") format("embedded-opentype"), url("http://docs.webplatform.org/w/skins/webplatform/fonts/bitter-italic-webfont.woff") format("woff"), url("http://docs.webplatform.org/w/skins/webplatform/fonts/bitter-italic-webfont.ttf") format("truetype"), url("http://docs.webplatform.org/w/skins/webplatform/fonts/bitter-italic-webfont.svg#BitterBold") format("svg"); }
+
+@font-face { font-family: 'WPSymbols'; src: url("http://docs.webplatform.org/w/skins/webplatform/fonts/WPSymbols.eot"); src: url("http://docs.webplatform.org/w/skins/webplatform/fonts/WPSymbols.eot?#iefix") format("embedded-opentype"), url("http://docs.webplatform.org/w/skins/webplatform/fonts/WPSymbols.svg#WPSymbols") format("svg"), url("http://docs.webplatform.org/w/skins/webplatform/fonts/WPSymbols.woff") format("woff"), url("http://docs.webplatform.org/w/skins/webplatform/fonts/WPSymbols.ttf") format("truetype"); }
+
+/* line 1508, ../../../../sass/_wpdwikireimport.scss */
+header, footer { display: block; }
+
+/* line 1512, ../../../../sass/_wpdwikireimport.scss */
+html { background-color: #efeadd; }
+
+/* line 1516, ../../../../sass/_wpdwikireimport.scss */
+body { color: #3C3C3C; /* #58595b; */ font-family: Gudea, Arial, sans-serif; font-size: 14px; margin: 0; padding: 0; background: #ece5d7; background-image: url("http://docs.webplatform.org/w/skins/webplatform/images/bg-pattern.png"); widows: 2; orphans: 2; }
+
+/* line 1528, ../../../../sass/_wpdwikireimport.scss */
+h1, h2, h3, h4, h5 { color: #58595b; font-weight: bold; margin: 0; margin-bottom: 14px; font-family: Bitter, Cambria, Georgia, serif; }
+
+/* line 1536, ../../../../sass/_wpdwikireimport.scss */
+h1, #firstHeading { line-height: 40px; }
+
+/* line 1540, ../../../../sass/_wpdwikireimport.scss */
+#firstHeading { border-bottom: 2px solid #ffc621; }
+
+/* line 1544, ../../../../sass/_wpdwikireimport.scss */
+h2 { font-weight: normal; font-size: 20px; border-bottom: 1px solid #e2e3e4; }
+
+/* line 1550, ../../../../sass/_wpdwikireimport.scss */
+h2 .editsection { font-size: 14px; }
+
+/* line 1554, ../../../../sass/_wpdwikireimport.scss */
+h3 { color: #6d685b; font-weight: normal; font-size: 16px; border-bottom: 1px solid #eae3d3; }
+
+/* line 1561, ../../../../sass/_wpdwikireimport.scss */
+h2, h3, h4 { padding-top: 14px; }
+
+/* line 1565, ../../../../sass/_wpdwikireimport.scss */
+header h5 { display: none; }
+
+/* line 1569, ../../../../sass/_wpdwikireimport.scss */
+#mw-content-text h5 { display: inline; }
+
+/* line 1573, ../../../../sass/_wpdwikireimport.scss */
+span.subpages { display: none; }
+
+/* line 1577, ../../../../sass/_wpdwikireimport.scss */
+strong { font-style: normal; font-weight: bold; }
+
+/* line 1582, ../../../../sass/_wpdwikireimport.scss */
+dt { font-size: 16px; font-weight: bold; padding-bottom: 7px; color: black; }
+
+/* line 1589, ../../../../sass/_wpdwikireimport.scss */
+dd { padding-bottom: 15px; }
+
+/* line 1593, ../../../../sass/_wpdwikireimport.scss */
+blockquote { padding: 1em; border-left: .5em solid #F99D1C; border-left-color: rgba(248, 156, 27, 0.4); margin: 1em 0 1em 3em; background: rgba(248, 156, 27, 0.16); color: black; color: #945805; font-style: italic; }
+
+/* line 1604, ../../../../sass/_wpdwikireimport.scss */
+blockquote > p:first-child { margin-top: 0; }
+
+/* line 1608, ../../../../sass/_wpdwikireimport.scss */
+blockquote.testimonial { margin-right: 310px; }
+
+/* line 1612, ../../../../sass/_wpdwikireimport.scss */
+blockquote.testimonial address { text-align: right; font-style: normal; }
+
+/* line 1617, ../../../../sass/_wpdwikireimport.scss */
+blockquote.testimonial address:before { content: '—'; }
+
+/* line 1621, ../../../../sass/_wpdwikireimport.scss */
+blockquote::before { content: '❝'; float: left; margin: -.3em 0 0 -1.2em; color: #F99D1C; color: rgba(248, 156, 27, 0.6); font-size: 400%; line-height: 1; font-family: 'Zapf Dingbats', serif; font-style: normal; }
+
+/* line 1633, ../../../../sass/_wpdwikireimport.scss */
+pre, code.block { display: block; padding: 10px !important; background-color: white; border: 1px dotted #9b9689 !important; font-family: Consolas, Monaco, 'Andale Mono', monospace; overflow-x: auto; }
+
+/* line 1642, ../../../../sass/_wpdwikireimport.scss */
+p:empty:not([id]):not([class]) { display: none; }
+
+/* line 1646, ../../../../sass/_wpdwikireimport.scss */
+code { font-weight: bold; font-family: Consolas, Monaco, 'Andale Mono', monospace; }
+
+/* line 1652, ../../../../sass/_wpdwikireimport.scss */
+i code, em code { font-weight: inherit; }
+
+/* line 1656, ../../../../sass/_wpdwikireimport.scss */
+fieldset { border: none; padding: 0; }
+
+/* line 1661, ../../../../sass/_wpdwikireimport.scss */
+fieldset > legend { width: 100%; margin: 0; margin-bottom: 12px; padding-top: 14px; border-bottom: 1px solid #e2e3e4; color: #58595b; font-weight: bold; font-family: Bitter, Cambria, Georgia, serif; font-weight: normal; font-size: 20px; }
+
+/* line 1674, ../../../../sass/_wpdwikireimport.scss */
+fieldset fieldset > legend { width: 100%; margin: 0; margin-bottom: 8px; padding-top: 20px; border-bottom: 1px solid #e2e3e4; color: #58595b; font-weight: bold; font-family: Bitter, Cambria, Georgia, serif; font-weight: normal; font-size: 14px; }
+
+/* Links */
+/* line 1689, ../../../../sass/_wpdwikireimport.scss */
+a { color: #256a84; text-decoration: none; -webkit-transition: color .2s; }
+
+/* line 1695, ../../../../sass/_wpdwikireimport.scss */
+[id="mw-content-text"] a { text-decoration: underline; }
+
+/* line 1699, ../../../../sass/_wpdwikireimport.scss */
+a:hover { color: #2dafbc; text-decoration: none; }
+
+/* line 1704, ../../../../sass/_wpdwikireimport.scss */
+a.external { padding-right: 15px; margin-right: 5px; background-image: url("http://docs.webplatform.org/w/skins/webplatform/images/link-external.png"); background-repeat: no-repeat; background-position: right 3px; }
+
+/* line 1712, ../../../../sass/_wpdwikireimport.scss */
+a.external:hover { background-position: right -17px; }
+
+/* line 1717, ../../../../sass/_wpdwikireimport.scss */
+pre a.external, code a.external { background: none; padding-right: 0; margin-right: 0; }
+
+/* line 1723, ../../../../sass/_wpdwikireimport.scss */
+a.new { color: #BA0000; }
+
+/* line 1727, ../../../../sass/_wpdwikireimport.scss */
+a.new:hover { color: #BA0000; font-weight: bold; }
+
+/* line 1732, ../../../../sass/_wpdwikireimport.scss */
+a img { border: none; }
+
+/* Text fields */
+/* line 1737, ../../../../sass/_wpdwikireimport.scss */
+input, textarea { padding: .3em .5em; -moz-box-sizing: border-box; box-sizing: border-box; border: 1px solid #d5c6aa; border-radius: .3em; background: #fcfbf9; font: inherit; box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.15) inset; }
+
+/* line 1749, ../../../../sass/_wpdwikireimport.scss */
+input:focus, textarea:focus { background: white; }
+
+/* line 1753, ../../../../sass/_wpdwikireimport.scss */
+label.checkboxLabel { white-space: nowrap; }
+
+/* Buttons */
+/* line 1761, ../../../../sass/_wpdwikireimport.scss */
+.mw-body input[type="button"], .mw-body input[type="submit"], .mw-body button, .mw-body .button { display: inline-block; position: relative; padding: .5em .8em; border: 1px solid #cfc6b0; border-radius: .4em; background-color: #F0EBDD; background-repeat: no-repeat; background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); background-image: -o-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.1); color: #74663e; text-shadow: 0 1px 1px white; text-align: center; text-decoration: none; text-transform: uppercase; white-space: nowrap; font-size: 85%; line-height: 1; -webkit-transition: .3s box-shadow; transition: .3s box-shadow; }
+
+/* line 1791, ../../../../sass/_wpdwikireimport.scss */
+.mw-body input[type="button"]:hover, .mw-body input[type="submit"]:hover, .mw-body button:hover, .mw-body input[type="button"]:focus, .mw-body input[type="submit"]:focus, .mw-body button:focus { color: black; box-shadow: 0 0 0 0.4em #694d9f, 0 2px 2px -1px rgba(0, 0, 0, 0.1); outline: none; }
+
+/* line 1800, ../../../../sass/_wpdwikireimport.scss */
+.mw-body input[type="button"]:active, .mw-body input[type="submit"]:active, .mw-body button:active { top: 1px; left: 1px; box-shadow: 0 0 0 999px rgba(0, 0, 0, 0.03) inset, 1px 1px 5px rgba(0, 0, 0, 0.3) inset; }
+
+/* line 1807, ../../../../sass/_wpdwikireimport.scss */
+.mw-body input[type="submit"], .mw-body button[type="submit"] { background-color: #B4E1E4; border-color: #79ccd2; color: #144e52; }
+
+/* Images */
+/* line 1816, ../../../../sass/_wpdwikireimport.scss */
+.thumb { padding: 10px 10px 8px; border: 1px solid #eae3d3; margin-bottom: 10px; background: white; color: #58595b; transition: .4s .2s; }
+
+/* line 1825, ../../../../sass/_wpdwikireimport.scss */
+.thumb:hover { -webkit-transform: translate(-2px, -3px) rotate(-1deg); transform: translate(-2px, -3px) rotate(-1deg); box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); }
+
+/* line 1831, ../../../../sass/_wpdwikireimport.scss */
+.thumb.tright:hover { -webkit-transform: translate(2px, -3px) rotate(1deg); transform: translate(2px, -3px) rotate(1deg); }
+
+/* @noflip */
+/* line 1838, ../../../../sass/_wpdwikireimport.scss */
+div.tright, div.floatright, table.floatright { clear: right; float: right; margin-left: 25px; }
+
+/* @noflip */
+/* line 1846, ../../../../sass/_wpdwikireimport.scss */
+div.tleft, div.floatleft, table.floatleft { float: left; clear: left; margin-right: 25px; }
+
+/* line 1855, ../../../../sass/_wpdwikireimport.scss */
+div.floatright, table.floatright, div.floatleft, table.floatleft { position: relative; }
+
+/* line 1859, ../../../../sass/_wpdwikireimport.scss */
+#bodyContent img { height: auto; max-width: 100%; }
+
+/** Image captions */
+/* line 1868, ../../../../sass/_wpdwikireimport.scss */
+.thumbcaption { margin-top: 5px; font-style: italic; font-family: Bitter, Cambria, Georgia, serif; }
+
+/* @noflip */
+/* line 1875, ../../../../sass/_wpdwikireimport.scss */
+.mw-content-ltr .thumbcaption { text-align: left; }
+
+/* @noflip */
+/* line 1879, ../../../../sass/_wpdwikireimport.scss */
+.mw-content-rtl .thumbcaption { text-align: right; }
+
+/* @noflip */
+/* line 1883, ../../../../sass/_wpdwikireimport.scss */
+.mw-content-ltr .magnify { float: right; }
+
+/* @noflip */
+/* line 1887, ../../../../sass/_wpdwikireimport.scss */
+.mw-content-rtl .magnify { float: left; }
+
+/* line 1891, ../../../../sass/_wpdwikireimport.scss */
+.articleFeedback-title { font-family: Bitter, Cambria, Georgia, serif; }
+
+/* line 1895, ../../../../sass/_wpdwikireimport.scss */
+.articleFeedback-rating { width: 120px !important; }
+
+/* line 1899, ../../../../sass/_wpdwikireimport.scss */
+.articleFeedback-submit { margin: 0 !important; }
+
+/* line 1903, ../../../../sass/_wpdwikireimport.scss */
+.printfooter { padding-top: 20px; }
+
+/* line 1907, ../../../../sass/_wpdwikireimport.scss */
+.profile-info textarea { width: 400px; }
+
+/* line 1911, ../../../../sass/_wpdwikireimport.scss */
+.editors-only { padding: .2em .3em; border: 1px solid #a1b1dd; border-radius: .3em; background: #e1e6f4; color: #548faf; font-weight: normal; font-size: smaller; }
+
+/* line 1922, ../../../../sass/_wpdwikireimport.scss */
+.note, .warning { padding: .8em 1em; margin: 0 0 1em 0; border: 2px solid; text-shadow: 0 1px 1px white; font: italic 100%/1.5 Bitter, Cambria, Georgia, serif; }
+
+/* line 1930, ../../../../sass/_wpdwikireimport.scss */
+.note { border-color: #ffc621; background: #fff5d9; color: #de6525; }
+
+/* line 1936, ../../../../sass/_wpdwikireimport.scss */
+.warning { border-color: #d02e27; background: white; color: #d02e27; }
+
+/* line 1942, ../../../../sass/_wpdwikireimport.scss */
+.container { position: relative; width: 950px; margin: auto; }
+
+@media screen and (max-width: 950px) { /* line 1949, ../../../../sass/_wpdwikireimport.scss */
+  .container { padding: 0 10px; width: auto; } }
+/* line 1955, ../../../../sass/_wpdwikireimport.scss */
+.right { float: right; }
+
+/* line 1959, ../../../../sass/_wpdwikireimport.scss */
+.left { float: left; }
+
+/* line 1963, ../../../../sass/_wpdwikireimport.scss */
+.clear { clear: both; }
+
+/* line 1967, ../../../../sass/_wpdwikireimport.scss */
+.profile-info { background: transparent !important; }
+
+/* line 1971, ../../../../sass/_wpdwikireimport.scss */
+#editform, #toolbar, #wpTextbox1 { clear: none; }
+
+/* line 1975, ../../../../sass/_wpdwikireimport.scss */
+.visualClear { clear: left; }
+
+/* line 1979, ../../../../sass/_wpdwikireimport.scss */
+#p-search { display: inline-block; position: relative; }
+
+@media print { /* line 1985, ../../../../sass/_wpdwikireimport.scss */
+  #p-personal, #p-search { display: none; } }
+/* line 1992, ../../../../sass/_wpdwikireimport.scss */
+#search input[type="text"], #search input[type="search"], #search input:not([type]) { padding: 3px 20px 3px 5px; background: white; border: 1px solid #333; box-shadow: 1px 1px 1px #5b5b5d; color: black; font-size: 14px; font-family: Gudea, Arial, sans-serif; line-height: 11px; -webkit-appearance: none; width: 11em; }
+
+/* WebKit-specific fix for a WebKit-specific bug */
+/* line 2006, ../../../../sass/_wpdwikireimport.scss */
+#search input::-webkit-input-placeholder { line-height: 1.3em; }
+
+/* line 2010, ../../../../sass/_wpdwikireimport.scss */
+#search > input[type="submit"] { position: absolute; top: 7px; right: 7px; width: 14px; height: 14px; border: none; cursor: pointer; font-family: Gudea, Arial, sans-serif; background: url("http://docs.webplatform.org/w/skins/webplatform/images/btn-search.png"); background: rgba(0, 0, 0, 0) url("http://docs.webplatform.org/w/skins/webplatform/images/btn-search.svg"); background-repeat: no-repeat; /* background: none; */ }
+
+/* line 2026, ../../../../sass/_wpdwikireimport.scss */
+input:focus { outline: none; }
+
+/* line 2030, ../../../../sass/_wpdwikireimport.scss */
+#mw-head { padding: 3px 0; text-align: right; height: 30px; color: white; background: #4e4e50; background-image: -webkit-linear-gradient(bottom, #454547 40%, #4e4f50 70%); background-image: -o-linear-gradient(bottom, #454547 40%, #4e4f50 70%); background-image: -moz-linear-gradient(bottom, #454547 40%, #4e4f50 70%); background-image: linear-gradient(bottom, #454547 40%, #4e4f50 70%); border-bottom: 2px solid #606062; box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.75); }
+
+/* line 2044, ../../../../sass/_wpdwikireimport.scss */
+#mw-head .container { padding-right: 18px; max-width: 932px; }
+
+/* line 2049, ../../../../sass/_wpdwikireimport.scss */
+#mw-head a { color: white; text-decoration: none; }
+
+/* line 2054, ../../../../sass/_wpdwikireimport.scss */
+#p-personal { vertical-align: middle; text-transform: uppercase; z-index: 100; }
+
+/* line 2060, ../../../../sass/_wpdwikireimport.scss */
+#p-personal a { text-shadow: 0 -1px 2px black; }
+
+/* line 2064, ../../../../sass/_wpdwikireimport.scss */
+#p-personal > a { display: block; border-color: transparent; background: transparent; line-height: 1; border-radius: .3em .3em 0 0; }
+
+/* line 2074, ../../../../sass/_wpdwikireimport.scss */
+#p-personal:hover > a, #p-personal > a:focus, #p-personal.focus > a { background: #333; border-color: black black transparent; }
+
+/* line 2079, ../../../../sass/_wpdwikireimport.scss */
+#p-personal > a:before { content: url("http://docs.webplatform.org/w/skins/webplatform/images/icon-head.svg"); margin-right: .3em; }
+
+/* line 2084, ../../../../sass/_wpdwikireimport.scss */
+#p-personal > a:after { content: "\25BE"; padding-left: 0.5em; }
+
+/* line 2089, ../../../../sass/_wpdwikireimport.scss */
+#p-personal > ul { text-align: left; font-size: 90%; background: #333; background: linear-gradient(#333333, rgba(0, 0, 0, 0.8)); border-color: black; box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.5); color: inherit; text-shadow: inherit; }
+
+/* line 2100, ../../../../sass/_wpdwikireimport.scss */
+#p-personal > ul > li + li { border-top-color: #555; border-top-color: rgba(255, 255, 255, 0.1); }
+
+/* line 2105, ../../../../sass/_wpdwikireimport.scss */
+#p-personal > ul > li:not(:last-child) { border-bottom-color: black; }
+
+/* line 2110, ../../../../sass/_wpdwikireimport.scss */
+#p-personal > ul a:hover, #p-personal > ul a:focus { background: #2EB3C4; box-shadow: 0 0 0 2px #2EB3C4; }
+
+/* line 2115, ../../../../sass/_wpdwikireimport.scss */
+#p-logo { position: absolute; top: -5px; }
+
+/* line 2120, ../../../../sass/_wpdwikireimport.scss */
+#p-logo a { display: block; width: 100px; height: 100px; border-radius: 0 0 7px 7px; border: 1px solid white; border-top: none; background: #f9f7f3 url("http://docs.webplatform.org/w/skins/webplatform/images/logo.png"); background: #f8f6f2 url("http://docs.webplatform.org/w/skins/webplatform/images/logo.svg"); background-repeat: no-repeat; background-position: center; box-shadow: 1px 1px 1px #cbc6ba; }
+
+/* line 2134, ../../../../sass/_wpdwikireimport.scss */
+#sitenav { background-color: #ece5d7; background-image: url("http://docs.webplatform.org/w/skins/webplatform/images/nav-bg.png"); background-position: bottom; background-repeat: repeat-x; padding: 30px 0px 35px; }
+
+@media print { /* line 2143, ../../../../sass/_wpdwikireimport.scss */
+  #sitenav { display: none; } }
+/* line 2148, ../../../../sass/_wpdwikireimport.scss */
+.mediawiki ul li { margin-bottom: 10px; list-style-image: url("http://docs.webplatform.org/w/skins/webplatform/images/bullet.svg"); }
+
+/* line 2153, ../../../../sass/_wpdwikireimport.scss */
+ul.links { margin: 0; padding: 0; list-style: none; }
+
+/* line 2159, ../../../../sass/_wpdwikireimport.scss */
+#sitenav .links { padding-left: 150px; text-transform: uppercase; }
+
+/* line 2165, ../../../../sass/_wpdwikireimport.scss */
+.mw-content-ltr ul, .mw-content-rtl .mw-content-ltr ul, .mw-content-ltr ol, .mw-content-rtl .mw-content-ltr ol { margin: 0.3em 0 0 1.6em; padding: 0; }
+
+/* line 2171, ../../../../sass/_wpdwikireimport.scss */
+.links > li { display: inline-block; margin: 0 !important; }
+
+/* line 2176, ../../../../sass/_wpdwikireimport.scss */
+#preftoc { margin: 0 0 0 10px; padding: 0; list-style: none; }
+
+/* line 2182, ../../../../sass/_wpdwikireimport.scss */
+#preftoc li { display: inline-block; margin-right: 5px; padding: 5px; border-radius: 2px 2px 0 0; border: 1px solid #EFECE2; border-bottom: none; background: #EFECE2; }
+
+/* line 2192, ../../../../sass/_wpdwikireimport.scss */
+#preftoc li.selected { background: white; }
+
+/* line 2196, ../../../../sass/_wpdwikireimport.scss */
+#sitenav a { padding-right: 20px; font-family: Bitter; font-weight: bold; font-size: 16px; text-decoration: none; -webkit-transition: all .2s; transition: all .2s; }
+
+/* line 2206, ../../../../sass/_wpdwikireimport.scss */
+#sitenav a { color: #58595b; text-shadow: 1px 1px 1px #dad5c8; }
+
+/* line 2211, ../../../../sass/_wpdwikireimport.scss */
+#sitenav a:hover { color: #2dafbc; text-shadow: 1px 1px 1px white; }
+
+/* line 2217, ../../../../sass/_wpdwikireimport.scss */
+body:not(.page-WPD_Editors_Guide) #sitenav a.active, .page-WPD_Editors_Guide #sitenav a[href$="WPD:Editors_Guide"] { color: #d37e00; text-shadow: 1px 1px 1px white; }
+
+/* line 2222, ../../../../sass/_wpdwikireimport.scss */
+#page-top { background: #efece2; border-radius: 5px 5px 0 0; }
+
+/* line 2227, ../../../../sass/_wpdwikireimport.scss */
+#p-namespaces a, #p-namespaces a:visited { display: block; padding: 15px; font-size: 12px; color: #256a84; text-decoration: none; border-radius: 5px 5px 0 0; }
+
+/* line 2236, ../../../../sass/_wpdwikireimport.scss */
+#p-namespaces .selected a { background: #f9f7f3; color: #58595b; }
+
+/* line 2241, ../../../../sass/_wpdwikireimport.scss */
+#page-top > .right { padding: 9px; }
+
+/* line 2245, ../../../../sass/_wpdwikireimport.scss */
+#hierarchy-menu { float: left; }
+
+/* Dropdown hierarchy menus */
+/* line 2250, ../../../../sass/_wpdwikireimport.scss */
+ol.breadcrumbs { margin: 0 0 0 -1.1em; padding: 0; height: 1em; text-transform: uppercase; float: left; }
+
+/* line 2258, ../../../../sass/_wpdwikireimport.scss */
+ol.breadcrumbs:only-child { float: none; }
+
+/* line 2262, ../../../../sass/_wpdwikireimport.scss */
+ol.breadcrumbs li { list-style: none; }
+
+/* line 2266, ../../../../sass/_wpdwikireimport.scss */
+ol.breadcrumbs > li { float: left; position: relative; margin: 0; }
+
+/* line 2272, ../../../../sass/_wpdwikireimport.scss */
+ol.breadcrumbs > li:first-child { margin-left: 1em; border-left: solid 2px #ded8c9; }
+
+/* line 2278, ../../../../sass/_wpdwikireimport.scss */
+ol.breadcrumbs > li > a, ol.breadcrumbs > li:not(:last-child) > a::before { border: 1px solid #ded8c9; border-width: 1px 0; background-color: #F0EBDD; }
+
+/* line 2284, ../../../../sass/_wpdwikireimport.scss */
+ol.breadcrumbs > li > a { padding: .6em 1.5em .6em .4em; margin-left: -1px; box-shadow: 0 1px rgba(255, 255, 255, 0.5) inset, 0 -1px rgba(255, 255, 255, 0.8) inset; }
+
+/* line 2291, ../../../../sass/_wpdwikireimport.scss */
+ol.breadcrumbs > li:not(:last-child) > a::before, ol.breadcrumbs > li:last-child > a { border-radius: 1.2em; border-top-left-radius: 0; border-bottom-left-radius: 0; box-shadow: 0 1px rgba(255, 255, 255, 0.5) inset, 0 -1px rgba(255, 255, 255, 0.8) inset, -1px 0 rgba(255, 255, 255, 0.8) inset; }
+
+/* The curved part, idea by @wernull */
+/* line 2299, ../../../../sass/_wpdwikireimport.scss */
+ol.breadcrumbs > li:not(:last-child) > a::before { content: ''; position: absolute; right: 2px; top: 0; bottom: 0; z-index: 3; padding: 1em .6em; border: inherit; border-right-width: 1px; }
+
+/* line 2312, ../../../../sass/_wpdwikireimport.scss */
+ol.breadcrumbs > li:last-child > a, ol.breadcrumbs > li:last-child > ul { background-color: #f9f7f3; }
+
+/* line 2316, ../../../../sass/_wpdwikireimport.scss */
+ol.breadcrumbs > li:last-child > a { border-right-width: 1px; box-shadow: 0 1px rgba(255, 255, 255, 0.5) inset, 0 -1px rgba(255, 255, 255, 0.8) inset, -1px 0 white inset; }
+
+/* Remove the highlight gradient .dropdowns have */
+/* line 2323, ../../../../sass/_wpdwikireimport.scss */
+ol.breadcrumbs > li:hover:not(:nth-last-child(2)) > a:not(:last-child), ol.breadcrumbs > li.focus:not(:nth-last-child(2)) > a:not(:last-child) { background-image: none; }
+
+/* Remove the color showing from the previous breadcrumb */
+/* line 2328, ../../../../sass/_wpdwikireimport.scss */
+ol.breadcrumbs > li:nth-last-child(2) > a { background-image: -webkit-linear-gradient(right, #f9f7f3 100%, transparent); background-image: linear-gradient(to left, #f9f7f3 100%, transparent); background-repeat: no-repeat; background-size: 1em 100%; background-position: right; }
+
+/* Inner left "border" */
+/* line 2337, ../../../../sass/_wpdwikireimport.scss */
+ol.breadcrumbs > li:first-child > a { box-shadow: 0 1px #f7f1e0 inset, 0 -1px #f7f1e0 inset, 1px 0 #f7f1e0 inset; }
+
+/* line 2344, ../../../../sass/_wpdwikireimport.scss */
+ol.breadcrumbs > li:hover > a:not(:last-child), ol.breadcrumbs > li.focus > a:not(:last-child), ol.breadcrumbs > li:hover > a:not(:last-child):before, ol.breadcrumbs > li.focus > a:not(:last-child):before { border-bottom-right-radius: 0; border-bottom-color: transparent; }
+
+/* Remove bottom shadow on hover/focus */
+/* line 2351, ../../../../sass/_wpdwikireimport.scss */
+ol.breadcrumbs > li:not(:last-child):hover > a:not(:last-child), ol.breadcrumbs > li:not(:last-child).focus > a:not(:last-child) { box-shadow: 0 1px rgba(255, 255, 255, 0.5) inset; }
+
+/* line 2356, ../../../../sass/_wpdwikireimport.scss */
+ol.breadcrumbs > li:not(:last-child):hover > a:not(:last-child):before, ol.breadcrumbs > li:not(:last-child).focus > a:not(:last-child):before { box-shadow: 0 1px rgba(255, 255, 255, 0.5) inset, -1px 0 rgba(255, 255, 255, 0.8) inset; }
+
+/* line 2361, ../../../../sass/_wpdwikireimport.scss */
+ol.breadcrumbs > li:last-child:hover > a:not(:last-child), ol.breadcrumbs > li:last-child.focus > a:not(:last-child) { box-shadow: 0 1px rgba(255, 255, 255, 0.5) inset, -1px 0 white inset; }
+
+/* Hide bottom border from previous breadcrumb */
+/* line 2367, ../../../../sass/_wpdwikireimport.scss */
+ol.breadcrumbs > li:hover > a:not(:last-child):after, ol.breadcrumbs > li.focus > a:not(:last-child):after { content: ''; position: absolute; left: -.8em; bottom: -1px; width: 1.2em; height: 2px; background-color: inherit; }
+
+/* line 2377, ../../../../sass/_wpdwikireimport.scss */
+ol.breadcrumbs li a { display: block; }
+
+/* line 2381, ../../../../sass/_wpdwikireimport.scss */
+ol.breadcrumbs > li:first-child > a { padding-left: 1em; }
+
+/* line 2386, ../../../../sass/_wpdwikireimport.scss */
+ol.breadcrumbs > li > ul { margin: -1px 0 0 -1.2em; border-color: #ded8c9; }
+
+/* line 2392, ../../../../sass/_wpdwikireimport.scss */
+ol.breadcrumbs > li:hover > ul, ol.breadcrumbs > li.focus > ul { z-index: -1; }
+
+/* line 2396, ../../../../sass/_wpdwikireimport.scss */
+ol.breadcrumbs .dropdown > ul { overflow-y: auto; }
+
+/* line 2400, ../../../../sass/_wpdwikireimport.scss */
+.tool-area { padding: 10px 0; }
+
+@media print { /* line 2405, ../../../../sass/_wpdwikireimport.scss */
+  .tool-area { display: none; } }
+/* line 2410, ../../../../sass/_wpdwikireimport.scss */
+.tool-area a { color: #74663e; font-size: 85%; text-decoration: none; }
+
+/* line 2416, ../../../../sass/_wpdwikireimport.scss */
+.tool-area:after { content: ''; display: block; clear: both; }
+
+/* line 2422, ../../../../sass/_wpdwikireimport.scss */
+.toolbar { float: right; }
+
+/* line 2426, ../../../../sass/_wpdwikireimport.scss */
+.toolbar .button { display: inline-block; position: relative; min-width: 7em; box-shadow: 0px 2px 2px -1px rgba(0, 0, 0, 0.1); color: black; text-align: center; text-decoration: none; text-transform: uppercase; white-space: nowrap; }
+
+/* line 2438, ../../../../sass/_wpdwikireimport.scss */
+.toolbar .button { background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); background-image: -o-linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); }
+
+/* line 2446, ../../../../sass/_wpdwikireimport.scss */
+.toolbar .button:hover, .toolbar .button:focus { color: black; }
+
+/* line 2450, ../../../../sass/_wpdwikireimport.scss */
+.toolbar .button:active { box-shadow: 0 0 0 999px rgba(0, 0, 0, 0.03) inset, 1px 1px 5px rgba(0, 0, 0, 0.3) inset; padding-top: .7em; padding-bottom: .5em; }
+
+/* line 2458, ../../../../sass/_wpdwikireimport.scss */
+.toolbar .button, .dropdown > a, .dropdown > ul { border: 1px solid #cfc6b0; color: #74663e; text-shadow: 0 1px 1px white; }
+
+/* line 2465, ../../../../sass/_wpdwikireimport.scss */
+.toolbar .button, .dropdown > a { padding: .6em .8em; }
+
+/* line 2471, ../../../../sass/_wpdwikireimport.scss */
+.toolbar .button img, .dropdown > a img, .dropdown > ul > li img { vertical-align: -.3em; margin-right: .3em; }
+
+/* line 2477, ../../../../sass/_wpdwikireimport.scss */
+.toolbar .button, .dropdown > ul { background-color: #F0EBDD; background-repeat: no-repeat; border-radius: .5em; }
+
+/* line 2483, ../../../../sass/_wpdwikireimport.scss */
+.toolbar > div { float: right; margin-left: .3em; }
+
+/* line 2488, ../../../../sass/_wpdwikireimport.scss */
+.dropdown { display: inline-block; margin-left: .3em; position: relative; z-index: 1; }
+
+/* line 2496, ../../../../sass/_wpdwikireimport.scss */
+.dropdown:hover, .dropdown.focus { z-index: 101; }
+
+/* line 2500, ../../../../sass/_wpdwikireimport.scss */
+.dropdown > a.button { min-width: 4.4em; padding-right: 2.7em; }
+
+/* line 2505, ../../../../sass/_wpdwikireimport.scss */
+.dropdown > a { position: relative; z-index: 2; }
+
+/* line 2510, ../../../../sass/_wpdwikireimport.scss */
+.toolbar .dropdown > a:after { content: '▾'; position: absolute; right: 0; top: .6em; bottom: .6em; padding: .4em 1em .4em .8em; box-shadow: 1px 0 0 rgba(0, 0, 0, 0.2) inset, 2px 0 0 white inset; font: 80%/1.05 serif; }
+
+/* line 2522, ../../../../sass/_wpdwikireimport.scss */
+.dropdown > a, .dropdown > ul { background-color: #F0EBDD; }
+
+/* line 2526, ../../../../sass/_wpdwikireimport.scss */
+.dropdown > ul { position: absolute; z-index: 1; min-width: 0; max-width: 0; max-height: 0; padding: 0; margin: -1px 0 0 0; border-width: 0; border-radius: .5em; border-top-left-radius: 0; overflow: hidden; box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.1); list-style: none; text-transform: uppercase; -webkit-transition: .2s; -moz-transition: .2s; -o-transition: .2s; transition: .2s; }
+
+/* line 2548, ../../../../sass/_wpdwikireimport.scss */
+.dropdown > ul > li { margin: 0; list-style: none; white-space: nowrap; border-width: 1px 0; border-style: solid; border-color: rgba(255, 255, 255, 0.5) transparent rgba(0, 0, 0, 0.1); }
+
+/* line 2557, ../../../../sass/_wpdwikireimport.scss */
+.dropdown > ul > li:first-child { border-top: 0; }
+
+/* line 2561, ../../../../sass/_wpdwikireimport.scss */
+.dropdown > ul > li:last-child { border-bottom: 0; }
+
+/* line 2565, ../../../../sass/_wpdwikireimport.scss */
+.dropdown li > a { display: block; padding: .5em; overflow: hidden; text-overflow: ellipsis; -webkit-transition: 0s; -moz-transition: 0s; -o-transition: 0s; transition: 0s; }
+
+/* line 2577, ../../../../sass/_wpdwikireimport.scss */
+.dropdown ul > li > a:hover, .dropdown ul > li > a:focus { position: relative; background: #4e408a; color: white; text-shadow: 0 -1px 2px black; border-radius: .2em; box-shadow: 0 0 0 2px #4e408a; }
+
+/* line 2588, ../../../../sass/_wpdwikireimport.scss */
+.dropdown:hover > ul, .dropdown > a:focus + ul, .dropdown.focus > ul { min-width: 100%; max-width: 25em; max-height: 30em; padding: .6em; border-width: 1px; }
+
+/* line 2598, ../../../../sass/_wpdwikireimport.scss */
+.dropdown:hover > a.button, .dropdown > a.button:focus, .dropdown.focus > a.button { border-bottom-color: transparent; border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+
+/* line 2605, ../../../../sass/_wpdwikireimport.scss */
+.dropdown:hover > a.button:not(:active), .dropdown.focus > a.button:not(:active) { box-shadow: none; }
+
+/* line 2610, ../../../../sass/_wpdwikireimport.scss */
+.highlighted.button, .highlighted.button + ul { background-color: #B4E1E4; border-color: #79ccd2; }
+
+/* line 2616, ../../../../sass/_wpdwikireimport.scss */
+.highlighted.button, .highlighted.button + ul a { color: #144e52; }
+
+/* line 2622, ../../../../sass/_wpdwikireimport.scss */
+.edit.button:before, .button.watch:before, .button.tools:before { margin-right: .5em; font: 100% WPSymbols, serif; opacity: .6; }
+
+/* line 2628, ../../../../sass/_wpdwikireimport.scss */
+.dropdown > .highlighted.button:after { box-shadow: 1px 0 0 #79ccd2 inset, 2px 0 0 rgba(255, 255, 255, 0.6) inset; }
+
+/* line 2632, ../../../../sass/_wpdwikireimport.scss */
+.edit.button:before { content: "\270e"; }
+
+/* line 2636, ../../../../sass/_wpdwikireimport.scss */
+.watch.button:before { content: "\1f440"; }
+
+/* line 2640, ../../../../sass/_wpdwikireimport.scss */
+.tools.button:before { content: "\2699"; }
+
+/* line 2644, ../../../../sass/_wpdwikireimport.scss */
+.down-arrow { position: absolute; top: 50%; right: 10px; margin-top: -2px; width: 5px; height: 5px; background-image: url("http://docs.webplatform.org/w/skins/webplatform/images/arrow-down.svg"); background-repeat: no-repeat; background-position: right center; }
+
+/* line 2656, ../../../../sass/_wpdwikireimport.scss */
+#page { background: #f9f7f3; /* border: 1px solid white; */ border-radius: 5px; box-shadow: 0 0 1px #a7a9ac; margin-bottom: 20px; }
+
+/* line 2664, ../../../../sass/_wpdwikireimport.scss */
+#page-content { position: relative; z-index: 0; padding: 18px; }
+
+/* line 2670, ../../../../sass/_wpdwikireimport.scss */
+body:not(.mediawiki) #sidebar + #main-content { padding-right: 230px; }
+
+/* line 2674, ../../../../sass/_wpdwikireimport.scss */
+#main-content { line-height: 1.5; }
+
+/*
+* Sidebar Table of Contents
+*/
+/* line 2683, ../../../../sass/_wpdwikireimport.scss */
+#sidebar { position: absolute; left: 100%; top: 0; padding: 14px; margin: 0 0 0 10px; width: 182px; background-color: #B4E1E4; /*	border: 10px solid #f9f7f3;*/ box-shadow: inset 0px 0px 5px #81c7e1; border-radius: 6px; -webkit-transition: .5s top; -moz-transition: .5s top; -o-transition: .5s top; transition: .5s top; }
+
+/* line 2700, ../../../../sass/_wpdwikireimport.scss */
+#sidebar a { font-family: Bitter; font-weight: bold; text-decoration: none; text-shadow: 1px 1px 1px #cffcff; color: #226077; -webkit-transition: color .2s; }
+
+/* line 2709, ../../../../sass/_wpdwikireimport.scss */
+#sidebar a:hover { color: #2dafbc; }
+
+/* line 2713, ../../../../sass/_wpdwikireimport.scss */
+#sidebar ul { margin: 0; color: #256a84; text-shadow: 1px 1px 1px #cffcff; font-size: 13px; }
+
+/* line 2720, ../../../../sass/_wpdwikireimport.scss */
+#sidebar hr { border-top: 1px solid #7bccd1; border-bottom: 1px solid #bcebee; border-left: none; margin: 20px 0; }
+
+/* line 2727, ../../../../sass/_wpdwikireimport.scss */
+#sidebar-title { border-bottom: 2px solid #7BCCD1; font-family: Gudea, Arial, sans-serif; font-size: 14px; font-weight: normal; margin-top: 14px; margin-bottom: 0; padding: 6px 0; text-align: center; text-transform: uppercase; }
+
+/* line 2739, ../../../../sass/_wpdwikireimport.scss */
+#sidebar:before { content: "•"; display: block; position: absolute; top: -11px; left: 50%; width: 22px; height: 22px; border-radius: 50%; margin-left: -11px; background: #b4e1e4 url("http://docs.webplatform.org/w/skins/webplatform/images/bg-pattern.png"); box-shadow: 0 3px 7px -3px #81c7e1; color: #7BCCD1; text-align: center; font-size: 32px; line-height: 25px; font-family: Arial, sans-serif; }
+
+/* line 2758, ../../../../sass/_wpdwikireimport.scss */
+html.with-doc #main-content { padding-right: 0; }
+
+@media screen and (max-width: 1400px) { /* line 2763, ../../../../sass/_wpdwikireimport.scss */
+  html.with-toc #main-content { padding-right: 220px; }
+  /* line 2767, ../../../../sass/_wpdwikireimport.scss */
+  #sidebar { left: auto; right: 18px; margin-top: 18px; border-radius: 0; }
+  /* line 2774, ../../../../sass/_wpdwikireimport.scss */
+  #sidebar:before { background: #f9f7f3; } }
+@media screen and (max-width: 700px) { /* line 2780, ../../../../sass/_wpdwikireimport.scss */
+  html.with-toc #main-content { padding-right: 0; }
+  /* line 2784, ../../../../sass/_wpdwikireimport.scss */
+  #sidebar { position: relative; width: 100%; -moz-box-sizing: border-box; box-sizing: border-box; margin-top: 0; } }
+@media screen and (max-width: 700px) and (min-width: 500px) { /* line 2794, ../../../../sass/_wpdwikireimport.scss */
+  #sidebar > ol { -moz-column-count: 2; -webkit-column-count: 2; column-count: 2; } }
+@media print { /* line 2802, ../../../../sass/_wpdwikireimport.scss */
+  #sidebar { display: none; } }
+/* line 2807, ../../../../sass/_wpdwikireimport.scss */
+.custom-toc > ol { margin: 0; padding-left: 0; }
+
+/* line 2812, ../../../../sass/_wpdwikireimport.scss */
+.custom-toc > ol ol { padding-left: 1.2em; font-size: 95%; }
+
+/* line 2817, ../../../../sass/_wpdwikireimport.scss */
+.custom-toc > ol > li { padding: .6em 0; margin-bottom: 0; list-style: none; border-top: 1px solid rgba(255, 255, 255, 0.5); border-bottom: 1px solid #7bccd1; color: #256a83; /* otherwise list-style will give grey bullets */ }
+
+/* line 2826, ../../../../sass/_wpdwikireimport.scss */
+.custom-toc > ol > li:first-child { border-top: 0; }
+
+/* line 2830, ../../../../sass/_wpdwikireimport.scss */
+.custom-toc > ol > li:last-child { border-bottom: 0; }
+
+/* line 2834, ../../../../sass/_wpdwikireimport.scss */
+.custom-toc > ol > li li { list-style: disc; margin-bottom: 0; padding: .3em 0; }
+
+/* line 2840, ../../../../sass/_wpdwikireimport.scss */
+.custom-toc > ol > li li:last-child { padding-bottom: .2em; }
+
+/* line 2844, ../../../../sass/_wpdwikireimport.scss */
+.mw-prefs-buttons { padding-top: 20px; }
+
+/* line 2849, ../../../../sass/_wpdwikireimport.scss */
+#pt-userpage a, #pt-login a { padding-left: 20px; background-position: left center; background-repeat: no-repeat; background-image: url("http://docs.webplatform.org/w/skins/webplatform/images/icon-head.svg"); }
+
+/* icons for buttons*/
+/* line 2857, ../../../../sass/_wpdwikireimport.scss */
+#ca-protect .icon { background-image: url("http://docs.webplatform.org/w/skins/webplatform/images/icon-protect.svg"); }
+
+/* line 2861, ../../../../sass/_wpdwikireimport.scss */
+#ca-delete .icon { background-image: url("http://docs.webplatform.org/w/skins/webplatform/images/icon-delete.svg"); }
+
+/* line 2865, ../../../../sass/_wpdwikireimport.scss */
+#ca-move .icon { background-image: url("http://docs.webplatform.org/w/skins/webplatform/images/icon-move.svg"); }
+
+/* line 2869, ../../../../sass/_wpdwikireimport.scss */
+#ca-edit .icon { background-image: url("http://docs.webplatform.org/w/skins/webplatform/images/icon-edit.svg"); }
+
+/* line 2872, ../../../../sass/_wpdwikireimport.scss */
+#ca-edit .icon { background-image: url("http://docs.webplatform.org/w/skins/webplatform/images/icon-edit.svg"); }
+
+/* line 2876, ../../../../sass/_wpdwikireimport.scss */
+#ca-view .icon { background-image: url("http://docs.webplatform.org/w/skins/webplatform/images/icon-view.svg"); }
+
+/* line 2880, ../../../../sass/_wpdwikireimport.scss */
+#ca-history .icon { background-image: url("http://docs.webplatform.org/w/skins/webplatform/images/icon-history.svg"); }
+
+/* watch button */
+/* line 2887, ../../../../sass/_wpdwikireimport.scss */
+#ca-watch .icon { background-image: url("http://docs.webplatform.org/w/skins/webplatform/images/icon-watch.svg"); }
+
+/* line 2891, ../../../../sass/_wpdwikireimport.scss */
+#ca-unwatch .icon { background-image: url("http://docs.webplatform.org/w/skins/webplatform/images/icon-unwatch.svg"); }
+
+/* line 2896, ../../../../sass/_wpdwikireimport.scss */
+#ca-watch > span#watch_label, #ca-unwatch > span#watch_label { background-color: #F9F7F3; border-radius: 5px 5px 5px 5px; box-shadow: 0 0 1px #A7A9AC; display: none; margin-left: -0.5em; margin-top: -2em; padding: 0.25em; position: absolute; }
+
+/* line 2908, ../../../../sass/_wpdwikireimport.scss */
+#ca-watch:hover > span#watch_label, #ca-unwatch:hover > span#watch_label { display: block; }
+
+/* line 2913, ../../../../sass/_wpdwikireimport.scss */
+span.editsection a { background-image: url("http://docs.webplatform.org/w/skins/webplatform/images/icon-edit.svg"); display: inline-block; width: 17px; height: 22px; text-decoration: none !important; }
+
+/** Standardization status */
+/* line 2925, ../../../../sass/_wpdwikireimport.scss */
+.standardization_status { position: relative; float: right; width: 13px; height: 13px; padding: 15px; background: url("http://docs.webplatform.org/w/skins/webplatform/images/standardization-status.svg") #ebe4d6; background-size: 100% 700%; margin: 13px 0 15px 10px; white-space: nowrap; border-radius: 50%; font-size: 0; color: transparent; box-shadow: 0 -1px 2px 1px rgba(103, 85, 50, 0.2) inset, 0 1px white, 0 0 0 10px #f9f7f3; }
+
+/* line 2943, ../../../../sass/_wpdwikireimport.scss */
+.standardization_status[title="W3C Working Draft"] { background-position: 0 -100%; }
+
+/* line 2947, ../../../../sass/_wpdwikireimport.scss */
+.standardization_status[title="W3C Last Call Working Draft"] { background-position: 0 -200%; }
+
+/* line 2951, ../../../../sass/_wpdwikireimport.scss */
+.standardization_status[title="W3C Candidate Recommendation"] { background-position: 0 -300%; }
+
+/* line 2955, ../../../../sass/_wpdwikireimport.scss */
+.standardization_status[title="W3C Proposed Recommendation"] { background-position: 0 -400%; }
+
+/* line 2959, ../../../../sass/_wpdwikireimport.scss */
+.standardization_status[title="W3C Recommendation"] { background-image: none; box-shadow: 0 -1px 2px 1px rgba(103, 85, 50, 0.2) inset, 0 0 0 7px #005a9c inset, 0 1px white, 0 0 0 10px #f9f7f3; }
+
+/* line 2967, ../../../../sass/_wpdwikireimport.scss */
+.standardization_status[title="Mixed"] { background-position: 0 -500%; }
+
+/* line 2971, ../../../../sass/_wpdwikireimport.scss */
+.standardization_status[title="Deprecated"] { background-position: 0 -600%; }
+
+/* line 2975, ../../../../sass/_wpdwikireimport.scss */
+.standardization_status[title="Non-Standard"] { background-image: none; box-shadow: 0 -1px 2px 1px rgba(103, 85, 50, 0.2) inset, 0 0 0 7px #ee0000 inset, 0 1px white, 0 0 0 10px #f9f7f3; }
+
+/* line 2983, ../../../../sass/_wpdwikireimport.scss */
+.standardization_status[title="De Facto Standard"] { background-image: none; box-shadow: 0 -1px 2px 1px rgba(103, 85, 50, 0.2) inset, 0 0 0 7px #1f9374 inset, 0 1px white, 0 0 0 10px #f9f7f3; }
+
+/* line 2991, ../../../../sass/_wpdwikireimport.scss */
+.standardization_status:before { content: url("http://docs.webplatform.org/w/skins/webplatform/images/w3c-small.svg"); position: absolute; top: 13px; left: 10px; text-align: center; width: 24px; }
+
+@media screen { /* line 3002, ../../../../sass/_wpdwikireimport.scss */
+  .standardization_status[title^="W3C Last Call Working Draft"]:after, .standardization_status[title^="W3C Recommendation"]:after { content: ''; position: absolute; left: 50%; width: 7px; height: 7px; margin-left: -6.5px; background: white; border: 3px solid #005A9C; border-radius: 50%; }
+  /* line 3014, ../../../../sass/_wpdwikireimport.scss */
+  .standardization_status[title^="W3C Last Call Working Draft"]:after { bottom: -3px; }
+  /* line 3018, ../../../../sass/_wpdwikireimport.scss */
+  .standardization_status[title^="W3C Recommendation"]:after { top: -3px; }
+  /* line 3024, ../../../../sass/_wpdwikireimport.scss */
+  .standardization_status[title^="Non-Standard"]:after, .standardization_status[title^="De Facto Standard"]:after, .standardization_status[title^="Experimental"]:after { content: ''; position: absolute; top: 50%; right: 8px; left: 8px; border-top: 4px rgba(204, 0, 0, 0.8) solid; margin-top: -3px; } }
+@media print { /* line 3034, ../../../../sass/_wpdwikireimport.scss */
+  .standardization_status:after { content: attr(title); text-transform: uppercase; } }
+/* flags */
+/* line 3042, ../../../../sass/_wpdwikireimport.scss */
+#flags { position: relative; margin-top: 20px; left: -18px; width: 100%; padding: 0px 7px 5px; background: #ffdedb; }
+
+/* line 3051, ../../../../sass/_wpdwikireimport.scss */
+#flags:not(:empty):before { content: ''; position: absolute; left: -.55em; top: 1.3em; width: 0; height: 0; border: .5em solid transparent; border-left-width: 0; border-right-color: #7a271e; }
+
+/* line 3063, ../../../../sass/_wpdwikireimport.scss */
+#flags:empty { padding: 0; margin: 0; }
+
+/* line 3068, ../../../../sass/_wpdwikireimport.scss */
+#flags * { display: inline; }
+
+/* line 3072, ../../../../sass/_wpdwikireimport.scss */
+#flags ul, #flags li { margin: 0; padding: 0; }
+
+/* line 3077, ../../../../sass/_wpdwikireimport.scss */
+#flags > div > p { display: none; }
+
+/* line 3081, ../../../../sass/_wpdwikireimport.scss */
+#flags a { display: inline-block; padding: 0 1.5em; margin: .4em 0; background: #e2887a; background-image: -webkit-linear-gradient(210deg, #ffdedb 0.5em, rgba(255, 222, 219, 0) 0.6em), -webkit-linear-gradient(30deg, #ffdedb 0.5em, rgba(255, 222, 219, 0) 0.6em), -webkit-linear-gradient(330deg, #ffdedb 0.5em, rgba(255, 222, 219, 0) 0.6em), -webkit-linear-gradient(150deg, #ffdedb 0.5em, rgba(255, 222, 219, 0) 0.6em); background-image: -moz-linear-gradient(210deg, #ffdedb 0.5em, rgba(255, 222, 219, 0) 0.6em), -moz-linear-gradient(30deg, #ffdedb 0.5em, rgba(255, 222, 219, 0) 0.6em), -moz-linear-gradient(330deg, #ffdedb 0.5em, rgba(255, 222, 219, 0) 0.6em), -moz-linear-gradient(150deg, #ffdedb 0.5em, rgba(255, 222, 219, 0) 0.6em); background-image: -o-linear-gradient(210deg, #ffdedb 0.5em, rgba(255, 222, 219, 0) 0.6em), -o-linear-gradient(30deg, #ffdedb 0.5em, rgba(255, 222, 219, 0) 0.6em), -o-linear-gradient(330deg, #ffdedb 0.5em, rgba(255, 222, 219, 0) 0.6em), -o-linear-gradient(150deg, #ffdedb 0.5em, rgba(255, 222, 219, 0) 0.6em); background-image: linear-gradient(240deg, #ffdedb 0.5em, rgba(255, 222, 219, 0) 0.6em), linear-gradient(60deg, #ffdedb 0.5em, rgba(255, 222, 219, 0) 0.6em), linear-gradient(120deg, #ffdedb 0.5em, rgba(255, 222, 219, 0) 0.6em), linear-gradient(300deg, #ffdedb 0.5em, rgba(255, 222, 219, 0) 0.6em); background-position: top right, top left, bottom left, bottom right; background-size: 1.2em 53%; background-repeat: no-repeat; color: white; text-shadow: 0 -0.1em 0.1em rgba(0, 0, 0, 0.3); font: bold 90%/1.5 Bitter, Cambria, Georgia, serif; }
+
+/* line 3110, ../../../../sass/_wpdwikireimport.scss */
+#flags a:hover { background-color: #973a2c; }
+
+/* line 3114, ../../../../sass/_wpdwikireimport.scss */
+#flag-label { display: block; position: relative; left: -15px; top: -5px; width: 101%; padding: .3em 1em; margin: 0; font-size: 12px; font-weight: bold; font-family: Bitter; color: white; background-color: #ce4a3a; }
+
+/* line 3130, ../../../../sass/_wpdwikireimport.scss */
+p > br:only-child { display: none; }
+
+/* line 3136, ../../../../sass/_wpdwikireimport.scss */
+.wikiEditor-ui { clear: left !important; }
+
+/* line 3140, ../../../../sass/_wpdwikireimport.scss */
+.prefix { display: inline-block; padding: 2px 4px; text-align: center; color: white; font-size: 12px; font-family: Gudea, Arial, sans-serif; font-weight: normal; text-shadow: 0 1px black; border: 1px solid; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); white-space: nowrap; border-radius: 3px; }
+
+/* line 3155, ../../../../sass/_wpdwikireimport.scss */
+.prefix.webkit { border-color: white; background: #46b7e4; background: -moz-linear-gradient(#46b7e4 0%, #4a7dba 100%); background: -webkit-linear-gradient(#46b7e4 0%, #4a7dba 100%); background: -o-linear-gradient(#46b7e4 0%, #4a7dba 100%); background: linear-gradient(#46b7e4 0%, #4a7dba 100%); }
+
+/* line 3164, ../../../../sass/_wpdwikireimport.scss */
+.prefix.moz { border-color: white; background: #e1780b; background: -moz-linear-gradient(#e1780b 0%, #d4520d 100%); background: -webkit-linear-gradient(#e1780b 0%, #d4520d 100%); background: -o-linear-gradient(#e1780b 0%, #d4520d 100%); background: linear-gradient(#e1780b 0%, #d4520d 100%); }
+
+/* line 3173, ../../../../sass/_wpdwikireimport.scss */
+.prefix.ms { border-color: #f9ec71; background: #82cee7; background: -moz-linear-gradient(#82cee7 0%, #2f93d4 100%); background: -webkit-linear-gradient(#82cee7 0%, #2f93d4 100%); background: -o-linear-gradient(#82cee7 0%, #2f93d4 100%); background: linear-gradient(#82cee7 0%, #2f93d4 100%); }
+
+/* line 3182, ../../../../sass/_wpdwikireimport.scss */
+.prefix.o { border-color: white; background: #ea393a; background: -moz-linear-gradient(#ea393a 0%, #9b0a0a 100%); background: -webkit-linear-gradient(#ea393a 0%, #9b0a0a 100%); background: -o-linear-gradient(#ea393a 0%, #9b0a0a 100%); background: linear-gradient(#ea393a 0%, #9b0a0a 100%); }
+
+/* line 3191, ../../../../sass/_wpdwikireimport.scss */
+.language { position: absolute; top: 1px; right: 1px; color: #6d685b; font-family: Bitter; font-weight: bold; text-shadow: 0px 1px 0px white; padding: 5px 15px; background: #d6c8b4; background: -moz-linear-gradient(#d6c8b4 0%, #c8b99c 100%); background: -webkit-linear-gradient(#d6c8b4 0%, #c8b99c 100%); background: -o-linear-gradient(#d6c8b4 0%, #c8b99c 100%); background: linear-gradient(#d6c8b4 0%, #c8b99c 100%); }
+
+/* line 3208, ../../../../sass/_wpdwikireimport.scss */
+.css-property { border-bottom: 1px solid #E2E3E4; }
+
+/* Tables */
+/* line 3214, ../../../../sass/_wpdwikireimport.scss */
+table, table.wikitable { max-width: 100%; }
+
+/* line 3218, ../../../../sass/_wpdwikireimport.scss */
+td, th { border: 0; }
+
+/* line 3224, ../../../../sass/_wpdwikireimport.scss */
+.compat-table, .wikitable, .action-view table:not([class]) { position: relative; border-collapse: separate; border-spacing: 0; box-shadow: 0px -1px 0px #eae8e5; border-radius: 6px 6px 0 0; border: 1px solid #ddd3c2; font-family: Bitter; table-layout: fixed; }
+
+/* line 3237, ../../../../sass/_wpdwikireimport.scss */
+.compat-table tr, .wikitable tr, .action-view table:not([class]) tr { background: #e1dccf; }
+
+/* line 3243, ../../../../sass/_wpdwikireimport.scss */
+.compat-table tr:nth-child(even), .wikitable tr:nth-child(even), .action-view table:not([class]) tr:nth-child(even) { background: #fbf7ef; }
+
+/* line 3252, ../../../../sass/_wpdwikireimport.scss */
+.compat-table tbody:first-child tr:first-child th:first-child, .wikitable tbody:first-child tr:first-child th:first-child, .action-view table:not([class]) tbody:first-child tr:first-child th:first-child, .compat-table thead th:first-child, .wikitable thead th:first-child, .action-view table:not([class]) thead th:first-child { border-top-left-radius: 5px; border-left: none; }
+
+/* line 3262, ../../../../sass/_wpdwikireimport.scss */
+.compat-table tr:first-child th:last-child, .wikitable tr:first-child th:last-child, .action-view table:not([class]) tr:first-child th:last-child, .compat-table tr:first-child td:last-child, .wikitable tr:first-child td:last-child, .action-view table:not([class]) tr:first-child td:last-child { border-top-right-radius: 5px; border-right: none; }
+
+/* line 3269, ../../../../sass/_wpdwikireimport.scss */
+.compat-table tr td:last-child, .wikitable tr td:last-child, .action-view table:not([class]) tr td:last-child { border-right: none; }
+
+/* line 3275, ../../../../sass/_wpdwikireimport.scss */
+.compat-table tr:nth-child(n+2) td, .wikitable tr:nth-child(n+2) td, .action-view table:not([class]) tr:nth-child(n+2) td { border-bottom: none; }
+
+/* line 3284, ../../../../sass/_wpdwikireimport.scss */
+.compat-table td:first-child, .wikitable td:first-child, .action-view table:not([class]) td:first-child, .compat-table tbody th:first-child, .wikitable tbody th:first-child, .action-view table:not([class]) tbody th:first-child { border-top: 1px solid white; border-left: none; color: white; background: #6c6657; font-weight: normal; }
+
+/* line 3297, ../../../../sass/_wpdwikireimport.scss */
+.compat-table td:first-child a:hover, .wikitable td:first-child a:hover, .action-view table:not([class]) td:first-child a:hover, .compat-table tbody th:first-child a:hover, .wikitable tbody th:first-child a:hover, .action-view table:not([class]) tbody th:first-child a:hover { color: #F89C20; }
+
+/* line 3306, ../../../../sass/_wpdwikireimport.scss */
+.compat-table thead th, .wikitable thead th, .action-view table:not([class]) thead th, .compat-table tbody:first-child > tr:first-child > th:not(:only-of-type), .wikitable tbody:first-child > tr:first-child > th:not(:only-of-type), .action-view table:not([class]) tbody:first-child > tr:first-child > th:not(:only-of-type) { font-weight: normal; padding: 10px; border: 1px solid white; border-bottom-color: #b8af98; border-left: none; background: #e1d9c6; background: -moz-linear-gradient(#e6e2d8, #e1d9c6); background: -webkit-linear-gradient(#e6e2d8, #e1d9c6); background: -o-linear-gradient(#e6e2d8, #e1d9c6); background: linear-gradient(#e6e2d8, #e1d9c6); color: inherit; }
+
+/* line 3325, ../../../../sass/_wpdwikireimport.scss */
+.compat-table thead th:last-child, .wikitable thead th:last-child, .action-view table:not([class]) thead th:last-child, .compat-table tbody:first-child > tr:first-child > th:not(:only-of-type):last-child, .wikitable tbody:first-child > tr:first-child > th:not(:only-of-type):last-child, .action-view table:not([class]) tbody:first-child > tr:first-child > th:not(:only-of-type):last-child { border-right: none; }
+
+/* line 3331, ../../../../sass/_wpdwikireimport.scss */
+.compat-table td, .wikitable td, .action-view table:not([class]) td { padding: 5px 15px; border: 1px solid white; border-left: none; }
+
+/* line 3339, ../../../../sass/_wpdwikireimport.scss */
+.compat-table th, .wikitable th, .action-view table:not([class]) th { padding: 10px 15px; font-family: Bitter; text-align: left; }
+
+/* line 3345, ../../../../sass/_wpdwikireimport.scss */
+.compat-table td { font-weight: bold; }
+
+/* line 3351, ../../../../sass/_wpdwikireimport.scss */
+.compat-table a, .wikitable a, .action-view table:not([class]) a { color: inherit; }
+
+/* Footer */
+/* line 3357, ../../../../sass/_wpdwikireimport.scss */
+#mw-footer { padding: 40px 0; border-top: 1px solid #f1eddf; background-color: #efeadd; }
+
+/* line 3363, ../../../../sass/_wpdwikireimport.scss */
+#mw-footer a { color: inherit; }
+
+/* line 3372, ../../../../sass/_wpdwikireimport.scss */
+#footer-wordmark > a.license { display: block; margin-bottom: 1em; }
+
+/* line 3377, ../../../../sass/_wpdwikireimport.scss */
+#footer-wordmark > a.license > img { width: 120px; height: 42px; opacity: .4; }
+
+/* line 3383, ../../../../sass/_wpdwikireimport.scss */
+#footer-title { display: block; font: bold 24px Bitter, serif; }
+
+/* line 3388, ../../../../sass/_wpdwikireimport.scss */
+#footer-title-light { color: #9f9c97; }
+
+/* line 3392, ../../../../sass/_wpdwikireimport.scss */
+footer ul.stewards { padding: 0; margin: 0; }
+
+/* line 3397, ../../../../sass/_wpdwikireimport.scss */
+footer ul.stewards > li { display: inline; list-style: none; }
+
+/* line 3402, ../../../../sass/_wpdwikireimport.scss */
+footer ul.stewards > li > a { display: inline-block; vertical-align: middle; width: 124px; height: 60px; background: url("http://docs.webplatform.org/w/skins/webplatform/images/footer-images.png") no-repeat 0 0; text-indent: 200px; overflow: hidden; color: gray; color: rgba(0, 0, 0, 0.4); text-align: center; font: bold 140%/2.5 Bitter, Cambria, Georgia, serif; }
+
+/* line 3416, ../../../../sass/_wpdwikireimport.scss */
+footer ul.stewards > li.steward-adobe > a { background-position: -124px 0; }
+
+/* line 3417, ../../../../sass/_wpdwikireimport.scss */
+footer ul.stewards > li.steward-intel > a { background-position: -248px 0; }
+
+/* line 3418, ../../../../sass/_wpdwikireimport.scss */
+footer ul.stewards > li.steward-facebook > a { background-position: -372px 0; }
+
+/* line 3419, ../../../../sass/_wpdwikireimport.scss */
+footer ul.stewards > li.steward-google > a { background-position: -496px 0; }
+
+/* line 3420, ../../../../sass/_wpdwikireimport.scss */
+footer ul.stewards > li.steward-hp > a { background-position: 0 -60px; }
+
+/* line 3421, ../../../../sass/_wpdwikireimport.scss */
+footer ul.stewards > li.steward-microsoft > a { background-position: -124px -60px; }
+
+/* line 3422, ../../../../sass/_wpdwikireimport.scss */
+footer ul.stewards > li.steward-nokia > a { background-position: -248px -60px; }
+
+/* line 3423, ../../../../sass/_wpdwikireimport.scss */
+footer ul.stewards > li.steward-mozilla > a { background-position: -372px -60px; }
+
+/* line 3424, ../../../../sass/_wpdwikireimport.scss */
+footer ul.stewards > li.steward-opera > a { background-position: -496px -60px; }
+
+@media (min-width: 880px) { /* line 3427, ../../../../sass/_wpdwikireimport.scss */
+  #footer-wordmark { display: table-cell; vertical-align: top; }
+  /* line 3432, ../../../../sass/_wpdwikireimport.scss */
+  footer ul.stewards { display: table-cell; vertical-align: top; max-width: 650px; padding-left: 100px; } }
+@media (max-width: 880px) { /* line 3441, ../../../../sass/_wpdwikireimport.scss */
+  footer ul.stewards { margin-top: 1em; } }
+/* Comments link - General */
+/* line 3447, ../../../../sass/_wpdwikireimport.scss */
+.comment-count { position: relative; float: right; height: 1.5em; padding: .15em .4em 0; margin-top: -4em; border-radius: .3em; background: #30B4C5; color: white; text-shadow: 0 -0.1em 0.1em rgba(0, 0, 0, 0.3); text-align: center; text-decoration: none !important; font: bold 120%/1.5 Bitter, Cambria, Georgia, serif; white-space: nowrap; }
+
+/* line 3463, ../../../../sass/_wpdwikireimport.scss */
+.comment-count > span { display: inline-block; max-width: 0; overflow: hidden; margin-left: -.3em; vertical-align: top; -webkit-transition: .4s max-width, .05s .4s margin-left; -moz-transition: .4s max-width, .05s .4s margin-left; -o-transition: .4s max-width, .05s .4s margin-left; transition: .4s max-width, .05s .4s margin-left; }
+
+/* line 3476, ../../../../sass/_wpdwikireimport.scss */
+.comment-count:hover > span { max-width: 15em; margin-left: 0; -webkit-transition: .05s  margin-left, .4s .05s max-width; -moz-transition: .05s  margin-left, .4s .05s max-width; -o-transition: .05s  margin-left, .4s .05s max-width; transition: .05s  margin-left, .4s .05s max-width; }
+
+/* line 3486, ../../../../sass/_wpdwikireimport.scss */
+.comment-count:after { content: ''; position: absolute; bottom: -.3em; left: 50%; width: 0; height: 0; margin-left: -.15em; border: .3em solid transparent; border-left-color: #30B4C5; border-right: 0; }
+
+/* line 3499, ../../../../sass/_wpdwikireimport.scss */
+.comment-count:hover { background: #4e408a; color: white !important; }
+
+/* line 3504, ../../../../sass/_wpdwikireimport.scss */
+.comment-count:hover:after { border-left-color: #4e408a; }
+
+/* Comments link - Blog only */
+/* line 3509, ../../../../sass/_wpdwikireimport.scss */
+#primary .comment-count:after { border-top: 0; }
+
+/* Comments link - Docs only */
+/* line 3514, ../../../../sass/_wpdwikireimport.scss */
+#mw-content-text .comment-count { position: absolute; right: 100%; margin: .1em -6px 0 0; border: 1px solid transparent; box-shadow: 0 1px rgba(255, 255, 255, 0.5) inset, 0 0.2em 0.3em -0.2em rgba(0, 0, 0, 0.5); font-size: 70%; }
+
+/* line 3524, ../../../../sass/_wpdwikireimport.scss */
+#mw-content-text .comment-count:after { top: 50%; bottom: auto; left: 100%; margin-top: -.3em; margin-left: 0; }
+
+/* line 3532, ../../../../sass/_wpdwikireimport.scss */
+.comment-count.comments-hidden:before { content: '+'; line-height: .9; font-size: 140%; }
+
+/* line 3538, ../../../../sass/_wpdwikireimport.scss */
+#mw-content-text .comment-count:not(:hover) { background: #d1bd94; }
+
+/* line 3542, ../../../../sass/_wpdwikireimport.scss */
+#mw-content-text .comment-count:not(:hover):after { border-left-color: #d1bd94; }
+
+/* Prism syntax highlighting */
+/* ISSUE: Duplicated from codelet, should be in only one place */
+/** prism.js default theme for JavaScript, CSS and HTML Based on dabblet (http://dabblet.com) @author Lea Verou */
+/* line 3555, ../../../../sass/_wpdwikireimport.scss */
+code[class*="language-"] { color: black; text-shadow: 0 1px white; font-family: Consolas, Monaco, 'Andale Mono', monospace; direction: ltr; text-align: left; white-space: pre; word-spacing: normal; font-weight: normal; -moz-tab-size: 4; -o-tab-size: 4; tab-size: 4; -webkit-hyphens: none; -moz-hyphens: none; -ms-hyphens: none; hyphens: none; }
+
+@media print { /* line 3577, ../../../../sass/_wpdwikireimport.scss */
+  code[class*="language-"], pre[class*="language-"] { text-shadow: none; } }
+/* Code blocks */
+/* line 3583, ../../../../sass/_wpdwikireimport.scss */
+pre[class*="language-"] { padding: 1em; margin: .5em 0; overflow: auto; }
+
+/* line 3590, ../../../../sass/_wpdwikireimport.scss */
+:not(pre) > code[class*="language-"], pre[class*="language-"] { background: #f3efe7; }
+
+/* Inline code */
+/* line 3595, ../../../../sass/_wpdwikireimport.scss */
+:not(pre) > code[class*="language-"] { padding: .1em; border-radius: .3em; }
+
+/* line 3603, ../../../../sass/_wpdwikireimport.scss */
+.token.comment, .token.prolog, .token.doctype, .token.cdata { color: #8f7d4d; }
+
+/* line 3607, ../../../../sass/_wpdwikireimport.scss */
+.token.punctuation { color: #999; }
+
+/* line 3611, ../../../../sass/_wpdwikireimport.scss */
+.namespace { opacity: .7; }
+
+/* line 3618, ../../../../sass/_wpdwikireimport.scss */
+.token.property, .token.tag, .token.boolean, .token.number { color: #258a98; }
+
+/* line 3624, ../../../../sass/_wpdwikireimport.scss */
+.token.selector, .token.attr-name, .token.string { color: #694D9F; }
+
+/* line 3632, ../../../../sass/_wpdwikireimport.scss */
+.token.operator, .token.entity, .token.url, .language-css .token.string, .style .token.string { color: #a67f59; background: rgba(255, 255, 255, 0.5); }
+
+/* line 3639, ../../../../sass/_wpdwikireimport.scss */
+.token.atrule, .token.attr-value, .token.keyword { color: #c67606; }
+
+/* line 3645, ../../../../sass/_wpdwikireimport.scss */
+.token.regex, .token.important { color: #e90; }
+
+/* line 3649, ../../../../sass/_wpdwikireimport.scss */
+.token.important { color: #E54E27; font-weight: bold; }
+
+/* line 3654, ../../../../sass/_wpdwikireimport.scss */
+.token.entity { cursor: help; }
+
+/* line 3658, ../../../../sass/_wpdwikireimport.scss */
+pre[data-line] { position: relative; padding: 1em 0 1em 3em; }
+
+/* line 3663, ../../../../sass/_wpdwikireimport.scss */
+.line-highlight { position: absolute; left: 0; right: 0; padding: inherit 0; margin-top: 1em; /* Same as .prism’s padding-top */ background: rgba(153, 122, 102, 0.08); background: -moz-linear-gradient(left, rgba(153, 122, 102, 0.1) 70%, rgba(153, 122, 102, 0)); background: -webkit-linear-gradient(left, rgba(153, 122, 102, 0.1) 70%, rgba(153, 122, 102, 0)); background: -o-linear-gradient(left, rgba(153, 122, 102, 0.1) 70%, rgba(153, 122, 102, 0)); background: linear-gradient(left, rgba(153, 122, 102, 0.1) 70%, rgba(153, 122, 102, 0)); pointer-events: none; line-height: inherit; white-space: pre; }
+
+/* line 3683, ../../../../sass/_wpdwikireimport.scss */
+.line-highlight:before, .line-highlight[data-end]:after { content: attr(data-start); position: absolute; top: .4em; left: .6em; min-width: 1em; padding: 0 .5em; background-color: rgba(153, 122, 102, 0.4); color: #f5f2f0; font: bold 65%/1.5 sans-serif; text-align: center; vertical-align: .3em; border-radius: 999px; text-shadow: none; box-shadow: 0 1px white; }
+
+/* line 3700, ../../../../sass/_wpdwikireimport.scss */
+.line-highlight[data-end]:after { content: attr(data-end); top: auto; bottom: .4em; }
+
+/* Bottom navigation menu */
+/* line 3708, ../../../../sass/_wpdwikireimport.scss */
+.topics-nav { position: relative; margin: 3em -26px 0; box-shadow: 0 5px 12px -5px rgba(63, 56, 39, 0.8); }
+
+@media print { /* line 3715, ../../../../sass/_wpdwikireimport.scss */
+  .topics-nav { display: none; } }
+/* line 3720, ../../../../sass/_wpdwikireimport.scss */
+.topics-nav > ul { display: table; width: 100%; padding: 0; margin: 0; }
+
+/* line 3727, ../../../../sass/_wpdwikireimport.scss */
+.topics-nav > ul > li { display: table-cell; width: 12.5%; margin: 0; list-style: none; text-align: center; }
+
+/* line 3735, ../../../../sass/_wpdwikireimport.scss */
+.topics-nav > ul > li > a { display: block; padding: .9em .5em .5em; border: 1px solid transparent; border-left-color: rgba(255, 255, 255, 0.6); border-right-color: rgba(0, 0, 0, 0.15); border-bottom-color: #bbaf90; box-shadow: 0 1px rgba(255, 255, 255, 0.4) inset, 0 0.5em #c5baa0 inset; background: #DED8C9; color: #756d57; text-shadow: 0 .1em .05em white; font: 120% Bitter,serif; -webkit-transition-property: background, box-shadow; -moz-transition-property: background, box-shadow; -o-transition-property: background, box-shadow; transition-property: background, box-shadow; }
+
+/* line 3754, ../../../../sass/_wpdwikireimport.scss */
+.topics-nav > ul > li:first-child > a:before, .topics-nav > ul > li:last-child > a:before { content: ''; position: absolute; width: 0; height: 0; top: -8px; border: 8px solid transparent; border-bottom: 0; }
+
+/* line 3764, ../../../../sass/_wpdwikireimport.scss */
+.topics-nav > ul > li:first-child > a:before { left: 0; border-right-color: #9e8d61; border-left: 0; }
+
+/* line 3770, ../../../../sass/_wpdwikireimport.scss */
+.topics-nav > ul > li:last-child > a:before { right: 0; border-left-color: #9e8d61; border-right: 0; }
+
+/* line 3777, ../../../../sass/_wpdwikireimport.scss */
+.topics-nav > ul > li:first-child > a:hover:before, .topics-nav > ul > li:first-child > a:focus:before { border-right-color: #1d717c; }
+
+/* line 3781, ../../../../sass/_wpdwikireimport.scss */
+.topics-nav > ul > li:last-child > a { border-right-color: rgba(0, 0, 0, 0.1); }
+
+/* line 3786, ../../../../sass/_wpdwikireimport.scss */
+.topics-nav > ul > li > a:hover, .topics-nav > ul > li > a:focus { border-bottom-color: rgba(0, 0, 0, 0.2); background: #30B4C5; box-shadow: 0 1px rgba(255, 255, 255, 0.4) inset, 0 0.5em rgba(0, 0, 0, 0.1) inset; color: white; text-shadow: 0 -0.1em 0.1em rgba(0, 0, 0, 0.5); }
+
+/* line 3795, ../../../../sass/_wpdwikireimport.scss */
+.topics-nav > ul > li > a:hover:before, .topics-nav > ul > li > a:focus:before { border-left-color: #1d717c; }
+
+/* line 3800, ../../../../sass/_wpdwikireimport.scss */
+.topics-nav > ul > li:nth-child(5n) > a:hover, .topics-nav > ul > li:nth-child(5n) > a:focus { background: #694D9F; }
+
+/* line 3805, ../../../../sass/_wpdwikireimport.scss */
+.topics-nav > ul > li:nth-child(5n) > a:hover:before, .topics-nav > ul > li:nth-child(5n) > a:focus:before { border-left-color: #433167; /* hsl(260, 35%, 30%) */ }
+
+/* line 3810, ../../../../sass/_wpdwikireimport.scss */
+.topics-nav > ul > li:nth-child(5n + 2) > a:hover, .topics-nav > ul > li:nth-child(5n + 2) > a:focus { background: #E54E27; }
+
+/* line 3815, ../../../../sass/_wpdwikireimport.scss */
+.topics-nav > ul > li:nth-child(5n + 2) > a:hover:before, .topics-nav > ul > li:nth-child(5n + 2) > a:focus:before { border-left-color: #892810; /* hsl(12, 79%, 30%) */ }
+
+/* line 3820, ../../../../sass/_wpdwikireimport.scss */
+.topics-nav > ul > li:nth-child(5n + 3) > a:hover, .topics-nav > ul > li:nth-child(5n + 3) > a:focus { background: #D02E27; }
+
+/* line 3825, ../../../../sass/_wpdwikireimport.scss */
+.topics-nav > ul > li:nth-child(5n + 3) > a:hover:before, .topics-nav > ul > li:nth-child(5n + 3) > a:focus:before { border-left-color: #811b17; }
+
+/* line 3830, ../../../../sass/_wpdwikireimport.scss */
+.topics-nav > ul > li:nth-child(5n + 4) > a:hover, .topics-nav > ul > li:nth-child(5n + 4) > a:focus { background: #F99D1C; }
+
+/* line 3835, ../../../../sass/_wpdwikireimport.scss */
+.topics-nav > ul > li:nth-child(5n + 4) > a:hover:before, .topics-nav > ul > li:nth-child(5n + 4) > a:focus:before { border-left-color: #ad6705; /* hsl(35, 94%, 35%) */ }
+
+@media (max-width: 660px) { /* line 3840, ../../../../sass/_wpdwikireimport.scss */
+  .topics-nav > ul { display: block; }
+  /* line 3844, ../../../../sass/_wpdwikireimport.scss */
+  .topics-nav > ul > li { display: block; width: auto; } }
+/** Compat lists */
+/* line 3854, ../../../../sass/_wpdwikireimport.scss */
+dl.compat-list { position: relative; margin: 0; font-size: 16px; font-size: 1rem; line-height: 1; }
+
+/* line 3862, ../../../../sass/_wpdwikireimport.scss */
+:not(dd) > dl.compat-list { float: right; margin-top: -8px; }
+
+@-webkit-keyframes show { /* line 3868, ../../../../sass/_wpdwikireimport.scss */
+  from { -webkit-transform: scale(0); opacity: 0; } }
+
+@-moz-keyframes show { /* line 3872, ../../../../sass/_wpdwikireimport.scss */
+  from { -moz-transform: scale(0); opacity: 0; } }
+
+@-o-keyframes show { /* line 3876, ../../../../sass/_wpdwikireimport.scss */
+  from { -o-transform: scale(0); opacity: 0; } }
+
+@keyframes show { /* line 3880, ../../../../sass/_wpdwikireimport.scss */
+  from { transform: scale(0); opacity: 0; } }
+
+/* line 3883, ../../../../sass/_wpdwikireimport.scss */
+dl.compat-list dd > dl.compat-list { display: none; position: absolute; z-index: 2; background: white; width: 98px; padding: 10px 7px 10px 15px; border-radius: 10px; margin: -35px 0 0 15px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); -webkit-transform-origin: 0 1em; -moz-transform-origin: 0 1em; -o-transform-origin: 0 1em; transform-origin: 0 1em; }
+
+/* line 3904, ../../../../sass/_wpdwikireimport.scss */
+dl.compat-list dd:hover > dl.compat-list, dl.compat-list dt:hover + dd > dl.compat-list, dl.compat-list dd:focus > dl.compat-list, dl.compat-list dt:focus + dd > dl.compat-list, dl.compat-list > dt:hover > span { display: block; -webkit-animation: show 0.3s cubic-bezier(0.2, 1.2, 0.7, 1.2); -moz-animation: show 0.3s cubic-bezier(0.2, 1.2, 0.7, 1.2); -o-animation: show 0.3s cubic-bezier(0.2, 1.2, 0.7, 1.2); animation: show 0.3s cubic-bezier(0.2, 1.2, 0.7, 1.2); }
+
+/* line 3913, ../../../../sass/_wpdwikireimport.scss */
+dl.compat-list dd > dl.compat-list:before, dl.compat-list dt + dd > dl.compat-list:before { content: ''; position: absolute; left: -10px; top: 20px; width: 0; height: 0; border: 10px solid transparent; border-right-color: white; border-left: 0; }
+
+/* line 3925, ../../../../sass/_wpdwikireimport.scss */
+dl.compat-list dt { position: relative; display: inline-block; width: 36px; height: 36px; background: url("http://docs.webplatform.org/w/skins/webplatform/images/cloud.svg") no-repeat center; margin: 0; }
+
+/* line 3934, ../../../../sass/_wpdwikireimport.scss */
+dl.compat-list > dt > span { display: none; position: absolute; top: 35px; left: 0; z-index: 3; padding: .3em .5em; border-radius: .3em; margin-left: .2em; background: #694D9F; box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3); color: white; white-space: pre; font-weight: bold; line-height: 1.3; pointer-events: none; -webkit-transform-origin: .5em 0; -moz-transform-origin: .5em 0; -o-transform-origin: .5em 0; transform-origin: .5em 0; }
+
+/* line 3957, ../../../../sass/_wpdwikireimport.scss */
+dl.compat-list > dt > span:before { content: ''; position: absolute; top: -.3em; left: .4em; width: 0; height: 0; border: 0.5em solid transparent; border-bottom-color: #694D9F; border-top: 0; }
+
+/* line 3969, ../../../../sass/_wpdwikireimport.scss */
+dl.compat-list > dt > span:after { font-weight: normal; font-size: smaller; }
+
+/* line 3974, ../../../../sass/_wpdwikireimport.scss */
+dl.compat-list > dt.Supported > span:after { content: '\ASupported'; }
+
+/* line 3978, ../../../../sass/_wpdwikireimport.scss */
+dl.compat-list > dt.Unsupported > span:after { content: '\AUnsupported'; }
+
+/* line 3982, ../../../../sass/_wpdwikireimport.scss */
+dl.compat-list > dt.Partial > span:after { content: '\APartial support'; }
+
+/* line 3986, ../../../../sass/_wpdwikireimport.scss */
+dl.compat-list > dt.Unknown > span:after { content: '\AUnknown'; }
+
+/* line 3990, ../../../../sass/_wpdwikireimport.scss */
+dl.compat-list dt:before { content: ''; position: absolute; top: 0; right: 0; bottom: 0; left: 0; background: no-repeat center; }
+
+/* line 3998, ../../../../sass/_wpdwikireimport.scss */
+dl.compat-list dt.chrome:before, dl.compat-list dt.and_chr:before { background-image: url("http://docs.webplatform.org/w/skins/webplatform/images/browsers/chrome.png"); }
+
+/* line 4003, ../../../../sass/_wpdwikireimport.scss */
+dl.compat-list dt.firefox:before, dl.compat-list dt.and_ff:before { background-image: url("http://docs.webplatform.org/w/skins/webplatform/images/browsers/firefox.png"); }
+
+/* line 4009, ../../../../sass/_wpdwikireimport.scss */
+dl.compat-list dt.ie:before, dl.compat-list dt.ie_mob:before { background-image: url("http://docs.webplatform.org/w/skins/webplatform/images/browsers/ie.png"); background-position: 40% 50%; }
+
+/* line 4016, ../../../../sass/_wpdwikireimport.scss */
+dl.compat-list dt.opera:before, dl.compat-list dt.op_mini:before, dl.compat-list dt.op_mob:before { background-image: url("http://docs.webplatform.org/w/skins/webplatform/images/browsers/opera.png"); }
+
+/* line 4021, ../../../../sass/_wpdwikireimport.scss */
+dl.compat-list dt.safari:before, dl.compat-list dt.ios_saf:before { background-image: url("http://docs.webplatform.org/w/skins/webplatform/images/browsers/safari.png"); }
+
+/* line 4025, ../../../../sass/_wpdwikireimport.scss */
+dl.compat-list dt.mobiles:before { background-image: url("http://docs.webplatform.org/w/skins/webplatform/images/browsers/mobile.png"); }
+
+/* line 4029, ../../../../sass/_wpdwikireimport.scss */
+dl.compat-list dt.android:before { background-image: url("http://docs.webplatform.org/w/skins/webplatform/images/browsers/android.png"); }
+
+/* line 4033, ../../../../sass/_wpdwikireimport.scss */
+dl.compat-list dt.bb:before { background-image: url("http://docs.webplatform.org/w/skins/webplatform/images/browsers/blackberry.png"); }
+
+/* line 4037, ../../../../sass/_wpdwikireimport.scss */
+dl.compat-list dd { display: inline-block; position: relative; top: -16px; width: 13px; height: 13px; padding: 0; margin: 0 0 0 -11px; border-radius: 50%; box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3), 0 1px 1px white inset; background: #f9f7f3 no-repeat center; background-image: url("http://docs.webplatform.org/w/skins/webplatform/images/questionmark.svg"); background-size: 8px auto; font-size: 0; line-height: 0; color: transparent; }
+
+/* line 4053, ../../../../sass/_wpdwikireimport.scss */
+dl.compat-list dl.compat-list dd { margin-right: 10px; }
+
+/* line 4057, ../../../../sass/_wpdwikireimport.scss */
+dl.compat-list dd.Unsupported { background-image: url("http://docs.webplatform.org/w/skins/webplatform/images/x.svg"); }
+
+/* line 4061, ../../../../sass/_wpdwikireimport.scss */
+dl.compat-list dd.Partial { background-image: url("http://docs.webplatform.org/w/skins/webplatform/images/warning.svg"); }
+
+/* line 4065, ../../../../sass/_wpdwikireimport.scss */
+dl.compat-list dd.Supported { background-image: url("http://docs.webplatform.org/w/skins/webplatform/images/checkmark.svg"); }
+
+/* line 4069, ../../../../sass/_wpdwikireimport.scss */
+.ui-sortable .multipleTemplateInstance { border-radius: .5em; background: #ece6d9; border-color: #ddd2bb; box-shadow: 0 1px white inset; }
+
+/* line 4076, ../../../../sass/_wpdwikireimport.scss */
+.mw-editsection { display: none; }
+
+/* line 4080, ../../../../sass/_wpdwikireimport.scss */
+.languages { display: inline-block; clear: both; border-radius: .5em; border-spacing: 0; margin: .5em 0; padding: .6em 0; background: #DED8C9; text-shadow: 0 1px rgba(255, 255, 255, 0.6); font-size: 90%; line-height: 1; color: rgba(0, 0, 0, 0.5); }
+
+/* line 4094, ../../../../sass/_wpdwikireimport.scss */
+.languages .mbox-image { white-space: nowrap; padding: 0 1em; border-right: 1px solid rgba(0, 0, 0, 0.1); }
+
+/* line 4100, ../../../../sass/_wpdwikireimport.scss */
+.languages .mbox-text { padding: .4em 1em; border-left: 1px solid rgba(255, 255, 255, 0.6); }
+
+/* line 4105, ../../../../sass/_wpdwikireimport.scss */
+.languages .mbox-text b { color: black; }
+
+/* line 4109, ../../../../sass/_wpdwikireimport.scss */
+.languages a { text-decoration: none !important; }
+
+/* BEGIN layout rules for topic container boxes on landing page prototypes (chrisdavidmills) */
+/* line 4116, ../../../../sass/_wpdwikireimport.scss */
+.topic-container > .long-topic, .topic-container > .short-topic { padding: 0 5px; }
+
+@media (min-width: 870px) { /* line 4122, ../../../../sass/_wpdwikireimport.scss */
+  .topic-container > .long-topic, .topic-container > .short-topic { float: left; width: 290px; }
+  /* line 4127, ../../../../sass/_wpdwikireimport.scss */
+  .topic-container > .long-topic { height: 170px; }
+  /* line 4131, ../../../../sass/_wpdwikireimport.scss */
+  .topic-container > .short-topic { height: 100px; }
+  /* line 4135, ../../../../sass/_wpdwikireimport.scss */
+  .topic-container .image + .inner { float: right; width: 240px; }
+  /* line 4140, ../../../../sass/_wpdwikireimport.scss */
+  .topic-container.editors .inner { min-height: 150px; } }
+@media (max-width: 870px) { /* line 4146, ../../../../sass/_wpdwikireimport.scss */
+  .topic-container > .long-topic { margin: 10px 0; } }
+/* line 4151, ../../../../sass/_wpdwikireimport.scss */
+.topic-container.editors .inner { border: 1px solid white; padding: 5px 5px 5px 10px; border-radius: .5em; box-shadow: -1px -1px rgba(0, 0, 0, 0.1), -1px -1px rgba(0, 0, 0, 0.1) inset; }
+
+/* line 4158, ../../../../sass/_wpdwikireimport.scss */
+.topic-container .inner h3 { padding: 0; margin: 0; border-bottom: none; }
+
+/* line 4164, ../../../../sass/_wpdwikireimport.scss */
+.topic-container.editors .inner h3 a { color: #d75f1e; }
+
+/* line 4168, ../../../../sass/_wpdwikireimport.scss */
+.topic-container .image { width: 32px; height: 32px; float: left; margin: 4px 8px 8px 0; }
+
+/* line 4175, ../../../../sass/_wpdwikireimport.scss */
+.clearfixboth { clear: both; }
+
+/* line 4179, ../../../../sass/_wpdwikireimport.scss */
+.icon-accessibility { background: url("http://docs.webplatform.org/w/images/7/7b/WPD-Accessibility-32px.png"); }
+
+/* line 4183, ../../../../sass/_wpdwikireimport.scss */
+.icon-beginners { background: url("http://docs.webplatform.org/w/images/8/8a/WPD-Beginners-32px.png"); }
+
+/* line 4187, ../../../../sass/_wpdwikireimport.scss */
+.icon-concept { background: url("http://docs.webplatform.org/w/images/8/83/WPD-Concepts-32px.png"); }
+
+/* line 4191, ../../../../sass/_wpdwikireimport.scss */
+.icon-css { background: url("http://docs.webplatform.org/w/images/7/74/WPD-CSS-32px.png"); }
+
+/* line 4195, ../../../../sass/_wpdwikireimport.scss */
+.icon-dom { background: url("http://docs.webplatform.org/w/images/a/ae/WPD-DOM-32px.png"); }
+
+/* line 4199, ../../../../sass/_wpdwikireimport.scss */
+.icon-html { background: url("http://docs.webplatform.org/w/images/d/d1/WPD-HTML-B-32px.png"); }
+
+/* line 4203, ../../../../sass/_wpdwikireimport.scss */
+.icon-html5 { background: url("http://docs.webplatform.org/w/images/2/26/WPD-HTML5-32px.png"); }
+
+/* line 4207, ../../../../sass/_wpdwikireimport.scss */
+.icon-js { background: url("http://docs.webplatform.org/w/images/4/4c/WPD-JS-32px.png"); }
+
+/* line 4211, ../../../../sass/_wpdwikireimport.scss */
+.icon-svg { background: url("http://docs.webplatform.org/w/images/d/db/WPD-SVG-32px.png"); }
+
+/* line 4215, ../../../../sass/_wpdwikireimport.scss */
+.icon-api { background: url("http://docs.webplatform.org/w/images/d/d3/WPD-API-32px.png"); }
+
+/* END layout rules for topic container boxes on landing page prototypes (chrisdavidmills) */
+@media screen { /* Balance added } */
+  /* MediaWiki:Common.css  */
+  /* BEGIN hide all edit section links (Frozenice) */
+  /* line 4224, ../../../../sass/_wpdwikireimport.scss */
+  .editsection { display: none !important; }
+  /* END hide all edit section links (Frozenice) */
+  /* BEGIN testing layout for possible new main page (Tomato) */
+  /* line 4231, ../../../../sass/_wpdwikireimport.scss */
+  .wpdbox { background-color: #F4F5F7; padding: 5px; border: 1px solid #CDCED0; }
+  /* line 4237, ../../../../sass/_wpdwikireimport.scss */
+  .wpdbox_header { padding-bottom: 3px; font-size: 16px; color: #58595B; font-family: Bitter; font-weight: bold; }
+  /* line 4248, ../../../../sass/_wpdwikireimport.scss */
+  .wpdbox_header a, .wpdbox_header a span, .wpdbox_header a:visited, .wpdbox_header a:active { color: #D37E00; }
+  /* line 4252, ../../../../sass/_wpdwikireimport.scss */
+  .wpdbox_header a:hover { color: #2DAFBC; }
+  /* END testing layout for possible new main page (Tomato) */
+  /* BEGIN temporary fix for duplicate <h1> issue on Wiki pages (chrisdavidmills) */
+  /* line 4259, ../../../../sass/_wpdwikireimport.scss */
+  .firstHeading { display: none; }
+  /* END temporary fix for duplicate <h1> issue on Wiki pages (chrisdavidmills) */
+  /* BEGIN removing bullets from search types on search results page (Frozenice) */
+  /* line 4265, ../../../../sass/_wpdwikireimport.scss */
+  .mw-search-formheader div.results-info ul li, .mw-search-formheader div.search-types ul li { list-style-image: none !important; }
+  /* END removing bullets from search types on search results page (Frozenice) */
+  /* BEGIN making raw source textarea taking full width (Frozenice) */
+  /* line 4271, ../../../../sass/_wpdwikireimport.scss */
+  .wikiEditor-ui-text textarea { width: 100%; }
+  /* END making raw source textarea taking full width (Frozenice) */
+  /* BEGIN sticking property list checkboxes in the semantic forms to their labels, so they don't break up on line-wrap (Frozenice) */
+  /* line 4277, ../../../../sass/_wpdwikireimport.scss */
+  .formtable .checkboxesSpan .checkboxLabel { display: inline-block; }
+  /* END sticking property list checkboxes in the semantic forms to their labels, so they don't break up on line-wrap (Frozenice) */
+  /* Begin new site-notice style (Shepazu) */
+  /* line 4284, ../../../../sass/_wpdwikireimport.scss */
+  #alpha-notice { border-radius: 5px; text-align: center; border-color: #694D9F; background: #694D9F; color: white; padding: 0 1em; text-shadow: none; }
+  /* line 4294, ../../../../sass/_wpdwikireimport.scss */
+  #alpha-notice a { color: gold; }
+  /* line 4298, ../../../../sass/_wpdwikireimport.scss */
+  #alpha-notice p.campaign { color: #694D9F; background: white; padding: 0.5em; border-radius: 5px; }
+  /* line 4305, ../../../../sass/_wpdwikireimport.scss */
+  #alpha-notice p.campaign a { color: #263C81; text-decoration: underline; }
+  /* line 4310, ../../../../sass/_wpdwikireimport.scss */
+  div#mw-dismissable-notice-close a { float: none; padding-left: 0.25em; padding-top: 0.25em; color: white; font-size: 1.5em; text-decoration: none; }
+  /* End new site-notice style (Shepazu) */
+  /* Start new topic-box style (Shepazu) */
+  /* line 4323, ../../../../sass/_wpdwikireimport.scss */
+  body { counter-reset: topic-container-inner; }
+  /* line 4327, ../../../../sass/_wpdwikireimport.scss */
+  .topic-container-inner { counter-increment: topic-container-inner; border: 5px solid #694D9F; padding: 5px 5px 5px 10px; border-radius: 5px; min-height: 150px; float: right; width: 240px; }
+  /* line 4337, ../../../../sass/_wpdwikireimport.scss */
+  .topic-container-inner:before { content: counter(topic-container-inner); font-weight: bold; float: left; background-color: #694D9F; padding: 0.25em 0.8em; border-radius: 0 0 5px 0; margin: -0.4em 1em 0em -0.75em; color: white; }
+  /* End new topic-box style (Shepazu) */
+  /* Start table new-link style (Shepazu) */
+  /* line 4351, ../../../../sass/_wpdwikireimport.scss */
+  .compat-table a.new, .wikitable a.new { color: #BA0000; }
+  /* line 4355, ../../../../sass/_wpdwikireimport.scss */
+  .compat-table td:first-child a.new, .wikitable td:first-child a.new, .compat-table tbody th:first-child a.new, .wikitable tbody th:first-child a.new { color: pink; }
+  /* End table new-link style (Shepazu) */
+  /* Start testing new CSS property template (Shepazu) */
+  /* line 4361, ../../../../sass/_wpdwikireimport.scss */
+  dt.template_test { float: left; width: 10em; background: #6c6657; padding: 0.25em 0.1em 0.5em 0.5em; border-radius: 5px 0 0 5px; color: white; }
+  /* line 4370, ../../../../sass/_wpdwikireimport.scss */
+  dd.template_test { margin-left: 12em; margin-bottom: 0.5em; border: #6c6657 3px solid; padding: 0.25em 0.5em; border-radius: 0 5px 5px; min-height: 2em; }
+  /* line 4379, ../../../../sass/_wpdwikireimport.scss */
+  table.template_test td:first-child { background-color: inherit; color: inherit; }
+  /* line 4384, ../../../../sass/_wpdwikireimport.scss */
+  table.template_test th { background-color: #6c6657; }
+  /* line 4388, ../../../../sass/_wpdwikireimport.scss */
+  ul.keywords { margin: 0; list-style-type: none; }
+  /* line 4393, ../../../../sass/_wpdwikireimport.scss */
+  ul.keywords li { margin: 0; list-style-image: none; }
+  /* line 4398, ../../../../sass/_wpdwikireimport.scss */
+  ul.keywords li code.keyword { padding: 0.2em 0.5em; color: #fff; background-color: #6c6657; }
+  /* End testing new CSS property template (Shepazu) */ }
+@media print { /* line 4407, ../../../../sass/_wpdwikireimport.scss */
+  nav#sitenav, .tool-area, ul.stewards { display: none !important; } }
+@media screen and (max-width: 950px) { /* line 4411, ../../../../sass/_wpdwikireimport.scss */
+  .container { padding: 0px 10px; width: auto; } }
+@media screen and (max-width: 705px) { /* line 4415, ../../../../sass/_wpdwikireimport.scss */
+  #page-top > .right { display: none; }
+  /* line 4419, ../../../../sass/_wpdwikireimport.scss */
+  #main-content { padding-right: 0px; } }
+@media screen and (max-width: 520px) { /* line 4422, ../../../../sass/_wpdwikireimport.scss */
+  #mw-head { padding: 0; }
+  /* line 4426, ../../../../sass/_wpdwikireimport.scss */
+  #p-logo { position: static; }
+  /* line 4430, ../../../../sass/_wpdwikireimport.scss */
+  #p-logo a { width: auto; margin-bottom: 10px; }
+  /* line 4436, ../../../../sass/_wpdwikireimport.scss */
+  #p-personal, #p-search { display: none; }
+  /* line 4440, ../../../../sass/_wpdwikireimport.scss */
+  #sitenav { padding-top: 80px; }
+  /* line 4444, ../../../../sass/_wpdwikireimport.scss */
+  #sitenav .links { padding: 0; }
+  /* line 4448, ../../../../sass/_wpdwikireimport.scss */
+  nav { padding: 10px 0px; }
+  /* line 4452, ../../../../sass/_wpdwikireimport.scss */
+  nav li { display: block !important; padding: 10px; margin: 5px; text-align: center; }
+  /* line 4459, ../../../../sass/_wpdwikireimport.scss */
+  nav a { display: block; } }

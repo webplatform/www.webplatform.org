@@ -1,0 +1,11 @@
+#!/bin/env bash
+
+if ! echo $PATH | grep -q rbenv; then
+  export PATH="$HOME/.rbenv/bin:$PATH"
+  eval "$(rbenv init -)"
+fi
+
+if [[ -s Gemfile ]] && builtin command -v bundle >/dev/null
+then
+  bundle install | GREP_OPTIONS="" \grep -vE '^Using|Your bundle is complete'
+fi

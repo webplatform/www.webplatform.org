@@ -1,0 +1,11 @@
+{
+  "name": "www.webplatform.org",
+  "version": "1.1.0",
+  "description": "Web Platform Docs top level domain, using static page generator DocPad, and SASS+Compass as CSS pre-processor",
+  "dependencies": {
+    "normalize-css": "1.0.1"
+  },
+  "devDependencies": {
+    "roughdraft.js": "~0.1"
+  }
+}

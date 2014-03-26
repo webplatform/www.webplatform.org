@@ -1,0 +1,47 @@
+/*!
+ * WebPlatform CSS Refactor workspace
+ *
+ * NOT READY FOR PRODUCTION USE!
+ *
+ * To use only within /frontend-styleguide at this time.
+ *
+ * https://github.com/webplatform/www.webplatform.org/
+ *
+ * To report issues on styling:
+ * https://github.com/webplatform/www.webplatform.org/issues
+ *
+ * Any other bug reports:
+ * http://project.webplatform.org/
+ *
+ * @date 2014-06-19
+ **/
+
+body.mediawiki > div[style*=E35689],
+body > .styleguide-top-notice {
+  /* Just showing its using this style file,
+       obviously not the right way to do :) */
+  background-color: purple !important;
+}
+
+@import "compass"; // See Gemfile
+@import "flexbox"; // ^
+
+@import "mixins";
+@import "normalize"; // Imported checked in (for now)
+
+* {
+  // Switch to Border Box model
+  // http://paulirish.com/2012/box-sizing-border-box-ftw/
+  @include box-sizing(border-box);
+}
+
+@import "fonts";
+@import "animations"; // Import Animation Definitions
+
+// Import Base Styles
+@import "pageheader";
+@import "pagefooter";
+
+// Original WPD CSS
+@import "wpdwikireimport";    // #TODO, extract common content
+                              //   out of wiki styling

@@ -6,7 +6,7 @@ css2: "/assets/css/stewards.css"
 path: [{href: '/stewards/', inner: 'Stewards'}]
 ---
 
-<h1 id="firstHeading" class="firstHeading"><%= @document.heading %></h1>
+<h1><%= @document.heading %></h1>
 
 In order to bring this site to the community, and to maintain it, we rely on the generosity of the Web Platform stewards.
 

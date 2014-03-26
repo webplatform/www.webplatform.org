@@ -1,0 +1,481 @@
+// Super quick cheats
+
+ul {
+  padding: 0 0 0 1em;
+}
+
+
+//---------------------------------------------------------------------------
+// Overrides of Wiki CSS
+//---------------------------------------------------------------------------
+
+// These should be changed in the main site code as well.
+
+.container { // mobile first, and provides space between content & viewport edges on narrower screens
+  position: relative;
+  width: 90%;
+  max-width: 950px;
+  margin: auto;
+}
+section { // sections need to clear
+  @include clearfix;
+}
+p { //putting left & right padding on paragraphs is a fragile way to accomplish layout. Remove, but TEST first.
+  padding: 0 !important; // go clean this mess up
+}
+
+
+// Changing Typography choices
+
+h1 {
+  color: black;
+  line-height: 1.2em;
+}
+h2 {
+  color: black;
+  border: none;
+}
+h3 {
+  color: black;
+  border: none;
+  line-height: 1.2em;
+  font-size: 24px;
+}
+
+//---------------------------------------------------------------------------
+// Introducing Universal Styles
+//---------------------------------------------------------------------------
+
+
+.indent {
+  margin-left:1.5em;
+}
+
+
+
+//---------------------------------------------------------------------------
+// Introduction
+//---------------------------------------------------------------------------
+
+.intro {
+  margin: 1em 0 0;
+  text-align: center;
+  h1 {
+    color: #58595B;
+  }
+}
+.video-inner {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+}
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.coalition {
+  clear: both;
+  margin-top: 1em;
+}
+
+@media screen and (min-width: 280px) {
+.intro {
+  h1 {
+    font-size: 28px;
+  }
+  p {
+    font-size: 18px;
+  }
+}
+
+}
+@media screen and (min-width: 481px) {
+  .intro {
+    margin: 1em 0 0;
+    text-align: left;
+    h1 {
+      font-size: 28px;
+    }
+    p {
+      font-size: 21px;
+    }
+  }
+  .coalition,
+  .opensource,
+  .webplatformAPI,
+  .creativecommons {
+    float: left;
+    width: 45%;
+  }
+  .coalition {
+    margin-top: 1em;
+    margin-right: 8%;
+  }
+  .opensource {
+    margin-top: 1em;
+  }
+  .webplatformAPI {
+    margin-right: 8%;
+  }
+  .creativecommons {
+
+  }
+}
+@media screen and (min-width: 640px) {
+  .coalition,
+  .opensource,
+  .webplatformAPI,
+  .creativecommons {
+    float: left;
+    width: 30%;
+    margin-top: 0;
+    margin-right: 6%;
+  }
+  .coalition {
+    margin-bottom: -0.32em;
+  }
+  .opensource {
+
+  }
+  .webplatformAPI {
+    margin-bottom: -0.32em;
+    width: 26%;
+    margin-right: 0;
+
+  }
+  .creativecommons {
+    margin-bottom: -0.32em;
+    width: 26%;
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .intro {
+    margin: 2em 5% 0 0;
+    float: left;
+    width: 45%;
+    clear: both;
+    text-align: left;
+  }
+  .video {
+    float: right;
+    width: 50%;
+    margin: 2em 0 3em 0;
+    @include clearfix;
+  }
+}
+
+
+//---------------------------------------------------------------------------
+//  Document Map
+//---------------------------------------------------------------------------
+
+// ----------------------- Layout -------------------------------------------
+
+@media screen and (min-width: 300px) {
+  .docs .container {
+    display: -ms-flexbox;
+    @include display-flex();
+    -ms-flex-wrap: wrap;
+    @include flex-wrap(wrap);
+    -ms-flex-pack: justify;
+    @include justify-content(space-between);
+    -ms-align-items: stretch;
+    @include align-items(stretch);
+  }
+  .deep-freeze,
+  .just-started,
+  .almost-done,
+  .ready-to-use {
+    -ms-flex: auto;
+    @include flex(auto);
+    margin-right: 4%;
+    width: 48%;
+  }
+  .almost-done,
+  .deep-freeze {
+    margin-right: 0;
+  }
+  // Layout overrides for browsers who don't support Flexbox flex wrap, namely, Firefox 25 to 27.
+  // Flexbox flex wrap will get support in Firefox 28, to be released March 18, 2014.
+  // https://bugzilla.mozilla.org/show_bug.cgi?id=702508
+  @supports (not (flex-wrap: wrap)) {
+    .docs .container {
+      display: block;
+    }
+    .deep-freeze,
+    .just-started,
+    .almost-done,
+    .ready-to-use {
+      display: block;
+      flex: none;
+      float: left;
+    }
+  }
+  // Same exact override for IE
+  ie6-9 {
+    .docs .container {
+      display: block;
+    }
+    .deep-freeze,
+    .just-started,
+    .almost-done,
+    .ready-to-use {
+      display: block;
+      flex: none;
+      float: left;
+    }
+  }
+}
+
+@media screen and (min-width: 850px) {
+  .deep-freeze,
+  .just-started,
+  .almost-done,
+  .ready-to-use {
+    margin-right: 4%;
+    width: 22%;
+  }
+  .deep-freeze {
+    margin-right: 0;
+  }
+  @supports (not (flex-wrap: wrap)) {
+    .deep-freeze,
+    .just-started,
+    .almost-done,
+    .ready-to-use {
+      min-height: 32em; // A TOTAL TERRIBLE HACK!!
+    }
+  }
+  // Same exact override for IE
+  ie6-9 {
+    .deep-freeze,
+    .just-started,
+    .almost-done,
+    .ready-to-use {
+      min-height: 32em; // A TOTAL TERRIBLE HACK!!
+    }
+  }
+}
+
+
+// ----------------------- Box Styling --------------------------------------
+
+.deep-freeze,
+.just-started,
+.almost-done,
+.ready-to-use {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) inset;
+  padding: 3em 1.5em 1.5em;
+  margin-bottom: 20px;
+}
+.ready-to-use {
+  background: #30B4C5 url("/assets/icon-checkbox.png") top center no-repeat;
+}
+.almost-done {
+  background: #F49A15 url("/assets/icon-rocket.png") top center no-repeat;
+}
+.just-started {
+  background: #E54E27 url("/assets/icon-worker.png") top center no-repeat;
+}
+.deep-freeze {
+  background: #694D9F url("/assets/icon-clock.png") top center no-repeat;
+}
+
+
+// ----------------------- Typography ---------------------------------------
+
+.docs {
+  background: #263C81 url("/assets/arch.jpg") top center repeat-x;
+  margin: 3em 0;
+  padding: 1em 0 1em;
+  color: #fff;
+  h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    width: 100%;
+    margin: 0.5em auto 1em;
+  }
+  h2 {
+    text-align: center;
+    color: #fff;
+    clear: both;
+    font-size: 32px;
+  }
+  h3 {
+    color: #fff;
+    margin-bottom: 1em;
+    padding-top: 2.75em;
+    padding-bottom: 0.3em;
+    font-size: 21px;
+    border-bottom: 4px solid rgba(0,0,0,0.2);
+    text-align: center;
+  }
+  a, a:link, a:visited {
+    color: white;
+  }
+  @media screen and (min-width: 480px) {
+    a, a:link, a:visited {
+      font-size: 120%;
+    }
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  ul ul {
+    list-style: bullets;
+    font-size: 80%;
+    margin-left: 1em;
+  }
+  p.properties-list {
+    font-size:80%;
+    margin:0;
+  }
+}
+
+
+//---------------------------------------------------------------------------
+// How To Get Involved
+//---------------------------------------------------------------------------
+
+
+.help-us {
+  text-align: center;
+  font-size: 150%;
+  h1 {
+    margin-bottom: 0.2em;
+    font-size: 220%;
+  }
+  h2 {
+    padding-top: 0;
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+}
+.current-push {
+  p:first-child {
+    margin-top: 0;
+  }
+  h1 {
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+  }
+}
+.step1,
+.step2,
+.step3,
+.now-what {
+  margin: 1em 0;
+  padding: 1em 2em;
+  background: #F9F7F3;
+  border-radius: 5px;
+  box-shadow: 0 0 1px #A7A9AC;
+}
+.how-to {
+  @include clearfix;
+  h1 {
+    margin-bottom: 0;
+  }
+}
+.now-what {
+  margin: 1em auto;
+  padding: 2em;
+}
+
+@media screen and (min-width: 480px) {
+  .step1,
+  .step2,
+  .step3 {
+    width: 75%;
+  }
+  .step2 {
+    float: right;
+  }
+  .step3 {
+    clear: right;
+  }
+}
+@media screen and (min-width: 600px) {
+  .help-us {
+    padding: 1em 3em 0;
+  }
+  .current-push {
+    padding: 1em 5em;
+  }
+  span {
+    display: block;
+    @include column-count(2);
+  }
+  .step1,
+  .step2,
+  .step3 {
+    width: 66%;
+  }
+  .now-what {
+    width: 75%;
+  }
+}
+
+
+@media screen and (min-width: 850px) {
+  .help-us {
+    width: 80%;
+    padding: 1em 5em 0;
+    margin: 0 auto 2em;
+    text-align: center;
+    font-size: 150%;
+    h1 {
+      margin-bottom: 0.2em;
+      font-size: 220%;
+    }
+    h2 {
+      padding-top: 0;
+      font-size: 30px;
+      margin-bottom: 0;
+    }
+  }
+  .current-push {
+    width: 80%;
+    margin: 0 auto 2em;
+    padding: 1em 5em;
+    span {
+      display: block;
+      @include column-count(2);
+    }
+    p:first-child {
+      margin-top: 0;
+    }
+    h1 {
+      font-size: 30px;
+      font-weight: normal;
+      text-align: center;
+    }
+  }
+  .step1,
+  .step2,
+  .step3 {
+    width: 50%;
+  }
+  .now-what {
+    width: 66%;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  .now-what {
+    width: 60%;
+  }
+}
+
+

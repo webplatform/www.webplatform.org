@@ -1,0 +1,99 @@
+
+.subheader {
+	padding: 12px 0;
+	margin-bottom: 15px;
+	background: #30B4C5 url("/assets/stripes.svg") center;
+	background-size: 100%;
+	text-align: center;
+	font: bold 120% Bitter, serif;
+	text-transform: uppercase;
+	text-shadow: 0 .1em .1em white;
+}
+.subheader > h1 {
+	position: absolute;
+	left: 50%;
+	margin: 35px;
+	margin-left: -95px;
+}
+.subheader > h1 > img {
+	max-width: 100%;
+}
+.subheader > nav {
+	display: block;
+	padding: 2em 0;
+	background: #f7f4f0;
+}
+.subheader > nav > ul {
+	display: inline-block;
+	vertical-align: middle;
+	width: 10em;
+	margin: 0;
+	padding: 0;
+}
+.subheader > nav > ul > li {
+	padding: 0;
+	list-style: none;
+	border-top: 1px solid white;
+	border-bottom: 1px solid rgba(0,0,0,.1);
+	margin: 0;
+}
+.subheader > nav > ul > li:first-child {
+	border-top: 0;
+}
+.subheader > nav > ul > li:last-child {
+	border-bottom: 0;
+}
+.subheader > nav > ul > li > a {
+	display: block;
+	padding: 1em 0;
+	color: #6d685b;
+}
+.subheader > nav > ul > li > a:hover {
+	color: #30B4C5;
+}
+
+@media (min-width: 640px) {
+	.subheader > nav > ul:first-child {
+		margin-right: 250px;
+	}
+	.subheader > nav > ul + ul {
+		margin-left: 250px;
+	}
+}
+
+@media (max-width: 880px) and (min-width: 640px) {
+	.subheader > nav > ul:first-child {
+		margin-right: 150px;
+	}
+	.subheader > nav > ul + ul {
+		margin-left: 150px;
+	}
+}
+
+@media (max-width: 640px) {
+	.subheader > nav {
+		padding-top: 250px;
+	}
+	.subheader > nav > ul {
+		margin: 0;
+	}
+}
+
+@media (max-width: 340px) {
+	.subheader > h1 {
+		width: 120px;
+		margin: 30px 0 0 -60px;
+	}
+	.subheader > nav {
+		padding-top: 150px;
+	}
+	.subheader > nav > ul + ul {
+		margin-top: 1px;
+	}
+	.subheader > nav > ul:first-child > li:last-child {
+		border-bottom: 1px solid rgba(0,0,0,.1);
+	}
+	.subheader > nav > ul + ul > li:first-child {
+		border-top: 1px solid white;
+	}
+}

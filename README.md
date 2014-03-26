@@ -51,13 +51,17 @@ more about DocPad, you can refer to their [DocPad documentation](http://docpad.o
 
     * Compiling SASS files
 
-            ... in progress ...
+
+    NOTE: Working on CSS, have a look at [sass/README.md](sass/README.md).
+
+            compass compile -e production --force
 
     * Testing before pushing to the repository
 
             docpad generate --env=production
             gulp minify --env=production
             npm start
+
 
     This gives you an equivalent of what gets deployed in production without watchers.
 
@@ -67,12 +71,13 @@ more about DocPad, you can refer to their [DocPad documentation](http://docpad.o
 
 1. Prepare for deploying
 
+        compass compile -e production --force
         docpad generate --env=production
         gulp minify --env=production
         tar cfz static-$(date '+%Y%m%d').tar.gz out/
         scp static-$(date '+%Y%m%d').tar.gz deployment.webplatform.org:/srv/code/www/archives/
 
-2. ... In progress... 
+2. ... In progress...
 
     Current plan is that when a person who has rights to merge to master, a deployment system will pull from github, run the scripts in the previous step, sync the files with all web servers. Automatically.
 

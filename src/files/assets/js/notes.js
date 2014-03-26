@@ -1,17 +1,16 @@
-(function () {
+(function annotatorLoader() {
   var ssl = !! document.location.protocol.match(/^https:/),
-      embedUrl = 'http://notes.webplatform.org/app/embed.js';
+      embedUrl = 'https://notes.webplatform.org/embed.js',
+      showAnnotator = true;
 
-  if (ssl && !embedUrl.match(/^https:/)) {
-    var msg = ['Sorry, but this service is unavailable on pages ',
-                                                                                                                                             'served with HTTPS at this time. Please contact support for ',
-                                                                                                                                             'further assistance.'];
-
-    alert(msg.join(''));
-  }
-  else {
-    var embed = document.createElement('script');
-    embed.setAttribute('src', embedUrl);
-    document.body.appendChild(embed);
+  if (showAnnotator === true) {
+    if (ssl && embedUrl.match(/^https:/)) {
+      var msg = ('Sorry, but the annotator sidebar is currently unavailable ' + 'on pages that are served through HTTPS.');
+      alert(msg);
+    } else {
+      var embed = document.createElement('script');
+      embed.setAttribute('src', embedUrl);
+      document.body.appendChild(embed);
+    }
   }
 })();
