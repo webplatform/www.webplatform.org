@@ -1,8 +1,9 @@
 ---
-title: "Stewards · WebPlatform.org"
+title: "Stewards"
 heading: "Web Platform Stewards"
 layout: default
 css2: "/css/stewards.css"
+path: [{href: '/stewards/', inner: 'Stewards'}]
 ---
 
 <h1 id="firstHeading" class="firstHeading"><%= @document.heading %></h1>

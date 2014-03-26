@@ -5,11 +5,10 @@ layout: base
   <%- @partial('header-internal') %>
 
   <div id="content" class="mw-body">
-
       <div class="container">
         <a id="top"></a>
 
-        <%- @partial('breadcrumb') %>
+        <%- @partial('breadcrumb', {path: @document.path}) %>
 
         <div id="page">
           <div id="page-content">
@@ -29,4 +28,5 @@ layout: base
         </div><!-- /page -->
       </div><!-- /container -->
   </div>
+
   <%- @partial('footer-mini') %>

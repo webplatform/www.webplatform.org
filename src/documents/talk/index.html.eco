@@ -1,0 +1,43 @@
+---
+title: "Chat with us!"
+heading: "Web Platform Chat"
+layout: default
+path: [{href: '/talk/', inner: 'Talk'}]
+---
+
+<h1 id="firstHeading" class="firstHeading"><%= @document.heading %></h1>
+
+  <p>To join the live chat, join the <a class="link" href="irc://chat.freenode.net#webplatform">Freenode.net #webplatform channel</a> using
+    your IRC client.</p>
+
+  <p>We will be providing a Web chat client in the future.</p>
+
+  <h2>Summary</h2>
+  <p>
+    Server: Freenode (irc.freenode.net)
+    <br>Channel: #webplatform
+    <br>
+    <a class="link" href="irc://chat.freenode.net#webplatform">Connect</a> using your
+    favorite chat client.
+  </p>
+
+  <h2>About the Chat server</h2>
+  <p>The chat server is hosted on the Freenode IRC Network. It can be connected to by
+    pointing your IRC client to "irc.freenode.net" as the server. From there you will
+    want to join the #webplatform room.</p>
+  <h2>IRC Clients</h2>
+  <p>Here are a few IRC clients for different platforms:</p>
+  <ul>
+    <li><a href="http://xchat.org/">Xchat</a>
+    </li>
+    <li><a href="http://colloquy.info/">Colloquy</a>
+    </li>
+    <li><a href="http://www.mirc.com/">mIRC</a>
+    </li>
+    <li><a href="http://limechat.net/mac/">LimeChat</a>
+    </li>
+    <li><a href="http://pidgin.im/">Pidgin</a>
+    </li>
+  </ul>
+  <p>More can be found via <a href="http://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clients">Wikipedia</a> as
+    well.</p>

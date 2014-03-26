@@ -73,7 +73,9 @@ To lean more about how to use, you can refer to [DocPad documentation](http://do
 
 
 
-## Depdencies
+## Related
+
+### Depdencies
 
 For more details, see `package.json` file.
 
@@ -88,3 +90,13 @@ For more details, see `package.json` file.
 * [DocPad plugin "nodesass"](https://github.com/jking90/docpad-plugin-nodesass), NodeJS SASS support
   * [node-sass](https://github.com/andrew/node-sass)
 * [DocPad plugin "partials"](https://github.com/docpad/docpad-plugin-partials), view partials
+
+### Useful documentation
+
+Besides reading the source, I found those pages useful.
+
+* [DocPad TemplateData](http://docpad.org/docs/template-data)
+* [DocPad Beginner Guide](http://docpad.org/docs/begin)
+* [DocPad Meta Data](http://docpad.org/docs/meta-data)
+* [Emmet site source (made using DocPad)](https://github.com/emmetio/emmet-docs)
+* [DocPad site source (made using DocPad)](https://github.com/docpad/website)

@@ -1,8 +1,9 @@
 ---
-title: "Logo · WebPlatform.org"
+title: "Logo"
 heading: "Web Platform Logo"
 layout: default
 css2: "/css/logo.css"
+path: [{href: '/logo/', inner: 'Logo'}]
 ---
 
 <h1 id="firstHeading" class="firstHeading">

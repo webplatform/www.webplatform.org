@@ -1,26 +1,25 @@
 ---
 css: "/css/squished.css"
-js: ["/js/notes.js"]
+js:  "/js/notes.js"
 ---
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="client-nojs">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title><%= @document.title %></title>
+    <title><%= if @document.title then "#{@document.title} · WebPlatform.org" else "WebPlatform.org" %></title>
     <link rel="shortcut icon" href="http://www.webplatform.org/favicon.ico" />
     <link rel="search" type="application/opensearchdescription+xml" href="http://docs.webplatform.org/w/opensearch_desc.php" title="WebPlatform Docs (en)" />
     <link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
-    <meta name="viewport" content="width=device-width">
+    <%- @getBlock('meta').toHTML() %>
     <% for url in @assets('css'): %>
       <link rel="stylesheet" href="<%= url %>" />
     <% end %>
   </head>
   <body class="ltr sitedir-ltr">
-      <%- @content %>
-      <%- @getBlock('scripts').toHTML() %>
-      <% for url in @assets('js'): %>
-        <script src="<%= url %>"></script>
-      <% end %>
+  <%- @content %>
+  <%- @getBlock('scripts').toHTML() %>
+  <% for url in @assets('js'): %>
+    <script src="<%= url %>"></script>
+  <% end %>
   </body>
 </html>

@@ -1,8 +1,9 @@
 ---
-title: "Adobe · Stewards · WebPlatform.org"
+title: "Adobe · Stewards"
 heading: "Adobe"
 layout: default
 css2: "/css/stewards.css"
+path: [{href: '/stewards/', inner: 'Stewards'},{href: '/stewards/adobe/', inner: 'Adobe'}]
 ---
 
   <h1 id="firstHeading" class="firstHeading">

@@ -1,0 +1,18 @@
+<% renderBreadcrumb = (trail) => %>
+<div class="tool-area">
+  <div id="hierarchy-menu">
+    <ol id="breadcrumb-info" class="breadcrumbs">
+      <li><a href="http://www.webplatform.org/">Home</a></li>
+      <% if trail.length: %>
+        <% for item in trail: %>
+          <li><a href="<% item.href %>"><%= item.inner %></a></li>
+        <% end %>
+      <% else: %>
+      <!-- Nothing else -->
+      <% end %>
+    </ol>
+  </div>
+  <div class="clear"> </div>
+</div>
+<% end %>
+<%= renderBreadcrumb @path or [] %>

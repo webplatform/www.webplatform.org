@@ -1,8 +1,9 @@
 ---
-title: "Intel · Stewards · WebPlatform.org"
+title: "Intel · Stewards"
 heading: "Intel"
 layout: default
 css2: "/css/stewards.css"
+path: [{href: '/stewards/', inner: 'Stewards'},{href: '/stewards/intel/', inner: 'Intel'}]
 ---
 
   <h1 id="firstHeading" class="firstHeading">
