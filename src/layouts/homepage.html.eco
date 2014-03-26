@@ -1,5 +1,5 @@
 ---
-css: ["/css/landing.css", "/css/transition.css"]
+css: ["/assets/css/landing.css", "/assets/css/transition.css"]
 layout: base
 heading: 'Your web, Documented.'
 ---

@@ -60,7 +60,9 @@ To lean more about how to use, you can refer to [DocPad documentation](http://do
 
         docpad generate --env=production
         gulp minify --env=production
-        gulp package --env=production  // #TODO
+        tar cfz static.tar.gz out/
+        scp static.tar.gz deployment.webplatform.org:/srv/code/www/archives/
+
 
     ... yes?
 

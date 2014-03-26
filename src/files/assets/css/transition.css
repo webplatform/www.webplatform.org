@@ -24,3 +24,14 @@ body.sitedir-ltr {
 footer ul.stewards > li > a {
   background-image: url('/assets/footer-images.png');
 }
+
+@media screen and (max-width:950px) {
+  /* stewards/adobe/ testimonial boxes */
+  blockquote.testimonial {
+    margin-right:0;
+  }
+  /* error pages logo /errors/404.html */
+  hgroup h1 img {
+    margin-bottom:0.2em;
+  }
+}

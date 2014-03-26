@@ -2,7 +2,7 @@
 title: "HP · Stewards"
 heading: "HP"
 layout: default
-css2: "/css/stewards.css"
+css2: "/assets/css/stewards.css"
 path: [{href: '/stewards/', inner: 'Stewards'},{href: '/stewards/hp/', inner: 'HP'}]
 ---
 

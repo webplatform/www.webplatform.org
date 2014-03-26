@@ -2,7 +2,7 @@
 title: "Logo"
 heading: "Web Platform Logo"
 layout: default
-css2: "/css/logo.css"
+css2: "/assets/css/logo.css"
 path: [{href: '/logo/', inner: 'Logo'}]
 ---
 

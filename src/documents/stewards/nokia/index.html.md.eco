@@ -2,7 +2,7 @@
 title: "Nokia · Stewards"
 heading: "Nokia"
 layout: default
-css2: "/css/stewards.css"
+css2: "/assets/css/stewards.css"
 path: [{href: '/stewards/', inner: 'Stewards'},{href: '/stewards/nokia/', inner: 'Nokia'}]
 ---
 

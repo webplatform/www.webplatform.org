@@ -4,7 +4,7 @@ var args   = require('yargs').argv;
 var gulp   = require('gulp');
 var gulpif = require('gulp-if');
 
-var jsFiles = './src/files/js/**/*.js';
+var jsFiles = './src/files/assets/js/**/*.js';
 var isProduction = args.env === 'production';
 
 gulp.task('minify', ['lint'], function () {
@@ -12,7 +12,7 @@ gulp.task('minify', ['lint'], function () {
 
   return gulp.src(jsFiles)
     .pipe(gulpif(isProduction, uglify())) // only minify if --env=production
-    .pipe(gulp.dest('./out/js/'));
+    .pipe(gulp.dest('./out/assets/js/'));
 });
 
 gulp.task('beautify', function () {
@@ -20,7 +20,7 @@ gulp.task('beautify', function () {
 
   return gulp.src(jsFiles)
     .pipe(beautify({indentSize: 2, keepArrayIndentation: true}))
-    .pipe(gulp.dest('./src/files/js/'));
+    .pipe(gulp.dest('./src/files/assets/js/'));
 });
 
 gulp.task('lint', ['beautify'], function () {

@@ -2,7 +2,7 @@
 title: "Intel · Stewards"
 heading: "Intel"
 layout: default
-css2: "/css/stewards.css"
+css2: "/assets/css/stewards.css"
 path: [{href: '/stewards/', inner: 'Stewards'},{href: '/stewards/intel/', inner: 'Intel'}]
 ---
 

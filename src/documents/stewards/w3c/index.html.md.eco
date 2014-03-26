@@ -2,7 +2,7 @@
 title: "W3C · Stewards"
 heading: "W3C"
 layout: default
-css2: "/css/stewards.css"
+css2: "/assets/css/stewards.css"
 path: [{href: '/stewards/', inner: 'Stewards'},{href: '/stewards/w3c/', inner: 'W3C'}]
 ---
 
