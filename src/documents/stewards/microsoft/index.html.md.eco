@@ -8,7 +8,7 @@ path: [{href: '/stewards/', inner: 'Stewards'},{href: '/stewards/microsoft/', in
 
   <h1 id="firstHeading" class="firstHeading">
     <a class="logo">
-      <img src="imgs/microsoft.png" alt="Microsoft logo" />
+      <img src="/stewards/microsoft/imgs/microsoft.png" alt="Microsoft logo" />
     </a>
     <%= @document.heading %>
   </h1>
@@ -25,7 +25,7 @@ Check out these additional resources about Internet Explorer:
 <div class="link-list">
   <div class="tile">
       <a href="http://msdn.microsoft.com/ie" target="_blank" rel="nofollow">
-          <img src="imgs/msdn.png" alt="MSDN">
+          <img src="/stewards/microsoft/imgs/msdn.png" alt="MSDN">
           <span class="content">
               <h1>IE Developer Center</h1>
               <p>The ultimate resource for in depth knowledge about Internet Explorer.</p>
@@ -34,7 +34,7 @@ Check out these additional resources about Internet Explorer:
   </div>
   <div class="tile center">
       <a href="http://www.beautyoftheweb.com/developers" target="_blank" rel="nofollow">
-          <img src="imgs/beauty.png" alt="Beauty of the Web">
+          <img src="/stewards/microsoft/imgs/beauty.png" alt="Beauty of the Web">
           <span class="content">
               <h1>Beauty of the Web - Devs</h1>
               <p>Real world tips and insights from some amazing websites built entirely with HTML5.</p>
@@ -43,7 +43,7 @@ Check out these additional resources about Internet Explorer:
   </div>
   <div class="tile testdrive">
       <a href="http://ie.microsoft.com/testdrive/" target="_blank" rel="nofollow">
-          <img src="imgs/testdrive.png" alt="Test Drive">
+          <img src="/stewards/microsoft/imgs/testdrive.png" alt="Test Drive">
           <span class="content">
               <h1>IE Test Drive</h1>
               <p>A collection of web apps that push the limits of the web and explore new features.</p>
@@ -54,15 +54,15 @@ Check out these additional resources about Internet Explorer:
 <style>
 
 .tile.msdn {
-    background: url('../imgs/msdn.png');
+    background: url('/stewards/microsoft/imgs/msdn.png');
     background-color: gray;
 }
 
 .tile.beauty{
-    background: url('../imgs/beauty.png');
+    background: url('/stewards/microsoft/imgs/beauty.png');
 }
 
 .tile.testdrive{
-    background: url('../imgs/testdrive.png');
+    background: url('/stewards/microsoft/imgs/testdrive.png');
 }
 </style>

@@ -8,7 +8,7 @@ path: [{href: '/stewards/', inner: 'Stewards'},{href: '/stewards/w3c/', inner: '
 
   <h1 id="firstHeading" class="firstHeading">
     <a class="logo">
-      <img src="w3c_logo.svg" alt="W3C logo" />
+      <img src="/stewards/w3c/w3c_logo.svg" alt="W3C logo" />
     </a>
     <%= @document.heading %>
   </h1>

@@ -13,24 +13,24 @@ path: [{href: '/logo/', inner: 'Logo'}]
 <h2 id="using-logo">Using the logo</h2>
 <p>The Web Platform graphical logo is licensed under a Creative Commons Attribution license, <a rel="nofollow" class="external text" href="http://creativecommons.org/licenses/by/3.0/">CC-BY 3.0 Unported</a>. The unadorned graphic is available to the community for re-use and remixing.</p>
 
-<img alt="wplogo" src="wplogo_transparent_xlg.png">
-<img alt="wplogo" src="wplogo_nocopy.png">
+<img alt="wplogo" src="/logo/wplogo_transparent_xlg.png">
+<img alt="wplogo" src="/logo/wplogo_nocopy.png">
 
 
 <p>To help users distinguish the Web Platform Documentation Site, we ask that the logo+text version be used only unmodified, to refer to this Site and its content.</p>
 
-<img alt="wplogo transparent lg.png" src="wplogo_transparent_lg.png">
-<img alt="wplogo transparent.png" src="wplogo_transparent.png">
+<img alt="" src="/logo/wplogo_transparent_lg.png">
+<img alt="" src="/logo/wplogo_transparent.png">
 
 <h2 id="badges">Badges</h2>
 <p>You can use these pre-made badges on your site, or <a href="#customize">create your own below</a>.</p>
 
-<img alt="wplogo pillow white.png" src="wplogo_pillow_white.png">
-<img alt="wplogo pillow tan.png" src="wplogo_pillow_tan.png">
-<img alt="wplogo pillow wide white.png" src="wplogo_pillow_wide_white.png">
-<img alt="wplogo pillow wide tan.png" src="wplogo_pillow_wide_tan.png">
-<img alt="wplogo pillow widesmall white.png" src="wplogo_pillow_widesmall_white.png">
-<img alt="wplogo pillow widesmall tan.png" src="wplogo_pillow_widesmall_tan.png">
+<img alt="" src="/logo/wplogo_pillow_white.png">
+<img alt="" src="/logo/wplogo_pillow_tan.png">
+<img alt="" src="/logo/wplogo_pillow_wide_white.png">
+<img alt="" src="/logo/wplogo_pillow_wide_tan.png">
+<img alt="" src="/logo/wplogo_pillow_widesmall_white.png">
+<img alt="" src="/logo/wplogo_pillow_widesmall_tan.png">
 
 <h2 id="logo_use_recommendations">Logo Use Recommendations</h2>
 <p>Guidelines for using the pre-made logo mark and type:</p>
@@ -49,7 +49,7 @@ path: [{href: '/logo/', inner: 'Logo'}]
 
 <h3 id="typography">Typography</h3>
 <p>The Web Platform logo type uses Bitter Bold, a slab-serif font by <a href="http://www.huertatipografica.com.ar/">Sol Matas</a>, available as a free Web font.</p>
-<img src="typography.png"/>
+<img src="/logo/typography.png"/>
 
 <h3 id="orientation-proportions-spacing">Orientation, Proportions, and Spacing</h3>
    <div id="lock-ups" class="sideby">
@@ -58,13 +58,13 @@ path: [{href: '/logo/', inner: 'Logo'}]
          The vertical arrangement is best used when the logo is large,
          while the horizontal arrangement should be used when the logo is small.
          This ensures the proper visual hierarchy between the mark and type.</p>
-      <img src="lock-ups.png"/>
+      <img src="/logo/lock-ups.png"/>
    </div>
    <div id="proportions-spacing" class="sideby">
       <h4>Proportions and Spacing</h4>
       <p>When using the Web Platform logo, we recommend using these proportions between the logo mark and type.
          For best effect, we prefer that no other visual elements enter or overlap the proportion grid, to leave adequate space around the logo.</p>
-      <img src="proportions.png"/>
+      <img src="/logo/proportions.png"/>
    </div>
 
 <h3 id="colors">Colors</h3>
@@ -78,7 +78,7 @@ path: [{href: '/logo/', inner: 'Logo'}]
    <p>The secondary colors were chosen to blend the four main colors together, symbolizing collaboration and unity. We literally have four main elements working together to form our logo.</p>
 
 
-   <img class="sidenote" src="analogous-colors.png"/>
+   <img class="sidenote" src="/logo/analogous-colors.png"/>
    <aside class="sidenote"><b>Analogous colors</b> are colors that are adjacent to each other on the color wheel. Analogous color schemes are often found in nature and are pleasing to the eye. The combination of these colors give a bright effect in the area, and are able to accommodate many changing moods. When using the analogous color scheme, one should make sure there is one hue as the main color.</aside>
 
    <h4 id="background-colors">Background Colors</h4>
@@ -240,5 +240,5 @@ path: [{href: '/logo/', inner: 'Logo'}]
 <h2 id="playground">Playground</h2>
 <p>You can play with logo colors and combinations here.</p>
 
-<iframe height="520" width="900" src="wplogo.svg"></iframe>
+<iframe height="520" width="900" src="/logo/wplogo.svg"></iframe>
 

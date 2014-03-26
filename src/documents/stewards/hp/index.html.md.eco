@@ -8,7 +8,7 @@ path: [{href: '/stewards/', inner: 'Stewards'},{href: '/stewards/hp/', inner: 'H
 
   <h1 id="firstHeading" class="firstHeading">
     <a class="logo">
-      <img src="hp_cloud_services_blue_logo.png" alt="HP logo" />
+      <img src="/stewards/hp/hp_cloud_services_blue_logo.png" alt="HP logo" />
     </a>
     <%= @document.heading %>
   </h1>

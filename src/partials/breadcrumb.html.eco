@@ -5,7 +5,7 @@
           <li><a href="http://www.webplatform.org/">Home</a></li>
           <% if trail.length: %>
             <% for item in trail: %>
-              <li<% if item.dropdown or false: %> class="dropdown"<% end %>><a href="<% item.href %>"><%= item.inner %></a>
+              <li<% if item.dropdown or false: %> class="dropdown"<% end %>><a href="<%= item.href %>"><%= item.inner %></a>
               <% if item.dropdown or false: %>
               <!--
               Implement loop (not finished)

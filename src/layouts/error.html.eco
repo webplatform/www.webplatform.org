@@ -6,14 +6,11 @@ css: ["/css/squished.css", "/css/transition.css", "/css/error.css"]
   <head>
     <meta charset="UTF-8">
     <title><%- if @document.title then "#{@document.title} · WebPlatform.org" else "WebPlatform.org" %></title>
-    <% if 'production' in @getEnvironments(): %>
-    <base href="//www.webplatform.org/" />
-    <% end %>
+    <% if 'production' in @getEnvironments(): %><base href="//www.webplatform.org/" /><% end %>
     <link rel="shortcut icon" href="http://www.webplatform.org/favicon.ico" />
     <link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />
     <%- @getBlock('meta').toHTML() %>
-    <% for url in @assets('css'): %>
-    <link rel="stylesheet" href="<%= url %>" />
+    <% for url in @assets('css'): %><link rel="stylesheet" href="<%= url %>" />
     <% end %>
   </head>
   <body class="ltr sitedir-ltr">
