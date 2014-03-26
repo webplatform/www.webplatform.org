@@ -1,0 +1,26 @@
+/**
+ * CSS overrides to keep
+ * images on same domain
+ */
+body.sitedir-ltr {
+  background-image: url('/assets/bg-pattern.png') !important;
+}
+
+#search > input[type="submit"] {
+  background-image: url('/assets/btn-search.svg') !important;
+}
+
+#p-logo a {
+  /* could not change without breaking
+  background-image: url('/logo/logo.png');
+  background-image: url('/logo/logo.svg');
+  */
+}
+
+#sitenav {
+  background-image: url('/assets/nav-bg.png');
+}
+
+footer ul.stewards > li > a {
+  background-image: url('/assets/footer-images.png');
+}

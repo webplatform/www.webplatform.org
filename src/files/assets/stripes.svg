@@ -3,13 +3,9 @@
 <defs>
 	<rect id="stripe" width="20%" height="100%" />
 </defs>
-
 <use xlink:href="#stripe" x="0" fill="#30B4C5" />
 <use xlink:href="#stripe" x="20%" fill="#694D9F" />
 <use xlink:href="#stripe" x="40%" fill="#E54E27" />
 <use xlink:href="#stripe" x="60%" fill="#D02E27" />
 <use xlink:href="#stripe" x="80%" fill="#F99D1C" />
-
-
-
 </svg>

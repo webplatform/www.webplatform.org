@@ -1,5 +1,5 @@
 ---
-css: "/css/squished.css"
+css: ["/css/squished.css", "/css/transition.css"]
 js:  "/js/notes.js"
 ---
 <!DOCTYPE html>
@@ -7,6 +7,9 @@ js:  "/js/notes.js"
   <head>
     <meta charset="UTF-8">
     <title><%= if @document.title then "#{@document.title} · WebPlatform.org" else "WebPlatform.org" %></title>
+    <% if 'production' in @getEnvironments(): %>
+    <base href="//www.webplatform.org/" />
+    <% end %>
     <link rel="shortcut icon" href="http://www.webplatform.org/favicon.ico" />
     <link rel="search" type="application/opensearchdescription+xml" href="http://docs.webplatform.org/w/opensearch_desc.php" title="WebPlatform Docs (en)" />
     <link rel="copyright" href="http://creativecommons.org/licenses/by/3.0/" />

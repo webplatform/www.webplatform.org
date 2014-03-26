@@ -1,5 +1,5 @@
 ---
-css: ["/css/squished.css", "/css/error.css"]
+css: ["/css/squished.css", "/css/transition.css", "/css/error.css"]
 ---
 <!DOCTYPE html>
 <html lang="en" dir="ltr" class="client-nojs">

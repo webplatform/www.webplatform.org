@@ -9,7 +9,7 @@ body {
 	padding-bottom: 0;
 	border: 1px solid hsla(45, 18%, 60%,.5);
 	margin: -1em .1em .5em .5em;
-	background: url('http://webplatform.org/d/skins/webplatform/images/nav-bg.png') hsl(45, 18%, 83%);
+	background-color: hsl(45, 18%, 83%);
 	box-shadow: 2px 3px 5px rgba(0,0,0,.2), 0 1px hsla(0,0%,100%,.8) inset;
 }
 
@@ -33,7 +33,7 @@ body {
 		border-radius: 10px;
 		background: white;
 	}
-	
+
 	.logo:after {
 		content: 'WebPlatform.org Steward';
 		display: block;
@@ -42,7 +42,7 @@ body {
 		color: hsl(45, 18%, 44%);
 		text-shadow: 0 .1em .1em hsla(0,0%,100%,.6);
 	}
-	
+
 .link-list {
     margin:auto;
     width:800px;
@@ -82,19 +82,6 @@ body {
     line-height: 1.2em;
 }
 
-.tile.msdn {
-    background: url('../imgs/msdn.png');
-    background-color: gray;
-}
-
-.tile.beauty{
-    background: url('../imgs/beauty.png');
-}
-
-.tile.testdrive{
-    background: url('../imgs/testdrive.png');
-}
-
 .tile.center{
     margin:0 8px 0 8px;
-}   
+}

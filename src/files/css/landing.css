@@ -505,7 +505,7 @@ footer[role="contentinfo"] ul.stewards > li > a {
   vertical-align: middle;
   width: 124px;
   height: 60px;
-  background: url("http://docs.webplatform.org/w/skins/webplatform/images/footer-images.png") no-repeat 0 0;
+  background: url("/assets/footer-images.png") no-repeat 0 0;
   text-indent: 200px;
   overflow: hidden;
   color: gray;
@@ -2063,7 +2063,7 @@ body {
   margin: 0;
   padding: 0;
   background: #ece5d7;
-  background-image: url("http://docs.webplatform.org/w/skins/webplatform/images/bg-pattern.png");
+  background-image: url("/assets/bg-pattern.png");
   widows: 2;
   orphans: 2;
 }
@@ -2274,7 +2274,7 @@ a:hover {
 a.external {
   padding-right: 15px;
   margin-right: 5px;
-  background-image: url("http://docs.webplatform.org/w/skins/webplatform/images/link-external.png");
+  background-image: url("/assets/link-external.png");
   background-repeat: no-repeat;
   background-position: right 3px;
 }
@@ -2595,8 +2595,8 @@ div.floatright, table.floatright, div.floatleft, table.floatleft {
   border: none;
   cursor: pointer;
   font-family: Gudea, Arial, sans-serif;
-  background: url("http://docs.webplatform.org/w/skins/webplatform/images/btn-search.png");
-  background: transparent url("http://docs.webplatform.org/w/skins/webplatform/images/btn-search.svg");
+  background: url("/assets/btn-search.png");
+  background: transparent url("/assets/btn-search.svg");
   background-repeat: no-repeat;
 }
 
@@ -2714,8 +2714,8 @@ input:focus {
   border-radius: 0 0 7px 7px;
   border: 1px solid white;
   border-top: none;
-  background: #f9f7f3 url("http://docs.webplatform.org/w/skins/webplatform/images/logo.png");
-  background: #f8f6f2 url("http://docs.webplatform.org/w/skins/webplatform/images/logo.svg");
+  background: #f9f7f3 url("/logo/logo.png");
+  background: #f8f6f2 url("/logo/logo.svg");
   background-repeat: no-repeat;
   background-position: center;
   box-shadow: 1px 1px 1px #cbc6ba;
@@ -2724,7 +2724,7 @@ input:focus {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/webplatform\/WPDprototypes\/design\/sass\/_WPDwiki\.scss}line{font-family:\000031836}}
 #sitenav {
   background-color: #ece5d7;
-  background-image: url("http://docs.webplatform.org/w/skins/webplatform/images/nav-bg.png");
+  background-image: url("/assets/nav-bg.png");
   background-position: bottom;
   background-repeat: repeat-x;
   padding: 30px 0px 35px;
@@ -2739,7 +2739,7 @@ input:focus {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/webplatform\/WPDprototypes\/design\/sass\/_WPDwiki\.scss}line{font-family:\000031849}}
 .mediawiki ul li {
   margin-bottom: 10px;
-  list-style-image: url("http://docs.webplatform.org/w/skins/webplatform/images/bullet.svg");
+  list-style-image: url("/assets/bullet.svg");
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/jensimmons\/Sites\/webplatform\/WPDprototypes\/design\/sass\/_WPDwiki\.scss}line{font-family:\000031854}}
@@ -3375,7 +3375,7 @@ body:not(.mediawiki) #sidebar + #main-content {
   height: 22px;
   border-radius: 50%;
   margin-left: -11px;
-  background: #b4e1e4 url("http://docs.webplatform.org/w/skins/webplatform/images/bg-pattern.png");
+  background: #b4e1e4 url("/assets/bg-pattern.png");
   box-shadow: 0 3px 7px -3px #81c7e1;
   color: #7BCCD1;
   text-align: center;

@@ -51,3 +51,18 @@ Check out these additional resources about Internet Explorer:
       </a>
   </div>
 </div>
+<style>
+
+.tile.msdn {
+    background: url('../imgs/msdn.png');
+    background-color: gray;
+}
+
+.tile.beauty{
+    background: url('../imgs/beauty.png');
+}
+
+.tile.testdrive{
+    background: url('../imgs/testdrive.png');
+}
+</style>
