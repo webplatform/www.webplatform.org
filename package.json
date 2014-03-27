@@ -1,7 +1,7 @@
 {
-  "name": "webplatform.docpad",
-  "version": "0.1.0",
-  "description": "WebPlatform Docs static pages",
+  "name": "www.webplatform.org",
+  "version": "1.1.0",
+  "description": "Web Platform Docs top level domain, using static page generator",
   "engines": {
     "node": "0.10",
     "npm": "1.3"
