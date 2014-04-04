@@ -1,39 +1,45 @@
 # [WebPlatform](http://www.webplatform.org/)
 
-Public site at [www.webplatform.org](http://www.webplatform.org/) has some pages that aren't managed by a content management system, they are built using a static site generator called [DocPad](http://docpad.org/).
+This is the homepage served at [www.webplatform.org](http://www.webplatform.org/). We are
+serving them as non dynamic content due to the fact that we do not need to change the content frequently.
 
-Although this workspace is for the static content of the site, it can also be used to work on HTML and CSS markup and patterns for various projects inside WebPlatform Docs.
+Although this workspace is for the static content of the site, it can also be used to work locally on HTML
+and CSS markup and patterns for various projects inside WebPlatform Docs.
 
-To lean more about how to use, you can refer to [DocPad documentation](http://docpad.org/docs).
+The pages are generated through a Node.js static site generator called [DocPad](http://docpad.org/) and allows us to
+keep edition DRY by not copy-pasting code in many places while allowing us to have static documents to serve. To learn
+more about DocPad, you can refer to their [DocPad documentation](http://docpad.org/docs).
 
 ## Installation
 
-*NOTE*: Directives assumes you are using a Unix like Operating System, but [DocPad should work many Operating Systems, including Microsoft Windows](http://bevry.me/learn/node-install).
+*NOTE*: Directives assumes you are using a Unix like Operating System, but [DocPad also works with Microsoft Windows](http://bevry.me/learn/node-install).
 
 1. Install NodeJS and NPM
 
     You can download node from [nodejs.org](http://nodejs.org/).
 
-    As for NPM, it depends of the Operating system you are using. You can see the NPM installation instruction from the [nodejs](http://nodejs.org/) website.
+    As for NPM, it depends of the Operating system you are using. You can see the NPM installation instruction
+    from the [nodejs](http://nodejs.org/) website.
 
 2. As an administrator, install the following packages as global on your workstation
 
-        npm install -g docpad@6.64 gulp bower
+        npm install -g docpad@6.64 gulp
 
-3. Checkout the code and run `npm install`
+3. Fork the project, and checkout the code
 
         mkdir -p ~/workspace/webplatform/www
         cd ~/workspace/webplatform/www
-        git clone git@github.com:webplatform/www.webplatform.org.git .
+        git clone git@github.com:renoirb/www.webplatform.org.git .
         npm install
 
     This installs all dependencies to work on the project.
 
-4. Code is managed from the `src/` folder, and is generated through `docpad run` utility and creates a static version in `out/`..
+4. Create a branch and start your work.
 
-        npm start
+        git checkout -b improving-flexbox-markup
 
-    Also, you can run docpad directly with the watcher:
+5. Code is managed from the `src/` folder, and what gets changed in it gets regenerated automatically
+    by what we call a "watcher", files are regenerated at every changes into `out/` folder.
 
         docpad run
 
@@ -47,28 +53,26 @@ To lean more about how to use, you can refer to [DocPad documentation](http://do
 
             ... in progress ...
 
-    * Minifying before deploying
+    * Testing before pushing to the repository
 
+            docpad generate --env=production
             gulp minify --env=production
+            npm start
 
-    All of these commands can work while running the local development server `docpad run`. When ready to deply, see [#Deploying]
+    This gives you an equivalent of what gets deployed in production without watchers.
 
+    * Everything works? Make a pull request from your branch :D
 
 ## Deploying
 
-1. Prepare for deploying (will it work in production?)
+1. Prepare for deploying
 
         docpad generate --env=production
         gulp minify --env=production
-        tar cfz static.tar.gz out/
-        scp static.tar.gz deployment.webplatform.org:/srv/code/www/archives/
+        tar cfz static-$(date '+%Y%m%d').tar.gz out/
+        scp static-$(date '+%Y%m%d').tar.gz deployment.webplatform.org:/srv/code/www/archives/
 
-
-    ... yes?
-
-2. Make a pull request
-
-    ... not finished yet.
+2. ... In progress... 
 
     Current plan is that when a person who has rights to merge to master, a deployment system will pull from github, run the scripts in the previous step, sync the files with all web servers. Automatically.
 

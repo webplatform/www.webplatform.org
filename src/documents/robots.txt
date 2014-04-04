@@ -4,11 +4,28 @@ Disallow: /w/
 Disallow: /t/
 Disallow: /wiki/Special:Search
 Disallow: /test/Special:Search
+Disallow: /test/
 
-Sitemap: http://www.webplatform.org/sitemaps/sitemap-wpwiki-NS_0-0.xml.gz 
-Sitemap: http://www.webplatform.org/sitemaps/sitemap-wpwiki-NS_6-0.xml.gz 
-Sitemap: http://www.webplatform.org/sitemaps/sitemap-wpwiki-NS_14-0.xml.gz 
-Sitemap: http://www.webplatform.org/sitemaps/sitemap-wpwiki-NS_102-0.xml.gz 
+#
+# MediaWiki Generated Sitemaps
+#
+# To regenerate:
+#
+#     php maintenance/generateSitemap.php --fspath /var/www/sitemaps --server http://docs.webplatform.org/wiki/ --urlpath http://www.webplatform.org/sitemaps
+#
+# 0 ()
+Sitemap: http://www.webplatform.org/sitemaps/sitemap-wpwiki-NS_0-0.xml.gz
+# 4 (WebPlatform Docs)
+Sitemap: http://www.webplatform.org/sitemaps/sitemap-wpwiki-NS_4-0.xml.gz
+# 6 (File)
+Sitemap: http://www.webplatform.org/sitemaps/sitemap-wpwiki-NS_6-0.xml.gz
+# 14 (Category)
+Sitemap: http://www.webplatform.org/sitemaps/sitemap-wpwiki-NS_14-0.xml.gz
+# 102 (Property)
+Sitemap: http://www.webplatform.org/sitemaps/sitemap-wpwiki-NS_102-0.xml.gz
+# 108 (Concept)
+Sitemap: http://www.webplatform.org/sitemaps/sitemap-wpwiki-NS_108-0.xml.gz
+# 3000 (WPD)
 Sitemap: http://www.webplatform.org/sitemaps/sitemap-wpwiki-NS_3000-0.xml.gz
 
 # In case it gets useful someday :)
