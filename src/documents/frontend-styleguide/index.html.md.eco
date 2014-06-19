@@ -1,0 +1,12 @@
+---
+title: "Frontend development Styleguides"
+heading: "Frontend Styleguides"
+layout: default
+path: [{href: '/frontend-styleguide/', inner: 'Frontend Styleguide'}]
+---
+
+<h1 id="firstHeading" class="firstHeading"><%= @document.heading %></h1>
+
+* [Edit a Doc page](/frontend-styleguide/doc-edit)
+* [View a Doc page](/frontend-styleguide/doc-edit)
+* [View a CSS Property Doc page w/ Compatibility table](/frontend-styleguide/property)
