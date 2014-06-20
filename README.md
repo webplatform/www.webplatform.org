@@ -52,16 +52,17 @@ more about DocPad, you can refer to their [DocPad documentation](http://docpad.o
     * Compiling SASS files
 
 
-    NOTE: Working on CSS, have a look at [sass/README.md](sass/README.md).
+    NOTE: Working on CSS, have a look at [README.contributing-css.md](README.contributing-css.md).
+
+    IMPORTANT: Compass is taking care to compile SASS files from `sass/`. It is configured to write to `src/documents/assets/css/`. You can configure Compass to watch files for you and copy them in the `src/` folder.  Technically DocPad should detect changes in `src/documents/` and refresh the equivalent files in `out/`. Which is not always the case. This will be fixed with issue [Fixing DocPad and Compass compilation conflicts](https://github.com/webplatform/www.webplatform.org/issues/9)
 
             compass compile -e production --force
 
     * Testing before pushing to the repository
 
+            compass compile -e production --force
             docpad generate --env=production
             gulp minify --env=production
-            npm start
-
 
     This gives you an equivalent of what gets deployed in production without watchers.
 

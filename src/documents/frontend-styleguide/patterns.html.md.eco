@@ -1,17 +1,19 @@
 ---
-title: "Testing patterns — Frontend development Styleguides"
-heading: "Testing patterns"
+title: "Patterns sandbox — Frontend development Styleguides"
+heading: "Patterns sandbox"
 layout: default
 css: ["/assets/css/refactoring.css"]
 js2: ["/assets/bower_components/jquery/jquery.min.js", "/assets/bower_components/roughdraft.js/jquery.roughdraft.0.1.3.min.js", "styleguide.js"]
-path: [{href: '/frontend-styleguide/', inner: 'Frontend Styleguide'}, {href: '/frontend-styleguide/patterns.html', inner: 'Patterns'}]
+path: [{href: '/frontend-styleguide/', inner: 'Frontend Styleguide'}, {href: '/frontend-styleguide/patterns.html', inner: 'Patterns sandbox'}]
 ---
 
-<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr">
+<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr mediawiki ltr sitedir-ltr ns-14 ns-subject skin-webplatform action-view">
 
 <h1><span class="mw-headline"><%= @document.heading %></span></h1>
 
-<div data-pattern=true class="note readiness-state Almost_Ready"><p><span data-draft-text="3/w"></span><a href="#" data-draft-text="2/w"></a></p></div>
+<div data-pattern=true class="readiness-state Almost_Ready"><p><span data-draft-text="3/w"></span><a href="#" data-draft-text="2/w"></a></p></div>
+
+<table class="nmbox languages"><tbody><tr><th class="mbox-image"> <b>Language:</b></th><td class="mbox-text"><b><strong class="selflink">English</strong></b> &nbsp;• <span lang="ja"><a href="/wiki/Beginners/ja" title="Beginners/ja">日本語</a></span>&nbsp;• <span lang="ko"><a href="/wiki/Beginners/ko" title="Beginners/ko">한국어</a></span>&nbsp;• <span lang="tr"><a href="/wiki/Beginners/tr" title="Beginners/tr">Türkçe</a></span></td></tr></tbody></table>
 
 <p data-draft-text="1/s"></p>
 
@@ -36,5 +38,52 @@ path: [{href: '/frontend-styleguide/', inner: 'Frontend Styleguide'}, {href: '/f
   </tbody>
 </table>
 
+<h3 data-draft-text="3/w"></h3>
+
+<h4 data-draft-text="2/w"></h4>
+
+<table class="wikitable sortable jquery-tablesorter">
+  <thead>
+    <tr>
+      <th class="headerSort" title="Sort ascending">API Name</th>
+      <th class="headerSort" title="Sort ascending">Summary
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> <a href="#" title="Link title" data-draft-text="3/w"></a>
+      </td>
+      <td data-draft-text="1/s"></td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 data-draft-text="3/w"></h4>
+
+<div class="example" style="position:relative">
+  <p><span class="language">CSS</span></p>
+  <pre class="  language-css">
+    <code class="language-css">.breadcrumb li:before + li { content: '•'; } </code>
+  </pre>
+</div>
+
+
+<h4 data-draft-text="5/w"></h4>
+
+<div dir="ltr" class="mw-content-ltr" lang="en">
+  <table style="width: 100%;">
+    <tbody>
+      <tr style="vertical-align: top;">
+        <td style="width: 33.3%;" data-draft-repeat="3">
+          <h3 data-draft-text="1/w"></h3>
+          <ul>
+            <li data-draft-repeat="5"><a href="#" data-draft-text="4/w"></a></li>
+          </ul>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 </div>

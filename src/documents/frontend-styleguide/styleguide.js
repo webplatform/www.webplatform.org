@@ -13,7 +13,9 @@ $(document).ready(function(){
       alert("Remember, this is a static version. This link is inactive.");
   });
   $(window).roughDraft({
-      'author' : 'lorem',
-      'illustrator' : 'placehold'
+      author: 'lorem',
+      illustrator: 'placehold',
+      customIpsum: true,
+      customIpsumPath: '/assets/bower_components/roughdraft.js/roughdraft.thesaurus.json'
   });
 });

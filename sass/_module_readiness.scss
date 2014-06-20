@@ -1,0 +1,83 @@
+/**
+ * Readiness markers
+ *
+ * At this time, this file is deployed within
+ * MediaWiki asset management. In a near future, it should
+ * instead be merged into this project.
+ *
+ * In the meantime, make sure this file content is the same
+ * as in both files:
+ * - https://github.com/webplatform/mediawiki/blob/master/skins/webplatform/temporary.css
+ * - https://github.com/webplatform/www.webplatform.org/tree/master/sass/_module_readiness.scss
+ *
+ * To see what HTML is rendered, see the MediaWiki template at:
+ * - http://docs.webplatform.org/wiki/Template:Flags
+ */
+.readiness-state {
+  box-sizing: border-box;
+  width: 2000px;
+  position: fixed;
+  left: -981px;
+  top: 987px;
+  border-radius: 0 25px 25px 0;
+  padding: 0 45px 0 20px;
+  -ms-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+.readiness-state p {
+  box-sizing: border-box;
+  text-align: right;
+  margin: 0 -34px 0 0;
+  padding: 6px 140px 6px 20px;
+  font-family: Bitter,Cambria,Georgia,serif;
+  font-style: italic;
+  color: #333;
+  background: url('//www.webplatform.org/assets/white-circle.svg') right center no-repeat;
+}
+.readiness-state p a {
+  color: #333;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 6px;
+  text-decoration: underline;
+}
+.Ready_to_Use {
+  background: #7BC649;
+}
+.Almost_Ready {
+  background: #E3CE21; /* #DBCC3B; */
+}
+.In_Progress {
+  background: #F29A3D;
+}
+.Not_Ready {
+  background: #CF4732; /* #DE4D36 */
+}
+.Not_Ready p,
+.Not_Ready p a {
+  color: #fff;
+}
+.Out_of_Date {
+  background: #aaa;
+}
+/* /Readiness Markers ******************* */
+
+/**
+ * Overridding Main layout
+ * ... make it mobile first
+ * ... and then to adjust it to make space for readiness markers
+ **/
+.container {
+    margin: auto;
+    position: static;
+    width: 80%;
+}
+@media screen and (min-width: 1000px) {
+  .container {
+    width: 950px;
+  }
+}
+/* /Overriding Main layout */

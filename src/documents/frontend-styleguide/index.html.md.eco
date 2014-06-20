@@ -22,10 +22,11 @@ Ideally, each file has as less as possible set of changes. Some changes that mus
 
 Links must be change to make sure they stay within the workspace or to disable them. By default all links will be disabled through a small JavaScript utilty file prevents all click events, unless the link has `.allow-link` class name. This is also this small utility that displays the bar at the top.
 
-### Contexts
+### Views available
 
-* [Edit a Doc page](/frontend-styleguide/doc-edit.html)
+* [Patterns sandbox](/frontend-styleguide/patterns.html)
 * [View a Doc page](/frontend-styleguide/doc.html)
+* [Edit a Doc page](/frontend-styleguide/doc-edit.html)
 * [View a CSS Property Doc page w/ Compatibility table](/frontend-styleguide/property.html)
 
 ## Wanna help?

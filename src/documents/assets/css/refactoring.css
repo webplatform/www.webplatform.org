@@ -16,8 +16,8 @@
  *
  * @date 2014-06-19
  **/
-/* line 19, ../../../../sass/refactoring.scss */
-body.mediawiki > div[style*=E35689] { /* Just showing its using this style file, obviously not the right way to do :) */ background-color: purple !important; }
+/* line 20, ../../../../sass/refactoring.scss */
+body.mediawiki > div[style*=E35689], body > .styleguide-top-notice { /* Just showing its using this style file, obviously not the right way to do :) */ background-color: purple !important; }
 
 /* line 22, ../../../../sass/_normalize.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { display: block; }
@@ -166,7 +166,7 @@ textarea { overflow: auto; vertical-align: top; }
 /* line 502, ../../../../sass/_normalize.scss */
 Tables table { border-collapse: collapse; border-spacing: 0; }
 
-/* line 31, ../../../../sass/refactoring.scss */
+/* line 32, ../../../../sass/refactoring.scss */
 * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
 @font-face { font-family: 'Gudea'; font-weight: normal; src: url("http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-regular-webfont.eot"); src: url("http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-regular-webfont.eot?#iefix") format("embedded-opentype"), url("http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-regular-webfont.woff") format("woff"), url("http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-regular-webfont.ttf") format("truetype"), url("http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-regular-webfont.svg#GudeaRegular") format("svg"); }
@@ -306,6 +306,42 @@ footer[role="contentinfo"] nav[role="navigation"] a { color: #efeadd; }
   footer[role="contentinfo"] ul.stewards { display: table-cell; vertical-align: top; max-width: 650px; padding-left: 100px; } }
 @media (max-width: 880px) { /* line 106, ../../../../sass/_pagefooter.scss */
   footer[role="contentinfo"] ul.stewards { margin-top: 1em; } }
+/** Readiness markers  At this time, this file is deployed within MediaWiki asset management. In a near future, it should instead be merged into this project.  In the meantime, make sure this file content is the same as in both files: - https://github.com/webplatform/mediawiki/blob/master/skins/webplatform/temporary.css - https://github.com/webplatform/www.webplatform.org/tree/master/sass/_module_readiness.scss  To see what HTML is rendered, see the MediaWiki template at: - http://docs.webplatform.org/wiki/Template:Flags */
+/* line 16, ../../../../sass/_module_readiness.scss */
+.readiness-state { box-sizing: border-box; width: 2000px; position: fixed; left: -981px; top: 987px; border-radius: 0 25px 25px 0; padding: 0 45px 0 20px; -ms-transform: rotate(-90deg); -webkit-transform: rotate(-90deg); transform: rotate(-90deg); }
+
+/* line 28, ../../../../sass/_module_readiness.scss */
+.readiness-state p { box-sizing: border-box; text-align: right; margin: 0 -34px 0 0; padding: 6px 140px 6px 20px; font-family: Bitter,Cambria,Georgia,serif; font-style: italic; color: #333; background: url("//www.webplatform.org/assets/white-circle.svg") right center no-repeat; }
+
+/* line 38, ../../../../sass/_module_readiness.scss */
+.readiness-state p a { color: #333; font-style: normal; font-weight: bold; text-decoration: none; font-size: 18px; margin-left: 6px; text-decoration: underline; }
+
+/* line 47, ../../../../sass/_module_readiness.scss */
+.Ready_to_Use { background: #7BC649; }
+
+/* line 50, ../../../../sass/_module_readiness.scss */
+.Almost_Ready { background: #E3CE21; /* #DBCC3B; */ }
+
+/* line 53, ../../../../sass/_module_readiness.scss */
+.In_Progress { background: #F29A3D; }
+
+/* line 56, ../../../../sass/_module_readiness.scss */
+.Not_Ready { background: #CF4732; /* #DE4D36 */ }
+
+/* line 60, ../../../../sass/_module_readiness.scss */
+.Not_Ready p, .Not_Ready p a { color: #fff; }
+
+/* line 63, ../../../../sass/_module_readiness.scss */
+.Out_of_Date { background: #aaa; }
+
+/* /Readiness Markers ******************* */
+/** Overridding Main layout ... make it mobile first ... and then to adjust it to make space for readiness markers */
+/* line 73, ../../../../sass/_module_readiness.scss */
+.container { margin: auto; position: static; width: 80%; }
+
+@media screen and (min-width: 1000px) { /* line 79, ../../../../sass/_module_readiness.scss */
+  .container { width: 950px; } }
+/* /Overriding Main layout */
 /*
 
 Reimport from current version, had missing.

@@ -189,17 +189,17 @@ h3 {
     -ms-align-items: stretch;
     @include align-items(stretch);
   }
-  .deep-freeze,
-  .just-started,
-  .almost-done,
-  .ready-to-use {
+  .ready-to-use,
+  .almost-ready,
+  .in-progress,
+  .not-ready {
     -ms-flex: auto;
     @include flex(auto);
     margin-right: 4%;
     width: 48%;
   }
-  .almost-done,
-  .deep-freeze {
+  .almost-ready,
+  .not-ready {
     margin-right: 0;
   }
   // Layout overrides for browsers who don't support Flexbox flex wrap, namely, Firefox 25 to 27.
@@ -209,10 +209,10 @@ h3 {
     .docs .container {
       display: block;
     }
-    .deep-freeze,
-    .just-started,
-    .almost-done,
-    .ready-to-use {
+    .ready-to-use,
+    .almost-ready,
+    .in-progress,
+    .not-ready {
       display: block;
       flex: none;
       float: left;
@@ -223,10 +223,10 @@ h3 {
     .docs .container {
       display: block;
     }
-    .deep-freeze,
-    .just-started,
-    .almost-done,
-    .ready-to-use {
+    .ready-to-use,
+    .almost-ready,
+    .in-progress,
+    .not-ready {
       display: block;
       flex: none;
       float: left;
@@ -235,29 +235,29 @@ h3 {
 }
 
 @media screen and (min-width: 850px) {
-  .deep-freeze,
-  .just-started,
-  .almost-done,
-  .ready-to-use {
+  .ready-to-use,
+  .almost-ready,
+  .in-progress,
+  .not-ready {
     margin-right: 4%;
     width: 22%;
   }
-  .deep-freeze {
+  .not-ready {
     margin-right: 0;
   }
   @supports (not (flex-wrap: wrap)) {
-    .deep-freeze,
-    .just-started,
-    .almost-done,
+    .not-ready,
+    .in-progress,
+    .almost-ready,
     .ready-to-use {
       min-height: 32em; // A TOTAL TERRIBLE HACK!!
     }
   }
   // Same exact override for IE
   ie6-9 {
-    .deep-freeze,
-    .just-started,
-    .almost-done,
+    .not-ready,
+    .in-progress,
+    .almost-ready,
     .ready-to-use {
       min-height: 32em; // A TOTAL TERRIBLE HACK!!
     }
@@ -267,26 +267,41 @@ h3 {
 
 // ----------------------- Box Styling --------------------------------------
 
-.deep-freeze,
-.just-started,
-.almost-done,
+.docs {
+    color: #151515;
+}
+.docs a,
+.docs a:link,
+.docs a:visited {
+    color: #151515;
+}
+.docs h3 {
+  margin-bottom: 0.8em;
+  padding-bottom: 0.36em;
+  padding-top: 3.1em;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.25);
+  color: #151515;
+}
+.not-ready,
+.in-progress,
+.almost-ready,
 .ready-to-use {
   border: 1px solid rgba(0, 0, 0, 0.4);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3) inset;
-  padding: 3em 1.5em 1.5em;
+  padding: 3.4em 1.5em 1.5em;
   margin-bottom: 20px;
 }
 .ready-to-use {
-  background: #30B4C5 url("/assets/icon-checkbox.png") top center no-repeat;
+  background: url("/assets/icon-checkbox.svg") no-repeat scroll center 5px / 100px 100px #7BC649;
 }
-.almost-done {
-  background: #F49A15 url("/assets/icon-rocket.png") top center no-repeat;
+.almost-ready {
+  background: url("/assets/icon-rocket.svg") no-repeat scroll center 5px / 80px 110px #EEDA34;
 }
-.just-started {
-  background: #E54E27 url("/assets/icon-worker.png") top center no-repeat;
+.in-progress {
+  background: url("/assets/icon-worker.svg") no-repeat scroll center 5px / 100px 100px #F29A3D;
 }
-.deep-freeze {
-  background: #694D9F url("/assets/icon-clock.png") top center no-repeat;
+.not-ready {
+  background: url("/assets/icon-clock.svg") no-repeat scroll center 20px / 70px 70px #DE4D36;
 }
 
 

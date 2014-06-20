@@ -42,6 +42,9 @@ body > .styleguide-top-notice {
 @import "pageheader";
 @import "pagefooter";
 
+// Modules
+@import "module_readiness";
+
 // Original WPD CSS
 @import "wpdwikireimport";    // #TODO, extract common content
                               //   out of wiki styling

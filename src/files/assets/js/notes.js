@@ -1,7 +1,7 @@
 (function annotatorLoader() {
   var ssl = !! document.location.protocol.match(/^https:/),
       embedUrl = 'https://notes.webplatform.org/embed.js',
-      showAnnotator = true;
+      showAnnotator = false;
 
   if (showAnnotator === true) {
     if (ssl && embedUrl.match(/^https:/)) {
