@@ -1,6 +1,6 @@
 {
   "name": "www.webplatform.org",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Web Platform Docs top level domain, using static page generator DocPad, and SASS+Compass as CSS pre-processor",
   "keywords": [
     "webplatform",
