@@ -1,10 +1,12 @@
 (function ssoInit(w) {
+
   var accountsContentServer = 'https://accounts.webplatform.org/',
-      callbackUri = '/wiki/Special:AccountsHandler/callback?sessionToken=',
-      hasSession = null,
-      received = null,
-      checkedOnce = false,
-      isAnonymous = false; // Lets not make checks for no reason, flip it to true if needed
+    callbackUri = '/wiki/Special:AccountsHandler/callback',
+    hasSession = null,
+    received = null,
+    checkedOnce = false,
+    recoveryPayload = 'recoveryPayload=',
+    isAnonymous = false; // Lets not make checks for no reason, flip it to true if needed
 
   function iframeLoadedHandler() {
     console.log('Will set timeout because iframe is loaded');
@@ -12,9 +14,12 @@
 
   function postBackendHandler() {
     if (this.readyState === 4) {
-      if (this.status === 200) {
+      if (this.status === 204) {
         handleCreationSuccess.apply(this);
       }
+      /* #TODO else {
+        errorHandlerClosure.apply(this);
+      } */
     }
   }
 
@@ -40,8 +45,10 @@
   function messageHandler(input) {
     if ( !! input.data && !! input.data.hasSession && checkedOnce === false) {
       received = input.data;
-      callbackUri += input.data.sessionToken;
-      hasSession = input.data.hasSession;
+      // For now, we know that recoveryPayload is HEX 64 chars, but that’ll
+      //   change and we will need to url encode it.
+      recoveryPayload += received.recoveryPayload;
+      hasSession = received.hasSession;
       processReceived();
     }
     checkedOnce = true;
@@ -60,9 +67,12 @@
     var xhr;
     if (window.XMLHttpRequest) {
       xhr = new XMLHttpRequest();
+      xhr.open("POST", callbackUri, true);
+      xhr.setRequestHeader("Content-length", recoveryPayload.length);
+      xhr.setRequestHeader("Connection", "close");
+      xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
       xhr.onreadystatechange = postBackendHandler.bind(xhr);
-      xhr.open("GET", callbackUri, true);
-      xhr.send();
+      xhr.send(recoveryPayload);
     }
   }
 
