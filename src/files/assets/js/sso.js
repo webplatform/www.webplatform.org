@@ -36,17 +36,17 @@
 
     function iframeLoadedHandler() {
         setTimeout(sso.doCheck.bind(sso), 400);
-        console.log("iframeLoadedHandler; iframeLoadedHandler, will call check in a few seconds");
+        console.log("SsoHandler private iframeLoadedHandler; iframeLoadedHandler, will call check in a few seconds");
     }
 
     function createTunnel() {
         var authChecker = null,
             myEndpoint  = sso.config.serviceEndpoint;
 
-        console.log("createTunnel; to create iframe to [myEndpoint]", myEndpoint);
+        console.log("SsoHandler private createTunnel; to create iframe to [myEndpoint]", myEndpoint);
 
         if (myEndpoint === null) {
-            throw new Error("createTunnel; No endpoint to send requests to for, we got " + myEndpoint);
+            throw new Error("SsoHandler had problems creating iframe: No endpoint to send requests to for, we got " + myEndpoint);
         }
         authChecker = document.createElement('iframe');
         authChecker.src = myEndpoint;
@@ -59,7 +59,7 @@
             document.body.appendChild(authChecker);
             document.getElementById("authChecker").style.display = "none";
         } catch (e) {
-            console.log("createTunnel, caught exception will return null", e);
+            console.log("SsoHandler private createTunnel, caught exception will return null", e);
             return null;
         }
 
@@ -70,8 +70,8 @@
         var xhrObj = XMLHttpRequestProgressEvent.currentTarget;
 
         if (xhrObj.readyState === 4) {
-            console.log("postBackendHandler; readyState=4, status=" + xhrObj.status);
-            console.debug("postBackendHandler; xhrObj=", xhrObj);
+            console.log("SsoHandler private postBackendHandler; readyState=4, status=" + xhrObj.status);
+            console.debug("SsoHandler private postBackendHandler; xhrObj=", xhrObj);
             if (xhrObj.status === sso.config.alreadyHasSessionStatusValue) {
                 return;
             }
@@ -89,8 +89,8 @@
         var xhr,
             self = this;
 
-        console.debug("postBackend; stateObj", stateObj);
-        console.debug("postBackend; self", self);
+        console.debug("SsoHandler private postBackend; stateObj", stateObj);
+        console.debug("SsoHandler private postBackend; self", self);
 
         if (window.XMLHttpRequest) {
             xhr = new XMLHttpRequest();
@@ -106,19 +106,19 @@
     function processReceived() {
         var self = this;
 
-        console.debug("processReceived; self", self);
+        //console.debug("SsoHandler private processReceived; self", self);
 
         if (self.state.ssoHasSession === true && self.state.isAnonymous === false) {
-            console.log("processReceived; Session on both accounts server and local; nothing else to do");
+            console.log("SsoHandler private processReceived; Session on both accounts server and local; nothing else to do");
             return;
         }
 
         if (self.state.ssoHasSession === false && self.state.isAnonymous === true) {
-            console.log("processReceived; No Session on accounts server, no session locally; nothing to do");
+            console.log("SsoHandler private processReceived; No Session on accounts server, no session locally; nothing to do");
             return;
         }
 
-        console.log("processReceived; Should send post to " + self.config.callbackUri);
+        console.log("SsoHandler private processReceived; Should send post to " + self.config.callbackUri);
         postBackend.call(self, self.state);
     }
 
@@ -130,11 +130,11 @@
             received = input.data;
             self.state.recoveryPayload += received.recoveryPayload || "";
             self.state.ssoHasSession = received.hasSession || false; // Remains false if its not there
-            console.log("messageHandler, to processReceived call [ssoHasSession]:", self.state.ssoHasSession);
-            console.debug("messageHandler, to processReceived call [recoveryPayload,received]:", self.state.recoveryPayload, received);
+            console.log("SsoHandler private messageHandler, [ssoHasSession]:", self.state.ssoHasSession);
+            console.debug("SsoHandler private messageHandler, [recoveryPayload,received]:", self.state.recoveryPayload, received);
             processReceived.call(self);
         } else {
-            console.log("messageHandler; no data received from accounts server");
+            console.log("SsoHandler private messageHandler; no data received from accounts server");
         }
     }
 
@@ -188,14 +188,14 @@
 
     SsoHandlerClass.prototype.doCheck = function ssoHandlerDoCheck() {
         var self = this;
-        console.debug("doCheck; [callbackUri,isAnonymous,username]: ", self.config.callbackUri, self.state.isAnonymous, self.state.username);
+        console.debug("SsoHandler.doCheck; [callbackUri,isAnonymous,username]: ", self.config.callbackUri, self.state.isAnonymous, self.state.username);
 
         if (self.tunnel === null) {
-            console.log("doCheck; no tunnel, we stop here.");
+            console.log("SsoHandler.doCheck; no tunnel, we stop here.");
             return;
         }
 
-        console.debug("doCheck; pinging the accounts server");
+        console.debug("SsoHandler.doCheck; pinging the accounts server");
         try {
             self.tunnel.contentWindow.postMessage("ping:" + self.state.username, self.config.serviceEndpoint);
         } catch (ignore) {}
@@ -203,14 +203,13 @@
 
     SsoHandlerClass.prototype.signOut = function ssoHandlerSignOut() {
         var self = this;
-        console.log("signOut;");
+        console.log("SsoHandler.signOut; asking to destroy the session");
 
         if (self.tunnel === null) {
-            console.log("signOut; no tunnel, we stop here.");
+            console.log("SsoHandler.signOut; no tunnel, we stop here.");
             return;
         }
 
-        console.log("signOut; asking to destroy the session");
         try {
             self.tunnel.contentWindow.postMessage("signout:" + self.state.username, self.config.serviceEndpoint);
         } catch (ignore) {}
@@ -218,10 +217,10 @@
 
     SsoHandlerClass.prototype.post = function tempPost(intentId) {
         var self = this;
-        console.debug("post; with intent id " + intentId);
+        console.debug("SsoHandler.post; with intent id " + intentId);
 
         if (self.tunnel === null) {
-            console.log("post; no tunnel, we stop here.");
+            console.log("SsoHandler.post; no tunnel, we stop here.");
             return;
         }
 
@@ -246,7 +245,7 @@
         try {
             window.mw.notify("Syncing with central account server, the page might reload.", {title: "WebPlatform SSO"});
         } catch (ignore) {}
-        console.debug("init; state:", self.state);
+        console.debug("SsoHandler.init; state:", self.state);
     };
 
     var ssoOptions = window.ssoOptions || {};
