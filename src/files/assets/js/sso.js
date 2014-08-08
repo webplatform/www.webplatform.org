@@ -18,6 +18,29 @@
  *       tunnel.postMessage("ping:null", IdP);    // Hi IdP, i’m NOT signed-in, should I be?
  *       tunnel.postMessage("signoff", IdP);      // Hi IdP, destroy my session, i'll do the same!
  *       ```
+ * # Deployment
+ *
+ * - Copy contents of this file, pass it through an online uglifyer
+ * - Copy the uglified JavaScript into MediaWiki skin/webplatform/webplatform.js, at the bottom
+ * - The line before the uglified javascript, add configuration and logoff handler:
+ *
+ *     ```javascript
+ *     var ssoOptions=ssoOptions||{logging:false, callbackUri:mw.config.get("wgArticlePath").replace('$1', 'Special:AccountsHandler/callback')};
+ *     jQuery('body').on('click', '#pt-logout a',function(evt){evt.preventDefault();window.sso.signOut();});
+ *     ```
+ * - Done
+ *
+ * To use this JavaScript module in another web application than MediaWiki, follow this skeleton:
+ *
+ *     ```javascript
+ *     var ssoOptions=ssoOptions||{logging:false, callbackUri:'/path/to/webapp-callback'};
+ *
+ *     // Create an event listener to execute the following when
+ *     // a user clicks on log out.
+ *     window.sso.signOut();
+ *     ```
+ *
+ *
  *
  * # Improvement notes:
  *
@@ -129,6 +152,9 @@
         if (!!input.data) {
             received = input.data;
             self.state.recoveryPayload += received.recoveryPayload || "";
+            if (received.hasSession === false) {
+              self.state.recoveryPayload = 'recoveryPayload='; // An explicity empty
+            }
             self.state.ssoHasSession = received.hasSession || false; // Remains false if its not there
             console.log("SsoHandler private messageHandler, [ssoHasSession]:", self.state.ssoHasSession);
             console.debug("SsoHandler private messageHandler, [recoveryPayload,received]:", self.state.recoveryPayload, received);
@@ -211,7 +237,7 @@
         }
 
         try {
-            self.tunnel.contentWindow.postMessage("signout:" + self.state.username, self.config.serviceEndpoint);
+            self.tunnel.contentWindow.postMessage("signoff", self.config.serviceEndpoint);
         } catch (ignore) {}
     };
 
