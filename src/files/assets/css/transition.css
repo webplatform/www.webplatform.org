@@ -2,6 +2,88 @@
  * CSS overrides to keep
  * images on same domain
  */
+@font-face {
+  font-family: 'WPSymbols';
+  src:url('/assets/fonts/WPSymbols.eot');
+  src:url('/assets/fonts/WPSymbols.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/WPSymbols.svg#WPSymbols') format('svg'),
+    url('/assets/fonts/WPSymbols.woff') format('woff'),
+    url('/assets/fonts/WPSymbols.ttf') format('truetype');
+}
+
+@font-face{
+  font-family: 'Gudea';
+  font-weight: normal;
+  src: url('/assets/fonts/gudea-regular-webfont.eot');
+  src: url('/assets/fonts/gudea-regular-webfont.eot?#iefix') format('embedded-opentype'),
+     url('/assets/fonts/gudea-regular-webfont.woff') format('woff'),
+     url('/assets/fonts/gudea-regular-webfont.ttf') format('truetype'),
+     url('/assets/fonts/gudea-regular-webfont.svg#GudeaRegular') format('svg');
+}
+
+@font-face{
+  font-family: 'Gudea';
+  font-weight: bold;
+  src: url('/assets/fonts/gudea-bold-webfont.eot');
+  src: url('/assets/fonts/gudea-bold-webfont.eot?#iefix') format('embedded-opentype'),
+     url('/assets/fonts/gudea-bold-webfont.woff') format('woff'),
+     url('/assets/fonts/gudea-bold-webfont.ttf') format('truetype'),
+     url('/assets/fonts/gudea-bold-webfont.svg#GudeaRegular') format('svg');
+}
+
+@font-face{
+  font-family: 'Gudea';
+  font-weight: normal;
+  font-style: italic;
+  src: url('/assets/fonts/gudea-italic-webfont.eot');
+  src: url('/assets/fonts/gudea-italic-webfont.eot?#iefix') format('embedded-opentype'),
+     url('/assets/fonts/gudea-italic-webfont.woff') format('woff'),
+     url('/assets/fonts/gudea-italic-webfont.ttf') format('truetype'),
+     url('/assets/fonts/gudea-italic-webfont.svg#GudeaRegular') format('svg');
+}
+
+@font-face{
+  font-family: 'Bitter';
+  font-weight: normal;
+  src: url('/assets/fonts/bitter-regular-webfont.eot');
+  src: url('/assets/fonts/bitter-regular-webfont.eot?#iefix') format('embedded-opentype'),
+     url('/assets/fonts/bitter-regular-webfont.woff') format('woff'),
+     url('/assets/fonts/bitter-regular-webfont.ttf') format('truetype'),
+     url('/assets/fonts/bitter-regular-webfont.svg#BitterRegular') format('svg');
+}
+
+@font-face{
+  font-family: 'Bitter';
+  font-weight: bold;
+  src: url('/assets/fonts/bitter-bold-webfont.eot');
+  src: url('/assets/fonts/bitter-bold-webfont.eot?#iefix') format('embedded-opentype'),
+     url('/assets/fonts/bitter-bold-webfont.woff') format('woff'),
+     url('/assets/fonts/bitter-bold-webfont.ttf') format('truetype'),
+     url('/assets/fonts/bitter-bold-webfont.svg#BitterBold') format('svg');
+}
+
+@font-face{
+  font-family: 'Bitter';
+  font-weight: normal;
+  font-style: italic;
+  src: url('/assets/fonts/bitter-italic-webfont.eot');
+  src: url('/assets/fonts/bitter-italic-webfont.eot?#iefix') format('embedded-opentype'),
+     url('/assets/fonts/bitter-italic-webfont.woff') format('woff'),
+     url('/assets/fonts/bitter-italic-webfont.ttf') format('truetype'),
+     url('/assets/fonts/bitter-italic-webfont.svg#BitterBold') format('svg');
+}
+
+@font-face {
+  font-family: 'WPSymbols';
+  src:url('/assets/fonts/WPSymbols.eot');
+  src:url('/assets/fonts/WPSymbols.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/WPSymbols.svg#WPSymbols') format('svg'),
+    url('/assets/fonts/WPSymbols.woff') format('woff'),
+    url('/assets/fonts/WPSymbols.ttf') format('truetype');
+}
+
+#jump-to-nav,.mw-jump {display:none}
+
 body.sitedir-ltr {
   background-image: url('/assets/bg-pattern.png') !important;
 }
@@ -10,11 +92,11 @@ body.sitedir-ltr {
   background-image: url('/assets/btn-search.svg') !important;
 }
 
-#p-logo a {
-  /* could not change without breaking
-  background-image: url('/logo/logo.png');
-  background-image: url('/logo/logo.svg');
-  */
+#p-logo a { /* Playing with cascade and specifity over squished.css */
+  background:#f9f7f3 url('/assets/logo.png');
+  background:hsl(40,29%,96%) url('/assets/logo.svg');
+  background-repeat:no-repeat;
+  background-position:center;
 }
 
 #sitenav {
@@ -22,7 +104,7 @@ body.sitedir-ltr {
 }
 
 footer ul.stewards > li > a {
-  background-image: url('/assets/footer-images.png');
+  background-image: url('/assets/footer-images.png') !important;
 }
 
 @media screen and (max-width:950px) {

@@ -6,7 +6,7 @@ css2: "/assets/css/stewards.css"
 path: [{href: '/stewards/', inner: 'Stewards'},{href: '/stewards/nokia/', inner: 'Nokia'}]
 ---
 
-  <h1 id="firstHeading" class="firstHeading">
+  <h1>
     <a class="logo">
       <img src="/stewards/nokia/NOKIA_LOGO_RGB_HR.png" alt="Nokia logo" />
     </a>

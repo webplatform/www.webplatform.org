@@ -15,12 +15,9 @@ layout: homepage
         <a href="#join-us">Join us.</a>
       </p>
     </div>
-    <div class="video">
-      <div class="video-inner">
-        <iframe src="//www.youtube.com/embed/Ug6XAw6hzaw" frameborder="0" allowfullscreen=""></iframe>
-      </div>
+    <div class="video" id="wpd-intro" style="cursor:pointer;background:url(/assets/wpd-intro.png) 50% 50% no-repeat;">
+      <div class="video-inner" data-youtube-id="Ug6XAw6hzaw"></div>
     </div>
-
     <div class="coalition">
       <h2>Created by a powerhouse coalition. And you.</h2>
       <p>Web Platform is a project of the W3C and the <a href="http://www.webplatform.org/stewards/">Web Platform stewards</a> —
@@ -240,3 +237,22 @@ layout: homepage
   </section>
 
 </main>
+<script>
+ function makeYouTubeElement(videoId) {
+    var elem = document.createElement('iframe');
+    elem.src = '//youtube.com/embed/'+videoId+'?autoplay=1';
+    elem.allowfullscreen = true;
+    elem.style.border = 0;
+
+    return elem;
+  }
+
+  /* Its the only video we want to load on the site anyway */
+  document.getElementById('wpd-intro')
+    .addEventListener('click',
+      function(evt){
+        var videoId = (!!evt.target.dataset)?evt.target.dataset.youtubeId:evt.target.getAttribute('data-youtube-id');
+        evt.target.appendChild(makeYouTubeElement(videoId));
+      }
+    );
+</script>

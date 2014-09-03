@@ -6,7 +6,7 @@ css2: "/assets/css/stewards.css"
 path: [{href: '/stewards/', inner: 'Stewards'},{href: '/stewards/mozilla/', inner: 'Mozilla'}]
 ---
 
-  <h1 id="firstHeading" class="firstHeading">
+  <h1>
     <a class="logo">
       <img src="/stewards/mozilla/mozilla_logo.png" alt="Mozilla logo" />
     </a>

@@ -6,7 +6,7 @@ css2: "/assets/css/stewards.css"
 path: [{href: '/stewards/', inner: 'Stewards'},{href: '/stewards/opera/', inner: 'Opera'}]
 ---
 
-  <h1 id="firstHeading" class="firstHeading">
+  <h1>
     <a class="logo">
       <img src="/stewards/opera/Opera-logo.png" alt="Opera logo" />
     </a>

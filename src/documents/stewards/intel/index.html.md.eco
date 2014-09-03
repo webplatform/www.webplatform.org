@@ -6,7 +6,7 @@ css2: "/assets/css/stewards.css"
 path: [{href: '/stewards/', inner: 'Stewards'},{href: '/stewards/intel/', inner: 'Intel'}]
 ---
 
-  <h1 id="firstHeading" class="firstHeading">
+  <h1>
     <a class="logo">
       <img src="/stewards/intel/intel_logo.png" alt="Intel logo" />
     </a>

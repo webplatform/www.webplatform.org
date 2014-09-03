@@ -6,14 +6,14 @@ css2: "/assets/css/stewards.css"
 path: [{href: '/stewards/', inner: 'Stewards'},{href: '/stewards/facebook/', inner: 'Facebook'}]
 ---
 
-  <h1 id="firstHeading" class="firstHeading">
+  <h1>
     <a class="logo">
       <img src="/stewards/facebook/facebook_logo.png" alt="Facebook logo" />
     </a>
     <%= @document.heading %>
   </h1>
 
-Founded in 2004, Facebook¹s mission is to make the world more open and connected. People use Facebook to stay connected with friends and family, to discover what¹s going on in the world, and to share and express what matters to them.
+Founded in 2004, Facebook’s mission is to make the world more open and connected. People use Facebook to stay connected with friends and family, to discover what¹s going on in the world, and to share and express what matters to them.
 
 
 <blockquote class="testimonial">
