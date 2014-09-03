@@ -23,7 +23,7 @@ path: [{href: '/logo/', inner: 'Logo'}]
 <img alt="" src="/logo/wplogo_transparent.png">
 
 <h2 id="badges">Badges</h2>
-<p>You can use these pre-made badges on your site, or <a href="#playground">create your own below</a>.</p>
+<p>You can use these pre-made badges on your site, or <a href="/logo/#playground">create your own below</a>.</p>
 
 <img alt="" src="/logo/wplogo_pillow_white.png">
 <img alt="" src="/logo/wplogo_pillow_tan.png">

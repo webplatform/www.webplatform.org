@@ -41,13 +41,13 @@ more about DocPad, you can refer to their [DocPad documentation](http://docpad.o
 5. Code is managed from the `src/` folder, and what gets changed in it gets regenerated automatically
     by what we call a "watcher", files are regenerated at every changes into `out/` folder.
 
-        docpad run
+        node_modules/docpad/bin/docpad run
 
     You can also leverage work with CSS and JavaScript using built in tools:
 
     * JavaScript Linting
 
-            gulp lint
+            node_modules/gulp/bin/gulp.js lint
 
     * Compiling SASS files
 
@@ -61,8 +61,8 @@ more about DocPad, you can refer to their [DocPad documentation](http://docpad.o
     * Testing before pushing to the repository
 
             compass compile -e production --force
-            docpad generate --env=production
-            gulp minify --env=production
+            node_modules/docpad/bin/docpad generate --env=production
+            node_modules/gulp/bin/gulp.js minify --env=production
 
     This gives you an equivalent of what gets deployed in production without watchers.
 
@@ -73,8 +73,8 @@ more about DocPad, you can refer to their [DocPad documentation](http://docpad.o
 1. Prepare for deploying
 
         compass compile -e production --force
-        docpad generate --env=production
-        gulp minify --env=production
+        node_modules/docpad/bin/docpad generate --env=production
+        node_modules/gulp/bin/gulp.js minify --env=production
         tar cfz static-$(date '+%Y%m%d').tar.gz out/
         scp static-$(date '+%Y%m%d').tar.gz deployment.webplatform.org:/srv/code/www/archives/
 
