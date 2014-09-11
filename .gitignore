@@ -5,3 +5,4 @@ bower_components
 .DS_Store
 *.sublime-project
 *.sublime-workspace
+/.sass-cache

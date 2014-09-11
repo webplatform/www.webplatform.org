@@ -18,7 +18,8 @@ var docpadConfig = {
             title_append: " · WebPlatform.org",
             tagline: "Your Web, documented",
             url: "http://www.webplatform.org",
-            title: "Web Platform Docs"
+            title: "Web Platform Docs",
+            tld: "webplatform.org"
         }
     },
     port: 9003

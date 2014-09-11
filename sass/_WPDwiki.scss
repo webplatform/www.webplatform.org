@@ -477,7 +477,7 @@ table.filehistory td.filehistory-selected {
 
 .filehistory a img, #file img:hover {
 //	background: white url(data:image/png; base64, iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAAAAAA6mKC9AAAAGElEQVQYV2N4DwX/oYBhgARgDJjEAAkAAEC99wFuu0VFAAAAAElFTkSuQmCC) repeat;
-	background:white url("http://docs.webplatform.org/w/skins/common/images/Checker-16x16.png?2013-06-05T19:36:40Z") repeat; // not ie
+	background:white url('//docs.webplatform.org/w/skins/common/images/Checker-16x16.png?2013-06-05T19:36:40Z') repeat; // not ie
 }
 
 li span.deleted, span.history-deleted {
@@ -706,7 +706,7 @@ a.new {
 
 a.feedlink {
 //	background:url(data:image/png; base64, iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAABmJLR0QA/wD/AP+gvaeTAAAAB3RJTUUH2AkOCjkSL9xYhAAAAc9JREFUKJE90LFrU1EYQPHzffe+l/iSVkXTmNiANBU7iE5OLrbSVYKIiy5dnARB3FwEB5dOOhQKuthJEEHRsUXBoosO0lKKEYRa29LWQk3S5L53r0PVv+D8OPJlolrrr1ZmI7F1BFEjqBXECGJAjSBCaLddc7u5Mmb7q5U5007rWh5E9rYR/xsTBBXBWMVEglqRpGiGhcE5G6kdyugxcGsGyRdJ15ZwC29IF55jNEWt8K+aFOMhc+dC7Z6SITjC7ga2MkI8cpH41Dhh7RPa20Gt4toZac+IqhFMTpG0hVt8RetJg967SaTvGLnGNKZ0EtfOcB1P5jyqVjCRkIzfpnjtMYXrT2FrCff6JqhFRx/gnCXtZHgXUFHQSGg/u4Gbf4T2lYkvTaFGce8fIgePY09fwXU8Pg3sk2JFu5v4lQ+4FxPge+j5u3Q+v8TvrBKfbZB1PT4LqJh9Uv7yFLmrM2i+gPs4jRyqIaUz7C2+xZZOEA4cJaSgaAhqhbC1DK0N3K9NusvzAHB4GLf+HQBJBsiCD7J6/9zXI2VbVyv/b6Sdv1e6nrTryboB7wVbyjXt1rcfo0Frs4UkqvtUJHMBjyVEAcSjFiQJwRvf3F3/OfYH/dDFWrCooaIAAAAASUVORK5CYII=) center left no-repeat;
-//	background:url("http://docs.webplatform.org/w/skins/common/images/feed-icon.png?2013-06-05T19:36:40Z") center left no-repeat; // not ie
+//	background:url('//docs.webplatform.org/w/skins/common/images/feed-icon.png?2013-06-05T19:36:40Z') center left no-repeat; // not ie
 	padding-left:16px;
 }
 
@@ -1009,7 +1009,7 @@ div.gallerytext {
 
 .mw-ajax-loader {
 //	background-image:url(data:image/gif; base64, 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);
-	background-image:url("http://docs.webplatform.org/w/skins/common/images/ajax-loader.gif?2013-06-05T19:36:40Z"); // not ie
+	background-image:url('//docs.webplatform.org/w/skins/common/images/ajax-loader.gif?2013-06-05T19:36:40Z'); // not ie
 	background-position:center center;
 	background-repeat:no-repeat;
 	padding:16px;
@@ -1021,7 +1021,7 @@ div.gallerytext {
 	padding:10px !important;
 	margin-right:0.6em;
 //	background-image:url(data:image/gif; R0lGODlhFAAUAIQQAAYJBRkbGCYnJTI0MT9APk5QTVhZV2ZoZXR2c4SGg5CSj52fnKyuq7m7uMfJxtPV0v///////////////////////////////////////////////////////////////yH/C05FVFNDQVBFMi4wAwEAAAAh+QQJCgABACwAAAAAFAAUAAAFc2AgjuNQkCipHCMAiI6TjoWAiG7gNM08CgTca+cbGWyBXEMm6okMJxGBNWLuGo8ngWBY+HgxlIFwm4VnimKKkWgn1Dzwwv0uxpfqfJWZ2p1hV0VXTA9gMCRETXxOOj08jXxfMo+NcHiUgT5nlAFZejqRKCEAIfkECQoADAAsAAAAABQAFAAABXYgI45jcZAouSSjIIjDkI4HwTJBIALvLBIFUY4xAPhoA1ZAcAjIRI2RQlFCkIIMR6PxEC0UiYXDt3WMSdOFz0w+prTb6DHeMNPd9LN7n9WjtGwjdnIzcGeGIn5aI3WMglFbWY14kHKLR4AMkZKEb2ebDF18fUchACH5BAkKAAEALAAAAAAUABQAAAV6YCCO44GQKOkw40CIxZuKi9KIwyAK8hwkCpyOIPCNFglWTjEojAgJkeMmUixIhiABADhIGw3HwycACLyqsI+ATo2NqCmY6puH5WC43QHvjxx8M3KBUnJGgyIPYIGEAVMjaiJ0j3lTjTN5eQGadWqainQpgJJ0b36jPiEAIfkECQoAAQAsAAAAABQAFAAABXVgII7jwpAo+TxjkoiGkY5OwwauSBTz2DSinIHQozUcuISCIIMpRDUfcoRYBAwCwQH6c9xSBAEBgapNUwfy7Fs0/oBFgBwwqL3bcwCvzYeey10qdkV2Uw+BAX9RIkc+RgE/iY1tkZGSlI2Wgz0OU5YBbG2dRSEAIfkECQoACAAsAAAAABQAFAAABXcgIo4j05Ao+TjjsohuOjoNi8RIoshjDb+KBG/mczUUL9EhSevZYKwDgSBE0GoPXmFgqBKfqIMXlR2iro3TMCBgF9BqXpt9MKPGJAeYRAhw81dDAwAAAyIPaTZgTSIChiJxTWlWPmaTk5SWPpiBPHqQcWV2VnskIQAh+QQJCgABACwAAAAAFAAUAAAFemAgjqPjkCj5nGLTiAyTlg3rios8t/bLLDvayeXIjRYsx4tHcjwCi0RCp6w9Z4qEQifcxXbXYNN1Cw7Og0O1vEMTEGKUYmfaGQaEQ7O6WxQEAwUiD0QiLCIEAiMEBCNLAUoBNwcAA3E3ZQIAYoVllI10PSMHCXGGhykhACH5BAkKAAEALAAAAAAUABQAAAV3YCCOo+OQKPmcYtOIZlo2T/sGDSvjrBs4t90vh6MRYbXh6Igc0mAuRzIV1UGtpJhsKpy5grKEOLEAfrvjBKOLUuy0KQTBkMiadwsDYS56RGEkBwQjBQZLMwEAAAEIAoZdPooiBAKQRJKMAgVCWpgBB25sAQUDQiEAIfkECQoAEAAsAAAAABQAFAAABXsgJI6j45Ao+Zxi04hmWjZP+0INK+OsCzm33S+HoxFhteHoiBzSYC5HMhXVQa2kmGwqnLmCsm8O+O2KseadNrVQKBhZsnqRSChEj6iIQEIURm5LIwMBCAIBEAkDB10QAAIQAYgQBnxChyKYiQSMOwKQEJ8jCQuNIgd/OyEAIfkECQoAHwAsAAAAABQAFAAABXzgJ46j45Ao+Zxi04hmWjZP+34NK+Os+zm33S+HoxFhteHoiBzSYC5HMhXVQa2kmGwqnLmCsm8O+O2KsV0u6UDYAbWigwAg2K2iIgMAMPgsDCQMCkssCW0iBQMKA30MCQtdHwNtjCILCV0EfZKbDY9CBAUimiMMaDIIgDshACH5BAkKAB8ALAAAAAAUABQAAAV44CeOo+OQKPmcYtOIZlo2T/t+DSvjrPs5t90vh6MRYbXh6Igc0mAuRzIV1UGtpJhsKhwVAGBA1xUdhMVCMrMr4pIQhx1QK0IQBITdKio6CAQFHwsIWUFHCoEiBgQKCQlDWCkEgY5QXQV5H5WQQgWJmx8PbjsMC0IhACH5BAkKAB8ALAAAAAAUABQAAAV14CeOo+OQKPmcYtO0bwo/cC3b7pffotOcrsevRPsMBKMh8eNrFAcBwEBxczlRUMLNdEvwUgWAGPC1/gZjMs9c/I7aqMRh62KJEoZB4bay3gkEcw4LJD5JMQtzIgsKfj52XVQ7OzcKVDoxQjEyCoSYb3A8XDchACH5BAEKAB8ALAAAAAAUABQAAAV64CeOo+OQKJkcY9OIZjoSAPu5Ii6LgJC/jtdONKjdGo/GCfYQEQYjAYHkaAaVosJgUFjsXDHS07ALpxTDFOK5TbvAh217+MamSU0Zg1FWLkUMCgloMg9XSwwJCV6GVEI3Sw5eMEg4QX9fJzo6X0I6SZgoYZwPeXdmKSEAOw==);
-	background-image:url("http://docs.webplatform.org/w/skins/common/images/spinner.gif?2013-06-05T19:36:40Z"); // not ie
+	background-image:url('//docs.webplatform.org/w/skins/common/images/spinner.gif?2013-06-05T19:36:40Z'); // not ie
 	background-position:center center;
 	background-repeat:no-repeat;
 }
@@ -1089,7 +1089,7 @@ ol:lang(or) li {
 	margin-bottom:-8px;
 	padding:0 0 0 15px;
 //	background-image:url(data:image/gif; base64, R0lGODlhCwALALMAAP///01NTZOTk1lZWefn57i4uJSUlPPz82VlZdDQ0HFxcaysrNvb28TExAAAAAAAACH5BAAAAAAALAAAAAALAAsAAAQrUIRJqQQ455nNNBgHJANBDAwgZsVwqIG2IEQYYwXy2lq/Kg3NqqeSVCqCCAA7);
-	background-image:url("http://docs.webplatform.org/w/skins/common/images/help-question.gif?2013-06-05T19:36:40Z"); // not ie
+	background-image:url('//docs.webplatform.org/w/skins/common/images/help-question.gif?2013-06-05T19:36:40Z'); // not ie
 	background-position:left center;
 	background-repeat:no-repeat;
 	cursor:pointer;
@@ -1100,7 +1100,7 @@ ol:lang(or) li {
 
 .mw-help-field-hint:hover {
 //	background-image:url(data:image/gif; base64, R0lGODlhCwALALMAAAtop+7z+GCWwpW51oStz8rb6yZzrafF3bnR5Nzn8QBcoD91oABQmf///wAAAAAAACH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjAgNjEuMTM0Nzc3LCAyMDEwLzAyLzEyLTE3OjMyOjAwICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtbG5zOnhtcD0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLyIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjAyODAxMTc0MDcyMDY4MTE5NkQ0QUQzRjI0NzRCNUQwIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjJBN0FFQTQwQjlGQzExREY5RDlBQTRBODQyMkJCMkFDIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjJBN0FFQTNGQjlGQzExREY5RDlBQTRBODQyMkJCMkFDIiB4bXA6Q3JlYXRvclRvb2w9IkFkb2JlIFBob3Rvc2hvcCBDUzUgTWFjaW50b3NoIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RkM3RjExNzQwNzIwNjgxMTk1RkVBQ0ZBOEQxNTU5MkUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDI4MDExNzQwNzIwNjgxMTk2RDRBRDNGMjQ3NEI1RDAiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4B//79/Pv6+fj39vX08/Lx8O/u7ezr6uno5+bl5OPi4eDf3t3c29rZ2NfW1dTT0tHQz87NzMvKycjHxsXEw8LBwL++vby7urm4t7a1tLOysbCvrq2sq6qpqKempaSjoqGgn56dnJuamZiXlpWUk5KRkI+OjYyLiomIh4aFhIOCgYB/fn18e3p5eHd2dXRzcnFwb25tbGtqaWhnZmVkY2JhYF9eXVxbWllYV1ZVVFNSUVBPTk1MS0pJSEdGRURDQkFAPz49PDs6OTg3NjU0MzIxMC8uLSwrKikoJyYlJCMiISAfHh0cGxoZGBcWFRQTEhEQDw4NDAsKCQgHBgUEAwIBAAAh+QQAAAAAACwAAAAACwALAAAEK3CxSalsOOeZxRQY1yBKkihFI2aDEqiMRgBJGGMD8NpavxoHzaqnklQqiwgAOw==);
-	background-image:url("http://docs.webplatform.org/w/skins/common/images/help-question-hover.gif?2013-06-05T19:36:40Z"); // not ie
+	background-image:url('//docs.webplatform.org/w/skins/common/images/help-question-hover.gif?2013-06-05T19:36:40Z'); // not ie
 }
 
 .mw-help-field-data {
@@ -1131,7 +1131,7 @@ ol:lang(or) li {
 .tipsy-arrow {
 	position:absolute;
 //	background:url(data:image/gif; base64, R0lGODlhDQANAMQAAPf399bz/9vu9m/O9NXy/8Pm9svp9pfd+YLW943X9LTn++z093XQ9WnM9OLw9p/c9YTU9InY9/T292DK9Jre+afj+rvq/Nzv9rjk9brl9cPt/ZLb+GbL9MLs/ZHb+KLh+iH5BAAAAAAALAAAAAANAA0AAAVK4BGMZBkcg2WW1lBEKxkVAFTFFQQAwkSYhIlgB3hQTJQHEbBodEiaxmIJyHhIGwwVIGEoAgqGZAswIAIIA3mX+CTWOwfHAd9dtiEAOw==) no-repeat top left;
-	background:url("http://docs.webplatform.org/w/skins/common/images/tipsy-arrow.gif?2013-06-05T19:36:40Z") no-repeat top left; // not ie
+	background:url('//docs.webplatform.org/w/skins/common/images/tipsy-arrow.gif?2013-06-05T19:36:40Z') no-repeat top left; // not ie
 	width:13px;
 	height:13px;
 }
@@ -1204,51 +1204,73 @@ ol:lang(or) li {
 @font-face {
 	font-family:'Gudea';
 	font-weight:normal;
-	src:url('http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-regular-webfont.eot');
-	src:url('http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-regular-webfont.eot?#iefix') format('embedded-opentype'), url('http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-regular-webfont.woff') format('woff'), url('http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-regular-webfont.ttf') format('truetype'), url('http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-regular-webfont.svg#GudeaRegular') format('svg');
+	src:url('//www.webplatform.org/assets/fonts/gudea-regular-webfont.eot');
+	src:url('//www.webplatform.org/assets/fonts/gudea-regular-webfont.eot?#iefix') format('embedded-opentype'),
+				url('//www.webplatform.org/assets/fonts/gudea-regular-webfont.woff') format('woff'),
+				url('//www.webplatform.org/assets/fonts/gudea-regular-webfont.ttf') format('truetype'),
+				url('//www.webplatform.org/assets/fonts/gudea-regular-webfont.svg#GudeaRegular') format('svg');
 }
 
 @font-face {
 	font-family:'Gudea';
 	font-weight:bold;
-	src:url('http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-bold-webfont.eot');
-	src:url('http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-bold-webfont.eot?#iefix') format('embedded-opentype'), url('http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-bold-webfont.woff') format('woff'), url('http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-bold-webfont.ttf') format('truetype'), url('http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-bold-webfont.svg#GudeaRegular') format('svg');
+	src:url('//www.webplatform.org/assets/fonts/gudea-bold-webfont.eot');
+	src:url('//www.webplatform.org/assets/fonts/gudea-bold-webfont.eot?#iefix') format('embedded-opentype'),
+				url('//www.webplatform.org/assets/fonts/gudea-bold-webfont.woff') format('woff'),
+				url('//www.webplatform.org/assets/fonts/gudea-bold-webfont.ttf') format('truetype'),
+				url('//www.webplatform.org/assets/fonts/gudea-bold-webfont.svg#GudeaRegular') format('svg');
 }
 
 @font-face {
 	font-family:'Gudea';
 	font-weight:normal;
 	font-style:italic;
-	src:url('http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-italic-webfont.eot');
-	src:url('http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-italic-webfont.eot?#iefix') format('embedded-opentype'), url('http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-italic-webfont.woff') format('woff'), url('http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-italic-webfont.ttf') format('truetype'), url('http://docs.webplatform.org/w/skins/webplatform/fonts/gudea-italic-webfont.svg#GudeaRegular') format('svg');
+	src:url('//www.webplatform.org/assets/fonts/gudea-italic-webfont.eot');
+	src:url('//www.webplatform.org/assets/fonts/gudea-italic-webfont.eot?#iefix') format('embedded-opentype'),
+				url('//www.webplatform.org/assets/fonts/gudea-italic-webfont.woff') format('woff'),
+				url('//www.webplatform.org/assets/fonts/gudea-italic-webfont.ttf') format('truetype'),
+				url('//www.webplatform.org/assets/fonts/gudea-italic-webfont.svg#GudeaRegular') format('svg');
 }
 
 @font-face {
 	font-family:'Bitter';
 	font-weight:normal;
-	src:url('http://docs.webplatform.org/w/skins/webplatform/fonts/bitter-regular-webfont.eot');
-	src:url('http://docs.webplatform.org/w/skins/webplatform/fonts/bitter-regular-webfont.eot?#iefix') format('embedded-opentype'), url('http://docs.webplatform.org/w/skins/webplatform/fonts/bitter-regular-webfont.woff') format('woff'), url('http://docs.webplatform.org/w/skins/webplatform/fonts/bitter-regular-webfont.ttf') format('truetype'), url('http://docs.webplatform.org/w/skins/webplatform/fonts/bitter-regular-webfont.svg#BitterRegular') format('svg');
+	src:url('//www.webplatform.org/assets/fonts/bitter-regular-webfont.eot');
+	src:url('//www.webplatform.org/assets/fonts/bitter-regular-webfont.eot?#iefix') format('embedded-opentype'),
+				url('//www.webplatform.org/assets/fonts/bitter-regular-webfont.woff') format('woff'),
+				url('//www.webplatform.org/assets/fonts/bitter-regular-webfont.ttf') format('truetype'),
+				url('//www.webplatform.org/assets/fonts/bitter-regular-webfont.svg#BitterRegular') format('svg');
 }
 
 @font-face {
 	font-family:'Bitter';
 	font-weight:bold;
-	src:url('http://docs.webplatform.org/w/skins/webplatform/fonts/bitter-bold-webfont.eot');
-	src:url('http://docs.webplatform.org/w/skins/webplatform/fonts/bitter-bold-webfont.eot?#iefix') format('embedded-opentype'), url('http://docs.webplatform.org/w/skins/webplatform/fonts/bitter-bold-webfont.woff') format('woff'), url('http://docs.webplatform.org/w/skins/webplatform/fonts/bitter-bold-webfont.ttf') format('truetype'), url('http://docs.webplatform.org/w/skins/webplatform/fonts/bitter-bold-webfont.svg#BitterBold') format('svg');
+	src:url('//www.webplatform.org/assets/fonts/bitter-bold-webfont.eot');
+	src:url('//www.webplatform.org/assets/fonts/bitter-bold-webfont.eot?#iefix') format('embedded-opentype'),
+				url('//www.webplatform.org/assets/fonts/bitter-bold-webfont.woff') format('woff'),
+				url('//www.webplatform.org/assets/fonts/bitter-bold-webfont.ttf') format('truetype'),
+				url('//www.webplatform.org/assets/fonts/bitter-bold-webfont.svg#BitterBold') format('svg');
 }
 
 @font-face {
 	font-family:'Bitter';
 	font-weight:normal;
 	font-style:italic;
-	src:url('http://docs.webplatform.org/w/skins/webplatform/fonts/bitter-italic-webfont.eot');
-	src:url('http://docs.webplatform.org/w/skins/webplatform/fonts/bitter-italic-webfont.eot?#iefix') format('embedded-opentype'), url('http://docs.webplatform.org/w/skins/webplatform/fonts/bitter-italic-webfont.woff') format('woff'), url('http://docs.webplatform.org/w/skins/webplatform/fonts/bitter-italic-webfont.ttf') format('truetype'), url('http://docs.webplatform.org/w/skins/webplatform/fonts/bitter-italic-webfont.svg#BitterBold') format('svg');
+	src:url('//www.webplatform.org/assets/fonts/bitter-italic-webfont.eot');
+	src:url('//www.webplatform.org/assets/fonts/bitter-italic-webfont.eot?#iefix') format('embedded-opentype'),
+				url('//www.webplatform.org/assets/fonts/bitter-italic-webfont.woff') format('woff'),
+				url('//www.webplatform.org/assets/fonts/bitter-italic-webfont.ttf') format('truetype'),
+				url('//www.webplatform.org/assets/fonts/bitter-italic-webfont.svg#BitterBold') format('svg');
 }
 
 @font-face {
+	/* see https://github.com/webplatform/mediawiki/pull/13/files */
 	font-family:'WPSymbols';
-	src:url('http://docs.webplatform.org/w/skins/webplatform/fonts/WPSymbols.eot');
-	src:url('http://docs.webplatform.org/w/skins/webplatform/fonts/WPSymbols.eot?#iefix') format('embedded-opentype'), url('http://docs.webplatform.org/w/skins/webplatform/fonts/WPSymbols.svg#WPSymbols') format('svg'), url('http://docs.webplatform.org/w/skins/webplatform/fonts/WPSymbols.woff') format('woff'), url('http://docs.webplatform.org/w/skins/webplatform/fonts/WPSymbols.ttf') format('truetype');
+		src:url('//www.webplatform.org/assets/fonts/WPSymbols.eot');
+		src:url('//www.webplatform.org/assets/fonts/WPSymbols.eot?#iefix') format('embedded-opentype'),
+			url('//www.webplatform.org/assets/fonts/WPSymbols.woff') format('woff'),
+			url('//www.webplatform.org/assets/fonts/WPSymbols.ttf') format('truetype'),
+			url('//www.webplatform.org/assets/fonts/WPSymbols.svg#WPSymbols') format('svg');
 }
 
 header, footer {
@@ -1266,7 +1288,7 @@ body {
 	margin:0;
 	padding:0;
 	background:#ece5d7;
-	background-image:url('http://docs.webplatform.org/w/skins/webplatform/images/bg-pattern.png');
+	background-image:url('//www.webplatform.org/assets/bg-pattern.png');
 	widows:2;
 	orphans:2;
 }
@@ -1447,7 +1469,7 @@ a:hover {
 a.external {
 	padding-right:15px;
 	margin-right:5px;
-	background-image:url('http://docs.webplatform.org/w/skins/webplatform/images/link-external.png');
+	background-image:url('//www.webplatform.org/assets/link-external.png');
 	background-repeat:no-repeat;
 	background-position:right 3px;
 }
@@ -1723,8 +1745,8 @@ div.floatright, table.floatright, div.floatleft, table.floatleft {
 	border:none;
 	cursor:pointer;
 	font-family:Gudea, Arial, sans-serif;
-	background:url('http://docs.webplatform.org/w/skins/webplatform/images/btn-search.png');
-	background:rgba(0, 0, 0, 0) url('http://docs.webplatform.org/w/skins/webplatform/images/btn-search.svg');
+	background:url('//www.webplatform.org/assets/btn-search.png');
+	background:rgba(0, 0, 0, 0) url('//www.webplatform.org/assets/btn-search.svg');
 	background-repeat:no-repeat;
 }
 
@@ -1780,7 +1802,7 @@ input:focus {
 }
 
 #p-personal > a:before {
-	content:url('http://docs.webplatform.org/w/skins/webplatform/images/icon-head.svg');
+	content:url('//www.webplatform.org/assets/icon-head.svg');
 	margin-right:.3em;
 }
 
@@ -1826,8 +1848,8 @@ input:focus {
 	border-radius:0 0 7px 7px;
 	border:1px solid white;
 	border-top:none;
-	background:#f9f7f3 url('http://docs.webplatform.org/w/skins/webplatform/images/logo.png');
-	background:hsl(40, 29%, 96%) url('http://docs.webplatform.org/w/skins/webplatform/images/logo.svg');
+	background:#f9f7f3 url('//www.webplatform.org/assets/logo.png');
+	background:hsl(40, 29%, 96%) url('//www.webplatform.org/assets/logo.svg');
 	background-repeat:no-repeat;
 	background-position:center;
 	box-shadow:1px 1px 1px #cbc6ba;
@@ -1835,7 +1857,7 @@ input:focus {
 
 #sitenav {
 	background-color:#ece5d7;
-	background-image:url('http://docs.webplatform.org/w/skins/webplatform/images/nav-bg.png');
+	background-image:url('//www.webplatform.org/assets/nav-bg.png');
 	background-position:bottom;
 	background-repeat:repeat-x;
 	padding:30px 0px 35px;
@@ -1848,7 +1870,7 @@ input:focus {
 
 }.mediawiki ul li {
 	margin-bottom:10px;
-	list-style-image:url('http://docs.webplatform.org/w/skins/webplatform/images/bullet.svg');
+	list-style-image:url('//www.webplatform.org/assets/bullet.svg');
 }
 
 ul.links {
@@ -2305,7 +2327,7 @@ ol.breadcrumbs .dropdown > ul {
 	margin-top:-2px;
 	width:5px;
 	height:5px;
-	background-image:url('http://docs.webplatform.org/w/skins/webplatform/images/arrow-down.svg');
+	background-image:url('//www.webplatform.org/assets/arrow-down.svg');
 	background-repeat:no-repeat;
 	background-position:right center;
 }
@@ -2396,7 +2418,7 @@ body:not(.mediawiki) #sidebar + #main-content {
 	height:22px;
 	border-radius:50%;
 	margin-left:-11px;
-	background:#B4E1E4 url('http://docs.webplatform.org/w/skins/webplatform/images/bg-pattern.png');
+	background:#B4E1E4 url('//www.webplatform.org/assets/bg-pattern.png');
 	box-shadow:0 3px 7px -3px #81c7e1;
 	color:#7BCCD1;
 	text-align:center;
@@ -2495,43 +2517,43 @@ html.with-doc #main-content {
 	padding-left:20px;
 	background-position:left center;
 	background-repeat:no-repeat;
-	background-image:url('http://docs.webplatform.org/w/skins/webplatform/images/icon-head.svg');
+	background-image:url('//www.webplatform.org/assets/icon-head.svg');
 }
 
 #ca-protect .icon {
-	background-image:url('http://docs.webplatform.org/w/skins/webplatform/images/icon-protect.svg');
+	background-image:url('//www.webplatform.org/assets/icon-protect.svg');
 }
 
 #ca-delete .icon {
-	background-image:url('http://docs.webplatform.org/w/skins/webplatform/images/icon-delete.svg');
+	background-image:url('//www.webplatform.org/assets/icon-delete.svg');
 }
 
 #ca-move .icon {
-	background-image:url('http://docs.webplatform.org/w/skins/webplatform/images/icon-move.svg');
+	background-image:url('//www.webplatform.org/assets/icon-move.svg');
 }
 
 #ca-edit .icon {
-	background-image:url('http://docs.webplatform.org/w/skins/webplatform/images/icon-edit.svg');
+	background-image:url('//www.webplatform.org/assets/icon-edit.svg');
 }
 
 #ca-edit .icon {
-	background-image:url('http://docs.webplatform.org/w/skins/webplatform/images/icon-edit.svg');
+	background-image:url('//www.webplatform.org/assets/icon-edit.svg');
 }
 
 #ca-view .icon {
-	background-image:url('http://docs.webplatform.org/w/skins/webplatform/images/icon-view.svg');
+	background-image:url('//www.webplatform.org/assets/icon-view.svg');
 }
 
 #ca-history .icon {
-	background-image:url('http://docs.webplatform.org/w/skins/webplatform/images/icon-history.svg');
+	background-image:url('//www.webplatform.org/assets/icon-history.svg');
 }
 
 #ca-watch .icon {
-	background-image:url('http://docs.webplatform.org/w/skins/webplatform/images/icon-watch.svg');
+	background-image:url('//www.webplatform.org/assets/icon-watch.svg');
 }
 
 #ca-unwatch .icon {
-	background-image:url('http://docs.webplatform.org/w/skins/webplatform/images/icon-unwatch.svg');
+	background-image:url('//www.webplatform.org/assets/icon-unwatch.svg');
 }
 
 #ca-watch > span#watch_label, #ca-unwatch > span#watch_label {
@@ -2550,7 +2572,7 @@ html.with-doc #main-content {
 }
 
 span.editsection a {
-	background-image:url('http://docs.webplatform.org/w/skins/webplatform/images/icon-edit.svg');
+	background-image:url('//www.webplatform.org/assets/icon-edit.svg');
 	display:inline-block;
 	width:17px;
 	height:22px;
@@ -2563,7 +2585,7 @@ span.editsection a {
 	width:13px;
 	height:13px;
 	padding:15px;
-	background:url('http://docs.webplatform.org/w/skins/webplatform/images/standardization-status.svg') hsl(40, 34%, 88%);
+	background:url('//www.webplatform.org/assets/standardization-status.svg') hsl(40, 34%, 88%);
 	background-size:100% 700%;
 	margin:13px 0 15px 10px;
 	white-space:nowrap;
@@ -2613,7 +2635,7 @@ span.editsection a {
 }
 
 .standardization_status:before {
-	content:url('http://docs.webplatform.org/w/skins/webplatform/images/w3c-small.svg');
+	content:url('//www.webplatform.org/assets/w3c-small.svg');
 	position:absolute;
 	top:13px;
 	left:10px;
@@ -3332,7 +3354,7 @@ dl.compat-list dt {
 	display:inline-block;
 	width:36px;
 	height:36px;
-	background:url('http://docs.webplatform.org/w/skins/webplatform/images/cloud.svg') no-repeat center;
+	background:url('//www.webplatform.org/assets/cloud.svg') no-repeat center;
 	margin:0;
 }
 
@@ -3402,36 +3424,36 @@ dl.compat-list dt:before {
 }
 
 dl.compat-list dt.chrome:before, dl.compat-list dt.and_chr:before {
-	background-image:url('http://docs.webplatform.org/w/skins/webplatform/images/browsers/chrome.png');
+	background-image:url('//www.webplatform.org/assets/browsers/chrome.png');
 }
 
 dl.compat-list dt.firefox:before, dl.compat-list dt.and_ff:before {
-	background-image:url('http://docs.webplatform.org/w/skins/webplatform/images/browsers/firefox.png');
+	background-image:url('//www.webplatform.org/assets/browsers/firefox.png');
 }
 
 dl.compat-list dt.ie:before, dl.compat-list dt.ie_mob:before {
-	background-image:url('http://docs.webplatform.org/w/skins/webplatform/images/browsers/ie.png');
+	background-image:url('//www.webplatform.org/assets/browsers/ie.png');
 	background-position:40% 50%;
 }
 
 dl.compat-list dt.opera:before, dl.compat-list dt.op_mini:before, dl.compat-list dt.op_mob:before {
-	background-image:url('http://docs.webplatform.org/w/skins/webplatform/images/browsers/opera.png');
+	background-image:url('//www.webplatform.org/assets/browsers/opera.png');
 }
 
 dl.compat-list dt.safari:before, dl.compat-list dt.ios_saf:before {
-	background-image:url('http://docs.webplatform.org/w/skins/webplatform/images/browsers/safari.png');
+	background-image:url('//www.webplatform.org/assets/browsers/safari.png');
 }
 
 dl.compat-list dt.mobiles:before {
-	background-image:url('http://docs.webplatform.org/w/skins/webplatform/images/browsers/mobile.png');
+	background-image:url('//www.webplatform.org/assets/browsers/mobile.png');
 }
 
 dl.compat-list dt.android:before {
-	background-image:url('http://docs.webplatform.org/w/skins/webplatform/images/browsers/android.png');
+	background-image:url('//www.webplatform.org/assets/browsers/android.png');
 }
 
 dl.compat-list dt.bb:before {
-	background-image:url('http://docs.webplatform.org/w/skins/webplatform/images/browsers/blackberry.png');
+	background-image:url('//www.webplatform.org/assets/browsers/blackberry.png');
 }
 
 dl.compat-list dd {
@@ -3445,7 +3467,7 @@ dl.compat-list dd {
 	border-radius:50%;
 	box-shadow:1px 1px 3px rgba(0, 0, 0, .3), 0 1px 1px white inset;
 	background:#f9f7f3 no-repeat center;
-	background-image:url('http://docs.webplatform.org/w/skins/webplatform/images/questionmark.svg');
+	background-image:url('//www.webplatform.org/assets/questionmark.svg');
 	background-size:8px auto;
 	font-size:0;
 	line-height:0;
@@ -3457,15 +3479,15 @@ dl.compat-list dl.compat-list dd {
 }
 
 dl.compat-list dd.Unsupported {
-	background-image:url('http://docs.webplatform.org/w/skins/webplatform/images/x.svg');
+	background-image:url('//www.webplatform.org/assets/x.svg');
 }
 
 dl.compat-list dd.Partial {
-	background-image:url('http://docs.webplatform.org/w/skins/webplatform/images/warning.svg');
+	background-image:url('//www.webplatform.org/assets/warning.svg');
 }
 
 dl.compat-list dd.Supported {
-	background-image:url('http://docs.webplatform.org/w/skins/webplatform/images/checkmark.svg');
+	background-image:url('//www.webplatform.org/assets/checkmark.svg');
 }
 
 .ui-sortable .multipleTemplateInstance {
@@ -3573,43 +3595,43 @@ dl.compat-list dd.Supported {
 }
 
 .icon-accessibility {
-	background:url('http://docs.webplatform.org/w/images/7/7b/WPD-Accessibility-32px.png');
+	background:url('//www.webplatform.org/assets/ornaments/accessibility-32px.png');
 }
 
 .icon-beginners {
-	background:url('http://docs.webplatform.org/w/images/8/8a/WPD-Beginners-32px.png');
+	background:url('//www.webplatform.org/assets/ornaments/beginners-32px.png');
 }
 
 .icon-concept {
-	background:url('http://docs.webplatform.org/w/images/8/83/WPD-Concepts-32px.png');
+	background:url('//www.webplatform.org/assets/ornaments/concepts-32px.png');
 }
 
 .icon-css {
-	background:url('http://docs.webplatform.org/w/images/7/74/WPD-CSS-32px.png');
+	background:url('//www.webplatform.org/assets/ornaments/css-32px.png');
 }
 
 .icon-dom {
-	background:url('http://docs.webplatform.org/w/images/a/ae/WPD-DOM-32px.png');
+	background:url('//www.webplatform.org/assets/ornaments/dom-32px.png');
 }
 
 .icon-html {
-	background:url('http://docs.webplatform.org/w/images/d/d1/WPD-HTML-B-32px.png');
+	background:url('//www.webplatform.org/assets/ornaments/html-32px.png');
 }
 
 .icon-html5 {
-	background:url('http://docs.webplatform.org/w/images/2/26/WPD-HTML5-32px.png');
+	background:url('//www.webplatform.org/assets/ornaments/html5-32px.png');
 }
 
 .icon-js {
-	background:url('http://docs.webplatform.org/w/images/4/4c/WPD-JS-32px.png');
+	background:url('//www.webplatform.org/assets/ornaments/js-32px.png');
 }
 
 .icon-svg {
-	background:url('http://docs.webplatform.org/w/images/d/db/WPD-SVG-32px.png');
+	background:url('//www.webplatform.org/assets/ornaments/svg-32px.png');
 }
 
 .icon-api {
-	background:url('http://docs.webplatform.org/w/images/d/d3/WPD-API-32px.png');
+	background:url('//www.webplatform.org/assets/ornaments/api-32px.png');
 }
 
 @media screen {
@@ -3683,7 +3705,7 @@ nav a {
 
 //---------------------------------------------------------------------------
 // The following is from the ie7.css stylesheet. Adding here to elimnate the need to link to and maintain a separate stylesheet on another server.
-// The code, at the time it was moved here, lived at http://docs.webplatform.org/w/skins/webplatform/ie7.css
+// The code, at the time it was moved here, lived at //docs.webplatform.org/w/skins/webplatform/ie7.css
 //---------------------------------------------------------------------------
 
 .ie6-7 {

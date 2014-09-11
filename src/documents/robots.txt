@@ -1,10 +1,17 @@
 User-agent: *
 
+# In case it gets useful someday :)
+Disallow: /harming/humans
+Disallow: /ignoring/human/orders
+Disallow: /harm/to/self
+
 Disallow: /w/
 Disallow: /t/
 Disallow: /wiki/Special:Search
 Disallow: /test/Special:Search
 Disallow: /test/
+Disallow: /wiki/Special:Random
+Disallow: /test/Special:Random
 
 #
 # MediaWiki Generated Sitemaps
@@ -27,8 +34,3 @@ Sitemap: http://www.webplatform.org/sitemaps/sitemap-wpwiki-NS_102-0.xml.gz
 Sitemap: http://www.webplatform.org/sitemaps/sitemap-wpwiki-NS_108-0.xml.gz
 # 3000 (WPD)
 Sitemap: http://www.webplatform.org/sitemaps/sitemap-wpwiki-NS_3000-0.xml.gz
-
-# In case it gets useful someday :)
-Disallow: /harming/humans
-Disallow: /ignoring/human/orders
-Disallow: /harm/to/self

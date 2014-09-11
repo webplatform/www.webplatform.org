@@ -38,6 +38,13 @@ If you do not have Compass installed or prefer not to install it, here is how yo
     ```
 
 
+### Installing dependencies
+
+#### Ubuntu
+
+    sudo apt-get install -y bundler npm nodejs nodejs-legacy
+    npm install
+    bundle install
 
 ## To contribute
 

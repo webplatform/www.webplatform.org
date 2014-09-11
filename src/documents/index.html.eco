@@ -20,7 +20,7 @@ layout: homepage
     </div>
     <div class="coalition">
       <h2>Created by a powerhouse coalition. And you.</h2>
-      <p>Web Platform is a project of the W3C and the <a href="http://www.webplatform.org/stewards/">Web Platform stewards</a> —
+      <p>Web Platform is a project of the W3C and the <a href="/stewards">Web Platform stewards</a> —
         Adobe, Apple, Facebook, Google, HP, Intel, Microsoft, Mozilla, Nokia, and Opera.
         It’s a collaboration between those who make the specs, those who build the browsers,
         and developers from all over the world. <a href="#join-us">Wanna join us?</a>
@@ -39,13 +39,13 @@ layout: homepage
 
     <div class="webplatformAPI">
       <h2>Web Platform to Go.</h2>
-      <p>Need web technology reference docs for your project? <a href="http://docs.webplatform.org/wiki/WPD:Community">Contact</a> us about our API.</p>
+      <p>Need web technology reference docs for your project? <a href="http://docs.<%= @site.tld %>/wiki/WPD:Community">Contact</a> us about our API.</p>
     </div>
 
     <div class="creativecommons">
       <h2>Creative Commons.</h2>
       <p>You can reuse the content on this site, for any purpose — commercial or not —
-        as long as you <a href="http://docs.webplatform.org/wiki/WPD:License_and_Reuse">provide attribution.</a>
+        as long as you <a href="http://docs.<%= @site.tld %>/wiki/WPD:License_and_Reuse">provide attribution.</a>
       </p>
     </div>
 
@@ -59,7 +59,7 @@ layout: homepage
       <div class="ready-to-use">
         <h3>Ready To Use</h3>
         <ul>
-          <li><a href="http://docs.webplatform.org/wiki/concepts/Pointer_Events">Pointer Events</a>
+          <li><a href="http://docs.<%= @site.tld %>/wiki/concepts/Pointer_Events">Pointer Events</a>
           </li>
         </ul>
       </div>
@@ -67,14 +67,14 @@ layout: homepage
       <div class="almost-ready">
         <h3>Almost Ready</h3>
         <ul>
-          <li><a href="http://docs.webplatform.org/wiki/css">CSS</a>
+          <li><a href="http://docs.<%= @site.tld %>/wiki/css">CSS</a>
           </li>
           <li><p class="properties-list">
-            <a href="http://docs.webplatform.org/wiki/css/properties">properties</a>,
-            <a href="http://docs.webplatform.org/wiki/css/selectors">selectors</a>,
-            <a href="http://docs.webplatform.org/wiki/css/functions">functions</a>,
-            <a href="http://docs.webplatform.org/wiki/css/atrules">at-rules</a>,
-            <a href="http://docs.webplatform.org/wiki/css/mediaqueries">media queries</a></p>
+            <a href="http://docs.<%= @site.tld %>/wiki/css/properties">properties</a>,
+            <a href="http://docs.<%= @site.tld %>/wiki/css/selectors">selectors</a>,
+            <a href="http://docs.<%= @site.tld %>/wiki/css/functions">functions</a>,
+            <a href="http://docs.<%= @site.tld %>/wiki/css/atrules">at-rules</a>,
+            <a href="http://docs.<%= @site.tld %>/wiki/css/mediaqueries">media queries</a></p>
           </li>
         </ul>
       </div>
@@ -82,13 +82,13 @@ layout: homepage
       <div class="in-progress">
         <h3>In Progress</h3>
         <ul>
-          <li><a href="http://docs.webplatform.org/wiki/javascript">JavaScript</a>
+          <li><a href="http://docs.<%= @site.tld %>/wiki/javascript">JavaScript</a>
           </li>
-          <li><a href="http://docs.webplatform.org/wiki/apis">APIs</a>
+          <li><a href="http://docs.<%= @site.tld %>/wiki/apis">APIs</a>
             <ul>
-              <li><a href="http://docs.webplatform.org/wiki/canvas">Canvas</a></li>
-              <li><a href="http://docs.webplatform.org/wiki/apis/file">File API</a></li>
-              <li><a href="http://docs.webplatform.org/wiki/apis/indexedDB">IndexedDB</a></li>
+              <li><a href="http://docs.<%= @site.tld %>/wiki/canvas">Canvas</a></li>
+              <li><a href="http://docs.<%= @site.tld %>/wiki/apis/file">File API</a></li>
+              <li><a href="http://docs.<%= @site.tld %>/wiki/apis/indexedDB">IndexedDB</a></li>
               <li>Appcache</li>
               <li>Geolocation</li>
               <li>Navigation timing</li>
@@ -106,11 +106,11 @@ layout: homepage
       <div class="not-ready">
         <h3>Not Ready</h3>
         <ul>
-          <li><a href="http://docs.webplatform.org/wiki/html">HTML</a></li>
-          <li><a href="http://docs.webplatform.org/wiki/concepts/accessibility">Accessibility</a></li>
-          <li><a href="http://docs.webplatform.org/wiki/dom">DOM</a></li>
-          <li><a href="http://docs.webplatform.org/wiki/svg">SVG</a></li>
-          <li><a href="http://docs.webplatform.org/wiki/webgl">WebGL</a></li>
+          <li><a href="http://docs.<%= @site.tld %>/wiki/html">HTML</a></li>
+          <li><a href="http://docs.<%= @site.tld %>/wiki/concepts/accessibility">Accessibility</a></li>
+          <li><a href="http://docs.<%= @site.tld %>/wiki/dom">DOM</a></li>
+          <li><a href="http://docs.<%= @site.tld %>/wiki/svg">SVG</a></li>
+          <li><a href="http://docs.<%= @site.tld %>/wiki/webgl">WebGL</a></li>
         </ul>
       </div>
 
@@ -138,9 +138,9 @@ layout: homepage
 
       <div class="step1">
         <h2>Step 1: Get an&nbsp;Account.</h2>
-        <p>Anyone is welcome to make changes to the pages on <a href="http://docs.webplatform.org">docs.webplatform.org</a>.
-          First, <a href="http://docs.webplatform.org/w/index.php?title=Special:UserLogin&amp;type=signup">create an account</a>.
-          Then <a href="http://docs.webplatform.org/w/index.php?title=Special:UserLogin">log in</a> and
+        <p>Anyone is welcome to make changes to the pages on <a href="http://docs.<%= @site.tld %>">docs.<%= @site.tld %></a>.
+          First, <a href="http://docs.<%= @site.tld %>/w/index.php?title=Special:UserLogin&amp;type=signup">create an account</a>.
+          Then <a href="http://docs.<%= @site.tld %>/w/index.php?title=Special:UserLogin">log in</a> and
           edit pages. It's that&nbsp;easy.</p>
       </div>
 
@@ -150,7 +150,7 @@ layout: homepage
           be written better? Information that's inaccurate or old? Well, jump in — go
           ahead and change the page. Really. Just fix it. We need lots of people contributing
           more than we need&nbsp;perfection.</p>
-        <p>Scared you'll make a mistake? Try our <a href="http://docs.webplatform.org/wiki/WPD:Practice_Page">practice page</a>.
+        <p>Scared you'll make a mistake? Try our <a href="http://docs.<%= @site.tld %>/wiki/WPD:Practice_Page">practice page</a>.
           You can make mistakes there without hurting&nbsp;anything.</p>
         <p>Web Platform Docs currently uses MediaWiki, the same software that drives Wikipedia.
           If you are trying to format something, this <a href="http://en.wikipedia.org/wiki/Wikipedia:Cheatsheet">syntax cheat sheet</a> might
@@ -180,7 +180,7 @@ layout: homepage
 
       <h2>Keep Up With the Latest.</h2>
       <ul>
-        <li>Read <a href="http://blog.webplatform.org/">our blog</a>.</li>
+        <li>Read <a href="http://blog.<%= @site.tld %>/">our blog</a>.</li>
         <li>Follow <a href="https://twitter.com/webplatform">@webplatform</a> on Twitter.</li>
         <li>Like our <a href="https://www.facebook.com/WebPlatformDocs">Facebook Page</a>.</li>
         <li>Follow us on <a href="https://plus.google.com/u/0/114879255563551049641/">Google+</a>.</li>
@@ -190,7 +190,7 @@ layout: homepage
       <p>“Web Platform Wednesdays” is an effort to organize who’s doing what over the next
         week. This small group focuses together on editing one particular section of
         the site, to gain momentum and get that section done. If you'd like to be involved,
-        email the group and volunteer. You can also get started by looking at the <a href="http://docs.webplatform.org/wiki/Meta:web_platform_wednesday">current list of who is editing which&nbsp;document</a>.</p>
+        email the group and volunteer. You can also get started by looking at the <a href="http://docs.<%= @site.tld %>/wiki/Meta:web_platform_wednesday">current list of who is editing which&nbsp;document</a>.</p>
 
       <h2>Attend (or Host) a Doc&nbsp;Sprint.</h2>
       <p>A great way to join the effort is to attend a doc sprint. Organized by different
@@ -198,7 +198,7 @@ layout: homepage
         in one room, face-to-face, to spend the day writing documentation. The sprint
         organizers can help you get setup, walk you through the process, and show you
         where to&nbsp;start.</p>
-      <p>To find out if there’s an upcoming doc sprint near you, <a href="http://docs.webplatform.org/wiki/WPD:Community/Community_Events">check this&nbsp;list</a>.</p>
+      <p>To find out if there’s an upcoming doc sprint near you, <a href="http://docs.<%= @site.tld %>/wiki/WPD:Community/Community_Events">check this&nbsp;list</a>.</p>
       <p>If you are interested in organizing a doc sprint in your area, email the group
         and let us know. We'll help you get&nbsp;started.</p>
 
@@ -218,7 +218,7 @@ layout: homepage
         <b>Channel:</b> #webplatform
       </p>
       <p>Please feel free to enter the IRC channel anytime, and just start talking to whoever
-        is there. You can connect through <a href="http://docs.webplatform.org/wiki/WPD:Editors_Guide/step_2_communicate_with_the_online_community/irc_clients">an IRC client</a> (standalone
+        is there. You can connect through <a href="http://docs.<%= @site.tld %>/wiki/WPD:Editors_Guide/step_2_communicate_with_the_online_community/irc_clients">an IRC client</a> (standalone
         software) or <a href="http://webchat.freenode.net/?channels=#webplatform">this web interface</a>.
         Here’s <a href="http://richard.esplins.org/siwi/2011/07/08/getting-started-freenode-irc/">more on how to get&nbsp;started</a>.</p>
 
@@ -228,7 +228,7 @@ layout: homepage
           30 min video</li>
         <li><a href="http://5by5.tv/webahead/50">The Web Ahead: Web Platform Docs</a> — 1
           hour interview</li>
-        <li><a href="http://docs.webplatform.org/wiki/WPD:Policy">About Web Platform Docs, Policies and more</a>
+        <li><a href="http://docs.<%= @site.tld %>/wiki/WPD:Policy">About Web Platform Docs, Policies and more</a>
         </li>
       </ul>
 

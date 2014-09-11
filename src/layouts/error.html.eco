@@ -6,37 +6,25 @@ css: ["/assets/css/squished.css", "/assets/css/transition.css", "/assets/css/err
   <head>
     <meta charset="UTF-8">
     <title><%- if @document.title then "#{@document.title} · WebPlatform.org" else "WebPlatform.org" %></title>
-    <% if 'production' in @getEnvironments(): %><base href="//www.webplatform.org/" /><% end %>
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <% for url in @assets('css'): %><link rel="stylesheet" href="<%= url %>" />
-    <% end %>
-    <link rel="search" type="application/opensearchdescription+xml" href="//docs.webplatform.org/w/opensearch_desc.php" title="WebPlatform Docs (en)" />
-    <link rel="copyright" href="//docs.webplatform.org/wiki/MediaWiki:Site-terms-of-service" />
-    <meta name="viewport" content="width=device-width">
-    <%- @getBlock('meta').toHTML() %>
-    <!--[if lt IE 7]><script src="/assets/bower_components/ie7-js/lib/IE7.js"></script><![endif]-->
-    <!--[if lt IE 8]><script src="/assets/bower_components/ie7-js/lib/IE8.js"></script><![endif]-->
-    <!--[if lt IE 9]><script src="/assets/bower_components/ie7-js/lib/IE9.js"></script><![endif]-->
-    <!--[if lt IE 9]><script src="//docs.webplatform.org/w/extensions/WebPlatformDocs/skin/html5shiv.js"></script><![endif]-->
-    <!--[if lt IE 8]><link rel="stylesheet" href="/assets/css/ie7.css"><![endif]-->
+    <base href="//www.<%= @site.tld %>" />
+    <% for url in @assets('css'): %><link rel="stylesheet" href="<%= url %>" /><% end %>
+    <style>html{background-color:transparent !important;}</style>
+    <link rel="shortcut icon" href="//www.<%= @site.tld %>/favicon.ico" />
+    <meta name="viewport" content="width=device-width" />
   </head>
   <body class="ltr sitedir-ltr">
   <%- @partial('header-internal') %>
-
   <div id="content" class="mw-body">
     <div class="container">
       <div id="page">
         <div id="page-content">
           <div id="main-content">
-
       <%- @content %>
-
-          </div><!-- /main-content -->
+          </div>
           <div class="clear"></div>
-        </div><!-- /page-content -->
-      </div><!-- /page -->
+        </div>
+      </div>
     </div>
   </div>
-  <%- @partial('footer') %>
   </body>
 </html>
