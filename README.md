@@ -1,14 +1,14 @@
 # [WebPlatform](http://www.webplatform.org/)
 
-This is the homepage served at [www.webplatform.org](http://www.webplatform.org/). We are
-serving them as non dynamic content due to the fact that we do not need to change the content frequently.
+This is the homepage served at [www.webplatform.org](http://www.webplatform.org/).
+We are serving them as non dynamic content due to the fact that we do not need to change the content frequently.
 
-Although this workspace is for the static content of the site, it can also be used to work locally on HTML
-and CSS markup and patterns for various projects inside WebPlatform Docs.
+Although this workspace is for the static content of the site,
+it can also be used to work locally on HTML and CSS markup and patterns for various projects inside WebPlatform Docs.
 
-The pages are generated through a Node.js static site generator called [DocPad](http://docpad.org/) and allows us to
-keep edition DRY by not copy-pasting code in many places while allowing us to have static documents to serve. To learn
-more about DocPad, you can refer to their [DocPad documentation](http://docpad.org/docs).
+The pages are generated through a Node.js static site generator called [DocPad](http://docpad.org/) and
+allows us to keep edition DRY by not copy-pasting code in many places while allowing us to have static documents to serve. 
+To learn more about DocPad, you can refer to their [DocPad documentation](http://docpad.org/docs).
 
 ## Installation
 
