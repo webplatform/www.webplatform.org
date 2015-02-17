@@ -19,7 +19,8 @@ var docpadConfig = {
             tagline: "Your Web, documented",
             url: "http://www.webplatform.org",
             title: "Web Platform Docs",
-            tld: "webplatform.org"
+            tld: "webplatform.org",
+            piwik_id: 1
         }
     },
     port: 9003

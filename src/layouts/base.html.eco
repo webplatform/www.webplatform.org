@@ -23,17 +23,22 @@ css: ["/assets/css/squished.css", "/assets/css/transition.css"]
   <% for url in @assets('js'): %>
     <script src="<%= url %>"></script>
   <% end %>
+  <!-- Piwik -->
   <script type="text/javascript">
     var _paq = _paq || [];
+    _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+    _paq.push(["setCookieDomain", "*.webplatform.org"]);
     _paq.push(['trackPageView']);
     _paq.push(['enableLinkTracking']);
     (function() {
-      var u=(("https:" == document.location.protocol) ? "https" : "http") + "://stats.<%= @site.tld %>/"
-      _paq.push(['setTrackerUrl', u+'js/']);
-      _paq.push(['setSiteId', 1]);
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript';
-      g.defer=true; g.async=true; g.src=u+'js/'; s.parentNode.insertBefore(g,s);
+      var u="//stats.<%= @site.tld %>/";
+      _paq.push(['setTrackerUrl', u+'piwik.php']);
+      _paq.push(['setSiteId', {$wgPiwikIDSite}]);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
     })();
   </script>
+  <noscript><p><img src="//stats.<%= @site.tld %>/piwik.php?idsite=<%= @site.piwik_id %>" style="border:0;" alt="" /></p></noscript>
+  <!-- End Piwik Code -->
   </body>
 </html>
