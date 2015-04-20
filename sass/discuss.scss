@@ -1,0 +1,30 @@
+/**
+ * logo url: /uploads/default/566/b97b53bad4599e79.png
+ * logo small url: /uploads/default/567/94b1be658821a808.png
+ * digest logo url: https://discuss.webplatform.org/uploads/default/566/b97b53bad4599e79.png
+ * 
+ * Customize:
+ *   - primary: 333
+ *   - tertiary: 30B4C5
+ *   - header background: 58595B
+ *   - header primary: F0EBDD
+ *   - highlight: FFC621
+ *   - danger: D02E27
+ *   - success: 75C9B3
+ *   - love: EE677E
+ *   - wiki: 30B4C5
+ **/
+@font-face{
+  font-family: 'Bitter';
+  font-weight: normal;
+  src: url('//www.webplatform.org/assets/fonts/bitter-regular-webfont.eot');
+  src: url('//www.webplatform.org/assets/fonts/bitter-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('//www.webplatform.org/assets/fonts/bitter-regular-webfont.woff') format('woff'),
+       url('//www.webplatform.org/assets/fonts/bitter-regular-webfont.ttf') format('truetype'),
+       url('//www.webplatform.org/assets/fonts/bitter-regular-webfont.svg#BitterRegular') format('svg');
+}
+#main .extra-info h1 {
+  font-size: 1.3em;
+  font-family: Bitter;
+  font-weight: normal;
+}
