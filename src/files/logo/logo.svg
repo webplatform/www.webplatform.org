@@ -1,8 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-	 width="100%" height="100%" viewBox="0 0 61.643 62" enable-background="new 0 0 61.643 62" xml:space="preserve">
-<g>
-	<g>
+<svg version="1.1"
+	   width="100%" height="100%"
+	   viewBox="0 0 62 62"
+	   enable-background="new 0 0 62 62"
+	   xmlns="http://www.w3.org/2000/svg"
+	   xmlns:xlink="http://www.w3.org/1999/xlink"
+	   xml:space="preserve">
+	<g id="webplatform_w">
 		<path fill="#F89C20" d="M0,8.359v45.277c0.001-2.138,0.817-4.275,2.448-5.906l14.27-14.27V8.359c0-4.614-3.738-8.355-8.351-8.359
 			H8.35C3.737,0.004,0,3.746,0,8.359z M11.779,8.359c0,1.889-1.531,3.419-3.42,3.419c-1.888,0-3.419-1.531-3.419-3.419
 			s1.531-3.42,3.419-3.42C10.249,4.939,11.779,6.471,11.779,8.359z"/>
@@ -64,5 +67,4 @@
 			C61.643,3.742,57.9,0,53.285,0C48.667,0,44.925,3.742,44.925,8.359z M53.285,4.939c1.889,0,3.42,1.531,3.42,3.42
 			s-1.531,3.42-3.42,3.42c-1.89,0-3.421-1.532-3.421-3.42S51.395,4.939,53.285,4.939z"/>
 	</g>
-</g>
 </svg>
