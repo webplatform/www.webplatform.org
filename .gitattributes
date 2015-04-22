@@ -1,0 +1,4 @@
+*.sls text=auto
+*.yaml text=auto
+*.yml text=auto
+*.jinja text=auto
