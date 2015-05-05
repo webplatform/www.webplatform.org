@@ -7,7 +7,7 @@ Although this workspace is for the static content of the site,
 it can also be used to work locally on HTML and CSS markup and patterns for various projects inside WebPlatform Docs.
 
 The pages are generated through a Node.js static site generator called [DocPad](http://docpad.org/) and
-allows us to keep edition DRY by not copy-pasting code in many places while allowing us to have static documents to serve. 
+allows us to keep edition DRY by not copy-pasting code in many places while allowing us to have static documents to serve.
 To learn more about DocPad, you can refer to their [DocPad documentation](http://docpad.org/docs).
 
 ## Installation
@@ -21,24 +21,20 @@ To learn more about DocPad, you can refer to their [DocPad documentation](http:/
     As for NPM, it depends of the Operating system you are using. You can see the NPM installation instruction
     from the [nodejs](http://nodejs.org/) website.
 
-2. As an administrator, install the following packages as global on your workstation
-
-        npm install -g docpad@6.64 gulp
-
-3. Fork the project, and checkout the code
+2. Fork the project, and checkout the code
 
         mkdir -p ~/workspace/webplatform/www
         cd ~/workspace/webplatform/www
         git clone git@github.com:renoirb/www.webplatform.org.git .
-        npm install
+        makd deps
 
     This installs all dependencies to work on the project.
 
-4. Create a branch and start your work.
+3. Create a branch and start your work.
 
         git checkout -b improving-flexbox-markup
 
-5. Code is managed from the `src/` folder, and what gets changed in it gets regenerated automatically
+4. Code is managed from the `src/` folder, and what gets changed in it gets regenerated automatically
     by what we call a "watcher", files are regenerated at every changes into `out/` folder.
 
         node_modules/docpad/bin/docpad run
@@ -47,7 +43,11 @@ To learn more about DocPad, you can refer to their [DocPad documentation](http:/
 
     * JavaScript Linting
 
-            node_modules/gulp/bin/gulp.js lint
+            make lint
+
+    * Work on assets with live reload
+
+            make local
 
     * Compiling SASS files
 
@@ -56,13 +56,11 @@ To learn more about DocPad, you can refer to their [DocPad documentation](http:/
 
     IMPORTANT: Compass is taking care to compile SASS files from `sass/`. It is configured to write to `src/documents/assets/css/`. You can configure Compass to watch files for you and copy them in the `src/` folder.  Technically DocPad should detect changes in `src/documents/` and refresh the equivalent files in `out/`. Which is not always the case. This will be fixed with issue [Fixing DocPad and Compass compilation conflicts](https://github.com/webplatform/www.webplatform.org/issues/9)
 
-            compass compile -e production --force
+            make generate
 
     * Testing before pushing to the repository
 
-            compass compile -e production --force
-            node_modules/docpad/bin/docpad generate --env=production
-            node_modules/gulp/bin/gulp.js minify --env=production
+            make static
 
     This gives you an equivalent of what gets deployed in production without watchers.
 
@@ -72,11 +70,16 @@ To learn more about DocPad, you can refer to their [DocPad documentation](http:/
 
 1. Prepare for deploying
 
-        compass compile -e production --force
-        node_modules/docpad/bin/docpad generate --env=production
-        node_modules/gulp/bin/gulp.js minify --env=production
-        tar cfz static-$(date '+%Y%m%d').tar.gz out/
-        scp static-$(date '+%Y%m%d').tar.gz deployment.webplatform.org:/srv/code/www/archives/
+        make generate
+
+    If you are on the salt master, this can be run from `/srv/code/www/repo`, then you can use Salt to deploy
+
+        wpd-deploy app
+
+    If you are happy and want to make a dated snapshot of it;
+
+        make package
+
 
 2. ... In progress...
 

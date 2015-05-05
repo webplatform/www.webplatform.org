@@ -23,7 +23,7 @@ var docpadConfig = {
             piwik_id: 1
         }
     },
-    port: 9003
+    port: 9778
 };
 
 // Export the DocPad Configuration

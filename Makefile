@@ -1,5 +1,6 @@
 SHELL := bash
 PATH := bin:${PATH}
+DATE := `date '+%Y%m%d'`
 
 default: run
 
@@ -8,8 +9,8 @@ deps:
 		bower install
 		bundle install
 
-run:
-		node_modules/docpad/bin/docpad watch --silent --offline
+local:
+		node_modules/docpad/bin/docpad server --silent --offline
 
 generate:
 		compass compile -e production --force
@@ -17,4 +18,10 @@ generate:
 		node_modules/gulp/bin/gulp.js minify --env=production
 
 static: generate
-		cd out/ && python -m SimpleHTTPServer 8080
+		cd out/ && python -m SimpleHTTPServer 9778
+
+package:
+		tar cfz static-${DATE}.tar.gz out/
+
+lint:
+		node_modules/gulp/bin/gulp.js lint
