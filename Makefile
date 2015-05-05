@@ -20,7 +20,7 @@ generate:
 static: generate
 		cd out/ && python -m SimpleHTTPServer 9778
 
-package:
+package: generate
 		tar cfz static-${DATE}.tar.gz out/
 
 lint:
