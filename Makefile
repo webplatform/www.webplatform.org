@@ -9,6 +9,9 @@ deps:
 		bower install
 		bundle install
 
+local-compass:
+		compass watch --debug-info --trace
+
 local:
 		node_modules/docpad/bin/docpad server --silent --offline
 
@@ -21,7 +24,8 @@ static: generate
 		cd out/ && python -m SimpleHTTPServer 9778
 
 package: generate
-		tar cfz static-${DATE}.tar.gz out/
+		-mkdir -p archives/
+		tar cfz archives/static-${DATE}.tar.gz out/
 
 lint:
 		node_modules/gulp/bin/gulp.js lint

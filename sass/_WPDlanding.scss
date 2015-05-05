@@ -311,7 +311,6 @@ h3 {
   background: #263C81 url("/assets/arch.jpg") top center repeat-x;
   margin: 3em 0;
   padding: 1em 0 1em;
-  color: #fff;
   h1 {
     text-align: center;
     color: #fff;
@@ -333,9 +332,6 @@ h3 {
     font-size: 21px;
     border-bottom: 4px solid rgba(0,0,0,0.2);
     text-align: center;
-  }
-  a, a:link, a:visited {
-    color: white;
   }
   @media screen and (min-width: 480px) {
     a, a:link, a:visited {

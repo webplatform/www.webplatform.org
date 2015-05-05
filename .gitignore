@@ -6,3 +6,4 @@ bower_components
 *.sublime-project
 *.sublime-workspace
 /.sass-cache
+/archives
