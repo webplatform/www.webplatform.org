@@ -26,7 +26,7 @@ To learn more about DocPad, you can refer to their [DocPad documentation](http:/
         mkdir -p ~/workspace/webplatform/www
         cd ~/workspace/webplatform/www
         git clone git@github.com:renoirb/www.webplatform.org.git .
-        makd deps
+        make dev-deps
 
     This installs all dependencies to work on the project.
 
@@ -37,7 +37,7 @@ To learn more about DocPad, you can refer to their [DocPad documentation](http:/
 4. Code is managed from the `src/` folder, and what gets changed in it gets regenerated automatically
     by what we call a "watcher", files are regenerated at every changes into `out/` folder.
 
-        node_modules/docpad/bin/docpad run
+        make dev-local
 
     You can also leverage work with CSS and JavaScript using built in tools:
 
@@ -47,10 +47,11 @@ To learn more about DocPad, you can refer to their [DocPad documentation](http:/
 
     * Work on assets with live reload
 
-            make local
+            make dev-local
 
-    * Compiling SASS files
+    * Work on SASS files, open up another tab (leave `make dev-local` run)
 
+            make dev-compass
 
     NOTE: Working on CSS, have a look at [README.contributing-css.md](README.contributing-css.md).
 
@@ -70,6 +71,7 @@ To learn more about DocPad, you can refer to their [DocPad documentation](http:/
 
 1. Prepare for deploying
 
+        make deps
         make generate
 
     If you are on the salt master, this can be run from `/srv/code/www/repo`, then you can use Salt to deploy

@@ -9,10 +9,15 @@ deps:
 		bower install
 		bundle install
 
-local-compass:
+dev-deps:
+		npm install --dev
+		bower install --dev
+		bundle install
+
+dev-compass:
 		compass watch --debug-info --trace
 
-local:
+dev-local:
 		node_modules/docpad/bin/docpad server --silent --offline
 
 generate:
@@ -25,6 +30,7 @@ static: generate
 
 package: generate
 		-mkdir -p archives/
+		rm -rf out/frontend-styleguide
 		tar cfz archives/static-${DATE}.tar.gz out/
 
 lint:
