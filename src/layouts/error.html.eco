@@ -9,7 +9,9 @@ css: ["/assets/css/squished.css", "/assets/css/transition.css", "/assets/css/err
     <base href="//www.<%= @site.tld %>" />
     <% for url in @assets('css'): %><link rel="stylesheet" href="<%= url %>" /><% end %>
     <style>html{background-color:transparent !important;}</style>
-    <link rel="shortcut icon" href="//www.<%= @site.tld %>/favicon.ico" />
+    <link rel="icon" type="image/png" href="/logo/logo_stroke.png">
+    <link rel="apple-touch-icon" type="image/png" href="//www.<%= @site.tld %>/logo/wplogo_nocopy.png">
+    <link rel="shortcut icon" type="image/png" href="//www.<%= @site.tld %>/logo/logo_stroke.png" />
     <meta name="viewport" content="width=device-width" />
   </head>
   <body class="ltr sitedir-ltr">

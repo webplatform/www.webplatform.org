@@ -6,7 +6,9 @@ css: ["/assets/css/squished.css", "/assets/css/transition.css"]
   <head>
     <meta charset="UTF-8">
     <title><%= if @document.title then "#{@document.title} · WebPlatform.org" else "WebPlatform.org" %></title>
-    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" href="/logo/logo_stroke.png">
+    <link rel="apple-touch-icon" type="image/png" href="/logo/wplogo_nocopy.png">
+    <link rel="shortcut icon" type="image/png" href="/logo/logo_stroke.png" />
     <% for url in @assets('css'): %><link rel="stylesheet" href="<%= url %>" /><% end %>
     <link rel="copyright" href="//docs.<%= @site.tld %>/Contributor_Agreement" />
     <meta name="viewport" content="width=device-width">
