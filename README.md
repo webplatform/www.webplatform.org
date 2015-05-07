@@ -63,7 +63,9 @@ To learn more about DocPad, you can refer to their [DocPad documentation](http:/
 
             make static
 
-    This gives you an equivalent of what gets deployed in production without watchers.
+    This gives you an equivalent of what gets deployed in production without watchers. It’ll create a local web server to test things out.
+    If you have access to the salt master, you can follow the procedure described in [Accessing a VM using SSH](https://docs.webplatform.org/wiki/WPD:Infrastructure/architecture/Base_configuration_of_a_VM#Accessing_a_VM_using_SSH)
+    and try the website through the proxy it describes. Look at the port number `make static` gives in the [Makefile](./Makefile), use your web browser that you configured the proxy to the address `http://salt:9778/`.
 
     * Everything works? Make a pull request from your branch :D
 
