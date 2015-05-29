@@ -2,9 +2,10 @@ SHELL := bash
 PATH := bin:${PATH}
 DATE := `date '+%Y%m%d'`
 
-default: run
+default: dev-local
 
 deps:
+		sudo npm -g install bower
 		npm install
 		bower install
 		bundle install
