@@ -5,12 +5,14 @@ DATE := `date '+%Y%m%d'`
 default: dev-local
 
 deps:
+		mkdir -p ~/tmp
 		sudo npm -g install bower
 		npm install
 		bower install
 		bundle install
 
 dev-deps:
+		mkdir -p ~/tmp
 		npm install --dev
 		bower install --dev
 		bundle install
