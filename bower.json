@@ -6,7 +6,8 @@
     "normalize-css": "1.0.1",
     "ie7-js": "*",
     "prism": "~1.0.1",
-    "vue": "~0.12.8"
+    "vue": "~0.12.8",
+    "requirejs": "~2.1.20"
   },
   "devDependencies": {
     "roughdraft.js": "~0.1"
