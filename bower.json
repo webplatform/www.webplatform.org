@@ -4,7 +4,9 @@
   "description": "Web Platform Docs top level domain, using static page generator DocPad, and SASS+Compass as CSS pre-processor",
   "dependencies": {
     "normalize-css": "1.0.1",
-    "ie7-js": "*"
+    "ie7-js": "*",
+    "prism": "~1.0.1",
+    "vue": "~0.12.8"
   },
   "devDependencies": {
     "roughdraft.js": "~0.1"
