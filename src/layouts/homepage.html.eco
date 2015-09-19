@@ -9,12 +9,8 @@ heading: 'Your web, Documented.'
     footer[role=contentinfo] #footer-wordmark span { display:inline; }
     footer[role=contentinfo] #footer-wordmark a { display:block; }
     footer[role="contentinfo"] ul.stewards { max-width: 800px !important; }
-
     @media screen and (min-width: 600px){ footer[role=contentinfo] #footer-title span { display:inline;} }
   </style>
-
-  <%- @partial('header-homepage') %>
-
-  <%- @content %>
-
-  <%- @partial('footer-homepage') %>
+<%- @partial('header-homepage') %>
+<%- @content %>
+<%- @partial('footer-homepage') %>

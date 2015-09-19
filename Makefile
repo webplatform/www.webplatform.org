@@ -1,40 +1,47 @@
 SHELL := bash
 PATH := bin:${PATH}
 DATE := `date '+%Y%m%d'`
+THIS_DIR:=$(shell pwd)
 
-default: dev-local
 
-deps:
+deps: node_modules/ src/files/assets/bower_components/
 		mkdir -p ~/tmp
-		sudo npm -g install bower
+		bundle install
+
+
+node_modules:
 		npm install
+
+
+src/files/assets/bower_components:
 		bower install
-		bundle install
 
-dev-deps:
-		mkdir -p ~/tmp
-		npm install --dev
-		bower install --dev
-		bundle install
 
-dev-compass:
+compass:
 		compass watch --debug-info --trace
 
-dev-local:
-		node_modules/docpad/bin/docpad server --silent --offline
 
-generate:
+local:
+		node_modules/.bin/docpad-server --silent --offline
+
+
+build: node_modules/ src/files/assets/bower_components/
 		compass compile -e production --force
-		node_modules/docpad/bin/docpad generate --env=production
-		node_modules/gulp/bin/gulp.js minify --env=production
+		node_modules/.bin/docpad-compile --env=production
 
-static: generate
+
+static:
 		cd out/ && python -m SimpleHTTPServer 9778
 
-package: generate
+
+package:
 		-mkdir -p archives/
 		rm -rf out/frontend-styleguide
 		tar cfz archives/static-${DATE}.tar.gz out/
 
+
 lint:
 		node_modules/gulp/bin/gulp.js lint
+
+
+.PHONY: build

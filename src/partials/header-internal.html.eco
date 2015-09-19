@@ -3,7 +3,7 @@
       <div id="p-logo">
         <a href="//www.<%= @site.tld %>/"  title="Visit the main page"></a>
       </div>
-      <div id="p-search">
+      <!-- div id="p-search">
         <h5><label for="searchInput">Search</label></h5>
         <form action="//docs.<%= @site.tld %>/w/index.php" id="searchform">
           <div id="search">
@@ -11,17 +11,16 @@
             <input type="submit" name="fulltext" value=" " title="Search the pages for this text" id="mw-searchButton" class="searchButton" />               <input type='hidden' name="title" value="Special:Search"/>
           </div>
         </form>
-      </div>
+      </div -->
     </div>
   </header>
   <nav id="sitenav">
   <div class="container">
     <ul class="links">
-        <li><a href="//docs.<%= @site.tld %>/wiki/">The Docs</a></li>
-        <li><a href="//docs.<%= @site.tld %>/wiki/WPD:Community">Connect</a></li>
-        <li><a href="//docs.<%= @site.tld %>/wiki/WPD:Contributors_Guide">Contribute</a></li>
+        <li><a href="//docs.<%= @site.tld %>/">The Docs</a></li>
+        <li><a href="//docs.<%= @site.tld %>/WPD/Community">Connect</a></li>
+        <li><a href="//docs.<%= @site.tld %>/WPD/Contributors_Guide">Contribute</a></li>
         <li><a href="//blog.<%= @site.tld %>">Blog</a></li>
-        <li><a href="//project.<%= @site.tld %>">Issues</a></li>
     </ul>
   </div>
   </nav>

@@ -8,7 +8,7 @@ css: ["/assets/css/squished.css", "/assets/css/transition.css"]
     <title><%= if @document.title then "#{@document.title} · WebPlatform.org" else "WebPlatform.org" %></title>
     <link rel="shortcut icon" href="/favicon.ico" />
     <% for url in @assets('css'): %><link rel="stylesheet" href="<%= url %>" /><% end %>
-    <link rel="copyright" href="//docs.<%= @site.tld %>/wiki/MediaWiki:Site-terms-of-service" />
+    <link rel="copyright" href="//docs.<%= @site.tld %>/Contributor_Agreement" />
     <meta name="viewport" content="width=device-width">
     <%- @getBlock('meta').toHTML() %>
     <!--[if lt IE 7]><script src="/assets/bower_components/ie7-js/lib/IE7.js"></script><![endif]-->
@@ -18,27 +18,10 @@ css: ["/assets/css/squished.css", "/assets/css/transition.css"]
     <!--[if lt IE 8]><link rel="stylesheet" href="/assets/css/ie7.css"><![endif]-->
   </head>
   <body class="ltr sitedir-ltr">
-  <%- @content %>
-  <%- @getBlock('scripts').toHTML() %>
-  <% for url in @assets('js'): %>
-    <script src="<%= url %>"></script>
-  <% end %>
-  <!-- Piwik -->
-  <script type="text/javascript">
-    var _paq = _paq || [];
-    _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
-    _paq.push(["setCookieDomain", "*.webplatform.org"]);
-    _paq.push(['trackPageView']);
-    _paq.push(['enableLinkTracking']);
-    (function() {
-      var u="https://stats.<%= @site.tld %>/";
-      _paq.push(['setTrackerUrl', u+'piwik.php']);
-      _paq.push(['setSiteId', <%= @site.piwik_id %>]);
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-    })();
-  </script>
-  <noscript><p><img src="https://stats.<%= @site.tld %>/piwik.php?idsite=<%= @site.piwik_id %>" style="border:0;" alt="" /></p></noscript>
-  <!-- End Piwik Code -->
+<%- @content %>
+<%- @getBlock('scripts').toHTML() %>
+<% for url in @assets('js'): %>
+<script src="<%= url %>"></script>
+<% end %>
   </body>
 </html>

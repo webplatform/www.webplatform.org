@@ -3,7 +3,6 @@ title: "Your Web, documented"
 heading: "Your Web, documented."
 layout: default
 ---
-<main role="main">
 
 # About Webplatform.org
 ## What is Webplatform.org?
@@ -35,5 +34,3 @@ Ideally, we want this to be an ever-evolving project controlled and written by t
 of big name vendors telling everyone what to do. The stewards are just there to provide structure and funding.
 We want everyone involved in the web community to feel they have to right to contribute new material and improve existing articles.
 It's your web, documented your way.
-
-</main>

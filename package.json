@@ -1,54 +1,31 @@
 {
   "name": "www.webplatform.org",
-  "version": "1.2.0",
-  "description": "Web Platform Docs top level domain, using static page generator DocPad, and SASS+Compass as CSS pre-processor",
-  "keywords": [
-    "webplatform",
-    "documentation",
-    "frontend",
-    "w3c",
-    "adobe",
-    "facebook",
-    "google",
-    "hp",
-    "intel",
-    "microsoft",
-    "mozilla",
-    "nokia",
-    "opera"
-  ],
+  "version": "1.3.0",
+  "description": "WebPlatform Homepage",
+  "author": "Renoir Boulanger <renoir@w3.org>",
+  "license": "CC-BY-3.0",
   "engines": {
-    "node": "0.10",
-    "npm": "1.3"
-  },
-  "dependencies": {
-    "docpad": "~6.78",
-    "docpad-plugin-eco": "~2.1",
-    "docpad-plugin-frontend": "2.0",
-    "docpad-plugin-livereload": "~2.6",
-    "docpad-plugin-marked": "~2.2",
-    "docpad-plugin-partials": "~2.9",
-    "svgo": "^0.5.0"
-  },
-  "main": "node_modules/docpad/bin/docpad-server",
-  "scripts": {
-    "start": "node_modules/docpad/bin/docpad-server"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/webplatform/www.webplatform.org.git"
-  },
-  "devDependencies": {
-    "gulp": "^3.5.6",
-    "gulp-beautify": "^1.0.3",
-    "gulp-if": "0.0.5",
-    "gulp-jshint": "^1.5.1",
-    "gulp-uglify": "^0.2.1",
-    "gulp-util": "^2.2.14",
-    "gulp-zip": "^0.2.0",
-    "yargs": "^1.2.1"
+    "node": ">=0.12"
   },
   "bugs": {
     "url": "https://github.com/webplatform/www.webplatform.org/issues"
+  },
+  "homepage": "https://github.com/webplatform/www.webplatform.org#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webplatform/www.webplatform.org.git"
+  },
+  "main": "node_modules/.bin/docpad-server",
+  "scripts": {
+    "start": "node_modules/.bin/docpad-server",
+    "compile": "node_modules/.bin/docpad-compile"
+  },
+  "dependencies": {
+    "bower": "~1.5",
+    "docpad": "~6.78",
+    "docpad-plugin-eco": "~2.1",
+    "docpad-plugin-marked": "~2.2",
+    "docpad-plugin-frontend": "~2.0",
+    "docpad-plugin-partials": "~2.9"
   }
 }
