@@ -1,0 +1,26 @@
+---
+layout: base
+---
+
+<%- @partial('header-internal') %>
+
+  <div id="content" class="mw-body">
+      <div class="container">
+        <a id="top"></a>
+
+<%- @partial('breadcrumb', {path: @document.path}) %>
+
+        <div id="page">
+          <div id="page-content">
+            <div id="main-content"><h1>Blogggg</h1>
+
+<%- @content %>
+
+            </div><!-- /main content -->
+            <div class="clear"></div>
+          </div><!-- /page content -->
+        </div><!-- /page -->
+      </div><!-- /container -->
+  </div>
+
+<%- @partial('footer-mini') %>

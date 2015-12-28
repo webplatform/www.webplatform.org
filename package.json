@@ -21,11 +21,21 @@
     "compile": "node_modules/.bin/docpad-compile"
   },
   "dependencies": {
-    "bower": "~1.5",
+    "bower": "*",
     "docpad": "~6.78",
     "docpad-plugin-eco": "~2.1",
     "docpad-plugin-marked": "~2.2",
     "docpad-plugin-frontend": "~2.0",
     "docpad-plugin-partials": "~2.9"
+  },
+  "devDependencies": {
+    "gulp": "^3.5.6",
+    "gulp-beautify": "^1.0.3",
+    "gulp-if": "0.0.5",
+    "gulp-jshint": "^1.5.1",
+    "gulp-uglify": "^0.2.1",
+    "gulp-util": "^2.2.14",
+    "gulp-zip": "^0.2.0",
+    "yargs": "^1.2.1"
   }
 }
