@@ -1,0 +1,17 @@
+<header id="mw-head" class="noprint">
+  <div class="container">
+    <div id="p-logo">
+      <a href="//www.<%= @site.tld %>/"  title="Visit the main page"></a>
+    </div>
+  </div>
+</header>
+<nav id="sitenav">
+<div class="container">
+  <ul class="links">
+      <li><a href="//docs.<%= @site.tld %>/">The Docs</a></li>
+      <li><a href="//docs.<%= @site.tld %>/WPD/Community">Connect</a></li>
+      <li><a href="//docs.<%= @site.tld %>/WPD/Contributors_Guide">Contribute</a></li>
+      <li><a class="active" href="/blog/">Blog</a></li>
+  </ul>
+</div>
+</nav>

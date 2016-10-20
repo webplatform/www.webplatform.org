@@ -1,6 +1,6 @@
 /node_modules
 bower_components
-/build
+/out
 /extensions
 .DS_Store
 *.sublime-project

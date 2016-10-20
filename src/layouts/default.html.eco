@@ -9,6 +9,7 @@ layout: base
         <a id="top"></a>
 
 <%- @partial('breadcrumb', {path: @document.path}) %>
+<%- @partial('notice') %>
 
         <div id="page">
           <div id="page-content">

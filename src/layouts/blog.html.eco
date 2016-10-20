@@ -1,26 +1,30 @@
 ---
 layout: base
+css: ["/assets/css/squished.css", "/assets/css/transition.css", "/assets/css/blog.css"]
 ---
 
-<%- @partial('header-internal') %>
+<%- @partial('header-blog') %>
 
-  <div id="content" class="mw-body">
-      <div class="container">
-        <a id="top"></a>
-
-<%- @partial('breadcrumb', {path: @document.path}) %>
-
-        <div id="page">
-          <div id="page-content">
-            <div id="main-content"><h1>Blogggg</h1>
-
-<%- @content %>
-
-            </div><!-- /main content -->
-            <div class="clear"></div>
-          </div><!-- /page content -->
-        </div><!-- /page -->
-      </div><!-- /container -->
+  <div class="notice" style="position: relative; max-width: 1000px; margin: 20px auto 0 auto; ">
+  <%- @partial('notice') %>
   </div>
 
-<%- @partial('footer-mini') %>
+  <div id="page" class="hfeed webplatform-decomissioned-blog">
+      <div id="page-content">
+        <div id="primary">
+          <div id="content">
+
+              <article class="post type-post status-publish format-standard hentry">
+              <header class="entry-header">
+                <h1 class="entry-title"><a href="<%= @document.url %>"><%= @document.title %></a></h1>
+              </header>
+              <%- @content %>
+              <article>
+
+            </div><!-- /content -->
+          </div><!-- /primary -->
+      </div><!-- /page-content -->
+  </div><!-- /page -->
+
+
+<%- @partial('footer') %>
