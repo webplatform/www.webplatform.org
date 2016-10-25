@@ -17,6 +17,7 @@
   },
   "main": "node_modules/.bin/docpad-server",
   "scripts": {
+    "build": "node_modules/.bin/docpad-compile --env=production",
     "start": "node_modules/.bin/docpad-server",
     "compile": "node_modules/.bin/docpad-compile"
   },

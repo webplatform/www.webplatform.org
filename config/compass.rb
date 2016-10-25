@@ -3,9 +3,9 @@ require 'compass-flexbox'
 # Environment by default is "devevelopment", unless you -e production
 # FireSASS is enabled by default, unless you ^
 
-css_dir = "src/documents/assets/css"
-images_dir = "src/documents/assets"
-javascripts_dir = "src/documents/assets/js"
+css_dir = "src/files/assets/css"
+images_dir = "src/files/assets"
+javascripts_dir = "src/files/assets/js"
 relative_assets = false
 prefered_syntax = :scss
 

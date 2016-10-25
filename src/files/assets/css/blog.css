@@ -2256,80 +2256,80 @@ p.comment-form-comment {
 
 @font-face {
   font-family: 'WPSymbols';
-  src:url('https://www.webplatform.org/assets/fonts/WPSymbols.eot');
-  src:url('https://www.webplatform.org/assets/fonts/WPSymbols.eot?#iefix') format('embedded-opentype'),
-    url('https://www.webplatform.org/assets/fonts/WPSymbols.svg#WPSymbols') format('svg'),
-    url('https://www.webplatform.org/assets/fonts/WPSymbols.woff') format('woff'),
-    url('https://www.webplatform.org/assets/fonts/WPSymbols.ttf') format('truetype');
+  src:url('/assets/fonts/WPSymbols.eot');
+  src:url('/assets/fonts/WPSymbols.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/WPSymbols.svg#WPSymbols') format('svg'),
+    url('/assets/fonts/WPSymbols.woff') format('woff'),
+    url('/assets/fonts/WPSymbols.ttf') format('truetype');
 }
 
 @font-face{
   font-family: 'Gudea';
   font-weight: normal;
-  src: url('https://www.webplatform.org/assets/fonts/gudea-regular-webfont.eot');
-  src: url('https://www.webplatform.org/assets/fonts/gudea-regular-webfont.eot?#iefix') format('embedded-opentype'),
-     url('https://www.webplatform.org/assets/fonts/gudea-regular-webfont.woff') format('woff'),
-     url('https://www.webplatform.org/assets/fonts/gudea-regular-webfont.ttf') format('truetype'),
-     url('https://www.webplatform.org/assets/fonts/gudea-regular-webfont.svg#GudeaRegular') format('svg');
+  src: url('/assets/fonts/gudea-regular-webfont.eot');
+  src: url('/assets/fonts/gudea-regular-webfont.eot?#iefix') format('embedded-opentype'),
+     url('/assets/fonts/gudea-regular-webfont.woff') format('woff'),
+     url('/assets/fonts/gudea-regular-webfont.ttf') format('truetype'),
+     url('/assets/fonts/gudea-regular-webfont.svg#GudeaRegular') format('svg');
 }
 
 @font-face{
   font-family: 'Gudea';
   font-weight: bold;
-  src: url('https://www.webplatform.org/assets/fonts/gudea-bold-webfont.eot');
-  src: url('https://www.webplatform.org/assets/fonts/gudea-bold-webfont.eot?#iefix') format('embedded-opentype'),
-     url('https://www.webplatform.org/assets/fonts/gudea-bold-webfont.woff') format('woff'),
-     url('https://www.webplatform.org/assets/fonts/gudea-bold-webfont.ttf') format('truetype'),
-     url('https://www.webplatform.org/assets/fonts/gudea-bold-webfont.svg#GudeaRegular') format('svg');
+  src: url('/assets/fonts/gudea-bold-webfont.eot');
+  src: url('/assets/fonts/gudea-bold-webfont.eot?#iefix') format('embedded-opentype'),
+     url('/assets/fonts/gudea-bold-webfont.woff') format('woff'),
+     url('/assets/fonts/gudea-bold-webfont.ttf') format('truetype'),
+     url('/assets/fonts/gudea-bold-webfont.svg#GudeaRegular') format('svg');
 }
 
 @font-face{
   font-family: 'Gudea';
   font-weight: normal;
   font-style: italic;
-  src: url('https://www.webplatform.org/assets/fonts/gudea-italic-webfont.eot');
-  src: url('https://www.webplatform.org/assets/fonts/gudea-italic-webfont.eot?#iefix') format('embedded-opentype'),
-     url('https://www.webplatform.org/assets/fonts/gudea-italic-webfont.woff') format('woff'),
-     url('https://www.webplatform.org/assets/fonts/gudea-italic-webfont.ttf') format('truetype'),
-     url('https://www.webplatform.org/assets/fonts/gudea-italic-webfont.svg#GudeaRegular') format('svg');
+  src: url('/assets/fonts/gudea-italic-webfont.eot');
+  src: url('/assets/fonts/gudea-italic-webfont.eot?#iefix') format('embedded-opentype'),
+     url('/assets/fonts/gudea-italic-webfont.woff') format('woff'),
+     url('/assets/fonts/gudea-italic-webfont.ttf') format('truetype'),
+     url('/assets/fonts/gudea-italic-webfont.svg#GudeaRegular') format('svg');
 }
 
 @font-face{
   font-family: 'Bitter';
   font-weight: normal;
-  src: url('https://www.webplatform.org/assets/fonts/bitter-regular-webfont.eot');
-  src: url('https://www.webplatform.org/assets/fonts/bitter-regular-webfont.eot?#iefix') format('embedded-opentype'),
-     url('https://www.webplatform.org/assets/fonts/bitter-regular-webfont.woff') format('woff'),
-     url('https://www.webplatform.org/assets/fonts/bitter-regular-webfont.ttf') format('truetype'),
-     url('https://www.webplatform.org/assets/fonts/bitter-regular-webfont.svg#BitterRegular') format('svg');
+  src: url('/assets/fonts/bitter-regular-webfont.eot');
+  src: url('/assets/fonts/bitter-regular-webfont.eot?#iefix') format('embedded-opentype'),
+     url('/assets/fonts/bitter-regular-webfont.woff') format('woff'),
+     url('/assets/fonts/bitter-regular-webfont.ttf') format('truetype'),
+     url('/assets/fonts/bitter-regular-webfont.svg#BitterRegular') format('svg');
 }
 
 @font-face{
   font-family: 'Bitter';
   font-weight: bold;
-  src: url('https://www.webplatform.org/assets/fonts/bitter-bold-webfont.eot');
-  src: url('https://www.webplatform.org/assets/fonts/bitter-bold-webfont.eot?#iefix') format('embedded-opentype'),
-     url('https://www.webplatform.org/assets/fonts/bitter-bold-webfont.woff') format('woff'),
-     url('https://www.webplatform.org/assets/fonts/bitter-bold-webfont.ttf') format('truetype'),
-     url('https://www.webplatform.org/assets/fonts/bitter-bold-webfont.svg#BitterBold') format('svg');
+  src: url('/assets/fonts/bitter-bold-webfont.eot');
+  src: url('/assets/fonts/bitter-bold-webfont.eot?#iefix') format('embedded-opentype'),
+     url('/assets/fonts/bitter-bold-webfont.woff') format('woff'),
+     url('/assets/fonts/bitter-bold-webfont.ttf') format('truetype'),
+     url('/assets/fonts/bitter-bold-webfont.svg#BitterBold') format('svg');
 }
 
 @font-face{
   font-family: 'Bitter';
   font-weight: normal;
   font-style: italic;
-  src: url('https://www.webplatform.org/assets/fonts/bitter-italic-webfont.eot');
-  src: url('https://www.webplatform.org/assets/fonts/bitter-italic-webfont.eot?#iefix') format('embedded-opentype'),
-     url('https://www.webplatform.org/assets/fonts/bitter-italic-webfont.woff') format('woff'),
-     url('https://www.webplatform.org/assets/fonts/bitter-italic-webfont.ttf') format('truetype'),
-     url('https://www.webplatform.org/assets/fonts/bitter-italic-webfont.svg#BitterBold') format('svg');
+  src: url('/assets/fonts/bitter-italic-webfont.eot');
+  src: url('/assets/fonts/bitter-italic-webfont.eot?#iefix') format('embedded-opentype'),
+     url('/assets/fonts/bitter-italic-webfont.woff') format('woff'),
+     url('/assets/fonts/bitter-italic-webfont.ttf') format('truetype'),
+     url('/assets/fonts/bitter-italic-webfont.svg#BitterBold') format('svg');
 }
 
 @font-face {
   font-family: 'WPSymbols';
-  src:url('https://www.webplatform.org/assets/fonts/WPSymbols.eot');
-  src:url('https://www.webplatform.org/assets/fonts/WPSymbols.eot?#iefix') format('embedded-opentype'),
-    url('https://www.webplatform.org/assets/fonts/WPSymbols.svg#WPSymbols') format('svg'),
-    url('https://www.webplatform.org/assets/fonts/WPSymbols.woff') format('woff'),
-    url('https://www.webplatform.org/assets/fonts/WPSymbols.ttf') format('truetype');
+  src:url('/assets/fonts/WPSymbols.eot');
+  src:url('/assets/fonts/WPSymbols.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/WPSymbols.svg#WPSymbols') format('svg'),
+    url('/assets/fonts/WPSymbols.woff') format('woff'),
+    url('/assets/fonts/WPSymbols.ttf') format('truetype');
 }
