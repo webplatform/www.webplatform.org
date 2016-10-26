@@ -8,3 +8,5 @@ bower_components
 /.sass-cache
 /archives
 .npm
+src/files/talk/chatlogs/webplatform.json
+src/files/talk/chatlogs/webplatform.txt
