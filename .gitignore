@@ -10,3 +10,4 @@ bower_components
 .npm
 src/files/talk/chatlogs/webplatform.json
 src/files/talk/chatlogs/webplatform.txt
+src/files/talk/chatlogs/webplatform.log
