@@ -11,6 +11,13 @@ categories:
 - Content
 - Events
 - Site News
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2013/'
+    inner: 2013
+  - href: '/blog/2013/06/'
+    inner: June
 ---
 
 [Webplatform.org](http://docs.webplatform.org/wiki/Main_Page) continues to grow in all facets: breadth of content, accuracy, community health, and site usefulness. It’s a testament to the vibrancy of our community that we now have almost twenty thousand registered users! And though we are making great progress in building our “community-driven site that aims to become a comprehensive and authoritative source for web developer documentation,” there are still plenty of opportunities to make significant contributions.
@@ -21,22 +28,22 @@ One of the most important ways we advance our goals is through our Doc Sprints. 
 
 
 
-	
+
   * People new to Webplatform learn how to get started as contributors.
 
-	
+
   * Experienced contributors dive in to the content and make rapid progress.
 
-	
+
   * Face-to-face contact builds relationships and networks.
 
-	
+
   * Great ideas germinate and grow through collaboration.
 
-	
+
   * Bugs get fixed on the spot.
 
-	
+
   * Mini projects spring up and get prototyped.
 
 

@@ -9,6 +9,13 @@ wordpress_id: 467
 categories:
 - Content
 - Web Platform Wednesday
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2013/'
+    inner: 2013
+  - href: '/blog/2013/06/'
+    inner: June
 ---
 
 These last few weeks of Web Platform Wednesday's have proven to be even more successful than we could have imagined with many new community members creating Web Platform accounts and joining in to help document the web. Last week's Seattle doc sprint joined in helping document many of the Web Platform Wednesday properties, completing 103 topics. This is a huge accomplishment in our journey of reaching beta status in CSS properties by the end of July 2013! A huge thank you to all those in the community who have assisted in some way in getting us thus far.

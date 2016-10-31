@@ -8,6 +8,13 @@ title: Register Now for W3Conf and Web Platform Doc Sprint, 21-23 February in Sa
 wordpress_id: 144
 categories:
 - Events
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2013/'
+    inner: 2013
+  - href: '/blog/2013/01/'
+    inner: January
 ---
 
 In just a month W3C and Adobe are teaming up with other partners to host a developer conference and a Web Platform Doc Sprint.

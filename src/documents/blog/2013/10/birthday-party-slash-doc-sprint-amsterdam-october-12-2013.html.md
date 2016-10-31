@@ -10,6 +10,13 @@ categories:
 - Community
 - Events
 - Site News
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2013/'
+    inner: 2013
+  - href: '/blog/2013/10/'
+    inner: October
 ---
 
 <blockquote>Never doubt that a small group of thoughtful, committed citizens can change the world; indeed, it's the only thing that ever has. - Margaret Mead</blockquote>

@@ -9,6 +9,13 @@ wordpress_id: 626
 categories:
 - Community
 - Events
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2013/'
+    inner: 2013
+  - href: '/blog/2013/09/'
+    inner: September
 ---
 
 ![](//static.webplatform.org/wpd-blog/2013/09/WPDS_CH2.jpg)The first ever Swiss Web Platform Doc Sprint is a wrap! Pure stat hunters might have liked to see more attendees: 15 out of 31 registrants attending resulted in a 52% no-show, which is pretty unusual for Switzerland; this was probably due to the current holiday season as well as the pouring rain. But hey, this is clearly about quality not quantity, so let's talk more about the **longest traveller to the sprint**: [Francesco](https://twitter.com/franciov), who came in **from Rome, Italy**. Or how about **probably the youngest ever Doc Sprint attendee**, [Samarth](https://twitter.com/Samarthwiz) (age 13), who made the [script tag](http://docs.webplatform.org/wiki/html/elements/script) shine on Web Platform Docs!
@@ -21,19 +28,19 @@ We'd like to say a **special thanks** to Mike West (Google) and contributor Rodn
 
 
 
-	
+
   * 283 Total edits
 
-	
+
   * 8 CSS pages written: specific CSS accomplishments logged at [Web Platform Wednesday pages](http://docs.webplatform.org/wiki/Meta:web_platform_wednesday)
 
-	
+
   * 11 HTML element pages written: [dl](http://docs.webplatform.org/wiki/html/elements/dl), [dd](http://docs.webplatform.org/wiki/html/elements/dd), [dt](http://docs.webplatform.org/wiki/html/elements/dt), [s](http://docs.webplatform.org/wiki/html/elements/s), [del](http://docs.webplatform.org/wiki/html/elements/del), [ins](http://docs.webplatform.org/wiki/html/elements/ins), [center](http://docs.webplatform.org/wiki/html/elements/center), [meter](http://docs.webplatform.org/wiki/html/elements/meter), [button](http://docs.webplatform.org/wiki/html/elements/button), [a](http://docs.webplatform.org/wiki/html/elements/a), [script](http://docs.webplatform.org/wiki/html/elements/script)
 
-	
+
   * 4 HTML attribute pages written: [id](http://docs.webplatform.org/wiki/html/attributes/id), [required](http://docs.webplatform.org/wiki/html/attributes/required), [type](http://docs.webplatform.org/wiki/html/attributes/type), [target](http://docs.webplatform.org/wiki/html/attributes/target)
 
-	
+
   * 2 API pages written: [Vibration API](http://docs.webplatform.org/wiki/apis/vibration), [Canvas Tutorial](http://docs.webplatform.org/wiki/tutorials/canvas/canvas_tutorial)
 
 

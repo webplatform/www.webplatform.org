@@ -10,19 +10,26 @@ categories:
 - Community
 - Content
 - Web Platform Wednesday
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2013/'
+    inner: 2013
+  - href: '/blog/2013/05/'
+    inner: May
 ---
 
 For [Week Four of Web Platform Wednesday](http://docs.webplatform.org/wiki/Meta:web_platform_wednesday), we focus on the visual formatting model properties: margins, padding, width, height, position, float, clear, display, top, right, bottom, left, z-index, direction, and unicode-bidi. Best practices are scattered all over the place for some of these basic properties:
 
 
 
-	
+
   * Remove defaults on different browsers by resetting margins to 0 – wait a second… that's [a lot of rendering](http://www.christianmontoya.com/2007/02/01/css-techniques-i-use-all-the-time/)!
 
-	
+
   * To increase accuracy of finger-based events, [increase padding and margins](http://www.html5rocks.com/en/mobile/touchandmouse/).
 
-	
+
   * [When should you use px vs. percentages](http://css-tricks.com/forums/discussion/15295/responsive-web-design-when-to-use-px-vs-on-margins-and-padding/p1)?
 
 

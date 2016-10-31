@@ -8,6 +8,13 @@ title: 'WPW Week 3: What type of contributor are you?'
 wordpress_id: 909
 categories:
 - Web Platform Wednesday
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2014/'
+    inner: 2014
+  - href: '/blog/2014/02/'
+    inner: February
 ---
 
 When I first edited a webplatform.org page, I was very nervous. I have experience (I won't mention the number of years…) with both technical content and editing. So I expected to come to webplatform.org and dig into the content and change it easily. That wasn't my experience. Whether it's because of the MediaWiki markup or the expert eyes on the content or the instability of the site, I'm not sure, but I was intimidated. It didn't help that just about the first contribution I made (after consulting with a couple of folks) was reversed by someone halfway around the world, in the middle of my night.

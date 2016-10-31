@@ -12,6 +12,13 @@ categories:
 tags:
 - Community
 - Policy
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2013/'
+    inner: 2013
+  - href: '/blog/2013/01/'
+    inner: January
 ---
 
 One of Web Platform Docs' core tenets is attribution. Attribution is as central to our mission as our founding principles, the [three pillars of Pragmatism, Inclusion, and Consensus](http://docs.webplatform.org/wiki/WPD:Policy/Pillars).

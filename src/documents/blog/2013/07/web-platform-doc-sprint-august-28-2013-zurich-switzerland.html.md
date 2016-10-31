@@ -13,6 +13,13 @@ categories:
 tags:
 - Community
 - Doc Sprints
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2013/'
+    inner: 2013
+  - href: '/blog/2013/07/'
+    inner: July
 ---
 
 Followers of the WebPlatform.org effort will remember that we ran our groundbreaking first European Web Platform Doc Sprint on [February 8-9 in Berlin, Germany](http://blog.webplatform.org/2013/01/first-european-doc-sprint-feb-8-9-berlin/). This went down well, and a lot of good work was done on the [CSS property](http://docs.webplatform.org/wiki/css/properties) and [API documentation](http://docs.webplatform.org/wiki/apis). The latest good news is that we are running another Doc Sprint — this time in Zurich, Switzerland, on August 28th!
@@ -32,28 +39,28 @@ friends, and meet old ones. At this event:
 
 
 
-	
+
   * Beginners will learn how to get started as WebPlatform.org contributors
 
-	
+
   * Those more experienced can dive in and make great uninterrupted progress on content
 
-	
+
   * Great new ideas will form and grow through collaboration, including demos, plugins and more
 
-	
+
   * Bugs will get fixed on the spot
 
-	
+
   * Food and drinks (including but not limited to: beer) will be provided throughout the day
 
-	
+
   * Swag will be tossed into the crowds
 
-	
+
   * Winners will be crowned and prizes raffled away
 
-	
+
   * A lot of fun is waiting for attendees!
 
 

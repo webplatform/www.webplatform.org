@@ -2,7 +2,12 @@
 title: "Terms of service"
 heading: "Your Web, documented."
 layout: default
+path:
+  - href: '/terms/'
+    inner: Web Platform Contributor Agreement
 ---
+## Web Platform Contributor Agreement
+
 I have read, understood and agree to be bound by the Web Platform Contributor Agreement.
 
 This Contributor Agreement (“Agreement”) is entered into between You, the participating individual

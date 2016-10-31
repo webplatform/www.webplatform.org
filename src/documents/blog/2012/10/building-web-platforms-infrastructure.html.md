@@ -9,6 +9,13 @@ wordpress_id: 13
 categories:
 - Infrastructure
 - Site News
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2012/'
+    inner: 2012
+  - href: '/blog/2012/10/'
+    inner: October
 ---
 
 For the initial launch of Web Platform, we decided to go for an alpha release with a small and concrete set of platform goals. We used open source software, and we kept the initial set of applications small, to focus on preparing them to handle the initial launch load.
@@ -27,13 +34,13 @@ Our upper-bound targets for launch day were:
 
 
 
-	
+
   * 100,000 visitors
 
-	
+
   * 200 anonymous requests per second
 
-	
+
   * 10 logged-in requests per second.
 
 
@@ -49,16 +56,16 @@ Our actual statistics for the launch day were:
 
 
 
-	
+
   * 86,000 visitors
 
-	
+
   * 720,000 page views
 
-	
+
   * 300 requests per second during the US peak
 
-	
+
   * 350 requests per second during the Europe peak.
 
 
@@ -84,64 +91,64 @@ Our platform currently has the following instances:
 
 
 
-	
+
   * 5 application servers, with specs:
 
-	
+
     * 8GB RAM, 240GB disk, 4 VCPUs
 
 
 
 
-	
+
   * 2 database servers, with specs:
 
-	
+
     * 16GB RAM, 480GB disk, 4 VCPUs
 
 
 
 
-	
+
   * 2 storage servers, with specs:
 
-	
+
     * 2GB RAM, 50GB disk (volume storage), 2 VCPUs
 
 
 
 
-	
+
   * 1 deployment server, with specs:
 
-	
+
     * 2GB RAM, 60GB disk, 2 VCPUs
 
 
 
 
-	
+
   * 1 monitoring server, with specs:
 
-	
+
     * 2GB RAM, 60GB disk, 2 VCPUs
 
 
 
 
-	
+
   * 1 backup server, with specs:
 
-	
+
     * 2GB RAM, 50GB disk (volume storage), 2 VCPUs
 
 
 
 
-	
+
   * 1 bots server, with specs:
 
-	
+
     * 1GB RAM, 30GB disk, 1 VCPU
 
 
@@ -248,22 +255,20 @@ There's a few things that we didn't get to implement for launch that would be ni
 
 
 
-	
+
   * Object storage. We're using glusterfs right now, but it's not ideal. Mounting shared storage is a great way to have a really bad outage, especially on virtualized infrastructure. Object storage is more reliable and handled by the cloud provider. The support for object storage in MediaWiki is currently mostly undocumented. In the future we'll switch away from using glusterfs to using HP Cloud's object storage (which is based on OpenStack Swift). This would eliminate two servers from our infrastructure.
 
-	
+
   * Database as a Service. Our database usage is tiny. It's really wasteful to have two xlarge instances handling this. It would be more effective for us to run on HP Cloud's database service. This would eliminate two servers from our infrastructure.
 
-	
+
   * Offisite backup to an object store. All of our backups are in the same datacenter, currently. We thankfully have backups on volume storage and a second copy on instance storage, on different intances, but it would be better to have the backups in another datacenter in object storage.
 
-	
+
   * LVM snapshots of the database disks. Backups are nice, but LVM snapshots of database disks are much nicer for more instant recovery.
 
-	
+
   * Fastly API. We can further our automation setup by automatically adding new application servers into services by using the Fastly API. By doing so we could auto-expand and auto-shrink our application server cluster as needed.
 
-	
+
   * Releasing our salt configuration management repository. Our repository isn't really in a state that's currently releasable. It has some embedded passwords and other sensitive things. We also don't have a reasonable way to host it currently. Relying on GitHub for deployment is terrifying, since we don't have proper control of the repositories. We'll likely host a Gerrit instance and replicate to GitHub for this.
-
-

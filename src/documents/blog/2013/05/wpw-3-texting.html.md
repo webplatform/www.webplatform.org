@@ -10,6 +10,13 @@ categories:
 - Community
 - Content
 - Web Platform Wednesday
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2013/'
+    inner: 2013
+  - href: '/blog/2013/05/'
+    inner: May
 ---
 
 You shouldn't text while driving, but you should text while designing, and CSS3 puts the power in your hands to text with style! This week's Web Platform Wednesday focuses on the properties from two related CSS Level 3 specifications: the [CSS Text Module](http://www.w3.org/TR/2012/WD-css3-text-20121113/) and the [CSS Text Decoration Module](http://www.w3.org/TR/2013/WD-css-text-decor-3-20130103/).
@@ -22,19 +29,19 @@ The [topics this week](http://docs.webplatform.org/wiki/Meta:web_platform_wednes
 
 
 
-	
+
   * **Basic facts**, such as overview table, syntax, and values
 
-	
+
   * **Explanatory text**, such as the introduction (summary), usage, and notes
 
-	
+
   * **Examples**, with explanations
 
-	
+
   * **Links** to tutorials and other materials (either inside WPD or on the wider web), to the relevant specifications, and cross-linking keywords to other reference articles
 
-	
+
   * **Review**, including flagging and unflagging
 
 

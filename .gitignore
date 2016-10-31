@@ -1,6 +1,6 @@
 /node_modules
 bower_components
-/out
+/build
 /extensions
 .DS_Store
 *.sublime-project
@@ -11,3 +11,4 @@ bower_components
 src/files/talk/chatlogs/webplatform.json
 src/files/talk/chatlogs/webplatform.txt
 src/files/talk/chatlogs/webplatform.log
+npm-debug.log

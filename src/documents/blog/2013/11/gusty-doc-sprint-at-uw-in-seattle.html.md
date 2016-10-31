@@ -11,6 +11,13 @@ categories:
 - Content
 tags:
 - Doc Sprints
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2013/'
+    inner: 2013
+  - href: '/blog/2013/11/'
+    inner: November
 ---
 
 What do you get when you mix WebPlatform Docs, [University of Washington](http://www.washington.edu/), [Western Washington University](http://www.wwu.edu/), W3C spec editors, web developers of all levels, a winter storm with gale-force winds, loss of power to 20,000 Seattleites, and a few bowling lanes? The second Seattle Doc Sprint, of course.
@@ -25,10 +32,10 @@ We had only a few goals for the sprint:
 
 
 
-	
+
   * Review CSS property pages that have been marked as done
 
-	
+
   * Review HTML element pages
 
 

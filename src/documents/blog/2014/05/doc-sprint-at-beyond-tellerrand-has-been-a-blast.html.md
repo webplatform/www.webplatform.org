@@ -10,6 +10,13 @@ categories:
 - Events
 tags:
 - doc sprint
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2014/'
+    inner: 2014
+  - href: '/blog/2014/05/'
+    inner: May
 ---
 
 Last week another [Adobe-hosted Doc Sprint](http://lanyrd.com/2014/wpds-dusseldorf/) with 53 attendees out of 70 registered happened. According to our [Doc Sprint Dashboard](https://github.com/webplatform/DocSprintDashboard) the event resulted in over 800 edits to the wiki, got about 10 new contributors on board and smoothly transitioned over to the official warm-up-party for the famous [beyond tellerrand conference](http://2014.beyondtellerrand.com/side-events) in Düsseldorf, Germany.

@@ -8,6 +8,13 @@ title: A Great First Year!
 wordpress_id: 729
 categories:
 - Site News
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2013/'
+    inner: 2013
+  - href: '/blog/2013/10/'
+    inner: October
 ---
 
 Forty-thousand some odd page edits on 8,740 total pages by 23,939 registered users summarizes a year of effort toward creating the web's definitive source for technical documentation. Web Platform Docs, is still just a baby, yet to emerge from pre-alpha into beta release, and there's a lot of work to do before we can lend it the car keys, but it's off to a great start!

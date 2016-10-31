@@ -11,6 +11,13 @@ categories:
 - Content
 - JavaScript
 - Web Platform Wednesday
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2014/'
+    inner: 2014
+  - href: '/blog/2014/02/'
+    inner: February
 ---
 
 Here we are at Web Platform Wednesdays Week 1 for the JavaScript language reference! There's a reason why organizations and individuals have come together to document the web platform here. The content can be used and reused anywhere, without complex terms. What you contribute is for everyone's use. It's sort of documentation neutrality. So while this may appear to be just another JavaScript reference that we're embarking on, it really is different.

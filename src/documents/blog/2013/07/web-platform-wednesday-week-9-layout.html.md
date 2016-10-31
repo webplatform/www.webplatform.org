@@ -11,6 +11,13 @@ categories:
 - Content
 - Events
 - Web Platform Wednesday
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2013/'
+    inner: 2013
+  - href: '/blog/2013/07/'
+    inner: July
 ---
 
 Last week we decided to take a small break to give everyone a rest and let you enjoy the holidays, so this week we are coming back in full force to tackle the next batch of CSS properties. This week, we will be focusing on **layout based properties**, which are fundamentally the foundation properties of all websites.
@@ -21,10 +28,10 @@ These properties that we will be covering, range from **padding** and **size** t
 
 
 
-	
+
   * [CSS Positioning - A Comprehensive Look](http://blog.teamtreehouse.com/css-positioning)
 
-	
+
   * [CSS Positioning 101](http://alistapart.com/article/css-positioning-101)
 
 
@@ -32,7 +39,7 @@ These properties that we will be covering, range from **padding** and **size** t
 
 
 
-	
+
   * [A comprehensive post on Padding](http://css-tricks.com/almanac/properties/p/padding/)
 
 
@@ -40,10 +47,10 @@ These properties that we will be covering, range from **padding** and **size** t
 
 
 
-	
+
   * [CSS Floats 101](http://alistapart.com/article/css-floats-101)
 
-	
+
   * [CSS Float Theory: Things you should know](http://coding.smashingmagazine.com/2007/05/01/css-float-theory-things-you-should-know/)
 
 

@@ -14,6 +14,13 @@ categories:
 tags:
 - Web Platform Wendesday
 - Webplatform Wednesday
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2014/'
+    inner: 2014
+  - href: '/blog/2014/02/'
+    inner: February
 ---
 
 You’ve been waiting for a space to share your most treasured thoughts on JavaScript? Well, the wait is over. We’re ready for the second content project on webplatform.org. The [JavaScript reference pages ](http://docs.webplatform.org/wiki/javascript)that Microsoft donated have been imported. That means we’re ready to make them ours! So, we’ll start up Web Platform Wednesdays again. There are about 350 language parts to review and improve.

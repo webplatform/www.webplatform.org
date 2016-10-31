@@ -9,6 +9,13 @@ wordpress_id: 830
 categories:
 - Content
 - JavaScript
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2014/'
+    inner: 2014
+  - href: '/blog/2014/02/'
+    inner: February
 ---
 
 The goals of webplatform.org are bold, its projects large and ambitious. As have many other volunteers before me, I caught a sense of that vision and decided to make it my own while working on a particular ambitious project: documenting JavaScript on Web Platform Docs.

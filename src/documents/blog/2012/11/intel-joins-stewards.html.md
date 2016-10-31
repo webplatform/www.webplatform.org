@@ -9,6 +9,13 @@ wordpress_id: 45
 categories:
 - Site News
 - Stewards
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2012/'
+    inner: 2012
+  - href: '/blog/2012/11/'
+    inner: November
 ---
 
 We are overwhelmed by all the interest and active participation Web Platform Docs has garnered so far. We've had many organizations ask about becoming a steward in order to help make sure the site lives up to its potential.
@@ -25,6 +32,3 @@ Welcome, Intel, and thank you for your support!
 
 
 **Update:** Intel has announced their own developer site, the [Intel® HTML5 Zone](http://software.intel.com/html5). Over the coming months, we will work with Intel to pool our resources to best effect for Web Platform Docs, and for Web developers. We are very excited about this relationship. You can read more on the [Intel news bulletin](http://newsroom.intel.com/community/intel_newsroom/blog/2012/11/26/chip-shot-intel-provides-software-developers-html5-support-and-tools-becomes-steward-of-web-platform-docs ).
-
-
-

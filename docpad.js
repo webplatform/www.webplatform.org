@@ -3,7 +3,7 @@
 
 // Define the DocPad Configuration
 var docpadConfig = {
-    localeCode: 'en',
+    localeCode: "en",
     enableUnlistedPlugins: false,
     enabledPlugins: {
         eco: true,
@@ -18,13 +18,13 @@ var docpadConfig = {
             title_append: " · WebPlatform.org",
             tagline: "Your Web, documented",
             url: "http://www.webplatform.org",
-            title: "Web Platform Docs",
             tld: "webplatform.org",
+            title: "Web Platform Docs",
             piwik_id: 1
         }
     },
     port: 4000,
-    outPath: 'build'
+    outPath: "build"
 };
 
 // Export the DocPad Configuration

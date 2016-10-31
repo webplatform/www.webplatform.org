@@ -10,6 +10,13 @@ categories:
 - Community
 - Content
 - Web Platform Wednesday
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2013/'
+    inner: 2013
+  - href: '/blog/2013/06/'
+    inner: June
 ---
 
 It is that time of week again, time for Web Platform Wednesday! And this week's theme is Text. This will see us focus on continuing to document the vast amount of CSS properties available for Text. Ranging from text **sizing**, to **styling**, **alignment** and even **kerning**.

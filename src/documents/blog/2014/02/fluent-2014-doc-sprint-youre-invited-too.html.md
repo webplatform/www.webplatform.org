@@ -10,6 +10,13 @@ categories:
 - Events
 tags:
 - Doc Sprints
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2014/'
+    inner: 2014
+  - href: '/blog/2014/02/'
+    inner: February
 ---
 
 A group of us working on WebPlatform Docs will be hosting a [Doc Sprint at Fluent 2014](https://www.eventbrite.com/e/webplatformorg-fluent2014-doc-sprint-tickets-9344681193), in San Francisco, on March 11th! O'Reilly has generously provided the facilities and experts through the [Fluent conference](http://fluentconf.com/fluent2014/public/schedule/detail/33084), but the doc sprint is open to the general public.

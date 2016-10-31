@@ -10,6 +10,13 @@ categories:
 - Community
 - Content
 - Web Platform Wednesday
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2013/'
+    inner: 2013
+  - href: '/blog/2013/05/'
+    inner: May
 ---
 
 Documenting the web, even just client-side technologies, is an enormous undertaking. We can't do it alone, and we can't do it all at once.
@@ -36,19 +43,19 @@ Every Wednesday, we will post 15-25 new articles for a particular set of CSS top
 
 
 
-	
+
   * **Basic facts**, such as overview table, syntax, and values
 
-	
+
   * **Explanatory text**, such as the introduction (summary), usage, and notes
 
-	
+
   * **Examples**, with explanations
 
-	
+
   * **Links** to tutorials and other materials (either inside WPD or on the wider web), to the relevant specifications, and cross-linking keywords to other reference articles
 
-	
+
   * **Review**, including flagging and unflagging
 
 
@@ -61,5 +68,3 @@ Obviously, different people will want to focus on different parts of the project
 If you've wanted to contribute in the past, but weren't sure how, we're here to help guide you. Find us on our [public-webplatform@w3.org email list](mailto:public-webplatform@w3.org?subject=(WW)), or Freenode [#webplatform-site IRC channel](irc://irc.freenode.org#webplatform-site), or even our [@webplatform Twitter account](http://twitter.com/webplatform), and we'll get you started. And help us spread the word, to share the load.
 
 If this is successful, we'll repeat the process for JavaScript, APIs, HTML, SVG, and other article topics. Together, we will make this site outstanding!
-
-

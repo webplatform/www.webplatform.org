@@ -8,6 +8,13 @@ title: Hi, my name's Renoir. I'll be your DevOps for the Web Platform
 wordpress_id: 507
 categories:
 - Site News
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2013/'
+    inner: 2013
+  - href: '/blog/2013/08/'
+    inner: August
 ---
 
 Hello everybody!

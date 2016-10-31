@@ -8,6 +8,13 @@ title: 'Documenting the Future: CSS Regions'
 wordpress_id: 172
 categories:
 - Site News
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2013/'
+    inner: 2013
+  - href: '/blog/2013/01/'
+    inner: January
 ---
 
 Web Platform Docs is an ambitious project. It is challenging enough to document all the features that work across browsers today, without delving into experimental features. But it's also critical for web developers to learn what's coming up next. Such features are not as widely documented elsewhere, and getting early feedback on them helps make sure they are done right.

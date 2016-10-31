@@ -8,6 +8,13 @@ title: 'Web Platform Wednesday, Week 16: Left-over Fondue!'
 wordpress_id: 618
 categories:
 - Web Platform Wednesday
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2013/'
+    inner: 2013
+  - href: '/blog/2013/08/'
+    inner: August
 ---
 
 Sound the alphorns! This week we salute our friends at the doc sprint in Zurich, Switzerland and anticipate a lot of great work on the CSS properties. If you can't make it to Zurich, you can at least be with the doc sprinters in spirit as they and you dip into this week's cheesy (or chocolately) pot of CSS properties.

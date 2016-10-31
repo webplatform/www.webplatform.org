@@ -1,0 +1,29 @@
+---
+title: "410 Gone"
+layout: error
+---
+<hgroup>
+	<h1 class="code">
+		<img src="//www.webplatform.org/assets/numbers/4.svg" alt="4" />
+		<img src="//www.webplatform.org/assets/numbers/1.svg" alt="1" />
+		<img src="//www.webplatform.org/assets/numbers/0.svg" alt="0" />
+	</h1>
+	<h2>Gone</h2>
+</hgroup>
+
+<%- @partial('notice') %>
+
+<p>
+	We’re sorry, but what you’re looking has been disabled.
+</p>
+<h2>By the way, do you know what a 410 error is?</h2>
+<p>
+	Every HTTP request returns a three digit code in the beginning which communicates how
+	everything went in a compact way.
+	These numbers are known as HTTP status codes.
+	Specifically, 410 is a code that means “Gone”, i.e. the service or resource has been purposefully decomissioned.
+</p>
+<p>
+	Want to know more? Read through the <a href="http://docs.webplatform.org/wiki/http/response_status_codes">list of HTTP status codes</a>
+	or <a href="http://www.webplatform.org">go to the homepage</a> and start from there!
+</p>

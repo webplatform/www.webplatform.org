@@ -8,6 +8,13 @@ title: 'Web Platform Wednesdays #5: Examples!'
 wordpress_id: 416
 categories:
 - Web Platform Wednesday
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2013/'
+    inner: 2013
+  - href: '/blog/2013/06/'
+    inner: June
 ---
 
 It's a busy week for a lot of students, and for us here at WebPlatform.org, so we're taking it easy on ourselves this week and doing the fun stuff: example code!
@@ -28,7 +35,7 @@ What does all that mean? That's where an example will really help out.
 
 One of a set of keywords, ranging from `xx-small` to `xx-large`. An example might be:
 
-    
+
     <code>font-size: large; // 20% larger than parent's font-size</code>
 
 
@@ -39,7 +46,7 @@ One of a set of keywords, ranging from `xx-small` to `xx-large`. An example mig
 
 One of a set of keywords, either `smaller` or `larger`. An example might be:
 
-    
+
     <code>font-size: <code><code>smaller</code></code>; // 1 increment (20%) lower than parent font-size</code>
 
 
@@ -50,13 +57,13 @@ One of a set of keywords, either `smaller` or `larger`. An example might be:
 
 A number followed by a unit, such as:
 
-    
+
     <code>font-size: 15px;</code>
 
 
 or:
 
-    
+
     <code>font-size: 2em;</code>
 
 
@@ -67,7 +74,7 @@ or:
 
 A percentage of the parent element's font-size, like
 
-    
+
     <code>font-size: 75%; // 25% smaller than parent's font-size</code>
 
 

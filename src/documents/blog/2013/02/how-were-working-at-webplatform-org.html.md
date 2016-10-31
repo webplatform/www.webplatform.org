@@ -14,6 +14,13 @@ tags:
 - css
 - doc sprint
 - work
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2013/'
+    inner: 2013
+  - href: '/blog/2013/02/'
+    inner: February
 ---
 
 I thought I'd share some thoughts this week on how we are working towards making web standards documentation rock more here at WebPlatform.org! We knew it would be challenging to deal with this much content, especially as we are mostly volunteers with only a finite amount of time available to work on the project. We've already achieved much, working towards our goal of making WebPlatform.org _the_ definitive client-side web technology documentation site, but there is still much more to do. This is why we opened it up to the wider community as an alpha.
@@ -22,22 +29,22 @@ The plan has always been to include the public as early as possible. The web doe
 
 
 
-	
+
   * Identify specific tasks to work on. To make the work more manageable, we have started to split it into manageable chunks and we work on each item in turn.
 
-	
+
   * Discuss these tasks via our regular communication means, and also have more involved discussions at our [regular weekly meetings](http://docs.webplatform.org/wiki/WPD:Meetings), simultaneously held on teleconference and IRC.
 
-	
+
   * Record task priority lists and who is working on each task, at our [beta requirements page](http://docs.webplatform.org/wiki/WPD:Beta_Requirements).
 
-	
+
   * Create detailed task plans to outline how the work will be done, with subtasks, and people assigned to complete them.
 
-	
+
   * Get on with the tasks!
 
-	
+
   * Speed up task progress with intensive bursts of work at [Doc Sprint events](http://docs.webplatform.org/wiki/WPD:Community/Community_Events).
 
 

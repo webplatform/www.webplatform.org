@@ -8,6 +8,13 @@ title: One Small Step
 wordpress_id: 1
 categories:
 - Site News
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2012/'
+    inner: 2012
+  - href: '/blog/2012/10/'
+    inner: October
 ---
 
 Welcome to [WebPlatform.org](https://www.webplatform.org).

@@ -10,6 +10,13 @@ categories:
 - Community
 - Content
 - Site News
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2013/'
+    inner: 2013
+  - href: '/blog/2013/04/'
+    inner: April
 ---
 
 Let's face it, a site for Web documentation that doesn't have solid JavaScript docs is like a browser that doesn't have JavaScript. Up to now, the [JavaScript topic](http://docs.webplatform.org/wiki/javascript) on Web Platform Docs has been sparsely populated, especially our reference articles. That's why we were so thrilled when [Microsoft offered us their excellent](http://lists.w3.org/Archives/Public/public-webplatform/2013Apr/0238.html)[ JavaScript documentation ](http://msdn.microsoft.com/en-us/library/ie/yek4tbz0(v=vs.94).aspx)from [MSDN](http://msdn.microsoft.com/en-us/library/ie/yek4tbz0(v=vs.94).aspx).
@@ -32,13 +39,13 @@ So, there’s where we are. Where we go next is up to the community as a whole, 
 
 
 
-	
+
   * First, we have to settle what on the URL structure. How do we want to organize the different pages within our information hierarchy, so that it's consistent, easy to find and reference, and avoids naming clashes?
 
-	
+
   * Second, we have to make MediaWiki templates. We need to define how each page type (object, property, method, etc.) is structured, again for consistency and to make it easy for an API to extract just the information needed.
 
-	
+
   * Third, we have to come up with a methodology to convert the HTML content into the wiki. Converting 400+ pages by hand would be tedious, but an automated import script is likely to be error-prone, even with consistent and well-structured HTML like the export from MSDN. Which sections do we use? What do we do if we need to add structure that doesn't exist in the original? How shall we review all the converted documents? Should we import first into our [test wiki instance](http://docs.webplatform.org/test/), then transfer into the main wiki? In some cases, there may be duplicates of content already in the wiki; how shall we resolve that? What import script should we use (and can we revise and reuse the script from our original MSDN mass-import back in October)? _Phew!_
 
 
@@ -68,4 +75,4 @@ For each content topic, sometimes there are multiple sources that we’d like to
 Yes. Even with big content contributions like this one from Microsoft, this site will never succeed in our mission without consistent contributions and engagement from our community. So, consider your effort in integrating these documents a “matching donation” and help us make WPD the documentation site we all need.
 
 
-## 
+##

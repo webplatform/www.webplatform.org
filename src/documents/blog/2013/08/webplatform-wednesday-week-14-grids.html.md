@@ -9,6 +9,13 @@ wordpress_id: 584
 categories:
 - Content
 - Web Platform Wednesday
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2013/'
+    inner: 2013
+  - href: '/blog/2013/08/'
+    inner: August
 ---
 
 A lot of folks are vacationing now, far away from gridlock. But wait! Grid layout needs your help!

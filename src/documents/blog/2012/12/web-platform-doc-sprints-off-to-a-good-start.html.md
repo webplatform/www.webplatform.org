@@ -10,6 +10,13 @@ categories:
 - Events
 tags:
 - Doc Sprints
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2012/'
+    inner: 2012
+  - href: '/blog/2012/12/'
+    inner: December
 ---
 
 On Saturday, November 3rd we held the first ever Web Platform Doc Sprint* at Adobe in San Francisco. It was a joint effort by [Adobe](http://html.adobe.com/), the [San Francisco HTML5 User](http://www.sfhtml5.org/) [Group](http://www.sfhtml5.org/), and [Google](https://developers.google.com/). We had a great and very productive day and onboarded 34 brand new members. The majority of the 50-60 attendees stayed the whole day, from 9 am until after 5 pm) and, from reading through the logs, I see that we made over 800 changes to the site that day. We had people working on tasks that ranged from simple to very complex. Some folks spent the whole day writing in-depth documentation while others dove into backend architecture tasks or created new prototypes of possible new site features. 

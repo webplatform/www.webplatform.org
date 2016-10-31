@@ -10,11 +10,18 @@ categories:
 - Community
 - Content
 - Web Platform Wednesday
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2013/'
+    inner: 2013
+  - href: '/blog/2013/07/'
+    inner: July
 ---
 
-This week’s Web Platform Wednesday has a theme that every CSS geek will find exciting and many have been waiting for: Animations and Masking! 
+This week’s Web Platform Wednesday has a theme that every CSS geek will find exciting and many have been waiting for: Animations and Masking!
 
-[CSS Animations](http://www.w3.org/TR/css3-animations/) need no introductions for many of you. They are a pretty stable feature that allows designers to create anything ranging from simple transitions or incredibly complex animation effects, bringing websites into the 4th dimension. 
+[CSS Animations](http://www.w3.org/TR/css3-animations/) need no introductions for many of you. They are a pretty stable feature that allows designers to create anything ranging from simple transitions or incredibly complex animation effects, bringing websites into the 4th dimension.
 
 [CSS Masking](http://www.w3.org/TR/css-masking/) is much newer and has less browser support, but it’s not any less exciting: It will allow authors to crop any CSS element in any possible shape, defined through images. Until now we could only do that in SVG, but CSS Masking will bring this to the world of HTML content as well, opening up a wide range of possibilities. Since CSS Masking is new, there is not much documentation material around it. So, if you help with those properties, you will be one of the first few people documenting this. If you like exploring new territory, this is for you!
 

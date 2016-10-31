@@ -8,6 +8,13 @@ title: 'Web Platform Wednesday, Week 11: backgrounds, borders and transforms'
 wordpress_id: 501
 categories:
 - Web Platform Wednesday
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2013/'
+    inner: 2013
+  - href: '/blog/2013/07/'
+    inner: July
 ---
 
 From the simple to the advanced, CSS has a lot of effects to offer with a little bit of code. This week we're documenting background, border, and transform properties. And looking around, there's a lot of great advice and tools out there.

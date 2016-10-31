@@ -1,32 +1,20 @@
-
-/*
-    XXX
-    - hanging links still need work for small screen
-    - hanging numeral
-    - change bg colour for all coloured boxes, use icons
-        - examples
-        - definition boxes
-        
-*/
-
-/* Fonts */
 @font-face {
-    font-family: 'Roboto';
-    src: url('../fonts/robotoslab-regular-webfont.eot');
-    src: url('../fonts/robotoslab-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/robotoslab-regular-webfont.woff2') format('woff2'),
-         url('../fonts/robotoslab-regular-webfont.woff') format('woff'),
-         url('../fonts/robotoslab-regular-webfont.ttf') format('truetype');
+    font-family: "Roboto";
+    src: url("robotoslab-regular-webfont.eot");
+    src: url("robotoslab-regular-webfont.eot?#iefix") format("embedded-opentype"),
+         url("robotoslab-regular-webfont.woff2") format("woff2"),
+         url("robotoslab-regular-webfont.woff") format("woff"),
+         url("robotoslab-regular-webfont.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Roboto';
-    src: url('../fonts/robotoslab-bold-webfont.eot');
-    src: url('../fonts/robotoslab-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/robotoslab-bold-webfont.woff2') format('woff2'),
-         url('../fonts/robotoslab-bold-webfont.woff') format('woff'),
-         url('../fonts/robotoslab-bold-webfont.ttf') format('truetype');
+    font-family: "Roboto";
+    src: url("robotoslab-bold-webfont.eot");
+    src: url("robotoslab-bold-webfont.eot?#iefix") format("embedded-opentype"),
+         url("robotoslab-bold-webfont.woff2") format("woff2"),
+         url("robotoslab-bold-webfont.woff") format("woff"),
+         url("robotoslab-bold-webfont.ttf") format("truetype");
     font-weight: bold;
     font-style: normal;
 }
@@ -56,7 +44,7 @@ body > section {
 header {
     display:    block;
     background: #fff;
-    background: url("../img/header-lines.svg") repeat-x 0 30px;
+    background: url("header-lines.svg") repeat-x 0 30px;
     border-bottom:  1px solid #7fdbff;
 }
 #logo {
@@ -587,7 +575,7 @@ blockquote {
 
 /** Open issue ****************************************************************/
 .issue {
-    background: url("../img/issue-icon.svg") no-repeat;
+    background: url("issue-icon.svg") no-repeat;
     padding-left:   50px;
     border: none;
     overflow: auto;
@@ -606,7 +594,7 @@ blockquote {
 .example {
     border: none;
 /*    background: #FCFAEE;*/
-    background: url("../img/unicorn.svg") no-repeat;
+    background: url("unicorn.svg") no-repeat;
     counter-increment: exampleno;
     overflow: auto;
     clear: both;
@@ -632,7 +620,7 @@ blockquote {
 
 /** Non-normative Note ********************************************************/
 .note, .why {
-    background: url("../img/note-icon.svg") no-repeat;
+    background: url("note-icon.svg") no-repeat;
     padding-left:   50px;
     border: none;
     overflow: auto;
@@ -658,7 +646,7 @@ table.descdef, table.definition-table {
     page-break-inside: avoid;
     width: 100%;
     margin: 1.2em 0;
-    background: url("../img/defs-lines.svg") repeat-y;
+    background: url("defs-lines.svg") repeat-y;
     padding: 0.5em 1em;
     border-spacing: 0;
 }
@@ -942,8 +930,8 @@ caption {text-align:left;
 
 details, summary {display: block;}
 details {padding: 0.5em;}
-summary {padding: 0.25em;background: #fff url("../img/rightArrow.png") no-repeat 0.5em center; padding: 0.25em 0.25em 0.25em 2em;}
+summary {padding: 0.25em;background: #fff url("rightArrow.png") no-repeat 0.5em center; padding: 0.25em 0.25em 0.25em 2em;}
 summary::-webkit-details-marker {display: none;}
-.open summary, details[open] summary {background-color: #f5f5f5; background-image: url("../img/downArrow.png");}
+.open summary, details[open] summary {background-color: #f5f5f5; background-image: url("downArrow.png");}
 summary .el-context {display: inline;}
 summary:hover, summary:focus, details[open] summary:hover, details[open] summary:focus {background-color: #eee;}

@@ -1,7 +1,19 @@
 SHELL := bash
-PATH := bin:${PATH}
-DATE := `date '+%Y%m%d'`
-THIS_DIR:=$(shell pwd)
+PATH  := bin:${PATH}
+DATE  := `date '+%Y%m%d'`
+PWD   := $(shell pwd)
+.DEFAULT_GOAL := build
+
+# https://www.gnu.org/software/make/manual/make.html
+
+
+# It is a phony target because the build setp creates a folder called build, and we still always
+# want the default target to rebuild or regenerate the files
+.PHONY: build
+build: src/files/talk/chatlogs/webplatform.json \
+       src/files/talk/chatlogs/webplatform.txt
+		compass compile -e production --force
+		npm run build
 
 
 src/files/talk/chatlogs/webplatform.json:
@@ -12,23 +24,17 @@ src/files/talk/chatlogs/webplatform.txt:
 		curl https://gist.githubusercontent.com/WebPlatformDocs/29c7b734d8212b2f1a33887b4be68ddc/raw/6ac3c5c39155623dfb3ed112ad7ba7b0d12cde06/webplatform.log -o src/files/talk/chatlogs/webplatform.txt
 
 
-.PHONY: build
-build: node_modules src/files/assets/bower_components lint
-		compass compile -e production --force
-		time node_modules/.bin/docpad-compile --env=production
-
-
 .PHONY: deps
-deps: node_modules src/files/assets/bower_components
+deps: node_modules/ src/files/assets/bower_components/
 		mkdir -p ~/tmp
 		bundle install
 
 
-node_modules: package.json
+node_modules/: package.json
 		yarn install
 
 
-src/files/assets/bower_components: node_modules
+src/files/assets/bower_components/: node_modules/
 		node_modules/.bin/bower install
 
 
@@ -58,5 +64,5 @@ package: build
 
 
 .PHONY: lint
-lint: node_modules
+lint: node_modules/
 		node_modules/gulp/bin/gulp.js lint

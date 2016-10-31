@@ -10,6 +10,13 @@ categories:
 - Events
 tags:
 - Doc Sprints
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2012/'
+    inner: 2012
+  - href: '/blog/2012/12/'
+    inner: December
 ---
 
 A splendid time was had by all! On Wednesday, December 12th we gathered at Google in Mountain View, California to work on Web Platform Docs. We had over 35 attendees who worked on the site for a whole day. Google provided snacks, beverages, lunch, and a wine/beer reception afterward with live music. There was, of course, the usual t-shirts, and other cool swag - see below.
@@ -58,10 +65,10 @@ _Dilip, Dickson, Scott Eliot, and Ming Ming_
 
 
 
-	
+
   * [Renato](http://docs.webplatform.org/wiki/User:Mangini) developed a Web Platform Search Companion search extension to Chrome. Install this [extension from the Chrome Web Store](https://chrome.google.com/webstore/detail/webplatform-search-compan/cmnfpmlchcgefcboofmabaaclkgnoiei). Just type "wpd"+space on your Chrome omnibox (that box where you type URLs) and the extension will be activated. Then, type whatever - a CSS property, for example, and you will get direct URLs to the corresponding webplatform.org pages.
 
-	
+
   * [Dan](http://docs.webplatform.org/wiki/Special:Contributions/Wendorf) implemented a MediaWiki search extension, helping to resolve bug [19401](https://www.w3.org/Bugs/Public/show_bug.cgi?id=19401). This, too, provides pop-up results, but in the Search field on the wiki page.
 
 
@@ -69,13 +76,13 @@ _Dilip, Dickson, Scott Eliot, and Ming Ming_
 
 
 
-	
+
   * [Tony](http://docs.webplatform.org/wiki/User:Tony.sukiennik) created a [Quick Start guide](http://docs.webplatform.org/wiki/WPD:Quick_Start) using a tool he developed that builds MediaWiki-formatted pages from HTML. The tool can be used to aggregate several HTML pages and import them to the wiki.
 
-	
+
   * [Luz](http://docs.webplatform.org/wiki/User:Luz) contributed several [WebGL tutorials](http://docs.webplatform.org/wiki/webgl/tutorials) with the help of [Noel](http://docs.webplatform.org/wiki/User:Noel512).
 
-	
+
   * [Jonathan](http://docs.webplatform.org/wiki/User:Garbee) contributed an [HTML Lists](http://docs.webplatform.org/wiki/html/tutorials/lists) tutorial.
 
 
@@ -83,10 +90,10 @@ _Dilip, Dickson, Scott Eliot, and Ming Ming_
 
 
 
-	
+
   * A dedicated group including [Ruby](http://docs.webplatform.org/wiki/User:Rubissima), [Dilip](http://www.google.com/url?q=http%3A%2F%2Fdocs.webplatform.org%2Fwiki%2FUser%3ADilipvshah&sa=D&sntz=1&usg=AFQjCNGLGz6NbwBoXRFLTZ3urxOD_XM4-A), [Aysegul](http://docs.webplatform.org/wiki/User:Yonet), [Andrea](http://docs.webplatform.org/wiki/User:Andrea), [Mark](http://docs.webplatform.org/wiki/User:Markgoldstein), [Kathy](http://docs.webplatform.org/wiki/User:Kathyw), [Tim](http://docs.webplatform.org/wiki/User:Timstatler), [Parker](http://docs.webplatform.org/wiki/User:Pkr), [Eliot](http://docs.webplatform.org/wiki/User:Eliot-MSFT), [Tommi](http://docs.webplatform.org/wiki/User:Tommi), [Suman](http://docs.webplatform.org/wiki/User:Sumansudha), and lots of other people whose names can’t be devined from their user IDs added summaries and otherwise fixed up articles in the [css/selectors](http://docs.webplatform.org/wiki/css/selectors), [css/properties](http://docs.webplatform.org/wiki/css/properties), [html/attributes](http://docs.webplatform.org/wiki/html/attributes), and [html/elements](http://docs.webplatform.org/wiki/html/elements) spaces. This was a TON of great work!
 
-	
+
   * [Dave](http://docs.webplatform.org/wiki/User:Dgash) and [Dickson](http://docs.webplatform.org/wiki/User:Dicksont) rolled up their sleeves and dove into reorganizing and fixing [apis/file](http://docs.webplatform.org/wiki/apis/file/File) pages. [Robert](http://docs.webplatform.org/wiki/Special:Contributions/RobertKarlsson) fixed up the [Working with objects in JavaScript](http://docs.webplatform.org/wiki/tutorials/working_with_objects_in_JavaScript) tutorial.
 
 
@@ -96,22 +103,22 @@ Lacking any methodology whatsoever, and while at the same time juggling three qu
 
 
 
-	
+
   * Most of the attendees were familiar with web development concepts and technologies
 
-	
+
   * Some attendees were exploring web development for career opportunities
 
-	
+
   * Some attendees were attending the doc sprint looking for business opportunities
 
-	
+
   * Some attendees were here to help build the barn - pure generosity (yes, Virginia, there is a Santa Claus)
 
-	
+
   * Many people had trouble reading the Getting Started documentation
 
-	
+
   * Most people were forgiving of the site’s usability shortcomings (like the infamous session ID loss).
 
 

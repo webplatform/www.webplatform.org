@@ -8,6 +8,13 @@ title: 'Web Platform Wednesday, Week 12: Emphasizing text properties'
 wordpress_id: 513
 categories:
 - Web Platform Wednesday
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2013/'
+    inner: 2013
+  - href: '/blog/2013/07/'
+    inner: July
 ---
 
 This week, we're putting an emphasis on text properties. That's right: text-emphasis, text-emphasis-color, and text-emphasis-style. We also want to cover some text decoration properties. Learn how to fine-tune your text while contributing to Web Platform Docs.

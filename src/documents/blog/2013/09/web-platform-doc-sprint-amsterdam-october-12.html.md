@@ -6,6 +6,13 @@ layout: blog
 slug: web-platform-doc-sprint-amsterdam-october-12
 title: Web Platform Doc Sprint - Amsterdam, October 12
 wordpress_id: 703
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2013/'
+    inner: 2013
+  - href: '/blog/2013/09/'
+    inner: September
 ---
 
 ![Lady Blogger with Her Maid, After Vermeer](//static.webplatform.org/wpd-blog/2013/09/vermeer_laptop.jpg)
@@ -38,8 +45,8 @@ This will be our third European doc sprint as well as our first birthday. There 
 
 
 
-	
-  * 
+
+  *
 
 
 If you're new to the web community or new to Web Platform Docs, we'll help you get started with contributing to the documentation. This is a great way to learn about web development and meet other web professionals.
@@ -47,8 +54,8 @@ If you're new to the web community or new to Web Platform Docs, we'll help you g
 
 
 
-	
-  * 
+
+  *
 
 
 If you're an old pro on the web, but new to Web Platform Docs, you'll easily get up to speed and start contributing your expertise to the benefit of the whole community.
@@ -56,8 +63,8 @@ If you're an old pro on the web, but new to Web Platform Docs, you'll easily get
 
 
 
-	
-  * 
+
+  *
 
 
 If you're coming to Amsterdam for the [Fronteers](http://fronteers.nl/congres/2013) conference, you can stay an extra day and drop by the doc sprint for a few hours or the whole day.
@@ -65,8 +72,8 @@ If you're coming to Amsterdam for the [Fronteers](http://fronteers.nl/congres/2
 
 
 
-	
-  * 
+
+  *
 
 
 If you're already a member of WebPlatform.org, you can help the newbies or just jump right in and start contributing.
@@ -74,8 +81,8 @@ If you're already a member of WebPlatform.org, you can help the newbies or just 
 
 
 
-	
-  * 
+
+  *
 
 
 We'll have specific areas of content for you to work on, and if you have other content that you want to contribute or other projects that you want to work on, you're certainly welcome to do that, too.
@@ -123,8 +130,8 @@ And, because we love CC BY and attribution:
 
 
 
-	
-  * 
+
+  *
 
 
 "[Lady Blogger with Her Maid, After Vermeer](http://www.flickr.com/photos/notionscapital/5253333346/)" by Mike Licht,  used under license CC BY 2.0
@@ -132,8 +139,8 @@ And, because we love CC BY and attribution:
 
 
 
-	
-  * 
+
+  *
 
 
 "[Prinsengracht Amsterdam](http://commons.wikimedia.org/wiki/File:Prinsengracht_Amsterdam.jpg)" by Aforaseem used under license CC BY 2.0
@@ -141,14 +148,8 @@ And, because we love CC BY and attribution:
 
 
 
-	
-  * 
+
+  *
 
 
 "[Junge Dame mit Blog und Mobiltelefon, after Caspar Netscher](http://www.flickr.com/photos/notionscapital/5484185688/)" by Mike Licht used under license CC BY 2.0
-
-
-
-
-
-

@@ -9,6 +9,13 @@ wordpress_id: 600
 categories:
 - Content
 - Web Platform Wednesday
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2013/'
+    inner: 2013
+  - href: '/blog/2013/08/'
+    inner: August
 ---
 
 Ding-ding! This week, we finish up with the first round of editing and adding samples to CSS properties. We'll need to go back and pick up properties that weren't completed or were recently added. But this is a great week to pick up a random property and add some quality to it. Position, clip, visibility, and other properties are waiting for basic facts, useful explanations, examples, and links to great articles.

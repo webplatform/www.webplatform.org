@@ -11,6 +11,13 @@ categories:
 tags:
 - Community
 - Doc Sprints
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2013/'
+    inner: 2013
+  - href: '/blog/2013/01/'
+    inner: January
 ---
 
 People all over the web are contributing great ideas and tools, and the momentum for viable, open, global web standards is growing every day. Unfortunately disparate, inconsistent, and outdated information still needs to be collected and perfected in one place we all can rely on.

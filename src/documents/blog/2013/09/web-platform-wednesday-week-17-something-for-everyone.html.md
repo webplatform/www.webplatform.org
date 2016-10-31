@@ -9,6 +9,13 @@ wordpress_id: 678
 categories:
 - Community
 - Web Platform Wednesday
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2013/'
+    inner: 2013
+  - href: '/blog/2013/09/'
+    inner: September
 ---
 
 [Last week](http://blog.webplatform.org/2013/08/web-platform-wednesday-week-16-left-over-fondue/) saw our fondue pot of left over properties go down well as we started recapping, with the help of the [Switzerland Doc Sprint](http://blog.webplatform.org/2013/09/switzerland-doc-sprint-sets-some-new-records/).

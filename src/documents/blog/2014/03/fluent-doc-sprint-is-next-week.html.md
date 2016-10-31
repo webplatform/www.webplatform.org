@@ -8,6 +8,13 @@ title: Fluent Doc Sprint is next week
 wordpress_id: 932
 categories:
 - Events
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2014/'
+    inner: 2014
+  - href: '/blog/2014/03/'
+    inner: March
 ---
 
 We have [already blogged](http://blog.webplatform.org/2014/02/fluent-2014-doc-sprint-youre-invited-too/) about the upcoming [Doc Sprint at Fluent 2014](http://fluentconf.com/fluent2014/public/schedule/detail/33084), but I’ve compiled a few details, in case you have questions. You can also get a sense of what happens by reading about past doc sprints by checking out [our previous posts](http://blog.webplatform.org/tag/doc-sprints/).
@@ -20,37 +27,37 @@ MORNING:
 
 
 
-	
+
   * Welcome
 
-	
+
   * Intro to WebPlatform.org docs
 
-	
+
   * How to contribute
 
-	
+
   * Doc Sprint!
 
 
 LUNCH (yes, free food!):
 
-	
+
   * Working, talking, sharing ideas
 
 
 AFTERNOON:
 
-	
+
   * Special guests Doug Schepers ([W3C](http://fluentconf.com/fluent2014/public/schedule/speaker/152197)), Jen Simmons ([Jen Simmons Design](http://fluentconf.com/fluent2014/public/schedule/speaker/119325)), and maybe a surprise or two…
 
-	
+
   * More Doc Sprint!
 
-	
+
   * Swag
 
-	
+
   * Wrap-up
 
 

@@ -10,6 +10,13 @@ categories:
 - Community
 - Content
 - Infrastructure
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2013/'
+    inner: 2013
+  - href: '/blog/2013/05/'
+    inner: May
 ---
 
 A basic goal of WebPlatform.org is to be the site where you can come for answers to your trickiest (and simplest) development and design questions about the Open Web Platform. Along with being a site, we also want to be a service -- or really to be of service, as the saying goes. Besides being a central location where you can get information, we want the information to get to you. So we've provided APIs for retrieving the content in-context.
@@ -27,7 +34,7 @@ Being on the [MediaWiki](http://www.mediawiki.org/wiki/MediaWiki) platform means
 
 
 
-    
+
     <a href="http://docs.webplatform.org/w/api.php?action=parse&page=css/properties/box-shadow" target="_blank" title="box-shadow article via WPD API">http://docs.webplatform.org/w/api.php?action=parse&page=css/properties/box-shadow</a>
 
 

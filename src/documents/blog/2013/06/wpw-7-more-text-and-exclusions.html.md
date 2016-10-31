@@ -11,6 +11,13 @@ categories:
 - Content
 - Events
 - Web Platform Wednesday
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2013/'
+    inner: 2013
+  - href: '/blog/2013/06/'
+    inner: June
 ---
 
 This week, we continue to work on text properties, but we're adding some interesting properties. So if you know how to break out an experimental browser, and test the limits of features such as CSS Exclusions and Shapes, this is the week for you to jump in! And just in time for the latest [Editor's Draft](http://dev.w3.org/csswg/css-shapes/). If you have an experimental browser available, such as [Chrome Canary](https://www.google.com/intl/en/chrome/browser/canary.html) or [WebKit Nightly](http://nightly.webkit.org/), you can view demos such as [The Raven](http://adobe.github.io/web-platform/samples/css-exclusions/nevermore/index.html) and create your own.

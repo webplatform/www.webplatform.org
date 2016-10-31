@@ -8,6 +8,13 @@ title: Pointing Toward the Future
 wordpress_id: 191
 categories:
 - Standardization
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2013/'
+    inner: 2013
+  - href: '/blog/2013/02/'
+    inner: February
 ---
 
 The Pointer Events specification is now in Last Call! This is your chance to try out this important new technology, and to give feedback to the working group on how well it works for you.
@@ -49,5 +56,3 @@ Like all content on Web Platform Docs, the community can offer their contributio
 
 
 Try these features out, and give feedback to the W3C Pointer Events Working Group at [public-pointer-events@w3.org](mailto:public-pointer-events@w3.org) on what works well and what could be improved. This is your web, and your documentation site, so help us shape it.
-
-

@@ -10,6 +10,13 @@ categories:
 - Community
 - Content
 - Web Platform Wednesday
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2013/'
+    inner: 2013
+  - href: '/blog/2013/09/'
+    inner: September
 ---
 
 Last night, the [HTML5 meetup](http://www.meetup.com/HTML5-in-Sacramento/events/133819602/) in Sacramento, California, invited Rebecca Hauck, Larry McLister, and myself to talk about [Test the Web Forward](http://testthewebforward.org/) and WebPlatform.org. We met up at the Hacker Lab, where there is also a maker's lab. So while we were talking about the Open Web, there was a laser-cutting workshop going on in the back. By now, the relationship between the rise of the maker's movement and hackerspaces has been [codified in Wikipedia](http://en.wikipedia.org/wiki/Maker_culture). But the [Sacramento Hacker Lab](http://www.meetup.com/HackerLab/) summaries it nicely on their meetup page: "Hacker Lab is a collaborative workspace and organization of hackers, makers, and entrepreneurs. We foster technology through community education and mentorship. Together we are building a startup community and innovative ecosystem! Join us! BUILD CODE UNITE!"

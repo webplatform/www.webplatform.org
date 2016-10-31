@@ -6,6 +6,13 @@ layout: blog
 slug: live-examples-coming-soon
 title: Live examples coming soon
 wordpress_id: 33
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2012/'
+    inner: 2012
+  - href: '/blog/2012/11/'
+    inner: November
 ---
 
 Many of you have asked for live code examples that allow you to tweak the code and observe what happens. We agree that a feature like this would be of huge educational value and are actively working on providing it.

@@ -10,6 +10,13 @@ categories:
 - Community
 - Content
 - Web Platform Wednesday
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2013/'
+    inner: 2013
+  - href: '/blog/2013/05/'
+    inner: May
 ---
 
 Last week's Web Platform Wednesday was a rousing success! Our community looked at all of the target property pages, and you reviewed and completed most of the ones we lined up. So this week, we start in on Wednesday May 15th, 9am (PST). It's time for round 2: DING! DING!
@@ -18,34 +25,34 @@ Not only do we hope to finish reviewing any pages left from last week's target C
 
 
 
-	
+
   * [Border-image properties](http://docs.webplatform.org/wiki/Meta:web_platform_wednesday/2013-05-15#Border-image_properties)
 
-	
+
   * [Break and flow properties](http://docs.webplatform.org/wiki/Meta:web_platform_wednesday/2013-05-15#Break_and_flow_properties)
 
-	
+
   * [Font properties](http://docs.webplatform.org/wiki/Meta:web_platform_wednesday/2013-05-15#Font_properties)
 
-	
+
   * [List-style properties](http://docs.webplatform.org/wiki/Meta:web_platform_wednesday/2013-05-15#List-style_properties)
 
 
 Please hop on board and pitch in. Even a small contribution to a single page is much appreciated. And it's pretty straightforward. You can edit any or all of these for each article:
 
-	
+
   * **Basic facts**, such as overview table, syntax, and values
 
-	
+
   * **Explanatory text**, such as the introduction (summary), usage, and notes
 
-	
+
   * **Examples**, with explanations
 
-	
+
   * **Links** to tutorials and other materials (either inside WPD or on the wider web), to the relevant specifications, and cross-linking keywords to other reference articles
 
-	
+
   * **Review**, including flagging and unflagging
 
 

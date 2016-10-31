@@ -8,6 +8,13 @@ title: A New Home Page
 wordpress_id: 955
 categories:
 - Site News
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2014/'
+    inner: 2014
+  - href: '/blog/2014/04/'
+    inner: April
 ---
 
 You may have noticed, we recently launched a new homepage for [www.webplatform.org](http://www.webplatform.org). The recently-retired homepage was doing its job, but looking at it more closely, we realized that wanted to provide users with much more information right from the first introduction.

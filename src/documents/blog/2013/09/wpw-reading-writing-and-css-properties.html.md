@@ -6,6 +6,13 @@ layout: blog
 slug: wpw-reading-writing-and-css-properties
 title: 'WPW: Reading, writing, and CSS properties'
 wordpress_id: 684
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2013/'
+    inner: 2013
+  - href: '/blog/2013/09/'
+    inner: September
 ---
 
 Are you finding it difficult to think about reference documentation when fall is in the air?

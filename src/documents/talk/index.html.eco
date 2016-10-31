@@ -13,13 +13,14 @@ path: [{href: '/talk/', inner: 'Talk'}]
   <p>We will be providing a Web chat client in the future.</p>
 
   <h2>Summary</h2>
-  <p>
-    Server: Freenode (irc.freenode.net)
-    <br>Channel: #webplatform
-    <br>
-    <a class="link" href="irc://chat.freenode.net#webplatform">Connect</a> using your
-    favorite chat client.
-  </p>
+  <dl>
+    <dt>Server</dt>
+      <dd>Freenode (<code>irc.freenode.net</code>)</dd>
+    <dt>Channel</dt>
+      <dd><a class="link" title="connect using your favorite chat client" href="irc://chat.freenode.net#webplatform"><code>#webplatform</code></a></dd>
+    <dt>Channel log</dt>
+      <dd><a href="chatlogs/">Channel chats <em>had been</em> logged between 2012 to 2015</a>.</dd>
+  </dl>
 
   <h2>About the Chat server</h2>
   <p>The chat server is hosted on the Freenode IRC Network. It can be connected to by

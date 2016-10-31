@@ -11,61 +11,68 @@ categories:
 tags:
 - css
 - Webplatform Wednesday
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2013/'
+    inner: 2013
+  - href: '/blog/2013/08/'
+    inner: August
 ---
 
 Why, oh why, would you want to use text without adornment on a webpage? That’s so 1990’s. This week we focus our Web Platform Wednesday work on some more CSS properties that take plain text and make it stand out in a crowd. We’ve selected a little over a dozen CSS properties from the [CSS3 Text](http://www.w3.org/TR/2003/CR-css3-text-20030514/), the [CSS Exclusions Module Level 1](http://dev.w3.org/csswg/css-exclusions/), and the [CSS Line Layout Module Level 3](http://dev.w3.org/csswg/css-inline/) specifications, and we’re looking for volunteers to create, edit, and review the reference content for each of them on Webplatform Docs.
 
 
 
-	
+
   * [alignment-adjust](http://docs.webplatform.org/wiki/css/properties/alignment-adjust) (unsupported)
 
-	
+
   * [all-space-treatment](http://docs.webplatform.org/wiki/css/properties/all-space-treatment) (obsolete, unsupported, but mentioned in the line layout specification)
 
-	
+
   * [block-progression](http://docs.webplatform.org/wiki/css/properties/block-progression) (obsolete, only IE 8 [and later?] implements it prefixed)
 
-	
+
   * [kerning-mode](http://docs.webplatform.org/wiki/css/properties/kerning-mode) (obsolete, unsupported)
 
-	
+
   * [kerning-pair-threshold](http://docs.webplatform.org/wiki/css/properties/kerning-pair-threshold) (obsolete, unsupported)
 
-	
+
   * [max-font-size](http://docs.webplatform.org/wiki/css/properties/max-font-size) (obsolete, unsupported)
 
-	
+
   * [min-font-size](http://docs.webplatform.org/wiki/css/properties/min-font-size) (obsolete, unsupported)
 
-	
+
   * [punctuation-trim](http://docs.webplatform.org/wiki/css/properties/punctuation-trim) (obsolete, unsupported)
 
-	
+
   * [shape-image-threshold](http://docs.webplatform.org/wiki/css/properties/shape-image-threshold)
 
-	
+
   * [shape-inside](http://docs.webplatform.org/wiki/css/properties/shape-inside)
 
-	
+
   * [shape-outside](http://docs.webplatform.org/wiki/css/properties/shape-outside)
 
-	
+
   * [shape-padding](http://docs.webplatform.org/wiki/css/properties/shape-padding)
 
-	
+
   * [text-height](http://docs.webplatform.org/wiki/Special:FormEdit/CSS_Property/css/properties/text-height)
 
-	
+
   * [white-space-treatment](http://docs.webplatform.org/wiki/css/properties/white-space-treatment) (obsolete, unsupported)
 
-	
+
   * [word-break-inside](http://docs.webplatform.org/wiki/css/properties/word-break-inside) (obsolete, unsupported)
 
-	
+
   * [wrap-option](http://docs.webplatform.org/wiki/css/properties/wrap-option)
 
-	
+
   * [wrap-through](http://docs.webplatform.org/wiki/css/properties/wrap-through)
 
 

@@ -10,6 +10,13 @@ categories:
 - Events
 tags:
 - Doc Sprints
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2014/'
+    inner: 2014
+  - href: '/blog/2014/09/'
+    inner: September
 ---
 
 Last year we made a grave mistake when we scheduled the doc sprint in Amsterdam to follow the Fronteers conference. As Scott Rowe mentioned in his [blog post](/blog/2013/09/web-platform-doc-sprint-amsterdam-october-12/), Amsterdam is a great city. Well, it seems that most people found the city a little too great (that is, partied a bit too hard during and after the 2014 Fronteers conference) to make it to the doc sprint. And we don’t blame you!

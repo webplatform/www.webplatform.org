@@ -5,11 +5,20 @@ css: ["/assets/css/squished.css", "/assets/css/transition.css", "/assets/css/blo
 
 <%- @partial('header-blog') %>
 
-  <div class="notice" style="position: relative; max-width: 1000px; margin: 20px auto 0 auto; ">
-  <%- @partial('notice') %>
+  <div class="notice" style="position: relative; max-width: 1000px; margin: 10px auto 0 auto;">
+    <%- @partial('notice') %>
+    <%- @partial('breadcrumb', {path: @document.path}) %>
   </div>
+  <style>
+  /* Yeah, that's a few quick hacks to fix blog pages into static site */
+  /* Below is margin under the breadcrumb. */
+  .notice ol.breadcrumbs { float:inherit !important; }
+  /* Below is about background texture */
+  html,body { background-size:inherit !important; }
+  </style>
 
-  <div id="page" class="hfeed webplatform-decomissioned-blog">
+  <div id="page" class="hfeed">
+
       <div id="page-content">
         <div id="primary">
           <div id="content">
@@ -23,6 +32,33 @@ css: ["/assets/css/squished.css", "/assets/css/transition.css", "/assets/css/blo
 
             </div><!-- /content -->
           </div><!-- /primary -->
+
+          <div id="secondary" class="widget-area" role="complementary">
+    				<aside id="archives" class="widget">
+    					<h3 class="widget-title">Archives</h3>
+    					<ul>
+  							<li><a href="//www.webplatform.org/blog/2014/09/">September 2014</a></li>
+              	<li><a href="//www.webplatform.org/blog/2014/05/">May 2014</a></li>
+              	<li><a href="//www.webplatform.org/blog/2014/04/">April 2014</a></li>
+              	<li><a href="//www.webplatform.org/blog/2014/03/">March 2014</a></li>
+              	<li><a href="//www.webplatform.org/blog/2014/02/">February 2014</a></li>
+              	<li><a href="//www.webplatform.org/blog/2013/11/">November 2013</a></li>
+              	<li><a href="//www.webplatform.org/blog/2013/10/">October 2013</a></li>
+              	<li><a href="//www.webplatform.org/blog/2013/09/">September 2013</a></li>
+              	<li><a href="//www.webplatform.org/blog/2013/08/">August 2013</a></li>
+              	<li><a href="//www.webplatform.org/blog/2013/07/">July 2013</a></li>
+              	<li><a href="//www.webplatform.org/blog/2013/06/">June 2013</a></li>
+              	<li><a href="//www.webplatform.org/blog/2013/05/">May 2013</a></li>
+              	<li><a href="//www.webplatform.org/blog/2013/04/">April 2013</a></li>
+              	<li><a href="//www.webplatform.org/blog/2013/02/">February 2013</a></li>
+              	<li><a href="//www.webplatform.org/blog/2013/01/">January 2013</a></li>
+              	<li><a href="//www.webplatform.org/blog/2012/12/">December 2012</a></li>
+              	<li><a href="//www.webplatform.org/blog/2012/11/">November 2012</a></li>
+              	<li><a href="//www.webplatform.org/blog/2012/10/">October 2012</a></li>
+    					</ul>
+    				</aside>
+				</div>
+
       </div><!-- /page-content -->
   </div><!-- /page -->
 

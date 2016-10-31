@@ -9,6 +9,13 @@ wordpress_id: 228
 categories:
 - Community
 - Events
+path:
+  - href: '/blog/'
+    inner: blog
+  - href: '/blog/2013/'
+    inner: 2013
+  - href: '/blog/2013/04/'
+    inner: April
 ---
 
 The [Google](https://www.google.ca/maps/@37.789904,-122.390576,15z) offices in San Francisco are nestled in a cluster of buildings the erstwhile center of the caffeine universe and the headquarters of Hills Bros. Coffee. It was here, where beans were once unloaded from ships, roasted, ground, canned, and shipped to supermarkets all over the U.S., that we attempted to apply the same level of industry to the production of more modern commodities: Web Platform Docs.
@@ -74,5 +81,3 @@ Also, we especially thank the 20 participants who contributed their responses to
 
 
 So on this, the birthday of [Herb Caen](http://en.wikipedia.org/wiki/Herb_Caen), champion of three-dot journalism and old-school canned brown water (that's right, Frisbeetarian that I am, I just couldn't resist a paean to Caen; for those of you who didn't grow up in San Francisco, that's why the elipses between paragraphs appear above), we humbly submit for the times yet another collaboration of Web Platform Docs, and dedicate it to Herb.
-
-
