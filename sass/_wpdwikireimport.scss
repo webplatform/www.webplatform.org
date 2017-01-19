@@ -1616,11 +1616,11 @@ sup.reference {
 			}
 
 			blockquote.testimonial address:before {
-				content: '—';
+				content: '\2014';
 			}
 
 		blockquote::before {
-			content: '❝';
+			content: '\275e';
 			float: left;
 			margin: -.3em 0 0 -1.2em;
 			color: #F99D1C;
@@ -2509,7 +2509,7 @@ sup.reference {
 		}
 
 			.toolbar .dropdown > a:after {
-				content: '▾';
+				content: '\25bf';
 				position: absolute;
 				right: 0;
 				top: .6em;
@@ -2738,7 +2738,7 @@ sup.reference {
 		}
 
 		#sidebar:before {
-			content: "•";
+			content: "\2022";
 			display: block;
 			position: absolute;
 			top: -11px;
@@ -3666,16 +3666,13 @@ sup.reference {
 		left: 0;
 		right: 0;
 		padding: inherit 0;
-		margin-top: 1em; /* Same as .prism’s padding-top */
-
+		margin-top: 1em; /* Same as .prism's padding-top */
 		background: hsla(24, 20%, 50%,.08);
 		background: -moz-linear-gradient(left, hsla(24, 20%, 50%,.1) 70%, hsla(24, 20%, 50%,0));
 		background: -webkit-linear-gradient(left, hsla(24, 20%, 50%,.1) 70%, hsla(24, 20%, 50%,0));
 		background: -o-linear-gradient(left, hsla(24, 20%, 50%,.1) 70%, hsla(24, 20%, 50%,0));
 		background: linear-gradient(left, hsla(24, 20%, 50%,.1) 70%, hsla(24, 20%, 50%,0));
-
 		pointer-events: none;
-
 		line-height: inherit;
 		white-space: pre;
 	}

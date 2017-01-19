@@ -11,8 +11,8 @@ PWD   := $(shell pwd)
 # want the default target to rebuild or regenerate the files
 .PHONY: build
 build: src/files/talk/chatlogs/webplatform.json \
-       src/files/talk/chatlogs/webplatform.txt
-		compass compile -e production --force
+       src/files/talk/chatlogs/webplatform.txt \
+       node_modules/
 		npm run build
 
 
@@ -66,3 +66,13 @@ package: build
 .PHONY: lint
 lint: node_modules/
 		node_modules/gulp/bin/gulp.js lint
+
+
+.PHONY: compass-container
+compass-container:
+	docker build --rm -t compass-container - < config/compass-container/Dockerfile
+
+
+.PHONY: compass-container-run
+compass-container-run:
+	docker run -it --rm -v "${PWD}":/src -w /src compass-container
